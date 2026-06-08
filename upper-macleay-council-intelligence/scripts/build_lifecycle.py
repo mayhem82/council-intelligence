@@ -8,15 +8,20 @@ REGISTERS = ROOT / 'registers'
 ISSUES = ROOT / 'issues'
 ACTIONS = ROOT / 'actions'
 MATTERS = ROOT / 'matters'
+RAW = ROOT / 'fetched' / 'raw'
 REPORTS = ROOT / 'reports'
 DASHBOARD = ROOT / 'DASHBOARD.md'
 LIFECYCLE = REPORTS / 'matter-lifecycle.md'
 EVOLUTION = REPORTS / 'matter-evolution-summary.md'
 RESOLUTION = REPORTS / 'resolution-detection.md'
 HEATMAP = REPORTS / 'matter-heatmap.md'
+DUPLICATES = REPORTS / 'duplicate-source-report.md'
 ISSUE_REGISTER = REGISTERS / 'master-issue-register.md'
 ACTION_REGISTER = REGISTERS / 'master-action-register.md'
 DECISION_REGISTER = REGISTERS / 'master-decision-register.md'
+SOURCE_REGISTER = REGISTERS / 'master-source-register.md'
+BACKFILL_REGISTER = REGISTERS / 'historic-backfill-source-register.md'
+INDEX_REGISTER = REGISTERS / 'fetched-source-index.md'
 
 RESOLUTION_TERMS = ['completed', 'resolved', 'closed', 'finalised', 'works completed', 'delivered']
 DEFER_TERMS = ['deferred', 'pending', 'further report', 'awaiting', 'under review']
@@ -35,6 +40,11 @@ def read(path):
 
 def slug(text):
     return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-') or 'unknown'
+
+
+def normalize_url(url):
+    url = url.strip().split('#', 1)[0].split('?', 1)[0].rstrip('/')
+    return url.lower()
 
 
 def infer_date(text):
@@ -157,11 +167,52 @@ def current_status(records):
     return 'open-watch'
 
 
+def duplicate_report():
+    url_refs = defaultdict(list)
+    for source in [SOURCE_REGISTER, BACKFILL_REGISTER, INDEX_REGISTER, ISSUE_REGISTER, ACTION_REGISTER, DECISION_REGISTER]:
+        text = read(source)
+        for line_no, line in enumerate(text.splitlines(), start=1):
+            urls = re.findall(r'https://www\.kempsey\.nsw\.gov\.au/[^\s)]+', line)
+            for url in urls:
+                url_refs[normalize_url(url)].append(f'{source}:{line_no}')
+    duplicate_urls = {url: refs for url, refs in url_refs.items() if len(refs) > 1}
+
+    file_keys = defaultdict(list)
+    if RAW.exists():
+        for path in RAW.glob('*'):
+            if path.is_file():
+                stat = path.stat()
+                base = re.sub(r'^(seed|meeting-record|historic)-[0-9TZA-Z-]+-?', '', path.name)
+                key = (base.lower(), stat.st_size)
+                file_keys[key].append(str(path))
+    duplicate_files = {key: paths for key, paths in file_keys.items() if len(paths) > 1}
+
+    lines = ['# Duplicate Source Report', '', f'Updated UTC: {now()}', '', 'PF(H,E): 0 — automated duplicate detection; review before deletion or consolidation.', '', '## Duplicate URL Candidates', '']
+    if duplicate_urls:
+        for url, refs in sorted(duplicate_urls.items()):
+            lines.append(f'- {url}')
+            for ref in refs:
+                lines.append(f'  - {ref}')
+    else:
+        lines.append('- None detected')
+    lines.extend(['', '## Duplicate File Candidates', ''])
+    if duplicate_files:
+        for key, paths in sorted(duplicate_files.items(), key=lambda item: item[0][0]):
+            lines.append(f'- File key: {key[0]} | size={key[1]}')
+            for path in paths:
+                lines.append(f'  - {path}')
+    else:
+        lines.append('- None detected')
+    DUPLICATES.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    return len(duplicate_urls), len(duplicate_files)
+
+
 def main():
     REPORTS.mkdir(parents=True, exist_ok=True)
     MATTERS.mkdir(parents=True, exist_ok=True)
     issue_dirs = sorted([p for p in ISSUES.iterdir() if p.is_dir()]) if ISSUES.exists() else []
     events = collect_events()
+    duplicate_url_count, duplicate_file_count = duplicate_report()
 
     lifecycle_lines = ['# Matter Lifecycle Register', '', f'Updated UTC: {now()}', '', 'PF(H,E): 0 — automated lifecycle classification, requires review.', '']
     evolution_lines = ['# Matter Evolution Summary', '', f'Updated UTC: {now()}', '', 'PF(H,E): 0 — automated evolution only; not a finding.', '']
@@ -222,12 +273,15 @@ def main():
         f'- Open/watch matters: {open_count}',
         f'- Watch-only matter signals: {watch_count}',
         f'- Resolution candidates: {resolved_count}',
+        f'- Duplicate URL candidates: {duplicate_url_count}',
+        f'- Duplicate file candidates: {duplicate_file_count}',
         '', '## Key Files', '',
         '- reports/latest-intelligence-summary.md',
         '- reports/matter-lifecycle.md',
         '- reports/matter-evolution-summary.md',
         '- reports/resolution-detection.md',
         '- reports/matter-heatmap.md',
+        '- reports/duplicate-source-report.md',
         '- reports/evidence-chain-audit.md',
         '- reports/cross-meeting-linkage.md',
         '- timelines/master-timeline.md',
@@ -243,7 +297,7 @@ def main():
     RESOLUTION.write_text('\n'.join(resolution_lines) + '\n', encoding='utf-8')
     HEATMAP.write_text('\n'.join(heatmap_lines) + '\n', encoding='utf-8')
     DASHBOARD.write_text('\n'.join(dashboard_lines) + '\n', encoding='utf-8')
-    print(f'MAYHEM lifecycle build complete: matters={len(matter_names)} open={open_count} watch={watch_count} resolved_candidates={resolved_count}')
+    print(f'MAYHEM lifecycle build complete: matters={len(matter_names)} open={open_count} watch={watch_count} resolved_candidates={resolved_count} duplicate_urls={duplicate_url_count} duplicate_files={duplicate_file_count}')
 
 
 if __name__ == '__main__':
