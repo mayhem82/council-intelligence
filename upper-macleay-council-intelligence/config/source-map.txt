@@ -1,0 +1,18 @@
+# Upper Macleay Council Intelligence Source Map
+# Purpose: known and candidate public sources to seed historic and ongoing council record discovery.
+# PF(H,E): 0 for candidate paths until fetched and verified.
+
+https://www.kempsey.nsw.gov.au/
+https://www.kempsey.nsw.gov.au/sitemap.xml
+https://www.kempsey.nsw.gov.au/Council/Council-meetings
+https://www.kempsey.nsw.gov.au/Council/Council-meetings/Agendas-and-minutes
+https://www.kempsey.nsw.gov.au/Council/Council-meetings/Business-papers
+https://www.kempsey.nsw.gov.au/Council/Council-meetings/Minutes
+https://www.kempsey.nsw.gov.au/Council/Council-meetings/Ordinary-Council-Meetings
+https://www.kempsey.nsw.gov.au/Council/Council-meetings/Extraordinary-Council-Meetings
+https://www.kempsey.nsw.gov.au/Council/News-and-public-notices
+https://www.kempsey.nsw.gov.au/Council/Public-exhibitions
+https://www.kempsey.nsw.gov.au/Council/Plans-strategies-and-reports
+https://www.kempsey.nsw.gov.au/Council/Integrated-planning-and-reporting
+https://www.kempsey.nsw.gov.au/Council/Annual-reports
+https://www.kempsey.nsw.gov.au/Council/Budget
