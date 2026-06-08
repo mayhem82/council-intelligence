@@ -23,10 +23,13 @@ jobs:
       - name: Run council records fetcher
         run: python upper-macleay-council-intelligence/scripts/fetch_council_records.py
 
-      - name: Commit fetched records and logs
+      - name: Run council records analyzer
+        run: python upper-macleay-council-intelligence/scripts/analyze_council_records.py
+
+      - name: Commit fetched records, analysis and logs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add upper-macleay-council-intelligence
-          git diff --cached --quiet || git commit -m "Run automated council records fetch"
+          git diff --cached --quiet || git commit -m "Run automated council intelligence cycle"
           git push
