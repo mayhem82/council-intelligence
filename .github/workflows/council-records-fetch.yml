@@ -26,6 +26,9 @@ jobs:
       - name: Run council records analyzer
         run: python upper-macleay-council-intelligence/scripts/analyze_council_records.py
 
+      - name: Build lifecycle dashboard
+        run: python upper-macleay-council-intelligence/scripts/build_lifecycle.py
+
       - name: Commit fetched records, analysis and logs
         run: |
           git config user.name "github-actions[bot]"
