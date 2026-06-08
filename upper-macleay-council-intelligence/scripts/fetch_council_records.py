@@ -1,9 +1,11 @@
 from datetime import datetime, timezone
 from pathlib import Path
 import re
+import urllib.parse
 import urllib.request
 
 ROOT = Path('upper-macleay-council-intelligence')
+SOURCE_MAP = ROOT / 'config' / 'source-map.txt'
 LOG = ROOT / 'automation' / 'fetch-log.md'
 RAW = ROOT / 'fetched' / 'raw'
 INDEX = ROOT / 'registers' / 'fetched-source-index.md'
@@ -13,15 +15,19 @@ ISSUE_REGISTER = ROOT / 'registers' / 'master-issue-register.md'
 ACTION_REGISTER = ROOT / 'registers' / 'master-action-register.md'
 ISSUES_DIR = ROOT / 'issues'
 ACTIONS_DIR = ROOT / 'actions'
-TARGETS = [
+DEFAULT_TARGETS = [
     'https://www.kempsey.nsw.gov.au/',
     'https://www.kempsey.nsw.gov.au/sitemap.xml'
 ]
 MEETING_WORDS = [
     'council-meeting', 'council meeting', 'ordinary-council',
-    'extraordinary-council', 'minutes', 'agenda', 'business-paper',
-    'business paper', 'business-papers', 'notice-of-motion'
+    'ordinary council', 'extraordinary-council', 'extraordinary council',
+    'minutes', 'minute', 'agenda', 'business-paper', 'business paper',
+    'business-papers', 'notice-of-motion', 'notice of motion',
+    'annual-report', 'annual report', 'budget', 'public-exhibition',
+    'public exhibition', 'operational plan', 'delivery program'
 ]
+YEARS = ['2022', '2023', '2024', '2025', '2026']
 ISSUE_KEYWORDS = {
     'flying-fox-camp': ['flying fox', 'flying-fox', 'bat camp', 'grey-headed flying-fox'],
     'roads': ['road maintenance', 'pothole', 'sealed road', 'unsealed road', 'armidale road', 'main street'],
@@ -40,38 +46,50 @@ def utc_now():
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
 
+def load_targets():
+    targets = list(DEFAULT_TARGETS)
+    if SOURCE_MAP.exists():
+        for line in SOURCE_MAP.read_text(encoding='utf-8').splitlines():
+            line = line.strip()
+            if line and not line.startswith('#'):
+                targets.append(line)
+    return sorted(set(targets))
+
+
 def fetch(url):
-    request = urllib.request.Request(url, headers={'User-Agent': 'MAYHEM-Council-Records-Fetcher/1.2'})
+    request = urllib.request.Request(url, headers={'User-Agent': 'MAYHEM-Council-Records-Fetcher/1.4'})
     with urllib.request.urlopen(request, timeout=30) as response:
         return response.geturl(), response.headers.get('Content-Type', 'unknown'), response.read()
 
 
 def safe_name(text):
+    text = urllib.parse.unquote(text)
     text = re.sub(r'https?://', '', text)
     text = re.sub(r'[^A-Za-z0-9._-]+', '-', text).strip('-')
-    return text[:120] or 'source'
+    return text[:150] or 'source'
 
 
 def looks_like_meeting_record(text):
-    lower = text.lower()
-    return any(word in lower for word in MEETING_WORDS)
+    lower = urllib.parse.unquote(text).lower()
+    has_record_word = any(word in lower for word in MEETING_WORDS)
+    has_year = any(year in lower for year in YEARS)
+    return has_record_word or (has_year and lower.endswith('.pdf'))
 
 
-def extract_urls(text):
+def extract_urls(base_url, text):
     urls = set()
     urls.update(re.findall(r'<loc>\s*([^<]+)\s*</loc>', text, flags=re.I))
     urls.update(re.findall(r'href=["\']([^"\']+)["\']', text, flags=re.I))
     clean = []
     for url in urls:
-        if url.startswith('/'):
-            url = 'https://www.kempsey.nsw.gov.au' + url
+        url = urllib.parse.urljoin(base_url, url.strip())
         if url.startswith('https://www.kempsey.nsw.gov.au') and looks_like_meeting_record(url):
             clean.append(url)
     return sorted(set(clean))
 
 
 def classify_record(url, content_type):
-    lower = (url + ' ' + content_type).lower()
+    lower = (urllib.parse.unquote(url) + ' ' + content_type).lower()
     if 'agenda' in lower:
         return 'agenda'
     if 'minute' in lower:
@@ -80,6 +98,10 @@ def classify_record(url, content_type):
         return 'business-paper'
     if 'motion' in lower:
         return 'notice-of-motion'
+    if 'annual' in lower:
+        return 'annual-report'
+    if 'budget' in lower:
+        return 'budget-record'
     if 'pdf' in lower:
         return 'pdf-record'
     return 'possible-meeting-record'
@@ -97,7 +119,8 @@ def infer_meeting_date(text):
             if len(parts[0]) == 4:
                 return f'{int(parts[0]):04d}-{int(parts[1]):02d}-{int(parts[2]):02d}'
             return f'{int(parts[2]):04d}-{int(parts[1]):02d}-{int(parts[0]):02d}'
-    return 'unknown-date'
+    year = next((year for year in YEARS if year in text), None)
+    return f'{year}-00-00' if year else 'unknown-date'
 
 
 def extract_issue_hits(text):
@@ -124,21 +147,18 @@ def append(path, lines):
 def write_issue_path(issue, source_id, final_url, meeting_date, trigger):
     issue_dir = ISSUES_DIR / issue
     issue_dir.mkdir(parents=True, exist_ok=True)
-    path = issue_dir / 'meeting-references.md'
-    lines = [
+    append(issue_dir / 'meeting-references.md', [
         f'\n## Reference {source_id}',
         f'Meeting date: {meeting_date}',
         f'Source: {final_url}',
         f'Trigger term: {trigger}',
         'Status: auto-detected, requires source review'
-    ]
-    append(path, lines)
+    ])
 
 
 def write_action_path(action_id, source_id, final_url, meeting_date, trigger):
     ACTIONS_DIR.mkdir(parents=True, exist_ok=True)
-    path = ACTIONS_DIR / 'open.md'
-    lines = [
+    append(ACTIONS_DIR / 'open.md', [
         f'\n## {action_id}',
         f'Meeting date: {meeting_date}',
         f'Source ID: {source_id}',
@@ -146,8 +166,7 @@ def write_action_path(action_id, source_id, final_url, meeting_date, trigger):
         f'Action trigger term: {trigger}',
         'Status: Open',
         'Proof of Fact (Human plus Evidence): 0 — Unverified, requires independent audit.'
-    ]
-    append(path, lines)
+    ])
 
 
 def main():
@@ -160,19 +179,20 @@ def main():
     checked = []
     candidates = []
     failures = []
+    targets = load_targets()
 
-    for number, url in enumerate(TARGETS, start=1):
+    for number, url in enumerate(targets, start=1):
         try:
             final_url, content_type, body = fetch(url)
             checked.append((url, final_url, content_type))
             path = RAW / f'seed-{number}-{run_id}.txt'
             path.write_bytes(body)
             text = body.decode('utf-8', errors='ignore')
-            candidates.extend(extract_urls(text))
+            candidates.extend(extract_urls(final_url, text))
         except Exception as error:
             failures.append((url, str(error)))
 
-    candidates = sorted(set(candidates))[:100]
+    candidates = sorted(set(candidates))[:300]
     fetched_records = []
     extracted_issues = []
     extracted_actions = []
@@ -200,15 +220,12 @@ def main():
             failures.append((url, str(error)))
 
     log_lines = [
-        f'\n## Fetch Run {run_id}', '',
-        f'Run time UTC: {utc_now()}',
-        f'Seed targets checked: {len(checked)}',
+        f'\n## Fetch Run {run_id}', '', f'Run time UTC: {utc_now()}',
+        f'Source-map targets checked: {len(checked)}',
         f'Meeting candidates discovered: {len(candidates)}',
         f'Meeting records fetched: {len(fetched_records)}',
-        f'Issue hits: {len(extracted_issues)}',
-        f'Action hits: {len(extracted_actions)}',
-        f'Failures: {len(failures)}', '',
-        '### Checked Targets'
+        f'Issue hits: {len(extracted_issues)}', f'Action hits: {len(extracted_actions)}',
+        f'Failures: {len(failures)}', '', '### Checked Targets'
     ]
     for original, final_url, content_type in checked:
         log_lines.append(f'- {original} -> {final_url} ({content_type})')
@@ -231,42 +248,18 @@ def main():
     action_lines = [f'\n## Action Register Update {run_id}', '']
     for source_id, url, final_url, content_type, record_type, meeting_date, path in fetched_records:
         index_lines.append(f'- {source_id}: {final_url} -> {path}')
-        source_lines.append(f'- Source ID: {source_id}')
-        source_lines.append(f'  Record type: {record_type}')
-        source_lines.append(f'  Meeting date inferred: {meeting_date}')
-        source_lines.append(f'  URL: {final_url}')
-        source_lines.append(f'  Local path: {path}')
-        source_lines.append(f'  Content type: {content_type}')
-        source_lines.append(f'  Fetched UTC: {utc_now()}')
-        source_lines.append('')
-        meeting_lines.append(f'- Candidate Meeting Record: {source_id}')
-        meeting_lines.append(f'  Meeting date inferred: {meeting_date}')
-        meeting_lines.append(f'  Record type: {record_type}')
-        meeting_lines.append(f'  URL: {final_url}')
-        meeting_lines.append(f'  Status: source preserved, extraction preliminary')
-        meeting_lines.append('')
+        source_lines.extend([f'- Source ID: {source_id}', f'  Record type: {record_type}', f'  Meeting date inferred: {meeting_date}', f'  URL: {final_url}', f'  Local path: {path}', f'  Content type: {content_type}', f'  Fetched UTC: {utc_now()}', ''])
+        meeting_lines.extend([f'- Candidate Meeting Record: {source_id}', f'  Meeting date inferred: {meeting_date}', f'  Record type: {record_type}', f'  URL: {final_url}', '  Status: source preserved, extraction preliminary', ''])
     for issue, trigger, source_id, meeting_date, final_url in extracted_issues:
-        issue_lines.append(f'- Issue: {issue}')
-        issue_lines.append(f'  Source ID: {source_id}')
-        issue_lines.append(f'  Meeting date: {meeting_date}')
-        issue_lines.append(f'  Trigger: {trigger}')
-        issue_lines.append(f'  Source: {final_url}')
-        issue_lines.append('  Status: auto-detected, requires source review')
-        issue_lines.append('')
+        issue_lines.extend([f'- Issue: {issue}', f'  Source ID: {source_id}', f'  Meeting date: {meeting_date}', f'  Trigger: {trigger}', f'  Source: {final_url}', '  Status: auto-detected, requires source review', ''])
     for action_id, trigger, source_id, meeting_date, final_url in extracted_actions:
-        action_lines.append(f'- Action ID: {action_id}')
-        action_lines.append(f'  Source ID: {source_id}')
-        action_lines.append(f'  Meeting date: {meeting_date}')
-        action_lines.append(f'  Trigger: {trigger}')
-        action_lines.append(f'  Source: {final_url}')
-        action_lines.append('  Status: Open')
-        action_lines.append('')
+        action_lines.extend([f'- Action ID: {action_id}', f'  Source ID: {source_id}', f'  Meeting date: {meeting_date}', f'  Trigger: {trigger}', f'  Source: {final_url}', '  Status: Open', ''])
     append(INDEX, index_lines)
     append(SOURCE_REGISTER, source_lines)
     append(MEETING_REGISTER, meeting_lines)
     append(ISSUE_REGISTER, issue_lines)
     append(ACTION_REGISTER, action_lines)
-    print(f'MAYHEM council fetch run complete: {run_id}; records={len(fetched_records)} issues={len(extracted_issues)} actions={len(extracted_actions)}')
+    print(f'MAYHEM council fetch run complete: {run_id}; targets={len(targets)} records={len(fetched_records)} issues={len(extracted_issues)} actions={len(extracted_actions)}')
 
 
 if __name__ == '__main__':
