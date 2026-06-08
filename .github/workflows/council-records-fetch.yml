@@ -20,14 +20,26 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install PDF extraction dependency
+        run: python -m pip install pypdf
+
       - name: Run council records fetcher
         run: python upper-macleay-council-intelligence/scripts/fetch_council_records.py
+
+      - name: Extract PDF text
+        run: python upper-macleay-council-intelligence/scripts/extract_pdf_text.py
 
       - name: Run council records analyzer
         run: python upper-macleay-council-intelligence/scripts/analyze_council_records.py
 
+      - name: Link repeated matters across meetings
+        run: python upper-macleay-council-intelligence/scripts/link_matters.py
+
       - name: Build lifecycle dashboard
         run: python upper-macleay-council-intelligence/scripts/build_lifecycle.py
+
+      - name: Sort outputs historically
+        run: python upper-macleay-council-intelligence/scripts/sort_historically.py
 
       - name: Commit fetched records, analysis and logs
         run: |
