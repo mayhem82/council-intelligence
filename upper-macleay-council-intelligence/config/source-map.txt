@@ -4,6 +4,16 @@
 
 https://www.kempsey.nsw.gov.au/
 https://www.kempsey.nsw.gov.au/sitemap.xml
+
+# Current Kempsey meeting records, 2022 onward.
+https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes
+https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-20-May-2025
+https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf
+
+# Pre-2022 meeting archive entry point.
+https://archive.kempsey.nsw.gov.au/council-meetings/index.html
+
+# Legacy and candidate paths retained for redirect/discovery coverage.
 https://www.kempsey.nsw.gov.au/Council/Council-meetings
 https://www.kempsey.nsw.gov.au/Council/Council-meetings/Agendas-and-minutes
 https://www.kempsey.nsw.gov.au/Council/Council-meetings/Business-papers
