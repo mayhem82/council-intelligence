@@ -1,6 +1,7 @@
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+import json
 import re
 
 ROOT = Path('upper-macleay-council-intelligence')
@@ -11,6 +12,7 @@ MATTERS = ROOT / 'matters'
 RAW = ROOT / 'fetched' / 'raw'
 TEXT = ROOT / 'fetched' / 'text'
 REPORTS = ROOT / 'reports'
+PUBLIC = Path('public')
 DASHBOARD = ROOT / 'DASHBOARD.md'
 LIFECYCLE = REPORTS / 'matter-lifecycle.md'
 EVOLUTION = REPORTS / 'matter-evolution-summary.md'
@@ -18,6 +20,7 @@ RESOLUTION = REPORTS / 'resolution-detection.md'
 HEATMAP = REPORTS / 'matter-heatmap.md'
 DUPLICATES = REPORTS / 'duplicate-source-report.md'
 EVIDENCE_AUDIT = REPORTS / 'evidence-chain-audit.md'
+DASHBOARD_DATA = PUBLIC / 'council-dashboard-data.json'
 ISSUE_REGISTER = REGISTERS / 'master-issue-register.md'
 ACTION_REGISTER = REGISTERS / 'master-action-register.md'
 DECISION_REGISTER = REGISTERS / 'master-decision-register.md'
@@ -168,7 +171,7 @@ def duplicate_report():
                 base = re.sub(r'^(seed|meeting-record|historic)-[0-9TZA-Z-]+-?', '', path.name)
                 file_keys[(base.lower(), stat.st_size)].append(str(path))
     duplicate_files = {key: paths for key, paths in file_keys.items() if len(paths) > 1}
-    lines = ['# Duplicate Source Report', '', f'Updated UTC: {now()}', '', 'PF(H,E): 0 — automated duplicate detection; review before deletion or consolidation.', '', '## Duplicate URL Candidates', '']
+    lines = ['# Duplicate Source Report', '', f'Updated UTC: {now()}', '', 'Proof of Fact (Human plus Evidence): 0 — Unverified, requires independent audit.', '', '## Duplicate URL Candidates', '']
     if duplicate_urls:
         for url, refs in sorted(duplicate_urls.items()):
             lines.append(f'- {url}')
@@ -202,7 +205,7 @@ def evidence_chain_report():
             missing.append(ref)
     raw_count = len(list(RAW.glob('*'))) if RAW.exists() else 0
     text_count = len(list(TEXT.glob('*'))) if TEXT.exists() else 0
-    lines = ['# Evidence Chain Audit', '', f'Updated UTC: {now()}', '', 'Purpose: check whether register references point back to preserved local source files.', '', 'PF(H,E): 0 — automated audit, requires review before evidentiary use.', '', '## Counts', '', f'- Raw preserved files: {raw_count}', f'- Extracted text files: {text_count}', f'- Referenced local paths: {len(refs)}', f'- Referenced paths present: {len(present)}', f'- Referenced paths missing: {len(missing)}', '', '## Missing References', '']
+    lines = ['# Evidence Chain Audit', '', f'Updated UTC: {now()}', '', 'Purpose: check whether register references point back to preserved local source files.', '', 'Proof of Fact (Human plus Evidence): 0 — Unverified, requires independent audit.', '', '## Counts', '', f'- Raw preserved files: {raw_count}', f'- Extracted text files: {text_count}', f'- Referenced local paths: {len(refs)}', f'- Referenced paths present: {len(present)}', f'- Referenced paths missing: {len(missing)}', '', '## Missing References', '']
     if missing:
         for item in missing:
             lines.append(f'- {item}')
@@ -218,16 +221,18 @@ def evidence_chain_report():
 def main():
     REPORTS.mkdir(parents=True, exist_ok=True)
     MATTERS.mkdir(parents=True, exist_ok=True)
+    PUBLIC.mkdir(parents=True, exist_ok=True)
     issue_dirs = sorted([p for p in ISSUES.iterdir() if p.is_dir()]) if ISSUES.exists() else []
     events = collect_events()
     duplicate_url_count, duplicate_file_count = duplicate_report()
     raw_count, text_count, evidence_refs, evidence_missing = evidence_chain_report()
 
-    lifecycle_lines = ['# Matter Lifecycle Register', '', f'Updated UTC: {now()}', '', 'PF(H,E): 0 — automated lifecycle classification, requires review.', '']
-    evolution_lines = ['# Matter Evolution Summary', '', f'Updated UTC: {now()}', '', 'PF(H,E): 0 — automated evolution only; not a finding.', '']
-    resolution_lines = ['# Resolution Detection Register', '', f'Updated UTC: {now()}', '', 'PF(H,E): 0 — automated resolution candidates require source review.', '']
+    lifecycle_lines = ['# Matter Lifecycle Register', '', f'Updated UTC: {now()}', '', 'Proof of Fact (Human plus Evidence): 0 — Unverified, requires independent audit.', '']
+    evolution_lines = ['# Matter Evolution Summary', '', f'Updated UTC: {now()}', '', 'Proof of Fact (Human plus Evidence): 0 — Unverified, requires independent audit.', '']
+    resolution_lines = ['# Resolution Detection Register', '', f'Updated UTC: {now()}', '', 'Proof of Fact (Human plus Evidence): 0 — Unverified, requires independent audit.', '']
     heat_rows = []
     dashboard_lines = ['# Upper Macleay Council Intelligence Dashboard', '', f'Updated UTC: {now()}', '', '## Matter Status', '']
+    matter_payload = []
 
     open_count = watch_count = resolved_count = 0
     matter_names = sorted(set([p.name for p in issue_dirs]) | set(events.keys()))
@@ -243,31 +248,38 @@ def main():
             open_count += 1
         else:
             watch_count += 1
-        lifecycle_lines.extend([f'## {matter}', f'Status: {status}', f'Evidence references: {refs}', f'Open action signals: {actions}', f'Evolution events: {len(records)}', 'PF(H,E): 0 — automated lifecycle classification, requires review.', ''])
-        chronology = [f'# Matter Chronology: {matter}', '', f'Current automated status: {status}', 'PF(H,E): 0 — automated chronology, requires source review.', '', '## Oldest to Newest', '']
+        lifecycle_lines.extend([f'## {matter}', f'Status: {status}', f'Evidence references: {refs}', f'Open action signals: {actions}', f'Evolution events: {len(records)}', 'Proof of Fact (Human plus Evidence): 0 — Unverified, requires independent audit.', ''])
+        chronology = [f'# Matter Chronology: {matter}', '', f'Current automated status: {status}', 'Proof of Fact (Human plus Evidence): 0 — Unverified, requires independent audit.', '', '## Oldest to Newest', '']
+        event_payload = []
         for r in records:
             chronology.extend([f'- Date: {r["date"] or "unknown-date"}', f'  Kind: {r["kind"]}', f'  Status signal: {r["status"]}', f'  Trigger: {r["trigger"]}', f'  Source: {r["source"]}', ''])
+            event_payload.append({'date': r['date'] or 'unknown-date', 'kind': r['kind'], 'status': r['status'], 'trigger': r['trigger'], 'source': r['source']})
         matter_dir = MATTERS / matter
         matter_dir.mkdir(parents=True, exist_ok=True)
         (matter_dir / 'chronology.md').write_text('\n'.join(chronology) + '\n', encoding='utf-8')
         evolution_lines.append(f'- {matter}: {status} | events={len(records)} | refs={refs} | actions={actions}')
         if status == 'resolved-candidate':
             resolution_lines.extend([f'## {matter}', 'Status: resolved-candidate', f'Events: {len(records)}', 'Review required before treating as resolved.', ''])
-        heat_rows.append((len(records) + refs + actions, matter, status, refs, actions, len(records)))
+        score = len(records) + refs + actions
+        heat_rows.append((score, matter, status, refs, actions, len(records)))
         dashboard_lines.append(f'- {matter}: {status} | refs={refs} | action-signals={actions} | events={len(records)}')
+        matter_payload.append({'id': matter, 'status': status, 'score': score, 'evidenceReferences': refs, 'actionSignals': actions, 'events': len(records), 'chronologyPath': f'matters/{matter}/chronology.md', 'eventList': event_payload[:20]})
 
     heat_rows.sort(reverse=True)
-    heatmap_lines = ['# Matter Heatmap', '', f'Updated UTC: {now()}', '', 'Higher score means more automated evidence/action/evolution activity. PF(H,E): 0 until reviewed.', '']
+    heatmap_lines = ['# Matter Heatmap', '', f'Updated UTC: {now()}', '', 'Higher score means more automated evidence/action/evolution activity. Proof of Fact (Human plus Evidence): 0 until reviewed.', '']
     for score, matter, status, refs, actions, count in heat_rows:
         heatmap_lines.append(f'- Score {score}: {matter} | {status} | refs={refs} actions={actions} events={count}')
 
     dashboard_lines.extend(['', '## System Summary', '', f'- Matters tracked: {len(matter_names)}', f'- Open/watch matters: {open_count}', f'- Watch-only matter signals: {watch_count}', f'- Resolution candidates: {resolved_count}', f'- Duplicate URL candidates: {duplicate_url_count}', f'- Duplicate file candidates: {duplicate_file_count}', f'- Raw preserved files: {raw_count}', f'- Extracted text files: {text_count}', f'- Evidence references checked: {evidence_refs}', f'- Evidence references missing: {evidence_missing}', '', '## Key Files', '', '- reports/latest-intelligence-summary.md', '- reports/matter-lifecycle.md', '- reports/matter-evolution-summary.md', '- reports/resolution-detection.md', '- reports/matter-heatmap.md', '- reports/duplicate-source-report.md', '- reports/evidence-chain-audit.md', '- reports/cross-meeting-linkage.md', '- timelines/master-timeline.md', '- registers/master-issue-register.md', '- registers/master-action-register.md', '- registers/master-decision-register.md', '- registers/master-actor-register.md', '- registers/master-mechanism-register.md'])
+
+    payload = {'updatedUtc': now(), 'proofOfFact': 0, 'proofMeaning': 'Unverified – fails factual verification, requires independent audit.', 'factualStrength': {'score': 0, 'band': 'Unverified', 'rationale': 'Website data is generated from automated repository outputs and must be checked against preserved source records before evidentiary use.'}, 'summary': {'mattersTracked': len(matter_names), 'openWatchMatters': open_count, 'watchOnlyMatterSignals': watch_count, 'resolutionCandidates': resolved_count, 'duplicateUrlCandidates': duplicate_url_count, 'duplicateFileCandidates': duplicate_file_count, 'rawPreservedFiles': raw_count, 'extractedTextFiles': text_count, 'evidenceReferencesChecked': evidence_refs, 'evidenceReferencesMissing': evidence_missing}, 'matters': sorted(matter_payload, key=lambda item: item['score'], reverse=True), 'files': {'dashboard': 'upper-macleay-council-intelligence/DASHBOARD.md', 'lifecycle': 'upper-macleay-council-intelligence/reports/matter-lifecycle.md', 'heatmap': 'upper-macleay-council-intelligence/reports/matter-heatmap.md', 'duplicates': 'upper-macleay-council-intelligence/reports/duplicate-source-report.md', 'audit': 'upper-macleay-council-intelligence/reports/evidence-chain-audit.md'}}
 
     LIFECYCLE.write_text('\n'.join(lifecycle_lines) + '\n', encoding='utf-8')
     EVOLUTION.write_text('\n'.join(evolution_lines) + '\n', encoding='utf-8')
     RESOLUTION.write_text('\n'.join(resolution_lines) + '\n', encoding='utf-8')
     HEATMAP.write_text('\n'.join(heatmap_lines) + '\n', encoding='utf-8')
     DASHBOARD.write_text('\n'.join(dashboard_lines) + '\n', encoding='utf-8')
+    DASHBOARD_DATA.write_text(json.dumps(payload, indent=2, sort_keys=True) + '\n', encoding='utf-8')
     print(f'MAYHEM lifecycle build complete: matters={len(matter_names)} open={open_count} watch={watch_count} resolved_candidates={resolved_count} duplicate_urls={duplicate_url_count} duplicate_files={duplicate_file_count} evidence_missing={evidence_missing}')
 
 
