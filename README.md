@@ -20,15 +20,17 @@ Primary Markdown dashboard:
 
 ## GitHub Pages
 
-The static dashboard is deployed by:
+This repository is set up as a simple static website like the Floodwatch repo.
 
-- [.github/workflows/pages.yml](.github/workflows/pages.yml)
+Use this Pages setting:
 
-Use this repo setting:
+Settings -> Pages -> Build and deployment
 
-Settings -> Pages -> Build and deployment -> Source: GitHub Actions
+- Source: Deploy from a branch
+- Branch: main
+- Folder: / root
 
-On the current GitHub mobile screen, that means use the Static HTML option only if GitHub asks you to configure a workflow. This repository already contains the workflow, so a push to `main` can deploy the page.
+The browser dashboard is the root [index.html](index.html) file.
 
 ## Purpose
 
@@ -105,9 +107,8 @@ Each matter folder may contain a `chronology.md` file sorted from oldest to newe
 
 ## Automation
 
-The active GitHub workflows are:
+The active GitHub workflow is:
 
-- [.github/workflows/pages.yml](.github/workflows/pages.yml)
 - [.github/workflows/council-records-fetch.yml](.github/workflows/council-records-fetch.yml)
 
 Core scripts:
