@@ -2,7 +2,11 @@
 
 This repository contains the Upper Macleay Council Intelligence system.
 
-Primary browser dashboard:
+Immediate browser dashboard bookmark:
+
+- https://cdn.jsdelivr.net/gh/mayhem82/council-intelligence@main/index.html
+
+GitHub Pages dashboard, once Pages is enabled:
 
 - https://mayhem82.github.io/council-intelligence/
 
