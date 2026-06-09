@@ -1,0 +1,186 @@
+{
+  "updatedUtc": "2026-06-09T01:20:00Z",
+  "proofOfFact": 0,
+  "proofMeaning": "Unverified - starter dashboard data seeded from project registers and public source locations. Source review is required before evidentiary use.",
+  "factualStrength": {
+    "score": 0,
+    "band": "Unverified",
+    "rationale": "This starter payload makes the dashboard usable before the automated gather workflow has generated lifecycle output. It preserves navigation and source targets but does not make findings."
+  },
+  "summary": {
+    "mattersTracked": 8,
+    "openWatchMatters": 8,
+    "watchOnlyMatterSignals": 7,
+    "resolutionCandidates": 0,
+    "duplicateUrlCandidates": 0,
+    "duplicateFileCandidates": 0,
+    "rawPreservedFiles": 0,
+    "extractedTextFiles": 0,
+    "evidenceReferencesChecked": 0,
+    "evidenceReferencesMissing": 0
+  },
+  "matters": [
+    {
+      "id": "flying-fox-camp",
+      "status": "open-watch",
+      "score": 6,
+      "evidenceReferences": 3,
+      "actionSignals": 1,
+      "events": 2,
+      "chronologyPath": "matters/flying-fox-camp/chronology.md",
+      "eventList": [
+        {
+          "date": "2025-05-20",
+          "kind": "priority-source-target",
+          "status": "source-targeted-unverified",
+          "trigger": "Ordinary Council Meeting 20 May 2025 and Flying Fox Management Request",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-20-May-2025"
+        },
+        {
+          "date": "2025-05-20",
+          "kind": "minutes-source-target",
+          "status": "source-targeted-unverified",
+          "trigger": "Confirmed minutes PDF identified for preservation and review",
+          "source": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "roads",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/roads/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook roads, Upper Macleay roads, Armidale Road, road maintenance",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "bridges",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/bridges/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook bridge, Upper Macleay bridge, flood crossing, causeway",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "water-security",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/water-security/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook water, Upper Macleay water, water carting, potable water",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "grants-funding",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/grants-funding/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook grant, Upper Macleay grant, funding, budget allocation",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "public-health-safety",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/public-health-safety/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook public health, flying-fox public health, playground safety",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "community-facilities",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/community-facilities/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "Bellbrook hall, Bellbrook playground, Bellbrook park, public toilet",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "status": "source-discovery-watch",
+      "score": 3,
+      "evidenceReferences": 0,
+      "actionSignals": 0,
+      "events": 1,
+      "chronologyPath": "matters/governance/chronology.md",
+      "eventList": [
+        {
+          "date": "2022-00-00",
+          "kind": "search-priority",
+          "status": "source-discovery-watch",
+          "trigger": "notice of motion, council resolution, councillor, ordinary meeting, deferred report",
+          "source": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
+        }
+      ]
+    }
+  ],
+  "files": {
+    "dashboard": "upper-macleay-council-intelligence/DASHBOARD.md",
+    "intelligenceHome": "upper-macleay-council-intelligence/INTELLIGENCE-HOME.md",
+    "sourceMap": "upper-macleay-council-intelligence/config/source-map.txt",
+    "sourcePriority": "upper-macleay-council-intelligence/manual-seed/source-priority-register.md",
+    "manualSeedIssues": "upper-macleay-council-intelligence/registers/manual-seed-issue-register.md",
+    "lifecycle": "upper-macleay-council-intelligence/reports/matter-lifecycle.md",
+    "heatmap": "upper-macleay-council-intelligence/reports/matter-heatmap.md",
+    "duplicates": "upper-macleay-council-intelligence/reports/duplicate-source-report.md",
+    "audit": "upper-macleay-council-intelligence/reports/evidence-chain-audit.md"
+  }
+}
