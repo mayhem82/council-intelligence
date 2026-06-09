@@ -24,9 +24,11 @@ The static dashboard is deployed by:
 
 - [.github/workflows/pages.yml](.github/workflows/pages.yml)
 
-If the browser dashboard does not appear, check the repository settings:
+Use this repo setting:
 
 Settings -> Pages -> Build and deployment -> Source: GitHub Actions
+
+On the current GitHub mobile screen, that means use the Static HTML option only if GitHub asks you to configure a workflow. This repository already contains the workflow, so a push to `main` can deploy the page.
 
 ## Purpose
 
