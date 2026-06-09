@@ -26,6 +26,9 @@ jobs:
       - name: Run council records fetcher
         run: python upper-macleay-council-intelligence/scripts/fetch_council_records.py
 
+      - name: Run historic records backfill
+        run: python upper-macleay-council-intelligence/scripts/backfill_historic_records.py
+
       - name: Extract PDF text
         run: python upper-macleay-council-intelligence/scripts/extract_pdf_text.py
 
