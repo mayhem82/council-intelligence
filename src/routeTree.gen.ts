@@ -11,9 +11,16 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as CouncilDashboardImport } from './routes/council-dashboard'
 import { Route as IndexImport } from './routes/index'
 
 // Create/Update Routes
+
+const CouncilDashboardRoute = CouncilDashboardImport.update({
+  id: '/council-dashboard',
+  path: '/council-dashboard',
+  getParentRoute: () => rootRoute,
+} as any)
 
 const IndexRoute = IndexImport.update({
   id: '/',
@@ -25,6 +32,13 @@ const IndexRoute = IndexImport.update({
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/council-dashboard': {
+      id: '/council-dashboard'
+      path: '/council-dashboard'
+      fullPath: '/council-dashboard'
+      preLoaderRoute: typeof CouncilDashboardImport
+      parentRoute: typeof rootRoute
+    }
     '/': {
       id: '/'
       path: '/'
@@ -38,32 +52,37 @@ declare module '@tanstack/react-router' {
 // Create and export the route tree
 
 export interface FileRoutesByFullPath {
+  '/council-dashboard': typeof CouncilDashboardRoute
   '/': typeof IndexRoute
 }
 
 export interface FileRoutesByTo {
+  '/council-dashboard': typeof CouncilDashboardRoute
   '/': typeof IndexRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
+  '/council-dashboard': typeof CouncilDashboardRoute
   '/': typeof IndexRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/council-dashboard' | '/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/council-dashboard' | '/'
+  id: '__root__' | '/council-dashboard' | '/'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
+  CouncilDashboardRoute: typeof CouncilDashboardRoute
   IndexRoute: typeof IndexRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
+  CouncilDashboardRoute: CouncilDashboardRoute,
   IndexRoute: IndexRoute,
 }
 
@@ -77,8 +96,12 @@ export const routeTree = rootRoute
     "__root__": {
       "filePath": "__root.tsx",
       "children": [
+        "/council-dashboard",
         "/"
       ]
+    },
+    "/council-dashboard": {
+      "filePath": "council-dashboard.tsx"
     },
     "/": {
       "filePath": "index.tsx"
