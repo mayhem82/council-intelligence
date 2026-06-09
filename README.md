@@ -4,11 +4,11 @@ This repository contains the Upper Macleay Council Intelligence system.
 
 Primary browser dashboard:
 
-- [index.html](index.html)
-
-If GitHub Pages is enabled from the repository root, open:
-
 - https://mayhem82.github.io/tanstack-template/
+
+GitHub repository dashboard file:
+
+- [index.html](index.html)
 
 Primary evidence entry point:
 
@@ -17,6 +17,16 @@ Primary evidence entry point:
 Primary Markdown dashboard:
 
 - [DASHBOARD.md](upper-macleay-council-intelligence/DASHBOARD.md)
+
+## GitHub Pages
+
+The static dashboard is deployed by:
+
+- [.github/workflows/pages.yml](.github/workflows/pages.yml)
+
+If the browser dashboard does not appear, check the repository settings:
+
+Settings -> Pages -> Build and deployment -> Source: GitHub Actions
 
 ## Purpose
 
@@ -93,9 +103,10 @@ Each matter folder may contain a `chronology.md` file sorted from oldest to newe
 
 ## Automation
 
-The active GitHub workflow is:
+The active GitHub workflows are:
 
-- `.github/workflows/council-records-fetch.yml`
+- [.github/workflows/pages.yml](.github/workflows/pages.yml)
+- [.github/workflows/council-records-fetch.yml](.github/workflows/council-records-fetch.yml)
 
 Core scripts:
 
