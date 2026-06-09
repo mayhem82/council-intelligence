@@ -2,11 +2,19 @@
 
 This repository contains the Upper Macleay Council Intelligence system.
 
-Primary entry point:
+Primary browser dashboard:
+
+- [index.html](index.html)
+
+If GitHub Pages is enabled from the repository root, open:
+
+- https://mayhem82.github.io/tanstack-template/
+
+Primary evidence entry point:
 
 - [INTELLIGENCE-HOME.md](upper-macleay-council-intelligence/INTELLIGENCE-HOME.md)
 
-Primary dashboard:
+Primary Markdown dashboard:
 
 - [DASHBOARD.md](upper-macleay-council-intelligence/DASHBOARD.md)
 
@@ -44,7 +52,7 @@ Dashboard
 
 Proof of Fact (Human plus Evidence): 0
 
-Meaning: Unverified — automated outputs require independent source review before use as evidence, complaint material, or submission-grade findings.
+Meaning: Unverified - automated outputs require independent source review before use as evidence, complaint material, or submission-grade findings.
 
 Factual Strength: Medium
 
@@ -52,6 +60,8 @@ Rationale: The repository contains source-preservation and audit structures, but
 
 ## Main Navigation
 
+- [Browser Dashboard](index.html)
+- [Dashboard Data](public/council-dashboard-data.json)
 - [Intelligence Home](upper-macleay-council-intelligence/INTELLIGENCE-HOME.md)
 - [Dashboard](upper-macleay-council-intelligence/DASHBOARD.md)
 - [Source Map](upper-macleay-council-intelligence/config/source-map.txt)
@@ -89,14 +99,14 @@ The active GitHub workflow is:
 
 Core scripts:
 
-- `scripts/fetch_council_records.py`
-- `scripts/backfill_historic_records.py`
-- `scripts/extract_pdf_text.py`
-- `scripts/analyze_council_records.py`
-- `scripts/link_matters.py`
-- `scripts/build_lifecycle.py`
-- `scripts/sort_historically.py`
-- `scripts/audit_evidence_chain.py`
+- `upper-macleay-council-intelligence/scripts/fetch_council_records.py`
+- `upper-macleay-council-intelligence/scripts/backfill_historic_records.py`
+- `upper-macleay-council-intelligence/scripts/extract_pdf_text.py`
+- `upper-macleay-council-intelligence/scripts/analyze_council_records.py`
+- `upper-macleay-council-intelligence/scripts/link_matters.py`
+- `upper-macleay-council-intelligence/scripts/build_lifecycle.py`
+- `upper-macleay-council-intelligence/scripts/sort_historically.py`
+- `upper-macleay-council-intelligence/scripts/audit_evidence_chain.py`
 
 ## Operating Rules
 
