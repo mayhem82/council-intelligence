@@ -4,7 +4,7 @@ This repository contains the Upper Macleay Council Intelligence system.
 
 Primary browser dashboard:
 
-- https://mayhem82.github.io/tanstack-template/
+- https://mayhem82.github.io/council-intelligence/
 
 GitHub repository dashboard file:
 
