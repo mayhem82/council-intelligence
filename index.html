@@ -5,200 +5,105 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Upper Macleay Council Intelligence Dashboard</title>
   <style>
-    :root {
-      color-scheme: dark;
-      --bg: #0b0f14;
-      --panel: #151b23;
-      --panel-2: #10161d;
-      --line: #2d3642;
-      --text: #eef3f8;
-      --muted: #9ca8b5;
-      --accent: #f59e0b;
-      --accent-2: #38bdf8;
-      --danger: #f87171;
-      --ok: #34d399;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-    }
-    a { color: inherit; }
-    .wrap { max-width: 1220px; margin: 0 auto; padding: 16px; }
-    .top {
-      display: grid;
-      gap: 12px;
-      padding: 18px 0;
-      border-bottom: 1px solid var(--line);
-    }
-    .eyebrow { color: var(--accent); text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; font-weight: 700; }
-    h1 { margin: 4px 0 0; font-size: clamp(1.8rem, 4vw, 3rem); line-height: 1; }
-    .lead { max-width: 850px; color: var(--muted); line-height: 1.5; margin: 0; }
-    .actions { display: flex; flex-wrap: wrap; gap: 8px; }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 42px;
-      padding: 10px 14px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 700;
-      border: 1px solid var(--line);
-      background: var(--panel);
-    }
-    .btn.primary { background: var(--accent); color: #111827; border-color: var(--accent); }
-    .notice {
-      margin-top: 12px;
-      border: 1px solid rgba(245, 158, 11, .45);
-      background: rgba(245, 158, 11, .1);
-      color: #fde68a;
-      border-radius: 8px;
-      padding: 12px;
-      line-height: 1.45;
-    }
-    .metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 16px 0; }
-    .metric, .panel, .report-card {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-    }
-    .metric { padding: 14px; }
-    .metric span { display: block; color: var(--muted); font-size: .75rem; text-transform: uppercase; font-weight: 700; letter-spacing: .06em; }
-    .metric strong { display: block; margin-top: 6px; font-size: 2rem; }
-    .layout { display: grid; gap: 12px; }
-    .controls { display: grid; gap: 10px; padding: 12px; }
-    label { display: grid; gap: 6px; color: var(--muted); font-size: .78rem; text-transform: uppercase; font-weight: 700; letter-spacing: .06em; }
-    input, select {
-      width: 100%;
-      border: 1px solid var(--line);
-      background: var(--panel-2);
-      color: var(--text);
-      border-radius: 8px;
-      padding: 11px 12px;
-      font-size: 1rem;
-    }
-    .matter-list { max-height: 520px; overflow: auto; border-top: 1px solid var(--line); }
-    .matter-btn {
-      display: block;
-      width: 100%;
-      text-align: left;
-      border: 0;
-      border-bottom: 1px solid var(--line);
-      background: transparent;
-      color: var(--text);
-      padding: 13px;
-      cursor: pointer;
-    }
-    .matter-btn:hover, .matter-btn.active { background: #202936; }
-    .row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-    .name { font-weight: 800; }
-    .score { background: #0b0f14; color: #fed7aa; padding: 5px 8px; border-radius: 6px; font-size: .8rem; }
-    .tag { display: inline-flex; margin-top: 9px; padding: 5px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); font-size: .78rem; }
-    .tag.open { color: #fed7aa; border-color: rgba(245, 158, 11, .45); background: rgba(245, 158, 11, .08); }
-    .tag.watch { color: #bfdbfe; border-color: rgba(56, 189, 248, .4); background: rgba(56, 189, 248, .08); }
-    .mini { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 10px; color: var(--muted); font-size: .78rem; }
-    .detail { padding: 14px; min-height: 480px; }
-    .detail-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: start; justify-content: space-between; border-bottom: 1px solid var(--line); padding-bottom: 12px; }
-    h2 { margin: 0; font-size: 1.8rem; }
-    .detail-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }
-    .event { border-top: 1px solid var(--line); padding: 13px 0; }
-    .event:first-child { border-top: 0; }
-    .event-meta { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 8px; }
-    .pill { background: #0b0f14; border: 1px solid var(--line); border-radius: 6px; padding: 5px 7px; color: var(--muted); font-size: .78rem; }
-    .source { color: #7dd3fc; font-weight: 700; text-decoration: none; }
-    .reports { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 14px 0 26px; }
-    .report-card { min-height: 82px; padding: 12px; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; }
-    .report-card span { color: var(--muted); font-size: .82rem; }
-    .empty { color: var(--muted); padding: 24px; text-align: center; }
-    @media (min-width: 860px) {
-      .top { grid-template-columns: 1fr auto; align-items: end; }
-      .metrics { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .layout { grid-template-columns: 340px minmax(0, 1fr); }
-      .controls { grid-template-columns: 1fr; }
-      .detail-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .reports { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-    }
+    :root { color-scheme: dark; --bg:#0b0f14; --panel:#151b23; --panel2:#10161d; --line:#2d3642; --text:#eef3f8; --muted:#9ca8b5; --accent:#f59e0b; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; background:var(--bg); color:var(--text); }
+    main { max-width:1180px; margin:0 auto; padding:16px; }
+    header { display:grid; gap:12px; padding:18px 0; border-bottom:1px solid var(--line); }
+    @media (min-width:860px) { header { grid-template-columns:1fr auto; align-items:end; } }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.08em; font-size:.78rem; font-weight:800; }
+    h1 { margin:4px 0 0; font-size:clamp(1.9rem, 4vw, 3.2rem); line-height:1; }
+    h2 { margin:0 0 10px; }
+    .lead { max-width:850px; color:var(--muted); line-height:1.5; margin:0; }
+    .actions { display:flex; flex-wrap:wrap; gap:8px; }
+    .btn { display:inline-flex; min-height:42px; align-items:center; justify-content:center; padding:10px 14px; border:1px solid var(--line); border-radius:8px; background:var(--panel); color:var(--text); text-decoration:none; font-weight:800; }
+    .btn.primary { background:var(--accent); color:#111827; border-color:var(--accent); }
+    .notice { margin-top:12px; border:1px solid rgba(245,158,11,.45); background:rgba(245,158,11,.1); color:#fde68a; border-radius:8px; padding:12px; line-height:1.45; }
+    .metrics { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:16px 0; }
+    @media (min-width:860px) { .metrics { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+    .metric, .panel, .card { background:var(--panel); border:1px solid var(--line); border-radius:10px; }
+    .metric { padding:14px; }
+    .metric span { display:block; color:var(--muted); font-size:.75rem; text-transform:uppercase; font-weight:800; letter-spacing:.06em; }
+    .metric strong { display:block; margin-top:6px; font-size:2rem; }
+    .layout { display:grid; gap:12px; }
+    @media (min-width:860px) { .layout { grid-template-columns:340px minmax(0,1fr); } }
+    .panel { padding:12px; }
+    .controls { display:grid; gap:10px; margin-bottom:12px; }
+    label { display:grid; gap:6px; color:var(--muted); font-size:.78rem; text-transform:uppercase; font-weight:800; letter-spacing:.06em; }
+    input, select { width:100%; border:1px solid var(--line); background:var(--panel2); color:var(--text); border-radius:8px; padding:11px 12px; font-size:1rem; }
+    .matter-list { max-height:520px; overflow:auto; border-top:1px solid var(--line); }
+    .matter-btn { display:block; width:100%; text-align:left; border:0; border-bottom:1px solid var(--line); background:transparent; color:var(--text); padding:13px; cursor:pointer; }
+    .matter-btn:hover, .matter-btn.active { background:#202936; }
+    .row { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+    .name { font-weight:900; }
+    .score { background:#0b0f14; color:#fed7aa; padding:5px 8px; border-radius:6px; font-size:.8rem; }
+    .tag { display:inline-flex; margin-top:9px; padding:5px 8px; border-radius:999px; border:1px solid var(--line); color:var(--muted); font-size:.78rem; }
+    .tag.open { color:#fed7aa; border-color:rgba(245,158,11,.45); background:rgba(245,158,11,.08); }
+    .tag.watch { color:#bfdbfe; border-color:rgba(56,189,248,.4); background:rgba(56,189,248,.08); }
+    .mini { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:10px; color:var(--muted); font-size:.78rem; }
+    .detail { min-height:480px; }
+    .detail-head { display:flex; flex-wrap:wrap; gap:10px; align-items:start; justify-content:space-between; border-bottom:1px solid var(--line); padding-bottom:12px; }
+    .detail-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:12px 0; }
+    @media (min-width:860px) { .detail-grid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+    .event { border-top:1px solid var(--line); padding:13px 0; }
+    .event:first-child { border-top:0; }
+    .event-meta { display:flex; flex-wrap:wrap; gap:7px; margin-bottom:8px; }
+    .pill { background:#0b0f14; border:1px solid var(--line); border-radius:6px; padding:5px 7px; color:var(--muted); font-size:.78rem; }
+    .source { color:#7dd3fc; font-weight:800; text-decoration:none; }
+    .cards { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:14px 0 26px; }
+    @media (min-width:860px) { .cards { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+    .card { min-height:82px; padding:12px; text-decoration:none; display:flex; flex-direction:column; justify-content:space-between; }
+    .card span { color:var(--muted); font-size:.82rem; }
+    .empty { color:var(--muted); padding:24px; text-align:center; }
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <header class="top">
+  <main>
+    <header>
       <div>
         <div class="eyebrow">Upper Macleay Council Intelligence</div>
         <h1>Evidence Dashboard</h1>
-        <p class="lead">Search, filter and navigate council matter signals, source targets, chronologies and audit reports. All starter data is unverified until checked against preserved source records.</p>
+        <p class="lead">Rendered public dashboard for council matter signals, source targets, chronologies and audit triage. Starter data remains unverified until checked against preserved source records.</p>
       </div>
       <div class="actions">
         <a class="btn primary" href="councilwatch.html">CouncilWatch</a>
-        <a class="btn" href="public/council-dashboard-data.json">Dashboard data</a>
-        <a class="btn" href="public/councilwatch-resolutions.json">Resolution register</a>
-        <a class="btn" href="upper-macleay-council-intelligence/INTELLIGENCE-HOME.md">Intelligence home</a>
+        <a class="btn" href="resolutions.html">Resolutions</a>
+        <a class="btn" href="data-viewer.html">Data Viewer</a>
       </div>
     </header>
 
-    <div class="notice"><strong>Proof of Fact: 0.</strong> This page is usable navigation and triage data. It is not a verified finding set.</div>
-
+    <div class="notice"><strong>Proof of Fact: 0.</strong> This page is navigation and triage data. It is not a verified finding set.</div>
     <section class="metrics" id="metrics"></section>
 
     <section class="layout">
       <aside class="panel">
         <div class="controls">
-          <label>Search
-            <input id="search" type="search" placeholder="Matter, trigger, source">
-          </label>
-          <label>Status
-            <select id="status"></select>
-          </label>
-          <label>Sort
-            <select id="sort">
-              <option value="score">Heat score</option>
-              <option value="events">Events</option>
-              <option value="evidenceReferences">Evidence refs</option>
-              <option value="actionSignals">Action signals</option>
-              <option value="id">Name</option>
-            </select>
-          </label>
+          <label>Search<input id="search" type="search" placeholder="Matter, trigger, source"></label>
+          <label>Status<select id="status"></select></label>
+          <label>Sort<select id="sort"><option value="score">Heat score</option><option value="events">Events</option><option value="evidenceReferences">Evidence refs</option><option value="actionSignals">Action signals</option><option value="id">Name</option></select></label>
         </div>
         <div class="matter-list" id="matterList"></div>
       </aside>
-
       <section class="panel detail" id="detail"></section>
     </section>
 
-    <section class="reports" id="reports"></section>
+    <section class="cards">
+      <a class="card" href="councilwatch.html"><strong>CouncilWatch</strong><span>Rendered gauge</span></a>
+      <a class="card" href="resolutions.html"><strong>Resolution Register</strong><span>Rendered records</span></a>
+      <a class="card" href="data-viewer.html"><strong>Data Viewer</strong><span>Rendered dataset preview</span></a>
+      <a class="card" href="public/council-dashboard-data.json"><strong>Raw Dashboard JSON</strong><span>Audit data</span></a>
+    </section>
   </main>
 
   <script>
     const DATA_PATH = 'public/council-dashboard-data.json';
     let dashboard = null;
     let selectedId = null;
+    const state = { search:'', status:'all', sort:'score' };
 
-    const state = {
-      search: '',
-      status: 'all',
-      sort: 'score'
-    };
-
-    function label(value) {
-      return String(value || '')
-        .replace(/([a-z])([A-Z])/g, '$1 $2')
-        .replace(/[-_]/g, ' ')
-        .replace(/\b\w/g, letter => letter.toUpperCase());
-    }
-
-    function tagClass(status) {
-      const lower = String(status || '').toLowerCase();
-      if (lower.includes('open')) return 'tag open';
-      if (lower.includes('watch') || lower.includes('source')) return 'tag watch';
-      return 'tag';
-    }
-
-    function metric(title, value) {
-      return `<div class="metric"><span>${title}</span><strong>${value ?? 0}</strong></div>`;
-    }
+    function label(value) { return String(value || '').replace(/([a-z])([A-Z])/g, '$1 $2').replace(/[-_]/g, ' ').replace(/\b\w/g, letter => letter.toUpperCase()); }
+    function tagClass(status) { const lower = String(status || '').toLowerCase(); if (lower.includes('open')) return 'tag open'; if (lower.includes('watch') || lower.includes('source')) return 'tag watch'; return 'tag'; }
+    function metric(title, value) { return `<div class="metric"><span>${title}</span><strong>${value ?? 0}</strong></div>`; }
 
     function filteredMatters() {
       const q = state.search.trim().toLowerCase();
@@ -213,12 +118,7 @@
 
     function renderMetrics() {
       const s = dashboard?.summary || {};
-      document.getElementById('metrics').innerHTML = [
-        metric('Matters', s.mattersTracked),
-        metric('Open Watch', s.openWatchMatters),
-        metric('Resolution Candidates', s.resolutionCandidates),
-        metric('Raw Files', s.rawPreservedFiles)
-      ].join('');
+      document.getElementById('metrics').innerHTML = [metric('Matters', s.mattersTracked), metric('Open Watch', s.openWatchMatters), metric('Resolution Candidates', s.resolutionCandidates), metric('Raw Files', s.rawPreservedFiles)].join('');
     }
 
     function renderFilters() {
@@ -230,95 +130,23 @@
       const matters = filteredMatters();
       if (!selectedId && matters[0]) selectedId = matters[0].id;
       if (!matters.find(m => m.id === selectedId) && matters[0]) selectedId = matters[0].id;
-      document.getElementById('matterList').innerHTML = matters.length ? matters.map(matter => `
-        <button class="matter-btn ${matter.id === selectedId ? 'active' : ''}" data-id="${matter.id}">
-          <div class="row"><span class="name">${label(matter.id)}</span><span class="score">${matter.score}</span></div>
-          <span class="${tagClass(matter.status)}">${label(matter.status)}</span>
-          <div class="mini"><span>Refs ${matter.evidenceReferences}</span><span>Actions ${matter.actionSignals}</span><span>Events ${matter.events}</span></div>
-        </button>
-      `).join('') : '<div class="empty">No matching matters.</div>';
-
-      document.querySelectorAll('.matter-btn').forEach(button => {
-        button.addEventListener('click', () => {
-          selectedId = button.dataset.id;
-          render();
-        });
-      });
+      document.getElementById('matterList').innerHTML = matters.length ? matters.map(matter => `<button class="matter-btn ${matter.id === selectedId ? 'active' : ''}" data-id="${matter.id}"><div class="row"><span class="name">${label(matter.id)}</span><span class="score">${matter.score}</span></div><span class="${tagClass(matter.status)}">${label(matter.status)}</span><div class="mini"><span>Refs ${matter.evidenceReferences}</span><span>Actions ${matter.actionSignals}</span><span>Events ${matter.events}</span></div></button>`).join('') : '<div class="empty">No matching matters.</div>';
+      document.querySelectorAll('.matter-btn').forEach(button => button.addEventListener('click', () => { selectedId = button.dataset.id; render(); }));
     }
 
     function renderDetail() {
       const matter = filteredMatters().find(item => item.id === selectedId) || filteredMatters()[0];
       const detail = document.getElementById('detail');
-      if (!matter) {
-        detail.innerHTML = '<div class="empty">Select a matter.</div>';
-        return;
-      }
-      const chronologyHref = `upper-macleay-council-intelligence/${matter.chronologyPath}`;
-      detail.innerHTML = `
-        <div class="detail-head">
-          <div>
-            <h2>${label(matter.id)}</h2>
-            <span class="${tagClass(matter.status)}">${label(matter.status)}</span>
-          </div>
-          <a class="btn" href="${chronologyHref}">Open chronology</a>
-        </div>
-        <div class="detail-grid">
-          ${metric('Heat Score', matter.score)}
-          ${metric('Evidence Refs', matter.evidenceReferences)}
-          ${metric('Action Signals', matter.actionSignals)}
-          ${metric('Events', matter.events)}
-        </div>
-        <div>
-          ${(matter.eventList || []).length ? matter.eventList.map(event => `
-            <article class="event">
-              <div class="event-meta">
-                <span class="pill">${event.date || 'unknown-date'}</span>
-                <span class="pill">${label(event.kind)}</span>
-                <span class="pill">${label(event.status)}</span>
-              </div>
-              <div>${event.trigger || ''}</div>
-              ${event.source ? `<p><a class="source" href="${event.source}" target="_blank" rel="noreferrer">Open source record</a></p>` : ''}
-            </article>
-          `).join('') : '<div class="empty">No events listed yet.</div>'}
-        </div>
-      `;
+      if (!matter) { detail.innerHTML = '<div class="empty">Select a matter.</div>'; return; }
+      detail.innerHTML = `<div class="detail-head"><div><h2>${label(matter.id)}</h2><span class="${tagClass(matter.status)}">${label(matter.status)}</span></div></div><div class="detail-grid">${metric('Heat Score', matter.score)}${metric('Evidence Refs', matter.evidenceReferences)}${metric('Action Signals', matter.actionSignals)}${metric('Events', matter.events)}</div><div>${(matter.eventList || []).length ? matter.eventList.map(event => `<article class="event"><div class="event-meta"><span class="pill">${event.date || 'unknown-date'}</span><span class="pill">${label(event.kind)}</span><span class="pill">${label(event.status)}</span></div><div>${event.trigger || ''}</div>${event.source ? `<p><a class="source" href="${event.source}" target="_blank" rel="noreferrer">Open source record</a></p>` : ''}</article>`).join('') : '<div class="empty">No events listed yet.</div>'}</div>`;
     }
 
-    function renderReports() {
-      const files = dashboard?.files || {};
-      document.getElementById('reports').innerHTML = Object.entries(files).map(([name, path]) => `
-        <a class="report-card" href="${path}"><strong>${label(name)}</strong><span>Open file</span></a>
-      `).join('');
-    }
-
-    function render() {
-      renderMetrics();
-      renderList();
-      renderDetail();
-      renderReports();
-    }
-
+    function render() { renderMetrics(); renderList(); renderDetail(); }
     document.getElementById('search').addEventListener('input', event => { state.search = event.target.value; render(); });
     document.getElementById('status').addEventListener('change', event => { state.status = event.target.value; render(); });
     document.getElementById('sort').addEventListener('change', event => { state.sort = event.target.value; render(); });
 
-    fetch(DATA_PATH + '?cache=' + Date.now())
-      .then(response => {
-        if (!response.ok) throw new Error('Missing dashboard data');
-        return response.json();
-      })
-      .then(data => {
-        dashboard = data;
-        selectedId = data.matters?.[0]?.id || null;
-        renderFilters();
-        render();
-      })
-      .catch(error => {
-        console.error(error);
-        document.getElementById('metrics').innerHTML = '';
-        document.getElementById('matterList').innerHTML = '<div class="empty">Dashboard data could not be loaded.</div>';
-        document.getElementById('detail').innerHTML = '<div class="empty">Check public/council-dashboard-data.json in the repository.</div>';
-      });
+    fetch(DATA_PATH + '?cache=' + Date.now()).then(response => { if (!response.ok) throw new Error('Missing dashboard data'); return response.json(); }).then(data => { dashboard = data; selectedId = data.matters?.[0]?.id || null; renderFilters(); render(); }).catch(error => { console.error(error); document.getElementById('metrics').innerHTML = ''; document.getElementById('matterList').innerHTML = '<div class="empty">Dashboard data could not be loaded.</div>'; document.getElementById('detail').innerHTML = '<div class="empty">Check public/council-dashboard-data.json in the repository.</div>'; });
   </script>
 </body>
 </html>
