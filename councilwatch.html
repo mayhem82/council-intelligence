@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CouncilWatch — Kempsey Shire</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0f14;
+      --panel: #151b23;
+      --line: #2d3642;
+      --text: #eef3f8;
+      --muted: #9ca8b5;
+      --amber: #f59e0b;
+      --red: #f87171;
+      --green: #34d399;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); }
+    main { max-width: 980px; margin: 0 auto; padding: 16px; }
+    header { border-bottom: 1px solid var(--line); padding: 18px 0; }
+    .eyebrow { color: var(--amber); text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; font-weight: 800; }
+    h1 { margin: 6px 0 8px; font-size: clamp(2.4rem, 8vw, 5rem); line-height: .9; }
+    .lead { color: var(--muted); line-height: 1.45; max-width: 780px; }
+    .grid { display: grid; gap: 12px; margin-top: 16px; }
+    @media (min-width: 760px) { .grid { grid-template-columns: 1.15fr .85fr; } }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+    .gauge-wrap { display: grid; place-items: center; padding: 8px; }
+    .gauge { width: min(82vw, 420px); aspect-ratio: 1 / 1; border-radius: 50%; background: conic-gradient(var(--green) 0deg, var(--amber) 120deg, var(--red) 250deg, #111827 250deg 360deg); display: grid; place-items: center; position: relative; }
+    .gauge::after { content: ""; position: absolute; inset: 15%; border-radius: 50%; background: var(--panel); border: 1px solid var(--line); }
+    .needle { position: absolute; width: 4px; height: 42%; background: var(--text); bottom: 50%; left: calc(50% - 2px); transform-origin: bottom center; transform: rotate(var(--angle, -110deg)); border-radius: 999px; z-index: 2; }
+    .hub { position: absolute; width: 26px; height: 26px; background: var(--text); border-radius: 50%; z-index: 3; }
+    .gauge-text { position: relative; z-index: 4; text-align: center; margin-top: 80px; }
+    .score { font-size: 4rem; font-weight: 900; line-height: 1; }
+    .band { color: var(--amber); font-weight: 900; text-transform: uppercase; letter-spacing: .06em; }
+    .metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .metric { background: #0f151d; border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+    .metric span { display: block; color: var(--muted); font-size: .75rem; text-transform: uppercase; font-weight: 800; }
+    .metric strong { display: block; margin-top: 6px; font-size: 2rem; }
+    .notice { margin-top: 12px; border: 1px solid rgba(245, 158, 11, .45); background: rgba(245, 158, 11, .1); color: #fde68a; border-radius: 10px; padding: 12px; line-height: 1.45; }
+    a { color: #7dd3fc; font-weight: 800; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .btn { display: inline-flex; min-height: 42px; align-items: center; justify-content: center; padding: 10px 14px; border: 1px solid var(--line); border-radius: 8px; background: #10161d; color: var(--text); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Kempsey Shire</div>
+      <h1>CouncilWatch</h1>
+      <p class="lead">CouncilWatch monitors council resolutions, reports, actions, evidence gaps and unresolved public-record matters. It is a governance-watch gauge only. It is not connected to any flood, river or bridge monitoring system.</p>
+      <div class="actions">
+        <a class="btn" href="index.html">Evidence Dashboard</a>
+        <a class="btn" href="public/council-dashboard-data.json">Dashboard Data</a>
+        <a class="btn" href="upper-macleay-council-intelligence/INTELLIGENCE-HOME.md">Intelligence Home</a>
+      </div>
+    </header>
+
+    <section class="grid">
+      <div class="card gauge-wrap">
+        <div class="gauge" id="gauge">
+          <div class="needle" id="needle"></div>
+          <div class="hub"></div>
+          <div class="gauge-text">
+            <div class="score" id="score">--</div>
+            <div class="band" id="band">Loading</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>CouncilWatch State</h2>
+        <div class="metrics" id="metrics"></div>
+        <div class="notice"><strong>Proof of Fact: <span id="pof">0</span>.</strong> This page is a triage gauge. It does not prove misconduct, compliance failure, legal breach or intent. It indicates investigation load, unresolved matters, missing verification and public-record pressure.</div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const DATA_PATH = 'public/council-dashboard-data.json';
+
+    function metric(title, value) {
+      return `<div class="metric"><span>${title}</span><strong>${value ?? 0}</strong></div>`;
+    }
+
+    function bandFor(score) {
+      if (score >= 75) return 'Critical Watch';
+      if (score >= 50) return 'High Watch';
+      if (score >= 25) return 'Active Watch';
+      return 'Baseline Watch';
+    }
+
+    function calculateGauge(summary, councilWatch) {
+      if (councilWatch?.derivedScores?.accountabilityPressure !== undefined) {
+        return Number(councilWatch.derivedScores.accountabilityPressure);
+      }
+      const matters = Number(summary.mattersTracked || 0);
+      const open = Number(summary.openWatchMatters || 0);
+      const missing = Number(summary.evidenceReferencesMissing || 0);
+      const raw = Number(summary.rawPreservedFiles || 0);
+      const extracted = Number(summary.extractedTextFiles || 0);
+      const resolution = Number(summary.resolutionCandidates || 0);
+      let score = 0;
+      score += Math.min(30, matters * 3);
+      score += Math.min(25, open * 3);
+      score += Math.min(20, missing * 4);
+      score += raw === 0 ? 15 : 0;
+      score += extracted === 0 ? 10 : 0;
+      score += Math.min(10, resolution * 2);
+      return Math.max(0, Math.min(100, score));
+    }
+
+    async function loadGauge() {
+      const res = await fetch(DATA_PATH + '?cache=' + Date.now());
+      const data = await res.json();
+      const summary = data.summary || {};
+      const councilWatch = data.councilWatch || data.councilTracker || {};
+      const score = calculateGauge(summary, councilWatch);
+      const angle = -110 + (score / 100) * 220;
+      document.getElementById('score').textContent = score;
+      document.getElementById('band').textContent = councilWatch?.derivedScores?.publicRiskBand || bandFor(score);
+      document.getElementById('needle').style.setProperty('--angle', `${angle}deg`);
+      document.getElementById('pof').textContent = data.proofOfFact ?? 0;
+      document.getElementById('metrics').innerHTML = [
+        metric('Matters', summary.mattersTracked),
+        metric('Open Watch', summary.openWatchMatters),
+        metric('Resolution Candidates', summary.resolutionCandidates),
+        metric('Raw Files', summary.rawPreservedFiles),
+        metric('Extracted Text', summary.extractedTextFiles),
+        metric('Refs Missing', summary.evidenceReferencesMissing)
+      ].join('');
+    }
+
+    loadGauge().catch(error => {
+      document.getElementById('band').textContent = 'Data Load Failed';
+      console.error(error);
+    });
+  </script>
+</body>
+</html>
