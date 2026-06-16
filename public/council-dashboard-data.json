@@ -5,7 +5,7 @@
   "factualStrength": {
     "score": 0,
     "band": "Unverified",
-    "rationale": "This payload preserves navigation, source targets and tracker signals. It does not make final findings until source records are fetched, preserved and independently reviewed."
+    "rationale": "This payload preserves navigation, source targets and CouncilWatch signals. It does not make final findings until source records are fetched, preserved and independently reviewed."
   },
   "summary": {
     "mattersTracked": 8,
@@ -19,12 +19,12 @@
     "evidenceReferencesChecked": 0,
     "evidenceReferencesMissing": 0
   },
-  "councilTracker": {
-    "name": "Kempsey Shire Council Accountability Tracker",
-    "scope": "Public council records, meeting minutes, resolutions, reports, actions, source preservation and issue tracking for Kempsey Shire Council with Upper Macleay priority matters.",
+  "councilWatch": {
+    "name": "CouncilWatch — Kempsey Shire",
+    "scope": "Public council records, meeting minutes, resolutions, reports, actions, source preservation and issue monitoring for Kempsey Shire Council with Upper Macleay priority matters.",
     "verificationStatus": "starter-unverified",
-    "publicUseWarning": "This tracker is a triage gauge. It does not prove misconduct, intent, legal breach or factual correctness without source-record review.",
-    "scoreModelVersion": "KSC-GAUGE-001",
+    "publicUseWarning": "CouncilWatch is a triage gauge. It does not prove misconduct, intent, legal breach or factual correctness without source-record review.",
+    "scoreModelVersion": "COUNCILWATCH-KSC-GAUGE-001",
     "dimensions": {
       "matterLoad": {
         "label": "Matter Load",
@@ -86,7 +86,7 @@
         "id": "proof-of-fact-zero",
         "label": "Proof of Fact remains zero",
         "status": "active",
-        "detail": "Tracker must not be used as final evidence until source checks are completed."
+        "detail": "CouncilWatch must not be used as final evidence until source checks are completed."
       }
     ]
   },
@@ -253,6 +253,6 @@
     "heatmap": "upper-macleay-council-intelligence/reports/matter-heatmap.md",
     "duplicates": "upper-macleay-council-intelligence/reports/duplicate-source-report.md",
     "audit": "upper-macleay-council-intelligence/reports/evidence-chain-audit.md",
-    "trackerGauge": "council-tracker-gauge.html"
+    "councilWatch": "councilwatch.html"
   }
 }
