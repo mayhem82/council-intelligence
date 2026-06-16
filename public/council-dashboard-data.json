@@ -1,11 +1,11 @@
 {
-  "updatedUtc": "2026-06-09T01:20:00Z",
+  "updatedUtc": "2026-06-16T06:00:00Z",
   "proofOfFact": 0,
   "proofMeaning": "Unverified - starter dashboard data seeded from project registers and public source locations. Source review is required before evidentiary use.",
   "factualStrength": {
     "score": 0,
     "band": "Unverified",
-    "rationale": "This starter payload makes the dashboard usable before the automated gather workflow has generated lifecycle output. It preserves navigation and source targets but does not make findings."
+    "rationale": "This payload preserves navigation, source targets and tracker signals. It does not make final findings until source records are fetched, preserved and independently reviewed."
   },
   "summary": {
     "mattersTracked": 8,
@@ -18,6 +18,77 @@
     "extractedTextFiles": 0,
     "evidenceReferencesChecked": 0,
     "evidenceReferencesMissing": 0
+  },
+  "councilTracker": {
+    "name": "Kempsey Shire Council Accountability Tracker",
+    "scope": "Public council records, meeting minutes, resolutions, reports, actions, source preservation and issue tracking for Kempsey Shire Council with Upper Macleay priority matters.",
+    "verificationStatus": "starter-unverified",
+    "publicUseWarning": "This tracker is a triage gauge. It does not prove misconduct, intent, legal breach or factual correctness without source-record review.",
+    "scoreModelVersion": "KSC-GAUGE-001",
+    "dimensions": {
+      "matterLoad": {
+        "label": "Matter Load",
+        "score": 64,
+        "weight": 20,
+        "basis": "Eight seeded matters are under watch, including flying fox camp, roads, bridges, water security, grants, public health and safety, community facilities and governance."
+      },
+      "openWatchPressure": {
+        "label": "Open Watch Pressure",
+        "score": 100,
+        "weight": 20,
+        "basis": "All seeded matters are open-watch or source-discovery-watch."
+      },
+      "evidencePreservationGap": {
+        "label": "Evidence Preservation Gap",
+        "score": 100,
+        "weight": 20,
+        "basis": "Raw preserved files and extracted text files are currently zero in the dashboard summary."
+      },
+      "actionFollowThrough": {
+        "label": "Action Follow-through",
+        "score": 25,
+        "weight": 15,
+        "basis": "Only one action signal is currently seeded. Completion status is not yet verified."
+      },
+      "resolutionProgress": {
+        "label": "Resolution Progress",
+        "score": 0,
+        "weight": 10,
+        "basis": "No resolution candidates are currently recorded."
+      },
+      "sourceVerification": {
+        "label": "Source Verification",
+        "score": 0,
+        "weight": 15,
+        "basis": "Evidence references checked are currently zero. Proof of Fact remains zero."
+      }
+    },
+    "derivedScores": {
+      "accountabilityPressure": 54,
+      "verificationReadiness": 0,
+      "evidenceGap": 100,
+      "publicRiskBand": "High Watch - Unverified"
+    },
+    "prioritySignals": [
+      {
+        "id": "source-preservation-gap",
+        "label": "Source preservation gap",
+        "status": "active",
+        "detail": "Dashboard summary reports zero raw preserved files and zero extracted text files."
+      },
+      {
+        "id": "all-matters-open-watch",
+        "label": "All seeded matters remain under watch",
+        "status": "active",
+        "detail": "Eight of eight seeded matters are open-watch or source-discovery-watch."
+      },
+      {
+        "id": "proof-of-fact-zero",
+        "label": "Proof of Fact remains zero",
+        "status": "active",
+        "detail": "Tracker must not be used as final evidence until source checks are completed."
+      }
+    ]
   },
   "matters": [
     {
@@ -181,6 +252,7 @@
     "lifecycle": "upper-macleay-council-intelligence/reports/matter-lifecycle.md",
     "heatmap": "upper-macleay-council-intelligence/reports/matter-heatmap.md",
     "duplicates": "upper-macleay-council-intelligence/reports/duplicate-source-report.md",
-    "audit": "upper-macleay-council-intelligence/reports/evidence-chain-audit.md"
+    "audit": "upper-macleay-council-intelligence/reports/evidence-chain-audit.md",
+    "trackerGauge": "council-tracker-gauge.html"
   }
 }
