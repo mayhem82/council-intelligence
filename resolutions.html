@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CouncilWatch Resolution Register</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b0f14; --panel:#151b23; --line:#2d3642; --text:#eef3f8; --muted:#9ca8b5; --accent:#f59e0b; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; background:var(--bg); color:var(--text); }
+    main { max-width:1100px; margin:0 auto; padding:16px; }
+    header { border-bottom:1px solid var(--line); padding:18px 0; }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.08em; font-size:.78rem; font-weight:800; }
+    h1 { margin:6px 0 8px; font-size:clamp(2rem, 7vw, 4rem); line-height:.95; }
+    .lead { color:var(--muted); line-height:1.45; }
+    .actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+    .btn { display:inline-flex; min-height:42px; align-items:center; justify-content:center; padding:10px 14px; border:1px solid var(--line); border-radius:8px; background:#10161d; color:var(--text); text-decoration:none; font-weight:800; }
+    .card { margin-top:12px; background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px; }
+    .grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:10px; }
+    @media (min-width:860px) { .grid { grid-template-columns:repeat(4, minmax(0, 1fr)); } }
+    .metric { background:#0f151d; border:1px solid var(--line); border-radius:10px; padding:12px; }
+    .metric span { display:block; color:var(--muted); font-size:.75rem; text-transform:uppercase; font-weight:800; }
+    .metric strong { display:block; margin-top:6px; font-size:2rem; }
+    .resolution { border-top:1px solid var(--line); padding:13px 0; }
+    .resolution:first-child { border-top:0; }
+    .resolution strong { display:block; font-size:1.05rem; }
+    .meta { color:var(--muted); font-size:.9rem; margin-top:6px; line-height:1.45; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">CouncilWatch</div>
+      <h1>Resolution Register</h1>
+      <p class="lead">Readable register of CouncilWatch resolution records. This is a preview layer over the public JSON dataset.</p>
+      <div class="actions">
+        <a class="btn" href="index.html">Dashboard</a>
+        <a class="btn" href="councilwatch.html">CouncilWatch</a>
+        <a class="btn" href="data-viewer.html">Data Viewer</a>
+        <a class="btn" href="public/councilwatch-resolutions.json">Raw JSON</a>
+      </div>
+    </header>
+    <section class="card">
+      <h2>Summary</h2>
+      <div class="grid" id="metrics"></div>
+    </section>
+    <section class="card">
+      <h2>Records</h2>
+      <div id="records">Loading...</div>
+    </section>
+  </main>
+  <script>
+    function metric(title, value) { return `<div class="metric"><span>${title}</span><strong>${value ?? 0}</strong></div>`; }
+    fetch('public/councilwatch-resolutions.json?cache=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        const s = data.summary || {};
+        document.getElementById('metrics').innerHTML = [
+          metric('Tracked', s.resolutionsTracked),
+          metric('Watch', s.watch),
+          metric('Unknown', s.unknown),
+          metric('Evidence Links', s.evidenceLinks),
+          metric('Verified', s.verified),
+          metric('Partial', s.partiallyVerified),
+          metric('Unverified', s.unverified),
+          metric('Bellbrook', s.bellbrookRelated)
+        ].join('');
+        const records = data.resolutions || [];
+        document.getElementById('records').innerHTML = records.length ? records.map(item => `
+          <article class="resolution">
+            <strong>${item.resolutionId} — ${item.title}</strong>
+            <div class="meta">${item.council} · ${item.meetingDate} · ${item.location}</div>
+            <div class="meta">Matter: ${item.matter} · Status: ${item.status} · Verification: ${item.verificationState} · Impact: ${item.communityImpact}</div>
+            <div class="meta">${item.resolutionText}</div>
+          </article>
+        `).join('') : 'No resolution records loaded.';
+      })
+      .catch(err => document.getElementById('records').textContent = 'Data load failed: ' + err.message);
+  </script>
+</body>
+</html>
