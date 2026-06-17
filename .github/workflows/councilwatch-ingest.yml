@@ -20,17 +20,20 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install CouncilWatch dependencies
+        run: pip install -r requirements-councilwatch.txt
+
       - name: Run CouncilWatch ingestion
         run: python scripts/ingest_kempsey_records.py
 
-      - name: Commit updated CouncilWatch registers
+      - name: Commit updated CouncilWatch records and registers
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/historical-coverage.json public/source-target-manifest.json
+          git add public/historical-coverage.json public/source-target-manifest.json records/raw records/text
           if git diff --cached --quiet; then
             echo "No CouncilWatch register changes."
           else
-            git commit -m "Update CouncilWatch historical source targets"
+            git commit -m "Update CouncilWatch historical records"
             git push
           fi
