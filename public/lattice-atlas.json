@@ -1,0 +1,74 @@
+{
+  "updatedUtc": "2026-06-17T00:30:00Z",
+  "proofOfFact": 0,
+  "verificationState": "starter-unverified",
+  "purpose": "CouncilWatch Lattice Atlas maps relationships between matters, locations, documents, resolutions, actors, evidence paths and disappearance signals.",
+  "publicUseWarning": "The Lattice Atlas is a relationship map. It does not prove misconduct, intent, breach, causation or factual correctness without verified source records.",
+  "nodeTypes": [
+    "matter",
+    "location",
+    "document",
+    "resolution",
+    "evidence",
+    "actor-class",
+    "disappearance-signal"
+  ],
+  "edgeTypes": [
+    "located-in",
+    "recorded-in",
+    "tracked-by",
+    "requires-comparison",
+    "has-source-target",
+    "has-verification-state",
+    "belongs-to-domain"
+  ],
+  "summary": {
+    "nodes": 13,
+    "edges": 16,
+    "verifiedNodes": 0,
+    "unverifiedNodes": 13,
+    "priorityDomains": 7
+  },
+  "nodes": [
+    { "id": "LOC-BELLBROOK", "type": "location", "label": "Bellbrook", "status": "priority", "verificationState": "unverified" },
+    { "id": "LOC-UPPER-MACLEAY", "type": "location", "label": "Upper Macleay", "status": "priority", "verificationState": "unverified" },
+    { "id": "MAT-FLYING-FOX", "type": "matter", "label": "Flying Fox Camp", "status": "open-watch", "verificationState": "unverified" },
+    { "id": "MAT-ROADS", "type": "matter", "label": "Roads", "status": "source-discovery-watch", "verificationState": "unverified" },
+    { "id": "MAT-BRIDGE", "type": "matter", "label": "Bridge", "status": "source-discovery-watch", "verificationState": "unverified" },
+    { "id": "MAT-WATER", "type": "matter", "label": "Water Security", "status": "source-discovery-watch", "verificationState": "unverified" },
+    { "id": "MAT-HALL", "type": "matter", "label": "Hall / Community Facilities", "status": "source-discovery-watch", "verificationState": "unverified" },
+    { "id": "DOC-KSC-2025-05-20-MINUTES", "type": "document", "label": "KSC 20 May 2025 Confirmed Minutes", "status": "source-targeted", "verificationState": "unverified" },
+    { "id": "RES-KSC-FF-2025-05-20-001", "type": "resolution", "label": "Flying Fox Management Request", "status": "watch", "verificationState": "unverified" },
+    { "id": "EVID-KSC-FF-SOURCE-001", "type": "evidence", "label": "Flying Fox source target", "status": "source-target", "verificationState": "unverified" },
+    { "id": "DIS-AGENDA-MISSING-CYCLE", "type": "disappearance-signal", "label": "Agenda item missing from later cycle", "status": "detection-rule", "verificationState": "unverified" },
+    { "id": "ACTOR-COUNCIL", "type": "actor-class", "label": "Council / Staff / Councillors", "status": "class-only", "verificationState": "unverified" },
+    { "id": "DOMAIN-BELLBROOK-WATCH", "type": "matter", "label": "Bellbrook Watch Domain", "status": "priority-domain", "verificationState": "unverified" }
+  ],
+  "edges": [
+    { "from": "MAT-FLYING-FOX", "to": "LOC-BELLBROOK", "type": "located-in", "status": "seed" },
+    { "from": "MAT-ROADS", "to": "LOC-UPPER-MACLEAY", "type": "located-in", "status": "seed" },
+    { "from": "MAT-BRIDGE", "to": "LOC-BELLBROOK", "type": "located-in", "status": "seed" },
+    { "from": "MAT-WATER", "to": "LOC-BELLBROOK", "type": "located-in", "status": "seed" },
+    { "from": "MAT-HALL", "to": "LOC-BELLBROOK", "type": "located-in", "status": "seed" },
+    { "from": "RES-KSC-FF-2025-05-20-001", "to": "MAT-FLYING-FOX", "type": "tracked-by", "status": "seed" },
+    { "from": "RES-KSC-FF-2025-05-20-001", "to": "DOC-KSC-2025-05-20-MINUTES", "type": "recorded-in", "status": "source-target" },
+    { "from": "DOC-KSC-2025-05-20-MINUTES", "to": "EVID-KSC-FF-SOURCE-001", "type": "has-source-target", "status": "source-target" },
+    { "from": "MAT-FLYING-FOX", "to": "DIS-AGENDA-MISSING-CYCLE", "type": "requires-comparison", "status": "rule" },
+    { "from": "ACTOR-COUNCIL", "to": "RES-KSC-FF-2025-05-20-001", "type": "tracked-by", "status": "class-only" },
+    { "from": "DOMAIN-BELLBROOK-WATCH", "to": "LOC-BELLBROOK", "type": "belongs-to-domain", "status": "priority" },
+    { "from": "DOMAIN-BELLBROOK-WATCH", "to": "MAT-FLYING-FOX", "type": "belongs-to-domain", "status": "priority" },
+    { "from": "DOMAIN-BELLBROOK-WATCH", "to": "MAT-ROADS", "type": "belongs-to-domain", "status": "priority" },
+    { "from": "DOMAIN-BELLBROOK-WATCH", "to": "MAT-BRIDGE", "type": "belongs-to-domain", "status": "priority" },
+    { "from": "DOMAIN-BELLBROOK-WATCH", "to": "MAT-WATER", "type": "belongs-to-domain", "status": "priority" },
+    { "from": "DOMAIN-BELLBROOK-WATCH", "to": "MAT-HALL", "type": "belongs-to-domain", "status": "priority" }
+  ],
+  "queries": [
+    "Show all Bellbrook nodes.",
+    "Show all unresolved Bellbrook matters.",
+    "Show all matters connected to Flying Fox.",
+    "Show all resolutions with no closure evidence.",
+    "Show all matters appearing in agendas but not later minutes.",
+    "Show all actor connections to Bellbrook Hall.",
+    "Show all matters surviving multiple council terms."
+  ]
+}
