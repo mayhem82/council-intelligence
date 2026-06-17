@@ -1,0 +1,36 @@
+{
+  "updatedUtc": "2026-06-17T00:15:00Z",
+  "proofOfFact": 0,
+  "verificationState": "starter-unverified",
+  "purpose": "Track historical council-record coverage by year, source type, preservation status and extraction status.",
+  "council": "Kempsey Shire Council",
+  "coverageStartYear": 2019,
+  "coverageEndYear": 2026,
+  "summary": {
+    "yearsTargeted": 8,
+    "yearsWithAnyRecords": 0,
+    "sourceTargetsListed": 1,
+    "rawRecordsPreserved": 0,
+    "textRecordsExtracted": 0,
+    "agendaMinutePairsChecked": 0,
+    "disappearanceChecksCompleted": 0
+  },
+  "years": [
+    { "year": 2019, "status": "not-started", "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2020, "status": "not-started", "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2021, "status": "not-started", "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2022, "status": "not-started", "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2023, "status": "not-started", "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2024, "status": "not-started", "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2025, "status": "seeded-source-target", "agendaTargets": 1, "minuteTargets": 1, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2026, "status": "not-started", "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 }
+  ],
+  "sourceTargets": [
+    {
+      "targetId": "KSC-MEETINGS-INDEX-001",
+      "label": "Kempsey Shire Council meetings, agendas and minutes index",
+      "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes",
+      "status": "target-listed-unverified"
+    }
+  ]
+}
