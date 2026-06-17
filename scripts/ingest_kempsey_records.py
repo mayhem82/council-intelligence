@@ -6,6 +6,7 @@ Purpose:
 - Discover Kempsey Shire Council meeting pages from the public meeting index.
 - Crawl discovered meeting pages for agendas, minutes, business papers and attachments.
 - Preserve source manifests and historical coverage data.
+- Preserve discovered public documents into records/raw/YYYY/.
 - Avoid factual findings until source records are preserved and reviewed.
 
 Target window: 2016 through 2026 inclusive.
@@ -34,6 +35,7 @@ BASE = "https://www.kempsey.nsw.gov.au"
 SOURCE_INDEX = "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
 YEAR_RANGE = range(2016, 2027)
 MAX_PAGES = 250
+MAX_DOCUMENTS_TO_PRESERVE = 300
 
 MEETING_HINTS = [
     "ordinary-council-meeting",
@@ -63,6 +65,9 @@ class SourceTarget:
     recordType: str
     sourcePage: str
     status: str
+    rawPath: str | None = None
+    sha256: str | None = None
+    bytes: int | None = None
 
 
 def now_utc() -> str:
@@ -70,7 +75,7 @@ def now_utc() -> str:
 
 
 def fetch_bytes(url: str) -> bytes:
-    request = Request(url, headers={"User-Agent": "CouncilWatch/0.3 ten-year-acquisition-crawler"})
+    request = Request(url, headers={"User-Agent": "CouncilWatch/0.4 ten-year-preservation-crawler"})
     with urlopen(request, timeout=45) as response:
         return response.read()
 
@@ -127,6 +132,15 @@ def infer_record_type(url: str, label: str = "") -> str:
 def label_from_url(url: str) -> str:
     last = url.rstrip("/").rsplit("/", 1)[-1]
     return re.sub(r"[_-]+", " ", last)[:160] or url[:160]
+
+
+def safe_filename(url: str, target_id: str) -> str:
+    parsed = urlparse(url)
+    last = parsed.path.rstrip("/").rsplit("/", 1)[-1] or target_id
+    last = re.sub(r"[^A-Za-z0-9._-]+", "-", last)[:120]
+    if "." not in last:
+        last += ".bin"
+    return f"{target_id}-{last}"
 
 
 def looks_like_meeting_page(url: str) -> bool:
@@ -205,6 +219,36 @@ def build_targets(meeting_pages: Iterable[str], documents: Iterable[str]) -> lis
     return targets
 
 
+def preserve_documents(targets: list[SourceTarget]) -> dict[str, str]:
+    preservation_status: dict[str, str] = {}
+    preserved = 0
+    for target in targets:
+        if target.recordType == "meeting-page":
+            continue
+        if preserved >= MAX_DOCUMENTS_TO_PRESERVE:
+            preservation_status[target.targetId] = "skipped-limit-reached"
+            continue
+        year = target.year or 0
+        try:
+            data = fetch_bytes(target.url)
+        except (HTTPError, URLError, TimeoutError) as exc:
+            target.status = f"preservation-failed-{type(exc).__name__}"
+            preservation_status[target.targetId] = target.status
+            continue
+        sha = hashlib.sha256(data).hexdigest()
+        out_dir = RAW / str(year)
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out_path = out_dir / safe_filename(target.url, target.targetId)
+        out_path.write_bytes(data)
+        target.rawPath = str(out_path.relative_to(ROOT))
+        target.sha256 = sha
+        target.bytes = len(data)
+        target.status = "raw-preserved-unverified"
+        preservation_status[target.targetId] = "raw-preserved-unverified"
+        preserved += 1
+    return preservation_status
+
+
 def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -216,13 +260,14 @@ def update_historical_coverage(targets: list[SourceTarget]) -> None:
         year_targets = [t for t in targets if t.year == year]
         agenda_targets = [t for t in year_targets if t.recordType == "agenda"]
         minute_targets = [t for t in year_targets if t.recordType == "minutes"]
+        raw_preserved = [t for t in year_targets if t.rawPath]
         years.append({
             "year": year,
-            "status": "source-targeted" if year_targets else "not-started",
+            "status": "raw-preserved" if raw_preserved else ("source-targeted" if year_targets else "not-started"),
             "agendaTargets": len(agenda_targets),
             "minuteTargets": len(minute_targets),
             "sourceTargets": len(year_targets),
-            "rawPreserved": 0,
+            "rawPreserved": len(raw_preserved),
             "textExtracted": 0,
             "pairsChecked": 0,
         })
@@ -230,7 +275,7 @@ def update_historical_coverage(targets: list[SourceTarget]) -> None:
     payload = {
         "updatedUtc": now_utc(),
         "proofOfFact": 0,
-        "verificationState": "source-targets-unverified",
+        "verificationState": "raw-preserved-unverified" if any(t.rawPath for t in targets) else "source-targets-unverified",
         "purpose": "Track ten-year historical council-record coverage by year, source type, preservation status and extraction status.",
         "council": "Kempsey Shire Council",
         "coverageStartYear": min(YEAR_RANGE),
@@ -239,7 +284,7 @@ def update_historical_coverage(targets: list[SourceTarget]) -> None:
             "yearsTargeted": len(list(YEAR_RANGE)),
             "yearsWithAnyRecords": sum(1 for y in years if y["sourceTargets"]),
             "sourceTargetsListed": len(targets),
-            "rawRecordsPreserved": 0,
+            "rawRecordsPreserved": sum(1 for t in targets if t.rawPath),
             "textRecordsExtracted": 0,
             "agendaMinutePairsChecked": 0,
             "disappearanceChecksCompleted": 0,
@@ -250,16 +295,18 @@ def update_historical_coverage(targets: list[SourceTarget]) -> None:
     write_json(PUBLIC / "historical-coverage.json", payload)
 
 
-def write_manifest(targets: list[SourceTarget], meeting_pages: list[str], documents: list[str], page_status: dict[str, str]) -> None:
+def write_manifest(targets: list[SourceTarget], meeting_pages: list[str], documents: list[str], page_status: dict[str, str], preservation_status: dict[str, str]) -> None:
     manifest = {
         "updatedUtc": now_utc(),
         "sourceIndex": SOURCE_INDEX,
         "targetWindow": "2016-2026",
-        "crawlLimits": {"maxPages": MAX_PAGES},
+        "crawlLimits": {"maxPages": MAX_PAGES, "maxDocumentsToPreserve": MAX_DOCUMENTS_TO_PRESERVE},
         "meetingPagesFound": len(meeting_pages),
         "documentsFound": len(documents),
         "targetsFound": len(targets),
+        "rawPreserved": sum(1 for t in targets if t.rawPath),
         "pageStatus": page_status,
+        "preservationStatus": preservation_status,
         "targets": [asdict(t) for t in targets],
     }
     write_json(PUBLIC / "source-target-manifest.json", manifest)
@@ -268,9 +315,10 @@ def write_manifest(targets: list[SourceTarget], meeting_pages: list[str], docume
 def main() -> int:
     meeting_pages, documents, page_status = crawl_source_targets()
     targets = build_targets(meeting_pages, documents)
+    preservation_status = preserve_documents(targets)
     update_historical_coverage(targets)
-    write_manifest(targets, meeting_pages, documents, page_status)
-    print(f"CouncilWatch acquisition crawl complete. Meeting pages: {len(meeting_pages)} Documents: {len(documents)} Targets: {len(targets)}")
+    write_manifest(targets, meeting_pages, documents, page_status, preservation_status)
+    print(f"CouncilWatch acquisition crawl complete. Meeting pages: {len(meeting_pages)} Documents: {len(documents)} Raw preserved: {sum(1 for t in targets if t.rawPath)} Targets: {len(targets)}")
     return 0
 
 
