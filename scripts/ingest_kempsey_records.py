@@ -1,23 +1,19 @@
 #!/usr/bin/env python3
 """
-CouncilWatch historical ingestion scaffold.
+CouncilWatch historical acquisition crawler.
 
 Purpose:
-- Discover Kempsey Shire Council agenda/minute source links.
-- Preserve source targets into JSON registers.
-- Prepare later extraction and disappearance comparison.
+- Discover Kempsey Shire Council meeting pages from the public meeting index.
+- Crawl discovered meeting pages for agendas, minutes, business papers and attachments.
+- Preserve source manifests and historical coverage data.
+- Avoid factual findings until source records are preserved and reviewed.
 
-This version targets a ten-year historical window:
-- 2016 through 2026 inclusive.
-
-It is deliberately conservative:
-- It does not claim factual findings.
-- It records source targets and coverage state only.
-- It avoids deleting or overwriting historical evidence.
+Target window: 2016 through 2026 inclusive.
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import sys
@@ -25,24 +21,37 @@ from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
+from urllib.error import HTTPError, URLError
+from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 RAW = ROOT / "records" / "raw"
 TEXT = ROOT / "records" / "text"
 
+BASE = "https://www.kempsey.nsw.gov.au"
 SOURCE_INDEX = "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
 YEAR_RANGE = range(2016, 2027)
+MAX_PAGES = 250
 
-KEYWORDS = [
-    "agenda",
-    "minutes",
+MEETING_HINTS = [
     "ordinary-council-meeting",
     "extraordinary-council-meeting",
+    "council-meeting",
+    "meeting-agendas-minutes",
+]
+
+DOCUMENT_HINTS = [
+    "agenda",
+    "minutes",
     "business-paper",
+    "business papers",
+    "attachment",
     "attachments",
+    ".pdf",
+    ".doc",
+    ".docx",
 ]
 
 @dataclass
@@ -52,63 +61,147 @@ class SourceTarget:
     label: str
     url: str
     recordType: str
+    sourcePage: str
     status: str
 
 
-def fetch_url(url: str) -> str:
-    request = Request(url, headers={"User-Agent": "CouncilWatch/0.2 ten-year-public-record-monitor"})
-    with urlopen(request, timeout=30) as response:
-        return response.read().decode("utf-8", errors="replace")
+def now_utc() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def extract_links(html: str) -> list[str]:
-    hrefs = re.findall(r'href=["\']([^"\']+)["\']', html, flags=re.I)
-    out: list[str] = []
-    for href in hrefs:
-        if href.startswith("/"):
-            href = "https://www.kempsey.nsw.gov.au" + href
-        if not href.startswith("http"):
-            continue
-        low = href.lower()
-        if any(k in low for k in KEYWORDS):
-            out.append(href)
-    return sorted(set(out))
+def fetch_bytes(url: str) -> bytes:
+    request = Request(url, headers={"User-Agent": "CouncilWatch/0.3 ten-year-acquisition-crawler"})
+    with urlopen(request, timeout=45) as response:
+        return response.read()
 
 
-def infer_year(url: str) -> int | None:
-    m = re.search(r"(20[1-2][0-9])", url)
-    if not m:
+def fetch_text(url: str) -> str:
+    return fetch_bytes(url).decode("utf-8", errors="replace")
+
+
+def normalise_url(href: str, source: str) -> str | None:
+    if not href or href.startswith("#") or href.startswith("mailto:") or href.startswith("tel:"):
         return None
-    year = int(m.group(1))
-    return year if year in YEAR_RANGE else None
+    url = urljoin(source, href)
+    parsed = urlparse(url)
+    if parsed.netloc and "kempsey.nsw.gov.au" not in parsed.netloc:
+        return None
+    return url.split("#", 1)[0]
 
 
-def infer_record_type(url: str) -> str:
-    low = url.lower()
-    if "minutes" in low:
+def extract_links(html: str, source: str) -> list[str]:
+    hrefs = re.findall(r'href=["\']([^"\']+)["\']', html, flags=re.I)
+    links: list[str] = []
+    for href in hrefs:
+        url = normalise_url(href, source)
+        if url:
+            links.append(url)
+    return sorted(set(links))
+
+
+def infer_year(text: str) -> int | None:
+    years = [int(y) for y in re.findall(r"(20[1-2][0-9])", text)]
+    for year in years:
+        if year in YEAR_RANGE:
+            return year
+    return None
+
+
+def infer_record_type(url: str, label: str = "") -> str:
+    low = f"{url} {label}".lower()
+    if "confirmed-minutes" in low or "minutes" in low:
         return "minutes"
     if "agenda" in low:
         return "agenda"
-    if "business" in low:
+    if "business-paper" in low or "business papers" in low:
         return "business-paper"
     if "attachment" in low:
         return "attachment"
+    if low.endswith(".pdf"):
+        return "pdf-source"
+    if low.endswith(".doc") or low.endswith(".docx"):
+        return "word-source"
     return "source-target"
 
 
-def build_targets(links: Iterable[str]) -> list[SourceTarget]:
+def label_from_url(url: str) -> str:
+    last = url.rstrip("/").rsplit("/", 1)[-1]
+    return re.sub(r"[_-]+", " ", last)[:160] or url[:160]
+
+
+def looks_like_meeting_page(url: str) -> bool:
+    low = url.lower()
+    return any(hint in low for hint in MEETING_HINTS) and not is_document_url(url)
+
+
+def is_document_url(url: str) -> bool:
+    low = url.lower()
+    return any(low.endswith(ext) for ext in [".pdf", ".doc", ".docx", ".xls", ".xlsx"])
+
+
+def looks_like_document(url: str) -> bool:
+    low = url.lower()
+    return is_document_url(url) or any(hint in low for hint in DOCUMENT_HINTS)
+
+
+def crawl_source_targets() -> tuple[list[str], list[str], dict[str, str]]:
+    visited: set[str] = set()
+    queue: list[str] = [SOURCE_INDEX]
+    meeting_pages: set[str] = set()
+    documents: set[str] = set()
+    page_status: dict[str, str] = {}
+
+    while queue and len(visited) < MAX_PAGES:
+        page = queue.pop(0)
+        if page in visited:
+            continue
+        visited.add(page)
+        try:
+            html = fetch_text(page)
+            page_status[page] = "fetched"
+        except (HTTPError, URLError, TimeoutError, UnicodeDecodeError) as exc:
+            page_status[page] = f"fetch-failed: {type(exc).__name__}"
+            continue
+
+        links = extract_links(html, page)
+        for link in links:
+            if looks_like_document(link):
+                documents.add(link)
+                continue
+            if looks_like_meeting_page(link):
+                meeting_pages.add(link)
+                if link not in visited and link not in queue:
+                    queue.append(link)
+
+    return sorted(meeting_pages), sorted(documents), page_status
+
+
+def build_targets(meeting_pages: Iterable[str], documents: Iterable[str]) -> list[SourceTarget]:
     targets: list[SourceTarget] = []
-    for idx, url in enumerate(sorted(set(links)), start=1):
-        year = infer_year(url)
-        record_type = infer_record_type(url)
+    idx = 1
+    for url in sorted(set(meeting_pages)):
         targets.append(SourceTarget(
-            targetId=f"KSC-SRC-{idx:05d}",
-            year=year,
-            label=url.rsplit("/", 1)[-1].replace("-", " ")[:120],
+            targetId=f"KSC-PAGE-{idx:05d}",
+            year=infer_year(url),
+            label=label_from_url(url),
             url=url,
-            recordType=record_type,
+            recordType="meeting-page",
+            sourcePage=SOURCE_INDEX,
             status="discovered-unverified",
         ))
+        idx += 1
+    for url in sorted(set(documents)):
+        label = label_from_url(url)
+        targets.append(SourceTarget(
+            targetId=f"KSC-DOC-{idx:05d}",
+            year=infer_year(url),
+            label=label,
+            url=url,
+            recordType=infer_record_type(url, label),
+            sourcePage="recursive-crawl",
+            status="discovered-unverified",
+        ))
+        idx += 1
     return targets
 
 
@@ -128,13 +221,14 @@ def update_historical_coverage(targets: list[SourceTarget]) -> None:
             "status": "source-targeted" if year_targets else "not-started",
             "agendaTargets": len(agenda_targets),
             "minuteTargets": len(minute_targets),
+            "sourceTargets": len(year_targets),
             "rawPreserved": 0,
             "textExtracted": 0,
             "pairsChecked": 0,
         })
 
     payload = {
-        "updatedUtc": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "updatedUtc": now_utc(),
         "proofOfFact": 0,
         "verificationState": "source-targets-unverified",
         "purpose": "Track ten-year historical council-record coverage by year, source type, preservation status and extraction status.",
@@ -143,7 +237,7 @@ def update_historical_coverage(targets: list[SourceTarget]) -> None:
         "coverageEndYear": max(YEAR_RANGE),
         "summary": {
             "yearsTargeted": len(list(YEAR_RANGE)),
-            "yearsWithAnyRecords": sum(1 for y in years if y["agendaTargets"] or y["minuteTargets"]),
+            "yearsWithAnyRecords": sum(1 for y in years if y["sourceTargets"]),
             "sourceTargetsListed": len(targets),
             "rawRecordsPreserved": 0,
             "textRecordsExtracted": 0,
@@ -156,26 +250,27 @@ def update_historical_coverage(targets: list[SourceTarget]) -> None:
     write_json(PUBLIC / "historical-coverage.json", payload)
 
 
-def main() -> int:
-    try:
-        html = fetch_url(SOURCE_INDEX)
-    except (HTTPError, URLError, TimeoutError) as exc:
-        print(f"FETCH_FAILED: {exc}", file=sys.stderr)
-        return 2
-
-    links = extract_links(html)
-    targets = build_targets(links)
-    update_historical_coverage(targets)
-
+def write_manifest(targets: list[SourceTarget], meeting_pages: list[str], documents: list[str], page_status: dict[str, str]) -> None:
     manifest = {
-        "updatedUtc": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "updatedUtc": now_utc(),
         "sourceIndex": SOURCE_INDEX,
         "targetWindow": "2016-2026",
+        "crawlLimits": {"maxPages": MAX_PAGES},
+        "meetingPagesFound": len(meeting_pages),
+        "documentsFound": len(documents),
         "targetsFound": len(targets),
+        "pageStatus": page_status,
         "targets": [asdict(t) for t in targets],
     }
     write_json(PUBLIC / "source-target-manifest.json", manifest)
-    print(f"CouncilWatch ingestion complete. Targets found: {len(targets)}")
+
+
+def main() -> int:
+    meeting_pages, documents, page_status = crawl_source_targets()
+    targets = build_targets(meeting_pages, documents)
+    update_historical_coverage(targets)
+    write_manifest(targets, meeting_pages, documents, page_status)
+    print(f"CouncilWatch acquisition crawl complete. Meeting pages: {len(meeting_pages)} Documents: {len(documents)} Targets: {len(targets)}")
     return 0
 
 
