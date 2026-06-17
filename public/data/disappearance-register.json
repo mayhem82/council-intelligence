@@ -1,0 +1,28 @@
+{
+  "updatedUtc": "2026-06-18T00:00:00Z",
+  "verificationState": "starter-unverified",
+  "disappearanceEvents": [
+    {
+      "disappearanceId": "DIS-001",
+      "matterId": "bellbrook-flying-fox",
+      "locationId": "bellbrook",
+      "eventType": "requires-historical-comparison",
+      "title": "Flying fox item requires comparison across later agendas, minutes and action registers",
+      "firstSeenDate": "2025-05-20",
+      "status": "comparison-required",
+      "verificationState": "unverified"
+    }
+  ],
+  "detectionClasses": [
+    "missing-next-meeting",
+    "missing-multiple-meetings",
+    "renamed-matter",
+    "split-matter",
+    "merged-matter",
+    "reappeared-matter",
+    "resolution-without-closure",
+    "report-without-action",
+    "action-without-evidence",
+    "multi-term-persistence"
+  ]
+}
