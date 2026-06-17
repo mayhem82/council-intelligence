@@ -1,0 +1,33 @@
+{
+  "updatedUtc": "2026-06-17T00:45:00Z",
+  "proofOfFact": 0,
+  "verificationState": "manual-web-discovery-unverified",
+  "acquisitionMode": "MAYHEM manual discovery and repository upload. GitHub Actions disabled because repository policy blocks external actions.",
+  "sourceIndex": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes",
+  "archiveIndex": "https://archive.kempsey.nsw.gov.au/council-meetings/index.html",
+  "targetWindow": "2016-2026",
+  "sourceFindings": {
+    "currentIndexVisibleYears": [2022, 2023, 2024, 2025, 2026],
+    "archiveAvailableYearsObserved": [2016, 2017, 2018, 2019, 2020, 2021],
+    "currentIndexResultCountObserved": 96
+  },
+  "summary": {
+    "targetsFound": 11,
+    "archiveYearPagesFound": 6,
+    "rawPreserved": 0,
+    "textExtracted": 0
+  },
+  "targets": [
+    {"targetId":"KSC-CURRENT-INDEX-001","year":2026,"label":"Council meeting agendas and minutes index","url":"https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes","recordType":"index-page","status":"source-opened-unverified"},
+    {"targetId":"KSC-ARCHIVE-INDEX-001","year":null,"label":"Archived Council meetings index","url":"https://archive.kempsey.nsw.gov.au/council-meetings/index.html","recordType":"archive-index-page","status":"source-opened-unverified"},
+    {"targetId":"KSC-ARCHIVE-YEAR-2016","year":2016,"label":"Archived Council meetings 2016","url":"https://archive.kempsey.nsw.gov.au/council-meetings/2016/index.html","recordType":"archive-year-page","status":"source-targeted-unverified"},
+    {"targetId":"KSC-ARCHIVE-YEAR-2017","year":2017,"label":"Archived Council meetings 2017","url":"https://archive.kempsey.nsw.gov.au/council-meetings/2017/index.html","recordType":"archive-year-page","status":"source-targeted-unverified"},
+    {"targetId":"KSC-ARCHIVE-YEAR-2018","year":2018,"label":"Archived Council meetings 2018","url":"https://archive.kempsey.nsw.gov.au/council-meetings/2018/index.html","recordType":"archive-year-page","status":"source-targeted-unverified"},
+    {"targetId":"KSC-ARCHIVE-YEAR-2019","year":2019,"label":"Archived Council meetings 2019","url":"https://archive.kempsey.nsw.gov.au/council-meetings/2019/index.html","recordType":"archive-year-page","status":"source-targeted-unverified"},
+    {"targetId":"KSC-ARCHIVE-YEAR-2020","year":2020,"label":"Archived Council meetings 2020","url":"https://archive.kempsey.nsw.gov.au/council-meetings/2020/index.html","recordType":"archive-year-page","status":"source-targeted-unverified"},
+    {"targetId":"KSC-ARCHIVE-YEAR-2021","year":2021,"label":"Archived Council meetings 2021","url":"https://archive.kempsey.nsw.gov.au/council-meetings/2021/index.html","recordType":"archive-year-page","status":"source-targeted-unverified"},
+    {"targetId":"KSC-2026-06-16-PAGE","year":2026,"label":"Ordinary Council Meeting - 16 June 2026","url":"https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-June-2026","recordType":"meeting-page","status":"source-opened-unverified"},
+    {"targetId":"KSC-2026-05-19-PAGE","year":2026,"label":"Ordinary Council Meeting - 19 May 2026","url":"https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-19-May-2026","recordType":"meeting-page","status":"source-targeted-403-observed"},
+    {"targetId":"KSC-2026-04-21-PAGE","year":2026,"label":"Ordinary Council Meeting - 21 April 2026","url":"https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-21-April-2026","recordType":"meeting-page","status":"source-targeted-unverified"}
+  ]
+}
