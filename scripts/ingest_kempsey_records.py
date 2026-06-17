@@ -7,7 +7,10 @@ Purpose:
 - Preserve source targets into JSON registers.
 - Prepare later extraction and disappearance comparison.
 
-This first version is deliberately conservative:
+This version targets a ten-year historical window:
+- 2016 through 2026 inclusive.
+
+It is deliberately conservative:
 - It does not claim factual findings.
 - It records source targets and coverage state only.
 - It avoids deleting or overwriting historical evidence.
@@ -31,7 +34,7 @@ RAW = ROOT / "records" / "raw"
 TEXT = ROOT / "records" / "text"
 
 SOURCE_INDEX = "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes"
-YEAR_RANGE = range(2019, 2027)
+YEAR_RANGE = range(2016, 2027)
 
 KEYWORDS = [
     "agenda",
@@ -53,7 +56,7 @@ class SourceTarget:
 
 
 def fetch_url(url: str) -> str:
-    request = Request(url, headers={"User-Agent": "CouncilWatch/0.1 public-record-monitor"})
+    request = Request(url, headers={"User-Agent": "CouncilWatch/0.2 ten-year-public-record-monitor"})
     with urlopen(request, timeout=30) as response:
         return response.read().decode("utf-8", errors="replace")
 
@@ -134,7 +137,7 @@ def update_historical_coverage(targets: list[SourceTarget]) -> None:
         "updatedUtc": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "proofOfFact": 0,
         "verificationState": "source-targets-unverified",
-        "purpose": "Track historical council-record coverage by year, source type, preservation status and extraction status.",
+        "purpose": "Track ten-year historical council-record coverage by year, source type, preservation status and extraction status.",
         "council": "Kempsey Shire Council",
         "coverageStartYear": min(YEAR_RANGE),
         "coverageEndYear": max(YEAR_RANGE),
@@ -167,6 +170,7 @@ def main() -> int:
     manifest = {
         "updatedUtc": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "sourceIndex": SOURCE_INDEX,
+        "targetWindow": "2016-2026",
         "targetsFound": len(targets),
         "targets": [asdict(t) for t in targets],
     }
