@@ -1,0 +1,28 @@
+{
+  "updatedUtc": "2026-06-18T00:00:00Z",
+  "verificationState": "starter-unverified",
+  "events": [
+    {
+      "eventId": "TIME-001",
+      "date": "2019-11-01",
+      "datePrecision": "month",
+      "locationId": "bellbrook",
+      "matterId": "bellbrook-flying-fox",
+      "title": "Approximate beginning of Bellbrook flying fox camp harm period",
+      "eventType": "community-harm-period-start",
+      "status": "user-asserted-pending-verification",
+      "summary": "Starter timeline point for the Bellbrook flying fox matter. Requires source verification before use as proof."
+    },
+    {
+      "eventId": "TIME-002",
+      "date": "2025-05-20",
+      "datePrecision": "day",
+      "locationId": "bellbrook",
+      "matterId": "bellbrook-flying-fox",
+      "title": "Council meeting source target for flying fox management request",
+      "eventType": "council-meeting-source-target",
+      "status": "source-targeted-unverified",
+      "summary": "A council meeting record has been targeted for extraction and comparison. Inline data will be expanded after text extraction."
+    }
+  ]
+}
