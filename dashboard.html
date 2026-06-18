@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CouncilWatch Intelligence Dashboard</title>
   <style>
-    :root { color-scheme: dark; --bg:#0b0f14; --panel:#151b23; --line:#2d3642; --text:#eef3f8; --muted:#9ca8b5; --accent:#f59e0b; --danger:#ef4444; --ok:#22c55e; }
+    :root { color-scheme: dark; --bg:#0b0f14; --panel:#151b23; --line:#2d3642; --text:#eef3f8; --muted:#9ca8b5; --accent:#f59e0b; }
     * { box-sizing:border-box; }
     body { margin:0; font-family:Arial, Helvetica, sans-serif; background:var(--bg); color:var(--text); }
     main { max-width:1180px; margin:0 auto; padding:16px; }
@@ -17,7 +17,7 @@
     .actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
     .btn { display:inline-flex; min-height:42px; align-items:center; justify-content:center; padding:10px 14px; border:1px solid var(--line); border-radius:8px; background:#10161d; color:var(--text); text-decoration:none; font-weight:800; }
     .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:12px; }
-    @media (min-width:860px) { .grid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+    @media (min-width:860px) { .grid { grid-template-columns:repeat(4,minmax(0,1fr)); } .two { grid-template-columns:1fr 1fr; display:grid; gap:12px; } }
     .card, .gauge, .item { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px; }
     .card { margin-top:12px; }
     .gauge span { display:block; color:var(--muted); font-size:.75rem; text-transform:uppercase; font-weight:800; }
@@ -25,10 +25,10 @@
     .bar { height:10px; border-radius:999px; background:#0f151d; border:1px solid var(--line); overflow:hidden; margin-top:10px; }
     .fill { height:100%; width:0%; background:var(--accent); }
     .list { display:grid; gap:10px; }
-    @media (min-width:860px) { .two { grid-template-columns:1fr 1fr; display:grid; gap:12px; } }
     .item strong { display:block; }
     .meta { color:var(--muted); font-size:.9rem; margin-top:6px; line-height:1.45; }
     .warning { color:#fde68a; border:1px solid rgba(245,158,11,.45); background:rgba(245,158,11,.1); }
+    a { color:#7dd3fc; }
   </style>
 </head>
 <body>
@@ -36,7 +36,7 @@
     <header>
       <div class="eyebrow">CouncilWatch</div>
       <h1>Intelligence Dashboard</h1>
-      <p class="lead">JSON-fed operating dashboard for CouncilWatch registers. Counts are source-target and starter-register based until records are preserved, extracted and verified.</p>
+      <p class="lead">JSON-fed operating dashboard for CouncilWatch registers, historical coverage and enumerated meeting records.</p>
       <div class="actions">
         <a class="btn" href="index.html">Home</a>
         <a class="btn" href="historical-coverage.html">Historical Coverage</a>
@@ -45,63 +45,45 @@
         <a class="btn" href="resolutions.html">Resolutions</a>
       </div>
     </header>
-
-    <section class="card warning"><strong>Proof of Fact: 0.</strong> This dashboard exposes structure and source targets. It does not assert legal breach, intent, concealment, causation or factual correctness.</section>
-
+    <section class="card warning"><strong>Proof of Fact: 0.</strong> This dashboard exposes structured records and source targets. It does not assert breach, intent, concealment, causation or legal finding.</section>
     <section class="grid" id="gauges"></section>
-
+    <section class="two">
+      <div class="card"><h2>Meeting Records</h2><div class="list" id="meetings">Loading...</div></div>
+      <div class="card"><h2>Year Coverage</h2><div class="list" id="years">Loading...</div></div>
+    </section>
     <section class="two">
       <div class="card"><h2>Top Locations</h2><div class="list" id="locations">Loading...</div></div>
       <div class="card"><h2>Active Matters</h2><div class="list" id="matters">Loading...</div></div>
     </section>
-
     <section class="two">
       <div class="card"><h2>Evidence Register</h2><div class="list" id="evidence">Loading...</div></div>
       <div class="card"><h2>Resolution / Disappearance Signals</h2><div class="list" id="signals">Loading...</div></div>
     </section>
   </main>
 <script>
-const files = {
-  locations: 'public/data/location-register.json',
-  matters: 'public/data/matter-register.json',
-  evidence: 'public/data/evidence-register.json',
-  resolutions: 'public/data/resolution-register.json',
-  disappearances: 'public/data/disappearance-register.json',
-  actors: 'public/data/actor-register.json',
-  coverage: 'public/historical-coverage.json'
-};
-const load = path => fetch(path + '?cache=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
-function gauge(title, value, max, suffix='') {
-  const pct = max ? Math.min(100, Math.round((value / max) * 100)) : 0;
-  return `<div class="gauge"><span>${title}</span><strong>${value}${suffix}</strong><div class="bar"><div class="fill" style="width:${pct}%"></div></div><div class="meta">${pct}% of current target</div></div>`;
-}
-function item(title, meta) { return `<article class="item"><strong>${title}</strong><div class="meta">${meta || ''}</div></article>`; }
-Promise.all(Object.values(files).map(load)).then(([loc, mat, ev, res, dis, act, cov]) => {
-  const locations = loc?.locations || [];
-  const matters = mat?.matters || [];
-  const evidence = ev?.evidence || [];
-  const resolutions = res?.resolutions || [];
-  const disappearances = dis?.disappearanceEvents || [];
-  const actors = act?.actors || [];
-  const yearsTargeted = cov?.summary?.yearsTargeted || 11;
-  const yearsWithRecords = cov?.summary?.yearsWithAnyRecords || 0;
-  document.getElementById('gauges').innerHTML = [
-    gauge('Coverage', yearsWithRecords, yearsTargeted, '/' + yearsTargeted),
-    gauge('Evidence', evidence.length, 50),
-    gauge('Matters', matters.length, 25),
-    gauge('Resolutions', resolutions.length, 25),
-    gauge('Disappearance', disappearances.length, 25),
-    gauge('Locations', locations.length, 12),
-    gauge('Actors', actors.length, 20),
-    gauge('Verification', 0, 100, '%')
-  ].join('');
-  document.getElementById('locations').innerHTML = locations.map(x => item(x.name, `Priority: ${x.priority} · Status: ${x.status}`)).join('') || 'No locations loaded.';
-  document.getElementById('matters').innerHTML = matters.map(x => item(x.title, `Location: ${x.locationId} · Domain: ${x.domain} · Status: ${x.status}`)).join('') || 'No matters loaded.';
-  document.getElementById('evidence').innerHTML = evidence.map(x => item(`${x.evidenceId} — ${x.sourceTitle}`, `Matter: ${x.matterId} · Date: ${x.sourceDate} · Status: ${x.status}`)).join('') || 'No evidence loaded.';
-  document.getElementById('signals').innerHTML = [
-    ...resolutions.map(x => item(`${x.resolutionId} — ${x.title}`, `Status: ${x.status} · Closure evidence: ${(x.closureEvidence || []).length}`)),
-    ...disappearances.map(x => item(`${x.disappearanceId} — ${x.title}`, `Event: ${x.eventType} · Status: ${x.status}`))
-  ].join('') || 'No signals loaded.';
+const files={locations:'public/data/location-register.json',matters:'public/data/matter-register.json',evidence:'public/data/evidence-register.json',resolutions:'public/data/resolution-register.json',disappearances:'public/data/disappearance-register.json',actors:'public/data/actor-register.json',coverage:'public/historical-coverage.json',meetings:'public/data/meeting-register.json'};
+const load=path=>fetch(path+'?cache='+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null);
+function gauge(title,value,max,suffix=''){const pct=max?Math.min(100,Math.round(value/max*100)):0;return `<div class="gauge"><span>${title}</span><strong>${value}${suffix}</strong><div class="bar"><div class="fill" style="width:${pct}%"></div></div><div class="meta">${pct}% of current target</div></div>`;}
+function item(title,meta){return `<article class="item"><strong>${title}</strong><div class="meta">${meta||''}</div></article>`;}
+Promise.all(Object.values(files).map(load)).then(([loc,mat,ev,res,dis,act,cov,meet])=>{
+ const locations=loc?.locations||[],matters=mat?.matters||[],evidence=ev?.evidence||[],resolutions=res?.resolutions||[],disappearances=dis?.disappearanceEvents||[],actors=act?.actors||[],meetings=meet?.meetings||[];
+ const s=cov?.summary||{},years=cov?.years||[];
+ document.getElementById('gauges').innerHTML=[
+  gauge('Coverage',s.yearsWithAnyRecords||0,s.yearsTargeted||11,'/'+(s.yearsTargeted||11)),
+  gauge('Meetings',s.meetingRecordsEnumerated||meetings.length,96),
+  gauge('Agendas',s.agendasFound||0,96),
+  gauge('Minutes',s.minutesFound||0,96),
+  gauge('Attachments',s.attachmentsEnumerated||0,300),
+  gauge('Evidence',evidence.length,50),
+  gauge('Matters',matters.length,25),
+  gauge('Locations',locations.length,12)
+ ].join('');
+ document.getElementById('meetings').innerHTML=meetings.map(m=>item(`${m.date} — ${m.title}`,`${m.meetingType} · ${m.time} · ${m.venue}<br>Agenda: ${m.agendaStatus} · Minutes: ${m.minuteStatus} · Attachments: ${m.attachmentCount}<br><a href="${m.pageUrl}" target="_blank" rel="noreferrer">Open source page</a>`)).join('')||'No meeting records loaded.';
+ document.getElementById('years').innerHTML=years.map(y=>item(`${y.year} — ${(y.meetingsEnumerated||0)?'meeting records enumerated':((y.sourceTargets||0)?'source layer available':'not targeted')}`,`Meetings: ${y.meetingsEnumerated||0} · Agendas: ${y.agendaTargets||0} · Minutes: ${y.minuteTargets||0} · Attachments: ${y.attachmentsEnumerated||0}<br>Raw preserved: ${y.rawPreserved||0} · Text extracted: ${y.textExtracted||0} · Pairs checked: ${y.pairsChecked||0}`)).join('')||'No yearly coverage loaded.';
+ document.getElementById('locations').innerHTML=locations.map(x=>item(x.name,`Priority: ${x.priority} · Status: ${x.status}`)).join('')||'No locations loaded.';
+ document.getElementById('matters').innerHTML=matters.map(x=>item(x.title,`Location: ${x.locationId} · Domain: ${x.domain} · Status: ${x.status}`)).join('')||'No matters loaded.';
+ document.getElementById('evidence').innerHTML=evidence.map(x=>item(`${x.evidenceId} — ${x.sourceTitle}`,`Matter: ${x.matterId} · Date: ${x.sourceDate} · Status: ${x.status}`)).join('')||'No evidence loaded.';
+ document.getElementById('signals').innerHTML=[...resolutions.map(x=>item(`${x.resolutionId} — ${x.title}`,`Status: ${x.status} · Closure evidence: ${(x.closureEvidence||[]).length}`)),...disappearances.map(x=>item(`${x.disappearanceId} — ${x.title}`,`Event: ${x.eventType} · Status: ${x.status}`))].join('')||'No signals loaded.';
 });
 </script>
 </body>
