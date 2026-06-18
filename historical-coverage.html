@@ -1,97 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CouncilWatch Historical Coverage</title>
-  <style>
-    :root { color-scheme: dark; --bg:#0b0f14; --panel:#151b23; --line:#2d3642; --text:#eef3f8; --muted:#9ca8b5; --accent:#f59e0b; --ok:#22c55e; --warn:#f59e0b; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:Arial, Helvetica, sans-serif; background:var(--bg); color:var(--text); }
-    main { max-width:1180px; margin:0 auto; padding:16px; }
-    header { border-bottom:1px solid var(--line); padding:16px 0; }
-    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.08em; font-size:.75rem; font-weight:800; }
-    h1 { margin:6px 0 8px; font-size:clamp(1.8rem,6vw,3.6rem); line-height:.95; }
-    h2 { margin:0 0 10px; }
-    .lead { color:var(--muted); line-height:1.45; max-width:920px; }
-    .actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
-    .btn { display:inline-flex; min-height:40px; align-items:center; justify-content:center; padding:9px 12px; border:1px solid var(--line); border-radius:8px; background:#10161d; color:var(--text); text-decoration:none; font-weight:800; font-size:.92rem; }
-    .card { margin-top:12px; background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:14px; }
-    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
-    @media (min-width:860px) { .grid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
-    .metric, .year, .target, .task { background:#0f151d; border:1px solid var(--line); border-radius:10px; padding:12px; }
-    .metric span { display:block; color:var(--muted); font-size:.72rem; text-transform:uppercase; font-weight:800; }
-    .metric strong { display:block; margin-top:6px; font-size:1.85rem; }
-    .year, .target, .task { margin-top:10px; }
-    .year strong, .target strong, .task strong { display:block; font-size:1rem; line-height:1.25; }
-    .meta { color:var(--muted); font-size:.88rem; margin-top:6px; line-height:1.45; }
-    .bar { height:9px; border-radius:999px; background:#0b0f14; border:1px solid var(--line); overflow:hidden; margin-top:8px; }
-    .fill { height:100%; background:var(--accent); }
-    .badge { display:inline-flex; align-items:center; gap:6px; margin-top:8px; padding:4px 8px; border-radius:999px; border:1px solid var(--line); color:var(--muted); font-size:.78rem; font-weight:800; }
-    .badge.ok { color:#bbf7d0; border-color:rgba(34,197,94,.45); background:rgba(34,197,94,.08); }
-    .badge.todo { color:#fde68a; border-color:rgba(245,158,11,.45); background:rgba(245,158,11,.08); }
-    .two { display:grid; gap:12px; }
-    @media (min-width:860px) { .two { grid-template-columns:1fr 1fr; } }
-    a { color:#7dd3fc; }
-    details { margin-top:8px; border-top:1px solid var(--line); padding-top:8px; }
-    summary { cursor:pointer; color:#fde68a; font-weight:800; }
-    .quiet { color:var(--muted); font-size:.86rem; line-height:1.45; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CouncilWatch Historical Coverage</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0f14;--panel:#151b23;--line:#2d3642;--text:#eef3f8;--muted:#9ca8b5;--accent:#f59e0b}*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}main{max-width:1180px;margin:0 auto;padding:16px}header{border-bottom:1px solid var(--line);padding:16px 0}.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:.08em;font-size:.75rem;font-weight:800}h1{margin:6px 0 8px;font-size:clamp(1.8rem,6vw,3.6rem);line-height:.95}.lead,.meta{color:var(--muted);line-height:1.45}.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.btn{display:inline-flex;min-height:40px;align-items:center;justify-content:center;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:#10161d;color:var(--text);text-decoration:none;font-weight:800}.card{margin-top:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}@media(min-width:860px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}.cols{grid-template-columns:1fr 1fr}}.metric,.row{background:#0f151d;border:1px solid var(--line);border-radius:10px;padding:12px}.metric span{display:block;color:var(--muted);font-size:.72rem;text-transform:uppercase;font-weight:800}.metric strong{display:block;margin-top:6px;font-size:1.85rem}.row{margin-top:10px}.row strong{display:block;font-size:1rem}.bar{height:9px;border-radius:999px;background:#0b0f14;border:1px solid var(--line);overflow:hidden;margin-top:8px}.fill{height:100%;background:var(--accent)}.cols{display:grid;gap:12px}a{color:#7dd3fc}
+</style>
 </head>
 <body>
-  <main>
-    <header>
-      <div class="eyebrow">CouncilWatch</div>
-      <h1>Historical Coverage</h1>
-      <p class="lead">Coverage status for council records. This page now separates available source layers from remaining acquisition tasks, so the site does not read like a failure report.</p>
-      <div class="actions">
-        <a class="btn" href="index.html">Home</a>
-        <a class="btn" href="dashboard.html">Live Dashboard</a>
-        <a class="btn" href="agenda-disappearance.html">Disappearance Register</a>
-        <a class="btn" href="resolutions.html">Resolutions</a>
-        <a class="btn" href="public/historical-coverage.json">Raw JSON</a>
-      </div>
-    </header>
-
-    <section class="card"><h2>Coverage Snapshot</h2><div class="grid" id="metrics"></div></section>
-
-    <section class="two">
-      <section class="card"><h2>Available Source Layers</h2><div id="sourceModel">Loading...</div></section>
-      <section class="card"><h2>Acquisition Tasks</h2><p class="quiet">These are build tasks, not evidence findings.</p><div id="tasks">Loading...</div></section>
-    </section>
-
-    <section class="card"><h2>Year Coverage</h2><div id="years">Loading...</div></section>
-    <section class="card"><h2>Source Targets</h2><div id="targets">Loading...</div></section>
-  </main>
-  <script>
-    function metric(title, value) { return `<div class="metric"><span>${title}</span><strong>${value ?? 0}</strong></div>`; }
-    function pct(a,b){ return b ? Math.round((a/b)*100) : 0; }
-    function badge(text, cls){ return `<span class="badge ${cls || ''}">${text}</span>`; }
-    fetch('public/historical-coverage.json?cache=' + Date.now())
-      .then(r => r.json())
-      .then(data => {
-        const s = data.summary || {};
-        document.getElementById('metrics').innerHTML = [
-          metric('Years targeted', s.yearsTargeted),
-          metric('Years with source layer', s.yearsWithAnyRecords),
-          metric('Coverage layer', pct(s.yearsWithAnyRecords, s.yearsTargeted) + '%'),
-          metric('Source targets', s.sourceTargetsListed),
-          metric('Archive years', s.archiveYearTargets),
-          metric('Current years', s.currentYearIndexTargets),
-          metric('Raw preserved', s.rawRecordsPreserved),
-          metric('Text extracted', s.textRecordsExtracted)
-        ].join('');
-        const sm = data.sourceModel || {};
-        document.getElementById('sourceModel').innerHTML = `<article class="task"><strong>Current council meeting index</strong>${badge('2022–2026 observed','ok')}<div class="meta"><a href="${sm.currentIndex}" target="_blank" rel="noreferrer">Open current index</a></div><div class="meta">Visible years: ${(sm.currentIndexYearsObserved || []).join(', ')}</div></article><article class="task"><strong>Archived council meeting index</strong>${badge('2016–2021 targeted','ok')}<div class="meta"><a href="${sm.archiveIndex}" target="_blank" rel="noreferrer">Open archive index</a></div><div class="meta">Targeted years: ${(sm.archiveYearsTargeted || []).join(', ')}</div></article>`;
-        document.getElementById('tasks').innerHTML = (data.criticalGaps || []).map(g => `<article class="task"><strong>${g.title}</strong>${badge(g.status || 'open','todo')}<div class="meta">${g.impact}</div></article>`).join('') || 'No acquisition tasks listed.';
-        document.getElementById('years').innerHTML = (data.years || []).map(y => {
-          const progress = pct((y.sourceTargets || 0) + (y.agendaTargets || 0) + (y.minuteTargets || 0) + (y.rawPreserved || 0) + (y.textExtracted || 0), 24);
-          const state = (y.sourceTargets || 0) > 0 ? 'Source layer available' : 'Not targeted';
-          return `<article class="year"><strong>${y.year} — ${state}</strong><div class="meta">Layer: ${y.sourceLayer || 'unknown'} · Source targets: ${y.sourceTargets || 0} · Agenda targets: ${y.agendaTargets || 0} · Minute targets: ${y.minuteTargets || 0}</div><div class="meta">Raw preserved: ${y.rawPreserved || 0} · Text extracted: ${y.textExtracted || 0} · Pairs checked: ${y.pairsChecked || 0}</div><div class="bar"><div class="fill" style="width:${progress}%"></div></div><details><summary>Next acquisition step</summary><div class="meta">${y.nextAction || y.gap || 'Not listed'}</div></details></article>`;
-        }).join('');
-        document.getElementById('targets').innerHTML = (data.sourceTargets || []).map(t => `<article class="target"><strong>${t.targetId} — ${t.label}</strong><div class="meta">Year: ${t.year ?? 'multi-year'} · Type: ${t.recordType || 'unknown'} · Status: ${t.status}</div><div class="meta">${t.inlineSummary || ''}</div><div class="meta"><a href="${t.url}" target="_blank" rel="noreferrer">Open source proof</a></div></article>`).join('') || 'No targets listed.';
-      })
-      .catch(err => document.getElementById('years').textContent = 'Data load failed: ' + err.message);
-  </script>
+<main>
+<header>
+<div class="eyebrow">CouncilWatch</div>
+<h1>Historical Coverage</h1>
+<p class="lead">Council record coverage with extracted meeting-level data. This page now shows records loaded into the repository, not acquisition prompts.</p>
+<div class="actions"><a class="btn" href="index.html">Home</a><a class="btn" href="dashboard.html">Live Dashboard</a><a class="btn" href="public/historical-coverage.json">Coverage JSON</a><a class="btn" href="public/data/meeting-register.json">Meeting JSON</a></div>
+</header>
+<section class="card"><h2>Coverage Snapshot</h2><div class="grid" id="metrics"></div></section>
+<section class="cols"><section class="card"><h2>Source Layers</h2><div id="layers">Loading...</div></section><section class="card"><h2>Meeting Data Extracted</h2><div id="meetingSummary">Loading...</div></section></section>
+<section class="card"><h2>Year Coverage</h2><div id="years">Loading...</div></section>
+<section class="card"><h2>Enumerated Meetings</h2><div id="meetings">Loading...</div></section>
+<section class="card"><h2>Source Targets</h2><div id="targets">Loading...</div></section>
+</main>
+<script>
+function metric(t,v){return '<div class="metric"><span>'+t+'</span><strong>'+(v??0)+'</strong></div>'}
+function pct(a,b){return b?Math.round(a/b*100):0}
+function row(title,meta){return '<article class="row"><strong>'+title+'</strong><div class="meta">'+meta+'</div></article>'}
+Promise.all([
+ fetch('public/historical-coverage.json?cache='+Date.now()).then(r=>r.json()),
+ fetch('public/data/meeting-register.json?cache='+Date.now()).then(r=>r.json()).catch(()=>null)
+]).then(([data,meet])=>{
+ const s=data.summary||{},ms=(meet&&meet.summary)||{},sm=data.sourceModel||{};
+ document.getElementById('metrics').innerHTML=[metric('Years targeted',s.yearsTargeted),metric('Years with source layer',s.yearsWithAnyRecords),metric('Meetings found',s.meetingRecordsEnumerated),metric('Agendas found',s.agendasFound),metric('Minutes found',s.minutesFound),metric('Attachments listed',s.attachmentsEnumerated),metric('Pairs checked',s.agendaMinutePairsChecked),metric('Text extracted',s.textRecordsExtracted)].join('');
+ document.getElementById('layers').innerHTML=row('Current meeting index','Visible years: '+((sm.currentIndexYearsObserved||[]).join(', ')))+row('Archive index','Targeted years: '+((sm.archiveYearsTargeted||[]).join(', ')));
+ document.getElementById('meetingSummary').innerHTML=row('2026 extraction','Meetings: '+(ms.meetingsEnumerated||0)+' · Agendas: '+(ms.agendasFound||0)+' · Minutes: '+(ms.minutesFound||0)+' · Attachments listed: '+(ms.attachmentsEnumerated||0));
+ document.getElementById('years').innerHTML=(data.years||[]).map(y=>{let loaded=(y.meetingsEnumerated||0)+(y.agendaTargets||0)+(y.minuteTargets||0)+(y.attachmentsEnumerated||0);let progress=Math.min(100,pct(loaded,120));let state=(y.meetingsEnumerated||0)?'Meeting records enumerated':((y.sourceTargets||0)?'Source layer available':'Not targeted');return '<article class="row"><strong>'+y.year+' — '+state+'</strong><div class="meta">Layer: '+(y.sourceLayer||'unknown')+' · Source targets: '+(y.sourceTargets||0)+' · Meetings: '+(y.meetingsEnumerated||0)+' · Agendas: '+(y.agendaTargets||0)+' · Minutes: '+(y.minuteTargets||0)+'</div><div class="meta">Attachments listed: '+(y.attachmentsEnumerated||0)+' · Raw preserved: '+(y.rawPreserved||0)+' · Text extracted: '+(y.textExtracted||0)+' · Pairs checked: '+(y.pairsChecked||0)+'</div><div class="bar"><div class="fill" style="width:'+progress+'%"></div></div></article>'}).join('');
+ document.getElementById('meetings').innerHTML=((meet&&meet.meetings)||[]).map(m=>row(m.date+' — '+m.title,(m.meetingType||'')+' · '+(m.time||'')+' · '+(m.venue||'')+'<br>Agenda: '+m.agendaStatus+' · Minutes: '+m.minuteStatus+' · Attachments listed: '+m.attachmentCount)).join('')||'No meetings loaded.';
+ document.getElementById('targets').innerHTML=(data.sourceTargets||[]).map(t=>row(t.targetId+' — '+t.label,'Year: '+(t.year??'multi-year')+' · Type: '+(t.recordType||'unknown')+' · Status: '+t.status)).join('')||'No targets listed.';
+}).catch(e=>{document.getElementById('years').textContent='Data load failed: '+e.message});
+</script>
 </body>
 </html>
