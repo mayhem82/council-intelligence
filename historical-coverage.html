@@ -8,7 +8,7 @@
     :root { color-scheme: dark; --bg:#0b0f14; --panel:#151b23; --line:#2d3642; --text:#eef3f8; --muted:#9ca8b5; --accent:#f59e0b; }
     * { box-sizing:border-box; }
     body { margin:0; font-family:Arial, Helvetica, sans-serif; background:var(--bg); color:var(--text); }
-    main { max-width:1100px; margin:0 auto; padding:16px; }
+    main { max-width:1180px; margin:0 auto; padding:16px; }
     header { border-bottom:1px solid var(--line); padding:18px 0; }
     .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.08em; font-size:.78rem; font-weight:800; }
     h1 { margin:6px 0 8px; font-size:clamp(2rem,7vw,4rem); line-height:.95; }
@@ -18,13 +18,17 @@
     .card { margin-top:12px; background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px; }
     .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
     @media (min-width:860px) { .grid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
-    .metric { background:#0f151d; border:1px solid var(--line); border-radius:10px; padding:12px; }
+    .metric, .year { background:#0f151d; border:1px solid var(--line); border-radius:10px; padding:12px; }
     .metric span { display:block; color:var(--muted); font-size:.75rem; text-transform:uppercase; font-weight:800; }
     .metric strong { display:block; margin-top:6px; font-size:2rem; }
-    .year { border-top:1px solid var(--line); padding:13px 0; }
-    .year:first-child { border-top:0; }
-    .year strong { display:block; font-size:1.1rem; }
+    .year { margin-top:10px; }
+    .year strong { display:block; font-size:1.05rem; }
     .meta { color:var(--muted); font-size:.9rem; margin-top:6px; line-height:1.45; }
+    .bar { height:10px; border-radius:999px; background:#0b0f14; border:1px solid var(--line); overflow:hidden; margin-top:8px; }
+    .fill { height:100%; background:var(--accent); }
+    a { color:#7dd3fc; }
+    details { margin-top:8px; border-top:1px solid var(--line); padding-top:8px; }
+    summary { cursor:pointer; color:#fde68a; font-weight:800; }
   </style>
 </head>
 <body>
@@ -32,20 +36,24 @@
     <header>
       <div class="eyebrow">CouncilWatch</div>
       <h1>Historical Coverage</h1>
-      <p class="lead">Shows which historical years, agendas, minutes, raw records, extracted text and agenda-minute pairs have been captured. This exposes gaps before any disappearance finding is made.</p>
+      <p class="lead">Inline coverage register showing targeted years, source layers, known gaps, next actions and source targets. PDFs remain source proof only.</p>
       <div class="actions">
-        <a class="btn" href="index.html">Dashboard</a>
+        <a class="btn" href="index.html">Home</a>
+        <a class="btn" href="dashboard.html">Live Dashboard</a>
         <a class="btn" href="agenda-disappearance.html">Disappearance Register</a>
         <a class="btn" href="resolutions.html">Resolutions</a>
         <a class="btn" href="public/historical-coverage.json">Raw JSON</a>
       </div>
     </header>
     <section class="card"><h2>Summary</h2><div class="grid" id="metrics"></div></section>
+    <section class="card"><h2>Source Model</h2><div id="sourceModel">Loading...</div></section>
+    <section class="card"><h2>Critical Gaps</h2><div id="gaps">Loading...</div></section>
     <section class="card"><h2>Year Coverage</h2><div id="years">Loading...</div></section>
     <section class="card"><h2>Source Targets</h2><div id="targets">Loading...</div></section>
   </main>
   <script>
     function metric(title, value) { return `<div class="metric"><span>${title}</span><strong>${value ?? 0}</strong></div>`; }
+    function pct(a,b){ return b ? Math.round((a/b)*100) : 0; }
     fetch('public/historical-coverage.json?cache=' + Date.now())
       .then(r => r.json())
       .then(data => {
@@ -53,15 +61,21 @@
         document.getElementById('metrics').innerHTML = [
           metric('Years Targeted', s.yearsTargeted),
           metric('Years With Records', s.yearsWithAnyRecords),
+          metric('Coverage %', pct(s.yearsWithAnyRecords, s.yearsTargeted) + '%'),
           metric('Source Targets', s.sourceTargetsListed),
+          metric('Archive Targets', s.archiveYearTargets),
           metric('Raw Preserved', s.rawRecordsPreserved),
           metric('Text Extracted', s.textRecordsExtracted),
-          metric('Pairs Checked', s.agendaMinutePairsChecked),
-          metric('Disappearance Checks', s.disappearanceChecksCompleted),
-          metric('Proof Of Fact', data.proofOfFact)
+          metric('Critical Gaps', s.criticalGaps)
         ].join('');
-        document.getElementById('years').innerHTML = (data.years || []).map(y => `<article class="year"><strong>${y.year} — ${y.status}</strong><div class="meta">Agenda targets: ${y.agendaTargets} · Minute targets: ${y.minuteTargets} · Raw preserved: ${y.rawPreserved} · Text extracted: ${y.textExtracted} · Pairs checked: ${y.pairsChecked}</div></article>`).join('');
-        document.getElementById('targets').innerHTML = (data.sourceTargets || []).map(t => `<article class="year"><strong>${t.targetId} — ${t.label}</strong><div class="meta">Status: ${t.status}</div><div class="meta"><a href="${t.url}" target="_blank" rel="noreferrer">Open source target</a></div></article>`).join('');
+        const sm = data.sourceModel || {};
+        document.getElementById('sourceModel').innerHTML = `<article class="year"><strong>Current index</strong><div class="meta"><a href="${sm.currentIndex}" target="_blank" rel="noreferrer">${sm.currentIndex}</a></div><div class="meta">Observed years: ${(sm.currentIndexYearsObserved || []).join(', ')}</div></article><article class="year"><strong>Archive index</strong><div class="meta"><a href="${sm.archiveIndex}" target="_blank" rel="noreferrer">${sm.archiveIndex}</a></div><div class="meta">Archive years targeted: ${(sm.archiveYearsTargeted || []).join(', ')}</div><div class="meta">Constraint: ${sm.knownConstraint || ''}</div></article>`;
+        document.getElementById('gaps').innerHTML = (data.criticalGaps || []).map(g => `<article class="year"><strong>${g.gapId} — ${g.title}</strong><div class="meta">Impact: ${g.impact}</div><div class="meta">Status: ${g.status}</div></article>`).join('') || 'No gaps listed.';
+        document.getElementById('years').innerHTML = (data.years || []).map(y => {
+          const progress = pct((y.agendaTargets || 0) + (y.minuteTargets || 0) + (y.rawPreserved || 0) + (y.textExtracted || 0), 20);
+          return `<article class="year"><strong>${y.year} — ${y.status}</strong><div class="meta">Layer: ${y.sourceLayer || 'unknown'} · Source targets: ${y.sourceTargets || 0} · Agenda targets: ${y.agendaTargets || 0} · Minute targets: ${y.minuteTargets || 0}</div><div class="meta">Raw preserved: ${y.rawPreserved || 0} · Text extracted: ${y.textExtracted || 0} · Pairs checked: ${y.pairsChecked || 0}</div><div class="bar"><div class="fill" style="width:${progress}%"></div></div><details open><summary>Gap / next action</summary><div class="meta">Gap: ${y.gap || 'not listed'}</div><div class="meta">Next: ${y.nextAction || 'not listed'}</div></details></article>`;
+        }).join('');
+        document.getElementById('targets').innerHTML = (data.sourceTargets || []).map(t => `<article class="year"><strong>${t.targetId} — ${t.label}</strong><div class="meta">Year: ${t.year ?? 'multi-year'} · Type: ${t.recordType || 'unknown'} · Status: ${t.status}</div><div class="meta">${t.inlineSummary || ''}</div><div class="meta"><a href="${t.url}" target="_blank" rel="noreferrer">Open source proof</a></div></article>`).join('') || 'No targets listed.';
       })
       .catch(err => document.getElementById('years').textContent = 'Data load failed: ' + err.message);
   </script>
