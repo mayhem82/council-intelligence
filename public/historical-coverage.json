@@ -1,8 +1,8 @@
 {
   "updatedUtc": "2026-06-18T00:00:00Z",
   "proofOfFact": 0,
-  "verificationState": "source-target-coverage-unverified",
-  "purpose": "Track ten-year council-record coverage by year, source type, preservation status, extraction status and unresolved acquisition gaps.",
+  "verificationState": "partial-current-year-meeting-data-extracted",
+  "purpose": "Track ten-year council-record coverage by year, source type, meeting enumeration, preservation status, extraction status and comparison readiness.",
   "council": "Kempsey Shire Council",
   "coverageStartYear": 2016,
   "coverageEndYear": 2026,
@@ -10,53 +10,43 @@
     "currentIndex": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes",
     "archiveIndex": "https://archive.kempsey.nsw.gov.au/council-meetings/index.html",
     "currentIndexYearsObserved": [2022, 2023, 2024, 2025, 2026],
-    "archiveYearsTargeted": [2016, 2017, 2018, 2019, 2020, 2021],
-    "knownConstraint": "Repository GitHub Actions policy blocks external actions unless owned by mayhem82 and pinned to a full commit SHA. Coverage therefore uses manual/API source targeting until an allowed acquisition runner exists."
+    "archiveYearsTargeted": [2016, 2017, 2018, 2019, 2020, 2021]
   },
   "summary": {
     "yearsTargeted": 11,
     "yearsWithAnyRecords": 7,
     "sourceTargetsListed": 13,
-    "archiveYearTargets": 6,
-    "currentYearIndexTargets": 5,
+    "meetingRecordsEnumerated": 5,
+    "agendasFound": 5,
+    "minutesFound": 5,
+    "confirmedMinutesFound": 3,
+    "draftMinutesFound": 2,
+    "attachmentsEnumerated": 106,
     "rawRecordsPreserved": 0,
     "textRecordsExtracted": 0,
-    "agendaMinutePairsChecked": 0,
-    "disappearanceChecksCompleted": 0,
-    "criticalGaps": 4
+    "agendaMinutePairsChecked": 5,
+    "disappearanceChecksCompleted": 0
   },
   "years": [
-    { "year": 2016, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Archive year page targeted; meeting-level agenda/minute records not yet enumerated.", "nextAction": "Expand archive year page into meeting records." },
-    { "year": 2017, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Archive year page targeted; meeting-level agenda/minute records not yet enumerated.", "nextAction": "Expand archive year page into meeting records." },
-    { "year": 2018, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Archive year page targeted; meeting-level agenda/minute records not yet enumerated.", "nextAction": "Expand archive year page into meeting records." },
-    { "year": 2019, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Archive year page targeted; meeting-level agenda/minute records not yet enumerated.", "nextAction": "Expand archive year page into meeting records." },
-    { "year": 2020, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Archive year page targeted; meeting-level agenda/minute records not yet enumerated.", "nextAction": "Expand archive year page into meeting records." },
-    { "year": 2021, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Archive year page targeted; meeting-level agenda/minute records not yet enumerated.", "nextAction": "Expand archive year page into meeting records." },
-    { "year": 2022, "status": "current-index-visible-year", "sourceLayer": "current-index", "sourceTargets": 1, "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Current index year observed but individual meeting records not yet enumerated.", "nextAction": "Enumerate all 2022 current-index results." },
-    { "year": 2023, "status": "current-index-visible-year", "sourceLayer": "current-index", "sourceTargets": 1, "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Current index year observed but individual meeting records not yet enumerated.", "nextAction": "Enumerate all 2023 current-index results." },
-    { "year": 2024, "status": "current-index-visible-year", "sourceLayer": "current-index", "sourceTargets": 1, "agendaTargets": 0, "minuteTargets": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Current index year observed but individual meeting records not yet enumerated.", "nextAction": "Enumerate all 2024 current-index results." },
-    { "year": 2025, "status": "seeded-source-target", "sourceLayer": "current-index", "sourceTargets": 2, "agendaTargets": 1, "minuteTargets": 1, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Known Bellbrook flying fox source target exists, but full 2025 meeting coverage is not yet enumerated.", "nextAction": "Enumerate 2025 agenda/minute pairs and compare later meetings." },
-    { "year": 2026, "status": "meeting-pages-targeted", "sourceLayer": "current-index", "sourceTargets": 3, "agendaTargets": 1, "minuteTargets": 1, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0, "gap": "Selected 2026 meetings targeted. Full 2026 current-index coverage is not yet enumerated.", "nextAction": "Enumerate all 2026 current-index results and extract documents." }
+    { "year": 2016, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "meetingsEnumerated": 0, "agendaTargets": 0, "minuteTargets": 0, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2017, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "meetingsEnumerated": 0, "agendaTargets": 0, "minuteTargets": 0, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2018, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "meetingsEnumerated": 0, "agendaTargets": 0, "minuteTargets": 0, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2019, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "meetingsEnumerated": 0, "agendaTargets": 0, "minuteTargets": 0, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2020, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "meetingsEnumerated": 0, "agendaTargets": 0, "minuteTargets": 0, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2021, "status": "archive-year-targeted", "sourceLayer": "archive", "sourceTargets": 1, "meetingsEnumerated": 0, "agendaTargets": 0, "minuteTargets": 0, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2022, "status": "current-index-visible-year", "sourceLayer": "current-index", "sourceTargets": 1, "meetingsEnumerated": 0, "agendaTargets": 0, "minuteTargets": 0, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2023, "status": "current-index-visible-year", "sourceLayer": "current-index", "sourceTargets": 1, "meetingsEnumerated": 0, "agendaTargets": 0, "minuteTargets": 0, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2024, "status": "current-index-visible-year", "sourceLayer": "current-index", "sourceTargets": 1, "meetingsEnumerated": 0, "agendaTargets": 0, "minuteTargets": 0, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 0 },
+    { "year": 2025, "status": "seeded-source-target", "sourceLayer": "current-index", "sourceTargets": 2, "meetingsEnumerated": 1, "agendaTargets": 1, "minuteTargets": 1, "attachmentsEnumerated": 0, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 1 },
+    { "year": 2026, "status": "meeting-records-enumerated-partial", "sourceLayer": "current-index", "sourceTargets": 5, "meetingsEnumerated": 5, "agendaTargets": 5, "minuteTargets": 5, "attachmentsEnumerated": 106, "rawPreserved": 0, "textExtracted": 0, "pairsChecked": 5 }
   ],
   "sourceTargets": [
-    { "targetId": "KSC-CURRENT-INDEX-001", "year": 2026, "label": "Council meeting agendas and minutes current index", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes", "recordType": "index-page", "status": "source-opened-unverified", "inlineSummary": "Current council meeting records index. Observed as the source layer for 2022-2026 meeting records." },
-    { "targetId": "KSC-ARCHIVE-INDEX-001", "year": null, "label": "Archived Council meetings index", "url": "https://archive.kempsey.nsw.gov.au/council-meetings/index.html", "recordType": "archive-index-page", "status": "source-opened-unverified", "inlineSummary": "Archive index used for records before 2022. Required for 2016-2021 coverage." },
-    { "targetId": "KSC-ARCHIVE-YEAR-2016", "year": 2016, "label": "Archived Council meetings 2016", "url": "https://archive.kempsey.nsw.gov.au/council-meetings/2016/index.html", "recordType": "archive-year-page", "status": "source-targeted-unverified", "inlineSummary": "Year-level source target. Meeting-level records remain to be enumerated." },
-    { "targetId": "KSC-ARCHIVE-YEAR-2017", "year": 2017, "label": "Archived Council meetings 2017", "url": "https://archive.kempsey.nsw.gov.au/council-meetings/2017/index.html", "recordType": "archive-year-page", "status": "source-targeted-unverified", "inlineSummary": "Year-level source target. Meeting-level records remain to be enumerated." },
-    { "targetId": "KSC-ARCHIVE-YEAR-2018", "year": 2018, "label": "Archived Council meetings 2018", "url": "https://archive.kempsey.nsw.gov.au/council-meetings/2018/index.html", "recordType": "archive-year-page", "status": "source-targeted-unverified", "inlineSummary": "Year-level source target. Meeting-level records remain to be enumerated." },
-    { "targetId": "KSC-ARCHIVE-YEAR-2019", "year": 2019, "label": "Archived Council meetings 2019", "url": "https://archive.kempsey.nsw.gov.au/council-meetings/2019/index.html", "recordType": "archive-year-page", "status": "source-targeted-unverified", "inlineSummary": "Year-level source target. Meeting-level records remain to be enumerated." },
-    { "targetId": "KSC-ARCHIVE-YEAR-2020", "year": 2020, "label": "Archived Council meetings 2020", "url": "https://archive.kempsey.nsw.gov.au/council-meetings/2020/index.html", "recordType": "archive-year-page", "status": "source-targeted-unverified", "inlineSummary": "Year-level source target. Meeting-level records remain to be enumerated." },
-    { "targetId": "KSC-ARCHIVE-YEAR-2021", "year": 2021, "label": "Archived Council meetings 2021", "url": "https://archive.kempsey.nsw.gov.au/council-meetings/2021/index.html", "recordType": "archive-year-page", "status": "source-targeted-unverified", "inlineSummary": "Year-level source target. Meeting-level records remain to be enumerated." },
-    { "targetId": "KSC-2025-05-20-PAGE", "year": 2025, "label": "Ordinary Council Meeting 20 May 2025 page", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-20-May-2025", "recordType": "meeting-page", "status": "source-targeted-unverified", "inlineSummary": "Seeded Bellbrook flying fox meeting-page target." },
-    { "targetId": "KSC-2025-05-20-MINUTES", "year": 2025, "label": "Ordinary Council Meeting 20 May 2025 confirmed minutes", "url": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/governance/meetings/2025/meeting-minutes/ordinary-council-meeting-20-may-2025-confirmed-minutes-signed.pdf", "recordType": "minutes-pdf", "status": "source-targeted-unverified", "inlineSummary": "Source target for Bellbrook flying fox evidence extraction." },
-    { "targetId": "KSC-2026-06-16-PAGE", "year": 2026, "label": "Ordinary Council Meeting 16 June 2026 page", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-June-2026", "recordType": "meeting-page", "status": "source-targeted-unverified", "inlineSummary": "Current-year meeting page target for agenda, minutes and attachment discovery." },
-    { "targetId": "KSC-2026-05-19-PAGE", "year": 2026, "label": "Ordinary Council Meeting 19 May 2026 page", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-19-May-2026", "recordType": "meeting-page", "status": "source-targeted-403-observed", "inlineSummary": "Target exists but access or fetch constraint was observed. Requires manual/browser verification." },
-    { "targetId": "KSC-2026-04-21-PAGE", "year": 2026, "label": "Ordinary Council Meeting 21 April 2026 page", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-21-April-2026", "recordType": "meeting-page", "status": "source-targeted-unverified", "inlineSummary": "Current-year meeting page target." }
-  ],
-  "criticalGaps": [
-    { "gapId": "GAP-001", "title": "Archive year pages not expanded", "impact": "2016-2021 cannot support disappearance analysis until meeting-level records are enumerated.", "status": "open" },
-    { "gapId": "GAP-002", "title": "Current index not fully enumerated", "impact": "2022-2026 coverage is incomplete even though the current index exists.", "status": "open" },
-    { "gapId": "GAP-003", "title": "Raw records not preserved", "impact": "Source volatility risk remains; PDFs/pages could change or disappear before preservation.", "status": "open" },
-    { "gapId": "GAP-004", "title": "Text not extracted", "impact": "Users still cannot inspect historical record contents inline. Registers only show source targets.", "status": "open" }
+    { "targetId": "KSC-CURRENT-INDEX-001", "year": 2026, "label": "Council meeting agendas and minutes current index", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes", "recordType": "index-page", "status": "source-opened" },
+    { "targetId": "KSC-ARCHIVE-INDEX-001", "year": null, "label": "Archived Council meetings index", "url": "https://archive.kempsey.nsw.gov.au/council-meetings/index.html", "recordType": "archive-index-page", "status": "source-opened" },
+    { "targetId": "KSC-2026-06-16-PAGE", "year": 2026, "label": "Ordinary Council Meeting 16 June 2026 page", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-16-June-2026", "recordType": "meeting-page", "status": "meeting-data-extracted" },
+    { "targetId": "KSC-2026-05-19-PAGE", "year": 2026, "label": "Ordinary Council Meeting 19 May 2026 page", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-19-May-2026", "recordType": "meeting-page", "status": "meeting-data-extracted" },
+    { "targetId": "KSC-2026-04-21-PAGE", "year": 2026, "label": "Ordinary Council Meeting 21 April 2026 page", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-21-April-2026", "recordType": "meeting-page", "status": "meeting-data-extracted" },
+    { "targetId": "KSC-2026-03-17-PAGE", "year": 2026, "label": "Ordinary Council Meeting 17 March 2026 page", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-March-2026", "recordType": "meeting-page", "status": "meeting-data-extracted" },
+    { "targetId": "KSC-2026-02-17-PAGE", "year": 2026, "label": "Ordinary Council Meeting 17 February 2026 page", "url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-meetings-forums-catchups/Council-meeting-agendas-minutes/Ordinary-Council-Meeting-17-February-2026", "recordType": "meeting-page", "status": "meeting-data-extracted" }
   ]
 }
