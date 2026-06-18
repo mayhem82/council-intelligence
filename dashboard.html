@@ -36,10 +36,10 @@
     <header>
       <div class="eyebrow">CouncilWatch</div>
       <h1>Intelligence Dashboard</h1>
-      <p class="lead">JSON-fed operating dashboard for CouncilWatch registers, historical coverage and enumerated meeting records.</p>
+      <p class="lead">JSON-fed operating dashboard. Source layers, meeting records, preserved records and extracted text are counted separately to avoid false coverage claims.</p>
       <div class="actions">
         <a class="btn" href="index.html">Home</a>
-        <a class="btn" href="historical-coverage.html">Historical Coverage</a>
+        <a class="btn" href="historical-coverage.html">Historical Acquisition</a>
         <a class="btn" href="lattice-atlas.html">Lattice Atlas</a>
         <a class="btn" href="agenda-disappearance.html">Disappearance Register</a>
         <a class="btn" href="resolutions.html">Resolutions</a>
@@ -49,7 +49,7 @@
     <section class="grid" id="gauges"></section>
     <section class="two">
       <div class="card"><h2>Meeting Records</h2><div class="list" id="meetings">Loading...</div></div>
-      <div class="card"><h2>Year Coverage</h2><div class="list" id="years">Loading...</div></div>
+      <div class="card"><h2>Year Acquisition</h2><div class="list" id="years">Loading...</div></div>
     </section>
     <section class="two">
       <div class="card"><h2>Top Locations</h2><div class="list" id="locations">Loading...</div></div>
@@ -69,17 +69,17 @@ Promise.all(Object.values(files).map(load)).then(([loc,mat,ev,res,dis,act,cov,me
  const locations=loc?.locations||[],matters=mat?.matters||[],evidence=ev?.evidence||[],resolutions=res?.resolutions||[],disappearances=dis?.disappearanceEvents||[],actors=act?.actors||[],meetings=meet?.meetings||[];
  const s=cov?.summary||{},years=cov?.years||[];
  document.getElementById('gauges').innerHTML=[
-  gauge('Coverage',s.yearsWithAnyRecords||0,s.yearsTargeted||11,'/'+(s.yearsTargeted||11)),
+  gauge('Source-layer years',s.yearsWithSourceLayer||0,s.yearsTargeted||11,'/'+(s.yearsTargeted||11)),
+  gauge('Meeting-record years',s.yearsWithMeetingRecords||0,s.yearsTargeted||11,'/'+(s.yearsTargeted||11)),
   gauge('Meetings',s.meetingRecordsEnumerated||meetings.length,96),
   gauge('Agendas',s.agendasFound||0,96),
   gauge('Minutes',s.minutesFound||0,96),
-  gauge('Attachments',s.attachmentsEnumerated||0,300),
-  gauge('Evidence',evidence.length,50),
-  gauge('Matters',matters.length,25),
-  gauge('Locations',locations.length,12)
+  gauge('Raw preserved',s.rawRecordsPreserved||0,96),
+  gauge('Text extracted',s.textRecordsExtracted||0,96),
+  gauge('Disappearance checks',s.disappearanceChecksCompleted||0,96)
  ].join('');
  document.getElementById('meetings').innerHTML=meetings.map(m=>item(`${m.date} — ${m.title}`,`${m.meetingType} · ${m.time} · ${m.venue}<br>Agenda: ${m.agendaStatus} · Minutes: ${m.minuteStatus} · Attachments: ${m.attachmentCount}<br><a href="${m.pageUrl}" target="_blank" rel="noreferrer">Open source page</a>`)).join('')||'No meeting records loaded.';
- document.getElementById('years').innerHTML=years.map(y=>item(`${y.year} — ${(y.meetingsEnumerated||0)?'meeting records enumerated':((y.sourceTargets||0)?'source layer available':'not targeted')}`,`Meetings: ${y.meetingsEnumerated||0} · Agendas: ${y.agendaTargets||0} · Minutes: ${y.minuteTargets||0} · Attachments: ${y.attachmentsEnumerated||0}<br>Raw preserved: ${y.rawPreserved||0} · Text extracted: ${y.textExtracted||0} · Pairs checked: ${y.pairsChecked||0}`)).join('')||'No yearly coverage loaded.';
+ document.getElementById('years').innerHTML=years.map(y=>item(`${y.year} — ${y.publicState||y.status}`,`Source layer: ${y.sourceLayer||'unknown'} · Meetings: ${y.meetingsEnumerated||0} · Agendas: ${y.agendaTargets||0} · Minutes: ${y.minuteTargets||0}<br>Raw preserved: ${y.rawPreserved||0} · Text extracted: ${y.textExtracted||0} · Pairs checked: ${y.pairsChecked||0}`)).join('')||'No yearly acquisition loaded.';
  document.getElementById('locations').innerHTML=locations.map(x=>item(x.name,`Priority: ${x.priority} · Status: ${x.status}`)).join('')||'No locations loaded.';
  document.getElementById('matters').innerHTML=matters.map(x=>item(x.title,`Location: ${x.locationId} · Domain: ${x.domain} · Status: ${x.status}`)).join('')||'No matters loaded.';
  document.getElementById('evidence').innerHTML=evidence.map(x=>item(`${x.evidenceId} — ${x.sourceTitle}`,`Matter: ${x.matterId} · Date: ${x.sourceDate} · Status: ${x.status}`)).join('')||'No evidence loaded.';
