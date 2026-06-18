@@ -22,10 +22,13 @@
     .metric span { display:block; color:var(--muted); font-size:.75rem; text-transform:uppercase; font-weight:800; }
     .metric strong { display:block; margin-top:6px; font-size:2rem; }
     .list { display:grid; gap:10px; }
-    @media (min-width:860px) { .list.nodes { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+    @media (min-width:860px) { .list.nodes { grid-template-columns:repeat(2,minmax(0,1fr)); } }
     .node strong, .edge strong { display:block; }
     .meta { color:var(--muted); font-size:.88rem; margin-top:6px; line-height:1.45; }
     .warning { color:#fde68a; border:1px solid rgba(245,158,11,.45); background:rgba(245,158,11,.1); border-radius:10px; padding:12px; line-height:1.45; }
+    a { color:#7dd3fc; }
+    details { margin-top:10px; border-top:1px solid var(--line); padding-top:10px; }
+    summary { cursor:pointer; font-weight:800; color:#fde68a; }
   </style>
 </head>
 <body>
@@ -33,40 +36,71 @@
     <header>
       <div class="eyebrow">CouncilWatch</div>
       <h1>Lattice Atlas</h1>
-      <p class="lead">Relationship map linking matters, locations, documents, resolutions, evidence paths, actor classes and disappearance signals. This is the structural intelligence surface above the registers.</p>
+      <p class="lead">Inline relationship map. PDFs remain source proof only; node cards now expose summaries, linked evidence, documents, resolutions, timeline events and relationships without forcing users into PDF viewing.</p>
       <div class="actions">
-        <a class="btn" href="index.html">Dashboard</a>
-        <a class="btn" href="councilwatch.html">CouncilWatch</a>
+        <a class="btn" href="index.html">Home</a>
+        <a class="btn" href="dashboard.html">Live Dashboard</a>
         <a class="btn" href="historical-coverage.html">10-Year Coverage</a>
         <a class="btn" href="agenda-disappearance.html">Disappearance Register</a>
-        <a class="btn" href="public/lattice-atlas.json">Raw JSON</a>
+        <a class="btn" href="public/data/relationship-register.json">Relationships JSON</a>
       </div>
     </header>
-    <section class="card warning" id="warning">Loading warning...</section>
+    <section class="card warning">Proof of Fact: 0. This page displays register structure and source targets. It does not assert breach, concealment, intent, causation or verified factual correctness.</section>
     <section class="card"><h2>Summary</h2><div class="grid" id="metrics"></div></section>
-    <section class="card"><h2>Nodes</h2><div class="list nodes" id="nodes">Loading...</div></section>
-    <section class="card"><h2>Edges</h2><div class="list" id="edges">Loading...</div></section>
-    <section class="card"><h2>Atlas Queries</h2><div id="queries">Loading...</div></section>
+    <section class="card"><h2>Expanded Nodes</h2><div class="list nodes" id="nodes">Loading...</div></section>
+    <section class="card"><h2>Relationships</h2><div class="list" id="edges">Loading...</div></section>
   </main>
   <script>
+    const files = {
+      locations:'public/data/location-register.json',
+      matters:'public/data/matter-register.json',
+      evidence:'public/data/evidence-register.json',
+      resolutions:'public/data/resolution-register.json',
+      disappearances:'public/data/disappearance-register.json',
+      actors:'public/data/actor-register.json',
+      documents:'public/data/document-register.json',
+      timeline:'public/data/timeline-register.json',
+      relationships:'public/data/relationship-register.json'
+    };
+    const load = path => fetch(path + '?cache=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null);
     function metric(title, value) { return `<div class="metric"><span>${title}</span><strong>${value ?? 0}</strong></div>`; }
-    fetch('public/lattice-atlas.json?cache=' + Date.now())
-      .then(r => r.json())
-      .then(data => {
-        document.getElementById('warning').textContent = data.publicUseWarning || '';
-        const s = data.summary || {};
-        document.getElementById('metrics').innerHTML = [
-          metric('Nodes', s.nodes),
-          metric('Edges', s.edges),
-          metric('Verified', s.verifiedNodes),
-          metric('Unverified', s.unverifiedNodes),
-          metric('Domains', s.priorityDomains)
-        ].join('');
-        document.getElementById('nodes').innerHTML = (data.nodes || []).map(n => `<article class="node"><strong>${n.id}</strong><div class="meta">${n.label}</div><div class="meta">Type: ${n.type} · Status: ${n.status} · Verification: ${n.verificationState}</div></article>`).join('');
-        document.getElementById('edges').innerHTML = (data.edges || []).map(e => `<article class="edge"><strong>${e.from} → ${e.to}</strong><div class="meta">Type: ${e.type} · Status: ${e.status}</div></article>`).join('');
-        document.getElementById('queries').innerHTML = `<ul>${(data.queries || []).map(q => `<li>${q}</li>`).join('')}</ul>`;
-      })
-      .catch(err => document.getElementById('nodes').textContent = 'Data load failed: ' + err.message);
+    function item(title, meta) { return `<article class="edge"><strong>${title}</strong><div class="meta">${meta || ''}</div></article>`; }
+    function linkList(title, arr, render) {
+      if (!arr.length) return '';
+      return `<details open><summary>${title} (${arr.length})</summary>${arr.map(render).join('')}</details>`;
+    }
+    Promise.all(Object.values(files).map(load)).then(([loc, mat, ev, res, dis, act, doc, time, rel]) => {
+      const locations = loc?.locations || [];
+      const matters = mat?.matters || [];
+      const evidence = ev?.evidence || [];
+      const resolutions = res?.resolutions || [];
+      const disappearances = dis?.disappearanceEvents || [];
+      const actors = act?.actors || [];
+      const documents = doc?.documents || [];
+      const timeline = time?.events || [];
+      const relationships = rel?.relationships || [];
+      document.getElementById('metrics').innerHTML = [
+        metric('Locations', locations.length), metric('Matters', matters.length), metric('Evidence', evidence.length), metric('Documents', documents.length), metric('Relationships', relationships.length), metric('Resolutions', resolutions.length), metric('Disappearance', disappearances.length), metric('Timeline', timeline.length), metric('Actors', actors.length), metric('Verified', 0)
+      ].join('');
+      document.getElementById('nodes').innerHTML = matters.map(m => {
+        const locName = locations.find(l => l.locationId === m.locationId)?.name || m.locationId;
+        const evs = evidence.filter(x => x.matterId === m.matterId);
+        const ress = resolutions.filter(x => x.matterId === m.matterId);
+        const diss = disappearances.filter(x => x.matterId === m.matterId);
+        const docs = documents.filter(x => (x.matterIds || []).includes(m.matterId));
+        const times = timeline.filter(x => x.matterId === m.matterId);
+        const rels = relationships.filter(x => x.sourceId === m.matterId || x.targetId === m.matterId);
+        return `<article class="node"><strong>${m.title}</strong><div class="meta">Matter ID: ${m.matterId}</div><div class="meta">Location: ${locName} · Domain: ${m.domain} · Status: ${m.status}</div><div class="meta">Created/first seen: ${m.created || 'unknown'}</div>` +
+          linkList('Evidence', evs, x => `<div class="meta"><strong>${x.evidenceId}</strong> ${x.sourceTitle}<br>Status: ${x.status}${x.url ? `<br><a href="${x.url}" target="_blank" rel="noreferrer">Source proof</a>` : ''}</div>`) +
+          linkList('Documents', docs, x => `<div class="meta"><strong>${x.documentId}</strong> ${x.title}<br>${x.inlineSummary || ''}<br>Status: ${x.status}${x.url ? `<br><a href="${x.url}" target="_blank" rel="noreferrer">Source proof</a>` : ''}</div>`) +
+          linkList('Resolutions', ress, x => `<div class="meta"><strong>${x.resolutionId}</strong> ${x.title}<br>Status: ${x.status} · Closure evidence: ${(x.closureEvidence || []).length}</div>`) +
+          linkList('Disappearance checks', diss, x => `<div class="meta"><strong>${x.disappearanceId}</strong> ${x.title}<br>Status: ${x.status}</div>`) +
+          linkList('Timeline', times, x => `<div class="meta"><strong>${x.date}</strong> — ${x.title}<br>${x.summary || ''}<br>Status: ${x.status}</div>`) +
+          linkList('Relationships', rels, x => `<div class="meta"><strong>${x.relationshipId}</strong> ${x.sourceId} → ${x.targetId}<br>${x.relationship} · ${x.status}</div>`) +
+        `</article>`;
+      }).join('') || 'No matter nodes loaded.';
+      document.getElementById('edges').innerHTML = relationships.map(r => item(`${r.sourceId} → ${r.targetId}`, `Relationship: ${r.relationship} · Status: ${r.status} · Types: ${r.sourceType} → ${r.targetType}`)).join('') || 'No relationships loaded.';
+    }).catch(err => document.getElementById('nodes').textContent = 'Data load failed: ' + err.message);
   </script>
 </body>
 </html>
