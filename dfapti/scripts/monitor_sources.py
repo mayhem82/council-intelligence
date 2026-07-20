@@ -155,6 +155,8 @@ def source_authority_for_root(root_url):
         return "High Court"
     if "aph.gov.au" in root_url:
         return "Australian Parliament"
+    if "legislation.gov.au" in root_url:
+        return "Federal Register of Legislation"
     if "anao.gov.au" in root_url:
         return "ANAO"
     return "Unknown"

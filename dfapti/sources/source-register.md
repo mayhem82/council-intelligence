@@ -23,6 +23,7 @@
 | Body | Domain | Notes |
 |---|---|---|
 | Australian Parliament | aph.gov.au | Hansard, bills, committee reports, inquiries. |
+| Federal Register of Legislation | legislation.gov.au | Authoritative enacted Commonwealth legislation text. |
 | Government departments | (case-specific) | Added per case. |
 
 ## Audit

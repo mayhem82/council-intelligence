@@ -61,6 +61,126 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
+    },
+    {
+      "evidence_id": "E-004",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "26-098MR ASIC sets financial reporting, audit and sustainability focus areas for FY 2026–27",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-098mr-asic-sets-financial-reporting-audit-and-sustainability-focus-areas-for-fy-2026-27/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC numbered media release (26-098MR) setting out its financial reporting, audit and sustainability reporting focus areas for FY2026-27, including continued administration of the mandatory climate reporting framework for Group 1 entities and engagement with large audit firms on assurance methodologies.",
+      "verification_notes": "Source URL located and cross-confirmed via independent search; the '26-098MR' numbered-release format is ASIC's standard media release identifier. Direct fetch to compute document_hash is blocked by this session's sandbox network policy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T01:00:00Z"
+    },
+    {
+      "evidence_id": "E-005",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "25-051MR ASIC issues sustainability reporting regulatory guide (Regulatory Guide 280)",
+      "publication_date": "2025-03-31",
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-051mr-asic-issues-sustainability-reporting-regulatory-guide/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC issued Regulatory Guide 280 (Sustainability reporting) on 31 March 2025 (RG 280 filename confirms 'published-31-march-2025'), setting out ASIC's guidance for entities preparing sustainability reports under Chapter 2M of the Corporations Act 2001.",
+      "verification_notes": "Source URL and publication date corroborated via independent search, including the RG 280 PDF's own filename (rg280-published-31-march-2025.pdf). Direct fetch to compute document_hash is blocked by this session's sandbox network policy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and date independently corroborated via search cross-reference and the document filename itself, but document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T01:00:00Z"
+    },
+    {
+      "evidence_id": "E-006",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ANAO",
+      "document_title": "Australian Securities and Investments Commission's Regulation of Registered Company Auditors (Auditor-General Report No. 10 of 2025-26)",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.anao.gov.au/work/performance-audit/australian-securities-and-investments-commissions-regulation-of-registered-company-auditors",
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "ANAO performance audit of ASIC's regulation of registered company auditors generally. Search results note the responsible ASIC branch was renamed 'Sustainability, Financial Reporting and Audit' in February 2025, but the audit itself is not sustainability-reporting-specific.",
+      "verification_notes": "Source URL confirmed via search. Held rather than Accepted: relevance to this case's specific scope (mandatory sustainability reporting) is indirect — the audit covers ASIC's auditor-regulation function broadly, not sustainability report assurance specifically. Requires reading the full report to confirm how directly it bears on this case before treating findings from it as case-specific evidence.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL confirmed, but relevance scope and document_hash are both unconfirmed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T01:00:00Z"
+    },
+    {
+      "evidence_id": "E-007",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ANAO",
+      "document_title": "Sustainability Reporting - The Role of Auditors",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.anao.gov.au/work/speeches-and-papers/sustainability-reporting-the-role-auditors",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ANAO speech/paper directly addressing the role of auditors in sustainability reporting, published under ANAO's official speeches-and-papers series.",
+      "verification_notes": "Source URL located and confirmed via independent search; title is directly on-topic for this case's scope. Direct fetch to compute document_hash is blocked by this session's sandbox network policy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T01:00:00Z"
+    },
+    {
+      "evidence_id": "E-008",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Parliament",
+      "document_title": "Treasury Laws Amendment (Financial Market Infrastructure and Other Measures) Bill 2024",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7176",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "The Parliament of Australia bill page for the legislation that introduced Australia's mandatory climate-related financial disclosure regime, amending the Corporations Act 2001 to require sustainability reports under Chapter 2M. Received royal assent 17 September 2024, phased in from 1 January 2025.",
+      "verification_notes": "Source URL located and confirmed via independent search (bId=r7176 matches the official Parliament bill tracking ID). Direct fetch to compute document_hash is blocked by this session's sandbox network policy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T01:00:00Z"
+    },
+    {
+      "evidence_id": "E-009",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Federal Register of Legislation",
+      "document_title": "Treasury Laws Amendment (Financial Market Infrastructure and Other Measures) Act 2024 (No. 87, 2024)",
+      "publication_date": "2024-09-17",
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.legislation.gov.au/C2024A00087",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "The enacted Act (No. 87, 2024), as registered on the Federal Register of Legislation, that inserted the mandatory climate-related financial disclosure regime into the Corporations Act 2001. Received royal assent 17 September 2024.",
+      "verification_notes": "Source URL and Act number/register ID (C2024A00087) confirmed via independent search. Direct fetch to compute document_hash is blocked by this session's sandbox network policy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and citation independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T01:00:00Z"
     }
   ]
 }

@@ -12,6 +12,12 @@
       "event": "Located and cross-confirmed the real ASIC source documents for E-001, E-002 and E-003 via independent search corroboration. Promoted all three from HELD to ACCEPTED (verified primary source, verified authority, evidence directly supports the recorded statement). document_hash remains unset pending a direct fetch, which the sandboxed session cannot perform but the GitHub Actions runner can.",
       "evidence_ids": ["E-001", "E-002", "E-003"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-20",
+      "event": "Manual evidence sweep against ASIC, ANAO, Australian Parliament and the Federal Register of Legislation. Added E-004 and E-005 (further ASIC media releases: FY2026-27 focus areas, and Regulatory Guide 280), E-006 and E-007 (ANAO material on auditor regulation and sustainability-report assurance), and E-008/E-009 (the Parliament bill page and the enacted Act establishing the mandatory climate reporting regime). E-006 recorded as HELD pending confirmation of how directly it bears on this case's specific scope. A related but out-of-scope line (Federal Court greenwashing litigation) was logged in reports/unassigned-candidates.md rather than added here, since ASIC treats greenwashing enforcement as a distinct regime from mandatory Chapter 2M sustainability reporting.",
+      "evidence_ids": ["E-004", "E-005", "E-006", "E-007", "E-008", "E-009"],
+      "status_change": "None"
     }
   ]
 }
