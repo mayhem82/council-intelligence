@@ -26,7 +26,14 @@ primary-source evidence record.
 - `schemas/` — JSON Schemas for case and evidence records.
 - `scripts/monitor_sources.py` — the hourly monitor. Fetches approved source
   roots, finds candidate documents, hashes and appends new evidence as
-  `PENDING`. Never edits or deletes existing entries.
+  `PENDING`. It also runs a hash-capture pass over existing entries that
+  already have a `source_url` but no `document_hash` (typically added by an
+  agent-driven search sweep that could verify a URL but not fetch raw bytes
+  from a sandboxed session) — since this script runs on a GitHub Actions
+  runner with normal internet access, it fetches those URLs directly and
+  fills in the SHA-256. That pass only ever sets `document_hash` and appends
+  a note to `verification_notes`; it never touches classification, summary,
+  or `proof_of_fact`. It never edits or deletes existing entries otherwise.
 - `automation/monitor-log.md` — append-only run log.
 
 ## Dashboard

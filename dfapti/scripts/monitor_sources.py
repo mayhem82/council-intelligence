@@ -8,6 +8,15 @@ evidence entries. It never edits or deletes an existing register entry.
 Automated discovery can only ever produce PENDING evidence — promotion to
 ACCEPTED/HELD/REJECTED under the Factualism Audit Rules requires human
 review (see dfapti/rules/factualism-audit.md).
+
+It also runs a hash-capture pass: any existing entry that already has a
+source_url but no document_hash (typically added by an agent-driven search
+sweep, which can locate and verify a URL but cannot fetch raw bytes from a
+sandboxed session) gets fetched here, where the GitHub Actions runner has
+normal internet access, and its SHA-256 is filled in. This only ever sets
+document_hash and appends a note to verification_notes — it never touches
+classification, summary, or proof_of_fact score, since confirming a hash is
+not the same as confirming the summary matches the document.
 """
 
 import hashlib
@@ -140,6 +149,34 @@ def append_pending_entry(register, case_id, source_authority, url, label, docume
     return entry
 
 
+def capture_pending_hashes(register, run_id):
+    """Fetch and hash any entry that has a source_url but no document_hash yet.
+
+    Only ever sets document_hash and appends a note to verification_notes.
+    Never touches classification, summary, or proof_of_fact — a hash proves
+    the bytes at source_url were captured at this point in time, not that
+    the summary accurately reflects the document (that still needs human or
+    separate content review).
+    """
+    captured = []
+    hash_failures = []
+    for entry in register["entries"]:
+        if entry.get("document_hash") or not entry.get("source_url"):
+            continue
+        try:
+            _, _, body = fetch(entry["source_url"])
+        except (urllib.error.URLError, OSError) as error:
+            hash_failures.append((entry["evidence_id"], entry["source_url"], str(error)))
+            continue
+        entry["document_hash"] = hashlib.sha256(body).hexdigest()
+        entry["verification_notes"] = (
+            entry["verification_notes"].rstrip()
+            + f" [Automated hash capture, run {run_id}, {utc_now_iso()}: document_hash now set from a direct fetch by the GitHub Actions runner.]"
+        )
+        captured.append((entry["evidence_id"], entry["source_url"], entry["document_hash"]))
+    return captured, hash_failures
+
+
 def source_authority_for_root(root_url):
     if "asic.gov.au" in root_url:
         return "ASIC"
@@ -178,6 +215,8 @@ def main():
 
     next_id = next_evidence_id(register)
 
+    hash_captured, hash_failures = capture_pending_hashes(register, run_id)
+
     for root_url in roots:
         try:
             final_url, content_type, body = fetch(root_url)
@@ -210,7 +249,7 @@ def main():
             next_id += 1
             appended.append(entry)
 
-    if appended:
+    if appended or hash_captured:
         save_register(register)
 
     log_lines = [
@@ -222,6 +261,8 @@ def main():
         f"New PENDING evidence appended: {len(appended)}",
         f"Unassigned candidates (no matching open case): {len(unassigned)}",
         f"Fetch failures: {len(failures)}",
+        f"Document hashes captured for existing entries: {len(hash_captured)}",
+        f"Hash capture failures: {len(hash_failures)}",
         "",
         "### Checked Roots",
     ]
@@ -231,6 +272,14 @@ def main():
     log_lines.append("### Appended Evidence")
     for entry in appended:
         log_lines.append(f"- {entry['evidence_id']} ({entry['case_id']}): {entry['source_url']}")
+    log_lines.append("")
+    log_lines.append("### Hash Captures")
+    for evidence_id, url, document_hash in hash_captured:
+        log_lines.append(f"- {evidence_id}: {url} -> sha256:{document_hash}")
+    log_lines.append("")
+    log_lines.append("### Hash Capture Failures")
+    for evidence_id, url, error in hash_failures:
+        log_lines.append(f"- {evidence_id}: {url}: {error}")
     log_lines.append("")
     log_lines.append("### Failures")
     for url, error in failures:
@@ -255,7 +304,8 @@ def main():
     print(
         f"DFAPTI monitor run complete: {run_id}; "
         f"roots={len(checked)} appended={len(appended)} "
-        f"unassigned={len(unassigned)} failures={len(failures)}"
+        f"unassigned={len(unassigned)} failures={len(failures)} "
+        f"hashes_captured={len(hash_captured)} hash_failures={len(hash_failures)}"
     )
 
 
