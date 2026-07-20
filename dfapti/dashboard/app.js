@@ -21,8 +21,25 @@ function latestUpdate(entries) {
   return dates.length ? dates[dates.length - 1] : "No evidence yet";
 }
 
+async function renderCandidateSummary() {
+  const el = document.getElementById("candidate-summary");
+  if (!el) return;
+  try {
+    const data = await loadJSON("targets/candidates.json");
+    const pending = data.candidates.filter(c => c.status === "CANDIDATE").length;
+    if (pending === 0) {
+      el.textContent = "";
+      return;
+    }
+    el.textContent = `${pending} candidate target${pending === 1 ? "" : "s"} under review — not yet publicly named pending independent verification (see the Target Visibility Gate in the Factualism Audit Rules).`;
+  } catch (err) {
+    el.textContent = "";
+  }
+}
+
 async function renderDashboard() {
   const root = document.getElementById("case-list");
+  renderCandidateSummary();
   try {
     const { cases } = await loadJSON("cases/index.json");
     const register = await loadJSON("evidence/register.json");

@@ -81,6 +81,20 @@ primary source directly and explicitly supports that specific characterization.
   actually fetched. A missing hash means the document has not yet been
   independently captured — it does not mean the finding is false.
 
+## Target Visibility Gate
+
+Applies to `dfapti/targets/` (the candidate-target discovery layer, see
+`dfapti/targets/README.md` for the full pipeline). A candidate entity's
+name is never published anywhere the public dashboard reads — not as a
+case, not in `cases/index.json`, not in `evidence/register.json` — until
+at least one piece of evidence about it independently clears the same bar
+as ACCEPTED above: a real primary source, a verified issuing authority,
+and a finding that directly supports the specific claim, not merely a
+keyword or name match. Discovery, scoring, and promotion are otherwise
+fully automatic — this is the one check that is never skipped, because
+publishing an unverified match against a real, named entity is exactly
+the unsupported-allegation risk this document exists to prevent.
+
 ## Duplicate Handling
 
 Before appending a new entry, the source_url (and, where available, the

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/council-intelligence/dfapti/targets/schema.json",
+  "title": "DFAPTI Candidate Target",
+  "description": "An entity surfaced by the target discovery layer. Candidates are internal-only (never linked from the public dashboard) until the Target Visibility Gate promotes them to a full case — see dfapti/rules/factualism-audit.md.",
+  "type": "object",
+  "required": [
+    "target_id",
+    "name",
+    "jurisdiction",
+    "issue_category",
+    "source_evidence",
+    "public_interest_reason",
+    "risk_indicators",
+    "evidence_confidence",
+    "priority_score",
+    "status",
+    "discovered_at",
+    "last_updated"
+  ],
+  "properties": {
+    "target_id": { "type": "string", "pattern": "^T-AU-[0-9]{4}-[0-9]{5}$" },
+    "name": { "type": "string", "description": "Entity/company name as it appears in the source document. Never a guess — must come from the fetched or independently-searched text." },
+    "jurisdiction": { "type": "string" },
+    "issue_category": {
+      "type": "string",
+      "enum": [
+        "Regulatory action",
+        "Public money",
+        "Public safety",
+        "Environmental impact",
+        "Consumer harm",
+        "Government accountability",
+        "Systemic failures",
+        "Unclassified"
+      ]
+    },
+    "source_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "title", "verified"],
+        "properties": {
+          "url": { "type": "string" },
+          "title": { "type": "string" },
+          "verified": {
+            "type": "boolean",
+            "description": "True only if this specific URL has been independently confirmed (direct fetch+hash, or cross-referenced search corroboration) to be a real primary source that directly supports a specific claim naming this entity — the same bar as evidence-schema.json ACCEPTED. Not merely 'found by a keyword match.'"
+          },
+          "document_hash": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "public_interest_reason": { "type": "string" },
+    "risk_indicators": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Neutral, source-grounded descriptions only (e.g. 'named as respondent in ASIC proceedings X'), never characterisations of guilt, intent, or wrongdoing."
+    },
+    "evidence_confidence": { "type": "string", "enum": ["LOW", "MEDIUM", "HIGH"] },
+    "priority_score": { "type": "integer", "minimum": 0 },
+    "status": {
+      "type": "string",
+      "enum": ["CANDIDATE", "PROMOTED", "REJECTED", "CLOSED"]
+    },
+    "promoted_case_id": { "type": ["string", "null"] },
+    "rejection_reason": { "type": ["string", "null"] },
+    "discovered_at": { "type": "string" },
+    "last_updated": { "type": "string" }
+  },
+  "additionalProperties": false
+}

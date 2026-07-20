@@ -1,0 +1,5 @@
+{
+  "$schema": "schema.json",
+  "register_notice": "Internal only — never linked from the public dashboard. See dfapti/rules/factualism-audit.md, 'Target Visibility Gate'. A candidate is promoted to a public case only once at least one source_evidence entry is independently verified to the same bar as an ACCEPTED evidence record.",
+  "candidates": []
+}

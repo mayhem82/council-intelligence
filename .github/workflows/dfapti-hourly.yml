@@ -23,10 +23,16 @@ jobs:
       - name: Run DFAPTI source monitor
         run: python dfapti/scripts/monitor_sources.py
 
-      - name: Commit new evidence and logs
+      - name: Run DFAPTI target discovery
+        run: python dfapti/scripts/discover_targets.py
+
+      - name: Run DFAPTI Target Visibility Gate (promote verified candidates)
+        run: python dfapti/scripts/promote_candidates.py
+
+      - name: Commit new evidence, candidates, cases and logs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dfapti/evidence dfapti/automation dfapti/reports
+          git add dfapti/evidence dfapti/automation dfapti/reports dfapti/targets dfapti/cases
           git diff --cached --quiet || git commit -m "DFAPTI hourly monitoring run"
           git push
