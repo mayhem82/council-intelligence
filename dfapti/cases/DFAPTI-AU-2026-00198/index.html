@@ -64,6 +64,13 @@ async function loadJSON(path) {
 
 let allEntries = [];
 
+function documentCell(e) {
+  if (!e.source_url) {
+    return `${e.document_title} <span class='muted'>(source link not yet confirmed)</span>`;
+  }
+  return `<a href="${e.source_url}" target="_blank" rel="noopener noreferrer">${e.document_title}</a>`;
+}
+
 function renderEvidence(filter) {
   const tbody = document.getElementById("evidence-body");
   const rows = allEntries.filter(e => filter === "ALL" || e.classification === filter);
@@ -76,7 +83,7 @@ function renderEvidence(filter) {
       <td>${e.evidence_id}</td>
       <td>${e.publication_date || "<span class='muted'>unconfirmed</span>"}</td>
       <td>${e.source_authority}</td>
-      <td>${e.document_title}</td>
+      <td>${documentCell(e)}</td>
       <td>${badge(e.classification, e.classification.toLowerCase())}</td>
       <td>${e.confidence}</td>
       <td class="muted">PF(H,E)=${e.proof_of_fact.score} — ${e.verification_notes}</td>
