@@ -1,0 +1,32 @@
+name: DFAPTI Hourly Monitoring
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run DFAPTI source monitor
+        run: python dfapti/scripts/monitor_sources.py
+
+      - name: Commit new evidence and logs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dfapti/evidence dfapti/automation dfapti/reports
+          git diff --cached --quiet || git commit -m "DFAPTI hourly monitoring run"
+          git push
