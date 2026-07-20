@@ -181,6 +181,86 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T01:00:00Z"
+    },
+    {
+      "evidence_id": "E-010",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "Reporting and audit update – Issue 4",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-4/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC newsletter (Issue 4, reported as May 2026) covering reporting and audit developments including early observations on sustainability reporting, the ASIC/AASB sustainability reporting webinar series, FY2026-27 focus areas, infringement notices for late lodgement, and updated FAQs on auditing and assurance requirements for sustainability reports.",
+      "verification_notes": "Source URL located and confirmed via independent search; content directly on-topic for this case. Direct fetch to compute document_hash is blocked by this session's sandbox network policy — the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T23:30:00Z"
+    },
+    {
+      "evidence_id": "E-011",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "Sustainability reporting and audit relief decisions register",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/asic-s-administration-of-the-sustainability-reporting-requirements/sustainability-reporting-and-audit-relief-decisions-register/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC's public register of decisions on relief applications under Chapter 2M of the Corporations Act relating to sustainability reporting, updated quarterly. Improves transparency of ASIC's discretionary relief decisions and the factors it considers.",
+      "verification_notes": "Source URL located and confirmed via independent search; directly on-topic for this case (ASIC's administration of the mandatory sustainability reporting regime). Direct fetch to compute document_hash is blocked by this session's sandbox network policy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T23:30:00Z"
+    },
+    {
+      "evidence_id": "E-012",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "First sustainability reporting educational modules released to assist smaller companies",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/first-sustainability-reporting-educational-modules-released-to-assist-smaller-companies/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC, with the AASB, released the first sustainability-reporting e-learning modules (reported: first three of eight modules, PDF versions issued December 2025) aimed at smaller reporting entities and suppliers to reporting entities, covering the Chapter 2M framework, climate change basics, and climate-related physical risks.",
+      "verification_notes": "Source URL located and confirmed via independent search; directly on-topic for this case. Direct fetch to compute document_hash is blocked by this session's sandbox network policy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T23:30:00Z"
+    },
+    {
+      "evidence_id": "E-013",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "Addressing financial system climate risk: A view from the regulator (ASIC speech)",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/speeches/addressing-financial-system-climate-risk-a-view-from-the-regulator/",
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "An official ASIC speech addressing climate-related financial system risk from the regulator's perspective. Recorded as HELD rather than ACCEPTED: a speech carries the regulator's own framing/commentary rather than a discrete verifiable fact like a data point or lodgement figure, so it is retained as a primary source but not cited for any specific substantive claim until its content is read in full.",
+      "verification_notes": "Source URL located and confirmed via independent search. Held pending full-text review to identify what, if any, specific factual claims it should be cited for; document_hash also not yet computed (direct fetch blocked by this session's sandbox network policy).",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL confirmed, but this speech's relevance is recorded at the 'primary source exists' level only, and document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T23:30:00Z"
     }
   ]
 }

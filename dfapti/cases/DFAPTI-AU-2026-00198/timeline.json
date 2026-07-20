@@ -18,6 +18,12 @@
       "event": "Manual evidence sweep against ASIC, ANAO, Australian Parliament and the Federal Register of Legislation. Added E-004 and E-005 (further ASIC media releases: FY2026-27 focus areas, and Regulatory Guide 280), E-006 and E-007 (ANAO material on auditor regulation and sustainability-report assurance), and E-008/E-009 (the Parliament bill page and the enacted Act establishing the mandatory climate reporting regime). E-006 recorded as HELD pending confirmation of how directly it bears on this case's specific scope. A related but out-of-scope line (Federal Court greenwashing litigation) was logged in reports/unassigned-candidates.md rather than added here, since ASIC treats greenwashing enforcement as a distinct regime from mandatory Chapter 2M sustainability reporting.",
       "evidence_ids": ["E-004", "E-005", "E-006", "E-007", "E-008", "E-009"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-20",
+      "event": "Scheduled agent evidence sweep (:30 pass). Added E-010 (ASIC Reporting and audit update - Issue 4), E-011 (ASIC sustainability reporting and audit relief decisions register), and E-012 (ASIC's first sustainability-reporting educational modules release) — all directly on-topic ASIC primary sources, ACCEPTED. Added E-013 (an ASIC speech on financial system climate risk) as HELD: retained as a confirmed primary source, but not cited for any specific factual claim until its full text is reviewed. All four checked against existing entries for duplicate source_url before appending.",
+      "evidence_ids": ["E-010", "E-011", "E-012", "E-013"],
+      "status_change": "None"
     }
   ]
 }
