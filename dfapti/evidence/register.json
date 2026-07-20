@@ -1,0 +1,66 @@
+{
+  "$schema": "../schemas/evidence-schema.json",
+  "register_notice": "Append-only. Entries are never deleted or edited in place; corrections are new entries linked via superseded_by.",
+  "entries": [
+    {
+      "evidence_id": "E-001",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "ASIC issues early observations on sustainability reporting ahead of 30 June 2026",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": null,
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "ASIC published early observations on entities' sustainability reporting ahead of the 30 June 2026 reporting deadline. Seeded from the case specification; not yet independently retrieved from asic.gov.au.",
+      "verification_notes": "Source URL and document hash not yet confirmed. Requires a monitor run or manual review to locate the exact ASIC publication, capture it, and compute document_hash before this can be promoted to ACCEPTED.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Unverified — seeded from case specification text only; no primary document has yet been fetched or hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T00:00:00Z"
+    },
+    {
+      "evidence_id": "E-002",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "ASIC guidance on sustainability reporting obligations",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": null,
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "ASIC material addressing entities' sustainability reporting obligations under the applicable regime. Seeded from the case specification; not yet independently retrieved.",
+      "verification_notes": "Source URL and document hash not yet confirmed. Requires a monitor run or manual review before promotion to ACCEPTED.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Unverified — seeded from case specification text only; no primary document has yet been fetched or hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T00:00:00Z"
+    },
+    {
+      "evidence_id": "E-003",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "ASIC data on sustainability reports lodged (259 reports)",
+      "publication_date": null,
+      "capture_date": "2026-07-20T00:00:00Z",
+      "source_url": null,
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "ASIC data indicating 259 sustainability reports lodged. Seeded from the case specification; not yet independently retrieved from asic.gov.au.",
+      "verification_notes": "Source URL and document hash not yet confirmed. Requires a monitor run or manual review before promotion to ACCEPTED.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Unverified — seeded from case specification text only; no primary document has yet been fetched or hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-20T00:00:00Z"
+    }
+  ]
+}

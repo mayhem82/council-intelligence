@@ -1,0 +1,11 @@
+{
+  "case_id": "DFAPTI-AU-2026-00198",
+  "events": [
+    {
+      "date": "2026-07-20",
+      "event": "Case opened. Initial evidence seeded from case specification pending independent source retrieval.",
+      "evidence_ids": ["E-001", "E-002", "E-003"],
+      "status_change": "OPEN -> ACTIVE"
+    }
+  ]
+}

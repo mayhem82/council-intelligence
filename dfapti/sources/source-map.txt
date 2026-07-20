@@ -1,0 +1,34 @@
+# DFAPTI Source Map
+# Purpose: approved public-interest source roots for Australian regulator,
+# court, government and audit-office monitoring.
+# PF(H,E): 0 for every path until fetched and independently verified.
+#
+# Only top-level, well-known official domains are listed here as anchors.
+# Deep paths (specific RSS feeds, media-release indexes, judgment lists) are
+# NOT guessed — they are discovered by the monitor script by crawling from
+# these anchors, and any discovered path is held as PENDING/HELD evidence
+# until a human confirms it against the live site.
+
+## Regulators
+https://asic.gov.au/
+https://www.accc.gov.au/
+https://www.apra.gov.au/
+https://www.aer.gov.au/
+
+## Courts
+https://www.fedcourt.gov.au/
+https://www.hcourt.gov.au/
+
+## Government
+https://www.aph.gov.au/
+
+## Audit
+https://www.anao.gov.au/
+
+# Candidate deep paths — unconfirmed, retained for discovery coverage only.
+# Do not treat as verified endpoints until the monitor script or a human
+# confirms them live (HTTP 200 + expected content type).
+# https://asic.gov.au/about-asic/news-centre/find-a-media-release/
+# https://www.fedcourt.gov.au/digital-law-library/judgments/search
+# https://www.aph.gov.au/News_and_Events
+# https://www.anao.gov.au/pubs/audit-reports

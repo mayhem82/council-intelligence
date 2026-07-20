@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00198",
+  "title": "ASIC Sustainability Reporting Review",
+  "created_date": "2026-07-20",
+  "status": "ACTIVE",
+  "category": "Regulatory Monitoring",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Track ASIC's sustainability reporting regime as it applies ahead of and following the 30 June 2026 reporting deadline, maintaining a primary-source evidence trail of ASIC guidance, observations, and reporting-uptake data.",
+  "scope": "ASIC publications, guidance and data relating to mandatory sustainability reporting obligations. Federal Court, Parliament and ANAO material is monitored where it bears directly on this regime (e.g. enforcement action, inquiry findings, audit reports).",
+  "responsible_module": "dfapti",
+  "primary_sources": ["ASIC", "Federal Court", "Australian Parliament", "ANAO"]
+}

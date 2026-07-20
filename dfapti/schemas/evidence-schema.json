@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/council-intelligence/dfapti/schemas/evidence-schema.json",
+  "title": "DFAPTI Evidence Register Entry",
+  "type": "object",
+  "required": [
+    "evidence_id",
+    "case_id",
+    "source_authority",
+    "document_title",
+    "publication_date",
+    "capture_date",
+    "source_url",
+    "classification",
+    "confidence",
+    "summary",
+    "verification_notes",
+    "document_hash"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string",
+      "pattern": "^E-[0-9]{3,}$",
+      "description": "Sequential, append-only. Never reused, even if an entry is later superseded."
+    },
+    "case_id": { "type": "string" },
+    "source_authority": { "type": "string" },
+    "document_title": { "type": "string" },
+    "publication_date": {
+      "type": ["string", "null"],
+      "description": "ISO 8601 date. Null if not yet confirmed against the primary source."
+    },
+    "capture_date": {
+      "type": "string",
+      "description": "ISO 8601 UTC timestamp of when DFAPTI captured this record."
+    },
+    "source_url": {
+      "type": ["string", "null"],
+      "description": "Null only when a candidate URL has not yet been independently confirmed. Never a guessed or fabricated URL."
+    },
+    "classification": {
+      "type": "string",
+      "enum": ["ACCEPTED", "HELD", "REJECTED", "PENDING"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["HIGH", "MEDIUM", "LOW"]
+    },
+    "summary": { "type": "string" },
+    "verification_notes": { "type": "string" },
+    "document_hash": {
+      "type": ["string", "null"],
+      "description": "SHA-256 of the captured source document. Null until the primary document has been fetched and hashed."
+    },
+    "proof_of_fact": {
+      "type": "object",
+      "description": "Human plus Evidence score, kept distinct from classification per repository Factualism convention.",
+      "properties": {
+        "score": { "type": "integer", "enum": [0, 1] },
+        "rationale": { "type": "string" }
+      },
+      "required": ["score", "rationale"]
+    },
+    "superseded_by": {
+      "type": ["string", "null"],
+      "description": "Evidence ID of a later record that supersedes this one. Append-only: this field is set, the original record is never edited or deleted."
+    },
+    "recorded_at": {
+      "type": "string",
+      "description": "ISO 8601 UTC timestamp the entry was appended to the register."
+    }
+  },
+  "additionalProperties": false
+}

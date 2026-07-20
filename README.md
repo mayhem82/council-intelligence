@@ -76,6 +76,12 @@ Factual Strength: Medium
 
 Rationale: The repository contains source-preservation and audit structures, but factual strength depends on successful record harvesting and manual review against preserved source records.
 
+## DFAPTI — Deep Forensic All Paths Taken Investigation
+
+A separate, private working investigation module (⚠ not for public
+distribution): [dfapti/README.md](dfapti/README.md), live dashboard at
+[dfapti/index.html](dfapti/index.html).
+
 ## Main Navigation
 
 - [Browser Dashboard](index.html)

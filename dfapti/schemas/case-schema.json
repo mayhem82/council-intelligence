@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayhem82.github.io/council-intelligence/dfapti/schemas/case-schema.json",
+  "title": "DFAPTI Case Record",
+  "type": "object",
+  "required": [
+    "case_id",
+    "title",
+    "created_date",
+    "status",
+    "category",
+    "jurisdiction",
+    "investigation_objective",
+    "scope",
+    "responsible_module",
+    "primary_sources"
+  ],
+  "properties": {
+    "case_id": { "type": "string", "pattern": "^DFAPTI-[A-Z]{2}-[0-9]{4}-[0-9]{5}$" },
+    "title": { "type": "string" },
+    "created_date": { "type": "string" },
+    "status": { "type": "string", "enum": ["ACTIVE", "MONITORING", "CLOSED", "SUSPENDED"] },
+    "category": { "type": "string" },
+    "jurisdiction": { "type": "string" },
+    "investigation_objective": { "type": "string" },
+    "scope": { "type": "string" },
+    "responsible_module": { "type": "string" },
+    "primary_sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}
