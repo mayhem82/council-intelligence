@@ -96,6 +96,12 @@
       "event": "Scheduled agent pass (:30). Added E-024 (ASIC and AASB's May 2026 launch of all eight sustainability-reporting educational modules in interactive e-learning format, aimed at Group 2/3 entities), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Distinct from and expands on E-012 (the December 2025 PDF-only release of the first three modules).",
       "evidence_ids": ["E-024"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Scheduled agent pass (:30). Added E-025 (Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026, merging the FRC, AASB and AUASB into a new body, External Reporting Australia, with a Governing Council and three standard-setting boards including sustainability reporting), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries plus the bill's explanatory memorandum and industry press. Directly on-topic: a major institutional restructure of the bodies (AASB, AUASB) that set the sustainability-assurance standards already tracked in this case via E-006/E-007/E-019/E-022/E-024.",
+      "evidence_ids": ["E-025"],
+      "status_change": "None"
     }
   ]
 }

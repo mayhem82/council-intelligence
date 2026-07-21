@@ -1356,6 +1356,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T16:36:20Z",
       "last_updated": "2026-07-21T16:36:20Z"
+    },
+    {
+      "target_id": "T-AU-2026-00052",
+      "name": "AMP Superannuation Limited and N.M. Superannuation Proprietary Limited (AMP Super)",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.apra.gov.au/news-and-publications/apra-agrees-to-court-enforceable-undertaking-from-amp-super-over-compliance",
+          "title": "APRA agrees to court enforceable undertaking from AMP Super over compliance deficiencies",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "APRA accepted a court enforceable undertaking from AMP Superannuation Limited and N.M. Superannuation Proprietary Limited (collectively AMP Super, which controls two superannuation funds with estimated net assets of $116 billion) to address governance and risk-management deficiencies, following a lengthy APRA investigation into past conduct that APRA believes led to a number of potential breaches of the Superannuation Industry (Supervision) Act 1993.",
+      "risk_indicators": [
+        "Subject of an APRA court enforceable undertaking addressing governance and risk-management deficiencies",
+        "Undertaking followed a lengthy APRA investigation into past conduct believed to involve potential SIS Act breaches",
+        "Trustee entities control superannuation funds with estimated net assets of $116 billion"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T17:38:39Z",
+      "last_updated": "2026-07-21T17:38:39Z"
     }
   ]
 }
