@@ -1464,6 +1464,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T18:35:50Z",
       "last_updated": "2026-07-21T18:35:50Z"
+    },
+    {
+      "target_id": "T-AU-2026-00056",
+      "name": "Clorox Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/clorox-ordered-to-pay-825m-in-penalties-for-misleading-ocean-plastic-claims-about-certain-glad-products",
+          "title": "Clorox ordered to pay $8.25m in penalties for misleading 'ocean plastic' claims about certain GLAD products",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Clorox Australia Pty Ltd to pay $8.25 million in penalties \u2014 the ACCC's first court greenwashing action since naming it a compliance priority in 2022/23 \u2014 for representing on packaging that its GLAD to be GREEN '50% Ocean Plastic Recycled' kitchen and garbage bags were made of at least 50% recycled plastic collected from the ocean or sea, when the plastic was instead collected from communities in Indonesia without formal waste management systems, up to 50km from a shoreline. More than 2.2 million units were supplied under this packaging between June 2021 and July 2023. Clorox cooperated with the ACCC, made admissions, and agreed the penalty jointly with the regulator.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $8.25 million, admitted, for misleading environmental packaging claims",
+        "More than 2.2 million units supplied under the misleading packaging over roughly two years",
+        "Court also ordered an ACL compliance program and a corrective notice on Clorox's website and social media"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T19:35:57Z",
+      "last_updated": "2026-07-21T19:35:57Z"
+    },
+    {
+      "target_id": "T-AU-2026-00057",
+      "name": "Edgewell Personal Care Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/banana-boat-and-hawaiian-tropic-owner-in-court-over-alleged-greenwashing-claims-that-its-sunscreens-were-%E2%80%98reef-friendly%E2%80%99",
+          "title": "Banana Boat and Hawaiian Tropic owner in Court over alleged greenwashing claims that its sunscreens were 'reef friendly'",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court proceedings against Edgewell Personal Care Australia Pty Ltd and its US parent, Edgewell Personal Care Company, alleging false or misleading 'reef friendly' claims made on Banana Boat and Hawaiian Tropic sunscreen products between August 2020 and December 2024 (the claim was removed from Australian marketing in October 2023). The ACCC alleges the no-harm representations were misleading because the products contained ingredients that cause or risk causing harm to reefs, including coral and marine life. The ACCC is seeking declarations, penalties, injunctions, a corrective notice, a compliance program and costs.",
+      "risk_indicators": [
+        "Subject of Federal Court proceedings commenced by the ACCC alleging misleading environmental ('reef friendly') claims",
+        "Alleged conduct spanned over four years of marketing before the claim was removed",
+        "Proceedings are ongoing; allegations not yet determined by the court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T19:35:57Z",
+      "last_updated": "2026-07-21T19:35:57Z"
     }
   ]
 }
