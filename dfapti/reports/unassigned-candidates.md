@@ -31,4 +31,20 @@ existing case's `keywords.json`.
   the operator and not yet answered. Logged here rather than acted on
   unilaterally.
 
+- **Joanne Jennifer Pellew** (former sole director, Ochre Training Pty Ltd /
+  Ochre Workforce Solutions Pty Ltd / Ochre People Pty Ltd) — convicted on
+  2 July 2026 by a jury of the District Court of Western Australia of three
+  counts of dishonestly using her position as a director and one count of
+  managing a corporation while disqualified, following an ASIC investigation
+  into an alleged illegal phoenixing scheme that funnelled around $739,655
+  from insolvent Ochre Training Pty Ltd to newly created Ochre Workforce
+  Solutions Pty Ltd over 18 days in May 2018 (source:
+  `https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-145mr-former-wa-director-joanne-pellew-convicted-of-corporations-act-offences-following-asic-investigation/`).
+  Sentencing listed for 4 September 2026. Not added as a candidate for the
+  same reason as the Blumentals entry above: the criminal convictions and
+  underlying wrongdoing attach to Pellew personally, not to the companies
+  themselves (which were the vehicles for her conduct, not respondents to
+  any action of their own) — pending the same open named-individuals policy
+  question.
+
 No other candidates recorded yet.

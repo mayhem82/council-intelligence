@@ -66,6 +66,12 @@
       "event": "Scheduled agent pass (:30). Added E-019 (AUASB's Sustainability Assurance implementation support hub, covering ASSA 5000 and ASSA 5010, the audit/assurance standards that attach to Chapter 2M sustainability reports), ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries. Directly on-topic: this is the audit/assurance side of the same regime already covered by E-006/E-007 (ANAO) and E-014 (ASIC audit FAQs). Considered but declined to add two other ANAO items surfaced this pass (\"Governance of Climate Change Commitments\" performance audit, \"ANAO's Approach to Auditing Climate and Energy\" speech): both concern government agencies' own climate-commitment governance/ANAO's audit program generally, not the Chapter 2M corporate reporting regime specifically, so adding them would manufacture relevance that isn't there — same reasoning already applied to excluding greenwashing litigation from this case's scope.",
       "evidence_ids": ["E-019"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Scheduled agent pass (:30). Added E-020 (ASIC's remade legislative instruments 2026/59 and 2026/313, which extend electronic-lodgment relief for sustainability reports to Cboe-listed entities and permit combined related-scheme sustainability reports), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Directly on-topic: both instruments amend the lodgment/administration mechanics of the Chapter 2M regime this case tracks.",
+      "evidence_ids": ["E-020"],
+      "status_change": "None"
     }
   ]
 }
