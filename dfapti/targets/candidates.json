@@ -461,6 +461,133 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T02:36:22Z",
       "last_updated": "2026-07-21T02:36:22Z"
+    },
+    {
+      "target_id": "T-AU-2026-00019",
+      "name": "Energex",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://aer.gov.au/news-release/administrative-undertakings-and-100000-in-penalties-paid-by-energex-and-tasnetworks-for-alleged-breaches-of-its-life-support-obligations",
+          "title": "Administrative undertakings and penalties paid by Energex and TasNetworks for alleged breaches of life support obligations",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Paid a penalty (reported as $60,000 in one AER source; an earlier related release cites $100,000/$140,000 total across the two distributors — treat the exact split as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules — obligations that exist specifically to protect customers dependent on electricity supply for life support equipment.",
+      "risk_indicators": [
+        "Alleged breach of life support customer obligations under the National Energy Retail Rules, resulting in an AER penalty and administrative undertaking"
+      ],
+      "evidence_confidence": "MEDIUM",
+      "priority_score": 6,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T03:36:03Z",
+      "last_updated": "2026-07-21T03:36:03Z"
+    },
+    {
+      "target_id": "T-AU-2026-00020",
+      "name": "TasNetworks",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://aer.gov.au/news-release/administrative-undertakings-and-100000-in-penalties-paid-by-energex-and-tasnetworks-for-alleged-breaches-of-its-life-support-obligations",
+          "title": "Administrative undertakings and penalties paid by Energex and TasNetworks for alleged breaches of life support obligations",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Paid a penalty (reported as $80,000 in one AER source; figures vary slightly across related AER releases — treat as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules.",
+      "risk_indicators": [
+        "Alleged breach of life support customer obligations under the National Energy Retail Rules, resulting in an AER penalty and administrative undertaking"
+      ],
+      "evidence_confidence": "MEDIUM",
+      "priority_score": 6,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T03:36:03Z",
+      "last_updated": "2026-07-21T03:36:03Z"
+    },
+    {
+      "target_id": "T-AU-2026-00021",
+      "name": "AGL Retail Energy Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.aer.gov.au/news/articles/news-releases/agl-penalised-25-million-breaches-overcharging-rules-related-centrepay-payments",
+          "title": "AGL penalised $25 million for breaches of overcharging rules related to Centrepay payments",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "One of four AGL Energy Limited subsidiaries the Federal Court found breached overcharging rules relating to Centrepay payments (a government bill-paying service for Centrelink recipients), resulting in the largest total penalty ($25 million) ever imposed for breaches of the National Energy Laws. 483 Centrepay customers were overcharged and 16,156 breaches found for failing to inform/refund within required timeframes. The other three subsidiary entities named in the same action were not independently identified by name in the sources reviewed this pass, so are not separately recorded as candidates.",
+      "risk_indicators": [
+        "Found by the Federal Court to have breached National Energy Retail Rules overcharging obligations relating to Centrepay (welfare-payment) customers",
+        "Subject to the largest total penalty ($25 million) ever imposed for National Energy Laws breaches",
+        "Decision under appeal to the Full Federal Court as of the source reviewed (heard November 2025, pending)"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T03:36:03Z",
+      "last_updated": "2026-07-21T03:36:03Z"
+    },
+    {
+      "target_id": "T-AU-2026-00022",
+      "name": "Alinta Energy Retail Sales Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.aer.gov.au/news/articles/news-releases/alinta-fined-1089-million-alleged-mishandling-centrepay-payments",
+          "title": "Alinta fined $1.089 million for alleged mishandling of Centrepay payments",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Paid $1,089,000 in AER penalties (a record 15 infringement notices) for allegedly overcharging Centrepay customers (a government bill-paying service for Centrelink recipients) across NSW, Qld and SA between 2019-2024, and failing to inform/refund them within required timeframes.",
+      "risk_indicators": [
+        "Paid $1,089,000 in AER infringement notice penalties for alleged Centrepay overcharging and failure to timely inform/refund welfare-payment customers"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T03:36:03Z",
+      "last_updated": "2026-07-21T03:36:03Z"
+    },
+    {
+      "target_id": "T-AU-2026-00023",
+      "name": "CAM Engineering and Construction Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.aer.gov.au/news/articles/news-releases/stronger-penalties-demand-energy-businesses-prioritise-compliance-law",
+          "title": "CAM Engineering and Construction Pty Ltd ordered to pay penalty for failing to join Energy and Water Ombudsman NSW scheme",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Ordered by the Federal Court to pay a $250,000 penalty for allegedly failing to become a member of the Energy and Water Ombudsman NSW scheme, in breach of the National Energy Retail Law — a consumer-access-to-redress compliance matter.",
+      "risk_indicators": [
+        "Ordered by the Federal Court to pay a $250,000 penalty for alleged failure to join a mandatory ombudsman scheme under the National Energy Retail Law"
+      ],
+      "evidence_confidence": "MEDIUM",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T03:36:03Z",
+      "last_updated": "2026-07-21T03:36:03Z"
     }
   ]
 }
