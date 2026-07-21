@@ -1383,6 +1383,87 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T17:38:39Z",
       "last_updated": "2026-07-21T17:38:39Z"
+    },
+    {
+      "target_id": "T-AU-2026-00053",
+      "name": "Money3 Loans Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-084mr-federal-court-orders-money3-to-pay-1-55-million-penalty-for-responsible-lending-breaches/",
+          "title": "26-084MR Federal Court orders Money3 to pay $1.55 million penalty for responsible lending breaches",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Money3 Loans Pty Ltd to pay $1.55 million in penalties for breaching responsible lending obligations in providing car finance to vulnerable consumers largely or solely reliant on Centrelink payments. For five loans entered into between May 2019 and February 2021, the Court found Money3 did not make reasonable inquiries about or verify borrowers' living expenses using bank statement data it held, and in one instance failed to make reasonable inquiries about a borrower's requirements and objectives. ASIC commenced proceedings on 17 May 2023.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $1.55 million for breaching responsible lending obligations",
+        "Found to have failed to make reasonable inquiries about or verify borrowers' living expenses for five car-finance loans",
+        "Affected borrowers were largely or solely reliant on Centrelink payments"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T18:35:21Z",
+      "last_updated": "2026-07-21T18:35:21Z"
+    },
+    {
+      "target_id": "T-AU-2026-00054",
+      "name": "Australian Unity Funds Management Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-011mr-federal-court-orders-australian-unity-funds-management-to-pay-7-million-penalty-for-failing-to-confirm-product-suitability-for-investors/",
+          "title": "26-011MR Federal Court orders Australian Unity Funds Management to pay $7 million penalty for failing to confirm product suitability for investors",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Australian Unity Funds Management Limited to pay a $7.125 million penalty for breaching design and distribution obligations as responsible entity of the Australian Unity Select Income Fund. AUFM admitted it failed to take reasonable steps to ensure interests in the Fund were only distributed to investors matching its Target Market Determinations: of 328 non-advised investors, 89 were not required to submit a suitability questionnaire, and of the 239 who did, up to 144 gave at least one response suggesting they were outside the target market. The Court also ordered a written adverse publicity notice to impacted investors and payment of ASIC's costs.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $7.125 million, admitted, for breaching design and distribution obligations",
+        "Up to 144 of 239 responding investors gave at least one response suggesting they were outside the fund's target market",
+        "Court additionally ordered a written adverse publicity notice to impacted investors"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T18:35:21Z",
+      "last_updated": "2026-07-21T18:35:21Z"
+    },
+    {
+      "target_id": "T-AU-2026-00055",
+      "name": "First Mutual Private Equity Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-153mr-federal-court-orders-first-mutual-private-equity-and-unregistered-managed-investment-scheme-to-be-wound-up/",
+          "title": "26-153MR Federal Court orders First Mutual Private Equity and unregistered managed investment scheme to be wound up",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered on 13 July 2026 that First Mutual Private Equity Pty Ltd and an unregistered managed investment scheme operated by it and an individual be wound up, following an ASIC application, and appointed independent liquidators. ASIC's investigation indicates that between January 2020 and August 2025, around $131 million was raised from investors purportedly to be invested on the ASX. The winding-up was sought to enable orderly administration of remaining assets and, where possible, return of funds to investors.",
+      "risk_indicators": [
+        "Subject of a Federal Court winding-up order obtained on ASIC's application, with independent liquidators appointed",
+        "ASIC's investigation indicates approximately $131 million was raised from investors between January 2020 and August 2025",
+        "Winding-up sought specifically to identify and return available funds to investors"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T18:35:50Z",
+      "last_updated": "2026-07-21T18:35:50Z"
     }
   ]
 }
