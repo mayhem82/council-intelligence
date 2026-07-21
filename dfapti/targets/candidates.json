@@ -1653,6 +1653,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T22:36:27Z",
       "last_updated": "2026-07-21T22:36:27Z"
+    },
+    {
+      "target_id": "T-AU-2026-00063",
+      "name": "BPS Financial Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-008mr-bps-financial-to-pay-14-million-in-penalties-over-crypto-qoin-wallet/",
+          "title": "26-008MR BPS Financial to pay $14 million in penalties over crypto Qoin Wallet",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered BPS Financial Pty Ltd to pay $14 million in penalties ($2 million for unlicensed conduct, $12 million for misleading and deceptive conduct) after finding it issued and advised on its Qoin Wallet crypto product for almost three years without holding an Australian Financial Services Licence, and made false and misleading representations about the product, including as to token convertibility and regulatory approval. During the misconduct period (2020-2023) BPS issued more than 96,000 Qoin Wallets and generated over $42 million in revenue from Qoin token sales. The company was also permanently restrained from further misleading claims and barred from operating a financial services business without a licence for ten years.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $14 million for unlicensed conduct and misleading/deceptive representations",
+        "Found to have operated without an Australian Financial Services Licence for almost three years, issuing more than 96,000 crypto wallets",
+        "Permanently restrained from further misleading claims and barred from operating a financial services business without a licence for ten years"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T23:36:15Z",
+      "last_updated": "2026-07-21T23:36:15Z"
     }
   ]
 }
