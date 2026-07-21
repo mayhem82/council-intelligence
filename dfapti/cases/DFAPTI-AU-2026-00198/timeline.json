@@ -54,6 +54,12 @@
       "event": "Scheduled agent pass (:30). Part 1 check against ASIC sustainability-reporting material found nothing new: the search turned up only material already held (early-observations review, Regulatory Guide 280, educational modules) — nothing forced in. Part 2 target discovery: found and cross-verified ASIC's four Federal Court/civil-penalty greenwashing actions to date — Mercer Superannuation (Australia) Limited ($11.3M, ASIC's first), Vanguard Investments Australia Ltd ($12.9M, ASIC's second, record penalty), LGSS Pty Ltd as trustee for Active Super ($10.5M, ASIC's third), and Fiducian Investment Management Services Limited (ASIC's fourth action, proceedings not yet concluded, admissions agreed but no penalty finalised). Recorded as candidates T-AU-2026-00031 through T-AU-2026-00034 in dfapti/targets/candidates.json, not added to this case's own evidence, per the Target Visibility Gate. Also considered and declined to add a Fair Work Ombudsman matter (D365.Group Pty Ltd / David Mark Blumentals) as a candidate, since the penalty and compensation orders landed on the individual personally rather than the (already-liquidated) company; logged as a borderline case in reports/unassigned-candidates.md pending the still-open named-individuals policy question.",
       "evidence_ids": [],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Scheduled agent pass (:30). Added E-018 (ASIC's administration of the sustainability reporting requirements — the resource page setting out ASIC's 'pragmatic and proportionate' supervision/enforcement approach, its stated trigger for commencing an enforcement investigation, and its relief discretion), ACCEPTED at HIGH confidence, cross-confirmed via independent search corroboration. Directly on-topic for this case's scope (ASIC's administration of the Chapter 2M regime).",
+      "evidence_ids": ["E-018"],
+      "status_change": "None"
     }
   ]
 }

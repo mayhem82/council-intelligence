@@ -13,11 +13,11 @@
       "classification": "ACCEPTED",
       "confidence": "HIGH",
       "summary": "ASIC published early observations from a desktop review of sustainability reports prepared under Chapter 2M of the Corporations Act 2001, to assist reporting entities ahead of the 30 June 2026 reporting season. Published 18 May 2026.",
-      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent title and content matching this exact ASIC news item. Publication date and full article text (the 'Published 18 May 2026' byline, the six early-observations items, and the 'next steps' section referencing 26-098MR) were then directly confirmed on 2026-07-21 from the live page text, supplied by the operator (the sandbox itself still cannot fetch asic.gov.au directly). document_hash remains unset since this was a text capture, not a raw byte fetch — the GitHub Actions runner's hash-capture pass can still complete that.",
+      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent title and content matching this exact ASIC news item. Publication date and full article text (the 'Published 18 May 2026' byline, the six early-observations items, and the 'next steps' section referencing 26-098MR) were then directly confirmed on 2026-07-21 from the live page text, supplied by the operator (the sandbox itself still cannot fetch asic.gov.au directly). document_hash remains unset since this was a text capture, not a raw byte fetch \u2014 the GitHub Actions runner's hash-capture pass can still complete that.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
@@ -37,7 +37,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
@@ -53,11 +53,11 @@
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
       "summary": "Per ASIC's early observations release (published 18 May 2026), 259 sustainability reports were lodged for the financial year ending 31 December 2025 (34 from listed entities, 225 from unlisted entities), reviewed for compliance with the Corporations Act and AASB S2.",
-      "verification_notes": "Same source document as E-001. Source URL and article text cross-confirmed via independent search queries and, on 2026-07-21, a direct text capture of the live page supplied by the operator confirming the article itself, its date, and 'Figure 1 sets out an overview of the total number of sustainability reports lodged with ASIC as of 6 May 2026'. IMPORTANT CAVEAT: the specific 259/34/225 figures live in that Figure 1 image, not in the plain text captured — the direct capture confirms the figure exists and its data-as-of date (6 May 2026), but does not itself independently confirm the exact numbers, which still rest on the earlier search-engine corroboration only. Treat those specific numbers as MEDIUM rather than fully document-confirmed until the image or its 'text version' link is captured directly.",
+      "verification_notes": "Same source document as E-001. Source URL and article text cross-confirmed via independent search queries and, on 2026-07-21, a direct text capture of the live page supplied by the operator confirming the article itself, its date, and 'Figure 1 sets out an overview of the total number of sustainability reports lodged with ASIC as of 6 May 2026'. IMPORTANT CAVEAT: the specific 259/34/225 figures live in that Figure 1 image, not in the plain text captured \u2014 the direct capture confirms the figure exists and its data-as-of date (6 May 2026), but does not itself independently confirm the exact numbers, which still rest on the earlier search-engine corroboration only. Treat those specific numbers as MEDIUM rather than fully document-confirmed until the image or its 'text version' link is captured directly.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL and specific figures independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL and specific figures independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
@@ -66,7 +66,7 @@
       "evidence_id": "E-004",
       "case_id": "DFAPTI-AU-2026-00198",
       "source_authority": "ASIC",
-      "document_title": "26-098MR ASIC sets financial reporting, audit and sustainability focus areas for FY 2026–27",
+      "document_title": "26-098MR ASIC sets financial reporting, audit and sustainability focus areas for FY 2026\u201327",
       "publication_date": null,
       "capture_date": "2026-07-20T00:00:00Z",
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-098mr-asic-sets-financial-reporting-audit-and-sustainability-focus-areas-for-fy-2026-27/",
@@ -113,7 +113,7 @@
       "classification": "HELD",
       "confidence": "MEDIUM",
       "summary": "ANAO performance audit of ASIC's regulation of registered company auditors generally. Search results note the responsible ASIC branch was renamed 'Sustainability, Financial Reporting and Audit' in February 2025, but the audit itself is not sustainability-reporting-specific.",
-      "verification_notes": "Source URL confirmed via search. Held rather than Accepted: relevance to this case's specific scope (mandatory sustainability reporting) is indirect — the audit covers ASIC's auditor-regulation function broadly, not sustainability report assurance specifically. Requires reading the full report to confirm how directly it bears on this case before treating findings from it as case-specific evidence.",
+      "verification_notes": "Source URL confirmed via search. Held rather than Accepted: relevance to this case's specific scope (mandatory sustainability reporting) is indirect \u2014 the audit covers ASIC's auditor-regulation function broadly, not sustainability report assurance specifically. Requires reading the full report to confirm how directly it bears on this case before treating findings from it as case-specific evidence.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -186,14 +186,14 @@
       "evidence_id": "E-010",
       "case_id": "DFAPTI-AU-2026-00198",
       "source_authority": "ASIC",
-      "document_title": "Reporting and audit update – Issue 4",
+      "document_title": "Reporting and audit update \u2013 Issue 4",
       "publication_date": null,
       "capture_date": "2026-07-20T00:00:00Z",
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-4/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
       "summary": "ASIC newsletter (Issue 4, reported as May 2026) covering reporting and audit developments including early observations on sustainability reporting, the ASIC/AASB sustainability reporting webinar series, FY2026-27 focus areas, infringement notices for late lodgement, and updated FAQs on auditing and assurance requirements for sustainability reports.",
-      "verification_notes": "Source URL located and confirmed via independent search; content directly on-topic for this case. Direct fetch to compute document_hash is blocked by this session's sandbox network policy — the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
+      "verification_notes": "Source URL located and confirmed via independent search; content directly on-topic for this case. Direct fetch to compute document_hash is blocked by this session's sandbox network policy \u2014 the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -272,8 +272,8 @@
       "source_url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/faqs-review-or-audit-of-sustainability-reports/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "ASIC FAQs covering review/audit requirements for sustainability reports under the Corporations Act — limited assurance (review) or reasonable assurance (audit) depending on phase-in, auditor rotation as it applies to sustainability report assurance, and full audit becoming mandatory for financial years commencing on or after 1 July 2030. Updated 18 May 2026 (per two independent search results reporting this update date).",
-      "verification_notes": "Source URL located and cross-confirmed via independent search queries returning consistent content and the same '18 May 2026' update date. Direct fetch to compute document_hash is blocked by this session's sandbox network policy — the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
+      "summary": "ASIC FAQs covering review/audit requirements for sustainability reports under the Corporations Act \u2014 limited assurance (review) or reasonable assurance (audit) depending on phase-in, auditor rotation as it applies to sustainability report assurance, and full audit becoming mandatory for financial years commencing on or after 1 July 2030. Updated 18 May 2026 (per two independent search results reporting this update date).",
+      "verification_notes": "Source URL located and cross-confirmed via independent search queries returning consistent content and the same '18 May 2026' update date. Direct fetch to compute document_hash is blocked by this session's sandbox network policy \u2014 the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -293,7 +293,7 @@
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
       "summary": "First issue of ASIC's quarterly Reporting and Audit Update newsletter (reported as published around August 2025), launching the series for report preparers, auditors, professional advisors and report users; referenced the first round of mandatory sustainability reports being due for lodgement with ASIC from March 2026.",
-      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (August 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured — blocked by this session's sandbox network policy.",
+      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (August 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured \u2014 blocked by this session's sandbox network policy.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -313,7 +313,7 @@
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
       "summary": "Second issue of ASIC's Reporting and Audit Update newsletter (reported as released November 2025), covering guidance on auditor obligations to report suspected contraventions in connection with sustainability reporting (in line with recent law changes), and FAQs on auditing/assurance requirements for sustainability reports.",
-      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (November 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured — blocked by this session's sandbox network policy.",
+      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (November 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured \u2014 blocked by this session's sandbox network policy.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -326,7 +326,7 @@
       "evidence_id": "E-017",
       "case_id": "DFAPTI-AU-2026-00198",
       "source_authority": "ASIC",
-      "document_title": "Reporting and audit update – Issue 3",
+      "document_title": "Reporting and audit update \u2013 Issue 3",
       "publication_date": "2026-02-20",
       "capture_date": "2026-07-21T01:35:32Z",
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-3/",
@@ -341,6 +341,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T01:35:32Z"
+    },
+    {
+      "evidence_id": "E-018",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "ASIC's administration of the sustainability reporting requirements",
+      "publication_date": null,
+      "capture_date": "2026-07-21T10:30:00Z",
+      "source_url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/asic-s-administration-of-the-sustainability-reporting-requirements/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC's stated approach to administering the Chapter 2M sustainability reporting regime: a 'pragmatic and proportionate' approach to supervision and enforcement during the transition period, including engaging with reporting entities where disclosures appear incorrect or misleading, and being more likely to commence an enforcement investigation where there is misconduct of a serious or reckless nature, or where a reporting entity fails to prepare a required sustainability report at all. Also describes ASIC's discretion to grant relief from the reporting/audit requirements where compliance would make a report misleading, be inappropriate, or impose unreasonable burdens.",
+      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent title, URL, and substantive content (pragmatic/proportionate approach, enforcement triggers, relief discretion) matching this exact ASIC resource page. This is an evergreen resource page with no publication byline. document_hash remains unset since this sandbox cannot fetch asic.gov.au directly; the GitHub Actions runner's hash-capture pass can complete that.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-21T10:30:00Z"
     }
   ]
 }

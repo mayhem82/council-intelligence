@@ -896,6 +896,87 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T09:38:43Z",
       "last_updated": "2026-07-21T09:38:43Z"
+    },
+    {
+      "target_id": "T-AU-2026-00035",
+      "name": "Netwealth Superannuation Services Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.apra.gov.au/news-and-publications/apra-accepts-court-enforceable-undertaking-from-netwealth",
+          "title": "APRA accepts court enforceable undertaking from Netwealth",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "APRA accepted a court enforceable undertaking from Netwealth Superannuation Services Pty Ltd (trustee of a superannuation platform with around 115,000 member accounts and over $40 billion in funds under management) after a thematic review found material weaknesses in its investment governance framework, including deficiencies in onboarding due diligence and monitoring of investment options and management of outsourced investment services and related conflicts of interest. In parallel, ASIC commenced separate Corporations Act proceedings against Netwealth and accepted its own court-enforceable undertaking relating to First Guardian investor compensation.",
+      "risk_indicators": [
+        "Subject of an APRA court enforceable undertaking following a thematic review identifying material weaknesses in investment governance",
+        "Findings included deficiencies in due diligence, monitoring of investment options, and management of related-party conflicts of interest",
+        "Also subject of separate, parallel ASIC Corporations Act proceedings and a court-enforceable undertaking concerning First Guardian investor compensation"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T10:36:45Z",
+      "last_updated": "2026-07-21T10:36:45Z"
+    },
+    {
+      "target_id": "T-AU-2026-00036",
+      "name": "United Super Pty Ltd (trustee for Cbus)",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.apra.gov.au/news-and-publications/apra-accepts-court-enforceable-undertaking-from-cbus-and-launches",
+          "title": "APRA accepts court enforceable undertaking from Cbus and launches investigation",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "APRA accepted a court enforceable undertaking from United Super Pty Ltd, trustee for the Construction and Building Unions Superannuation Fund (Cbus, over 920,000 member accounts and around $100 billion in funds under management), after a prudential review found significant and persistent weaknesses in its operational risk management framework across four areas: operational risk management, information/IT resilience, insurance claims processing and administration, and expenditure management. APRA separately launched an investigation into United Super for possible breaches of the Superannuation Industry (Supervision) Act 1993, focused on expenditure management practices.",
+      "risk_indicators": [
+        "Subject of an APRA court enforceable undertaking following findings of significant and persistent operational risk management weaknesses",
+        "Undertaking spans four areas: operational risk management, IT resilience, insurance claims administration, and expenditure management",
+        "Separately under APRA investigation for possible breaches of the SIS Act relating to expenditure management practices"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T10:36:45Z",
+      "last_updated": "2026-07-21T10:36:45Z"
+    },
+    {
+      "target_id": "T-AU-2026-00037",
+      "name": "Fiducian Portfolio Services Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.apra.gov.au/news-and-publications/apra-imposes-additional-licence-conditions-on-fiducian-0",
+          "title": "APRA imposes additional licence conditions on Fiducian",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "APRA imposed additional licence conditions (effective 2 April 2026) on Fiducian Portfolio Services Limited, trustee of the Fiducian Superannuation Fund (approximately 9,779 member accounts, over $3.1 billion in funds under management), after a review identified concerns including insufficiently rigorous investment selection criteria and due diligence, weak monitoring/reporting frameworks, management of related-party conflicts of interest, and deficiencies in board governance and oversight. Note: this is a distinct legal entity from Fiducian Investment Management Services Limited (T-AU-2026-00034), which is the subject of a separate ASIC greenwashing action against a different Fiducian-group entity.",
+      "risk_indicators": [
+        "Subject of additional APRA licence conditions effective 2 April 2026 following a review of investment governance",
+        "Findings included insufficiently rigorous investment selection/due diligence criteria and weak monitoring frameworks",
+        "Findings also included deficiencies in board governance and management of related-party conflicts of interest"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T10:36:45Z",
+      "last_updated": "2026-07-21T10:36:45Z"
     }
   ]
 }
