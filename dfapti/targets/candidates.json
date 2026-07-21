@@ -1167,6 +1167,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T14:36:53Z",
       "last_updated": "2026-07-21T14:36:53Z"
+    },
+    {
+      "target_id": "T-AU-2026-00045",
+      "name": "Australia and New Zealand Banking Group Limited (ANZ)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-314mr-federal-court-orders-250-million-combined-penalties-against-anz/",
+          "title": "25-314MR Federal Court orders $250 million combined penalties against ANZ",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered ANZ to pay $250 million in combined penalties (delivered 19 December 2025, up from the $240 million ASIC and ANZ had jointly proposed) \u2014 the largest combined penalty ASIC has secured against a single entity. ANZ admitted to unconscionable conduct in services provided to the Australian government, incorrectly reporting bond trading data to the government by tens of billions of dollars, and widespread misconduct across products and services affecting nearly 65,000 customers.",
+      "risk_indicators": [
+        "Ordered to pay $250 million in combined Federal Court penalties, the largest ASIC has secured against a single entity",
+        "Admitted unconscionable conduct in services provided to the Australian government, including incorrectly reporting bond trading data by tens of billions of dollars",
+        "Admitted widespread misconduct across products and services affecting nearly 65,000 customers"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T15:36:25Z",
+      "last_updated": "2026-07-21T15:36:25Z"
+    },
+    {
+      "target_id": "T-AU-2026-00046",
+      "name": "Macquarie Investment Management Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-053mr-federal-court-declares-macquarie-contravened-the-corporations-act-in-relation-to-shield-master-fund/",
+          "title": "26-053MR Federal Court declares Macquarie contravened the Corporations Act in relation to Shield Master Fund",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court declared that Macquarie Investment Management Limited (MIML), as superannuation platform trustee, contravened the Corporations Act by failing to place the Shield Master Fund on a watch list for heightened monitoring despite warning signs, after more than $480 million was invested in Shield by at least 5,800 consumers (mostly via superannuation platforms) since February 2022. Macquarie separately admitted contraventions and, under a court-enforceable undertaking, paid approximately $321 million to over 3,000 affected members \u2014 100% of the amounts they invested less any withdrawals.",
+      "risk_indicators": [
+        "Federal Court declared contraventions of the Corporations Act for failing to place a fund on a watch list for heightened monitoring despite warning signs",
+        "Paid approximately $321 million to over 3,000 affected members under a court-enforceable undertaking, following admitted contraventions",
+        "Fund at issue attracted more than $480 million from at least 5,800 consumers since February 2022 before the failures were addressed"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T15:36:25Z",
+      "last_updated": "2026-07-21T15:36:25Z"
     }
   ]
 }
