@@ -90,6 +90,12 @@
       "event": "Scheduled agent pass (:30). Added E-023 (ASIC's standing 'Sustainability reporting, financial reporting and audit and assurance focus areas' regulatory-resources page, updated annually each May; FY2026-27 focus areas announced 18 May 2026), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Directly on-topic and linked to the 26-098MR release already held as E-004.",
       "evidence_ids": ["E-023"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Scheduled agent pass (:30). Added E-024 (ASIC and AASB's May 2026 launch of all eight sustainability-reporting educational modules in interactive e-learning format, aimed at Group 2/3 entities), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Distinct from and expands on E-012 (the December 2025 PDF-only release of the first three modules).",
+      "evidence_ids": ["E-024"],
+      "status_change": "None"
     }
   ]
 }

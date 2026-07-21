@@ -461,6 +461,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T15:35:00Z"
+    },
+    {
+      "evidence_id": "E-024",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "ASIC launches e-learning educational modules on sustainability reporting",
+      "publication_date": null,
+      "capture_date": "2026-07-21T16:35:00Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/asic-launches-e-learning-educational-modules-on-sustainability-reporting/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC, in partnership with the AASB, released all eight sustainability-reporting educational modules in interactive e-learning format in May 2026, aimed at Group 2 and 3 entities not yet subject to the reporting requirements (commencing financial years on or after 1 July 2026 and 1 July 2027 respectively). This follows and expands on the first three modules, originally released only in PDF format on 15 December 2025 (already captured as E-012).",
+      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent detail (May 2026 interactive release of all eight modules, target audience of Group 2/3 entities, relationship to the earlier December 2025 PDF-only release) matching this exact ASIC news item. document_hash remains unset since this sandbox cannot fetch asic.gov.au directly. Directly on-topic and distinct from E-012: a later, expanded release (interactive format, full eight modules) rather than a duplicate of the earlier PDF announcement.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-21T16:35:00Z"
     }
   ]
 }

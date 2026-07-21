@@ -1221,6 +1221,141 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T15:36:25Z",
       "last_updated": "2026-07-21T15:36:25Z"
+    },
+    {
+      "target_id": "T-AU-2026-00047",
+      "name": "BlueScope Steel Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/court-upholds-record-penalty-in-acccs-cartel-case-against-bluescope",
+          "title": "Court upholds record penalty in ACCC's cartel case against BlueScope",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Full Federal Court dismissed BlueScope Steel Ltd's appeal against a $57.5 million civil penalty \u2014 the highest penalty ever imposed for cartel conduct or a competition-law breach in Australia \u2014 for attempting to induce eight steel distributors and an overseas manufacturer to fix and raise pricing for flat steel products supplied in Australia between September 2013 and June 2014, in ACCC proceedings first instituted in August 2019. A former BlueScope general manager was separately penalised $500,000 in the same proceedings; that individual is noted here as context only and is not recorded as a separate candidate.",
+      "risk_indicators": [
+        "Highest penalty ever imposed for cartel conduct or a competition-law breach in Australia ($57.5 million), upheld on appeal by the Full Federal Court",
+        "Found to have attempted to induce eight steel distributors and an overseas manufacturer to fix and raise flat-steel pricing",
+        "Federal Court proceedings ran from institution in August 2019 through a 2022 cartel-conduct finding to the 2023 penalty and 2025 appeal dismissal"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T16:36:20Z",
+      "last_updated": "2026-07-21T16:36:20Z"
+    },
+    {
+      "target_id": "T-AU-2026-00048",
+      "name": "Perfection Fresh Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/accc-takes-court-action-against-fresh-produce-suppliers-for-alleged-price-fixing-cartel",
+          "title": "ACCC takes court action against fresh produce suppliers for alleged price fixing cartel",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court civil proceedings against Perfection Fresh Australia (Australia's second-largest fresh vegetable supplier) alongside three other suppliers and three senior executives, alleging price fixing on 84 occasions in the supply of fresh produce (including broccoli, cauliflower, iceberg lettuce, cucumber, Brussels sprouts and zucchini) to ALDI stores in NSW, Victoria and Queensland between 2018 and 2024.",
+      "risk_indicators": [
+        "Subject of Federal Court civil cartel proceedings instituted by the ACCC, alleging price fixing on 84 occasions",
+        "Alleged conduct concerns supply of fresh produce to ALDI across three states between 2018 and 2024",
+        "Proceedings are ongoing; allegations not yet determined by the court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T16:36:20Z",
+      "last_updated": "2026-07-21T16:36:20Z"
+    },
+    {
+      "target_id": "T-AU-2026-00049",
+      "name": "Hydro Produce (Aust) Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/accc-takes-court-action-against-fresh-produce-suppliers-for-alleged-price-fixing-cartel",
+          "title": "ACCC takes court action against fresh produce suppliers for alleged price fixing cartel",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court civil proceedings against Hydro Produce (Aust) alongside three other suppliers and three senior executives, alleging price fixing on 84 occasions in the supply of fresh produce (including broccoli, cauliflower, iceberg lettuce, cucumber, Brussels sprouts and zucchini) to ALDI stores in NSW, Victoria and Queensland between 2018 and 2024.",
+      "risk_indicators": [
+        "Subject of Federal Court civil cartel proceedings instituted by the ACCC, alleging price fixing on 84 occasions",
+        "Alleged conduct concerns supply of fresh produce to ALDI across three states between 2018 and 2024",
+        "Proceedings are ongoing; allegations not yet determined by the court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T16:36:20Z",
+      "last_updated": "2026-07-21T16:36:20Z"
+    },
+    {
+      "target_id": "T-AU-2026-00050",
+      "name": "Veli Velisha Fresh Produce / Velisha National Farms",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/accc-takes-court-action-against-fresh-produce-suppliers-for-alleged-price-fixing-cartel",
+          "title": "ACCC takes court action against fresh produce suppliers for alleged price fixing cartel",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court civil proceedings against Veli Velisha Fresh Produce and Velisha National Farms, alongside two other suppliers and named senior executives (its director/CEO and a senior sales manager, noted here as context only and not recorded as separate candidates), alleging price fixing on 84 occasions in the supply of fresh produce to ALDI stores in NSW, Victoria and Queensland between 2018 and 2024.",
+      "risk_indicators": [
+        "Subject of Federal Court civil cartel proceedings instituted by the ACCC, alleging price fixing on 84 occasions",
+        "Alleged conduct concerns supply of fresh produce to ALDI across three states between 2018 and 2024",
+        "Proceedings are ongoing; allegations not yet determined by the court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T16:36:20Z",
+      "last_updated": "2026-07-21T16:36:20Z"
+    },
+    {
+      "target_id": "T-AU-2026-00051",
+      "name": "M. Fragapane & Sons Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/accc-takes-court-action-against-fresh-produce-suppliers-for-alleged-price-fixing-cartel",
+          "title": "ACCC takes court action against fresh produce suppliers for alleged price fixing cartel",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court civil proceedings against M. Fragapane & Sons, alongside three other suppliers and named senior executives (its general sales manager, noted here as context only and not recorded as a separate candidate), alleging price fixing on 84 occasions in the supply of fresh produce to ALDI stores in NSW, Victoria and Queensland between 2018 and 2024.",
+      "risk_indicators": [
+        "Subject of Federal Court civil cartel proceedings instituted by the ACCC, alleging price fixing on 84 occasions",
+        "Alleged conduct concerns supply of fresh produce to ALDI across three states between 2018 and 2024",
+        "Proceedings are ongoing; allegations not yet determined by the court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T16:36:20Z",
+      "last_updated": "2026-07-21T16:36:20Z"
     }
   ]
 }
