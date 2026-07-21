@@ -384,6 +384,83 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T01:36:41Z",
       "last_updated": "2026-07-21T01:36:51Z"
+    },
+    {
+      "target_id": "T-AU-2026-00016",
+      "name": "JustAnswer LLC",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/justanswer-in-court-for-alleged-misleading-prices-subscription-trap-and-government-affiliation-claims",
+          "title": "JustAnswer in Court for alleged misleading prices, subscription trap and government affiliation claims",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Subject of Federal Court proceedings brought by the ACCC (ACCC v JustAnswer LLC, VID1259 of 2025), ordered to pay $10 million in penalties for allegedly misleading consumers about subscription pricing (a '$2' offer that led to undisclosed ongoing charges of $50-90/month) and falsely implying affiliation with the Fair Work Ombudsman.",
+      "risk_indicators": [
+        "Ordered by the Federal Court to pay $10 million in penalties in ACCC v JustAnswer LLC (VID1259 of 2025)",
+        "ACCC alleged misleading pricing representations and false government-affiliation claims"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T02:36:22Z",
+      "last_updated": "2026-07-21T02:36:22Z"
+    },
+    {
+      "target_id": "T-AU-2026-00017",
+      "name": "Vacaciones eDreams, S.L",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/online-travel-agency-edreams-pays-penalties-and-gives-undertaking-over-allegedly-misleading-subscription-prices",
+          "title": "Online travel agency eDreams pays penalties and gives undertaking over allegedly misleading subscription prices",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Paid $59,400 in ACCC infringement notices and gave a court-enforceable s.87B undertaking over allegedly misleading subscription pricing practices (advertising a subscription as '$0.00'/'FREE' without adequately disclosing conditions, and not prominently displaying total annual cost).",
+      "risk_indicators": [
+        "Paid $59,400 in ACCC infringement notices for allegedly misleading subscription pricing claims",
+        "Gave the ACCC a court-enforceable undertaking (s.87B) admitting conduct contravened or likely contravened the Australian Consumer Law"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T02:36:22Z",
+      "last_updated": "2026-07-21T02:36:22Z"
+    },
+    {
+      "target_id": "T-AU-2026-00018",
+      "name": "Christofi Investments",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/ugg-boot-retailer-pays-penalties-for-strikethrough-pricing-claims",
+          "title": "Ugg boot retailer pays penalties for strikethrough pricing claims",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Paid $39,600 in ACCC infringement notices for allegedly misleading 'strikethrough' pricing claims on ugg-boot retail websites it owns/administers (Original Ugg Australia Classic, Ugg Originals).",
+      "risk_indicators": [
+        "Paid $39,600 in ACCC infringement notices for allegedly misleading strikethrough pricing claims"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T02:36:22Z",
+      "last_updated": "2026-07-21T02:36:22Z"
     }
   ]
 }
