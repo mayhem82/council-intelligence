@@ -72,6 +72,12 @@
       "event": "Scheduled agent pass (:30). Added E-020 (ASIC's remade legislative instruments 2026/59 and 2026/313, which extend electronic-lodgment relief for sustainability reports to Cboe-listed entities and permit combined related-scheme sustainability reports), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Directly on-topic: both instruments amend the lodgment/administration mechanics of the Chapter 2M regime this case tracks.",
       "evidence_ids": ["E-020"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Scheduled agent pass (:30). Added E-021 (Treasury's climate-related financial reporting policy page, tracking the May 2026 Federal Budget's proposed 'Group 3' threshold increases and a flagged consultation on undue-cost-or-effort, assurance proportionality, and supplier information requests), ACCEPTED at MEDIUM confidence — downgraded from HIGH because the sandbox could only corroborate the page via consistent secondary summaries, not a direct view, and because the measures themselves are proposed/not yet legislated. Directly on-topic: a live proposed change to the Chapter 2M regime's scope. Also found ASIC's 25-298MR (12 large proprietary companies fined for late FY24 financial-report lodgement) this pass, but that concerns general financial-report lodgement rather than sustainability reporting specifically, so it was not added here — the three newly named companies (Hancock Agriculture Pty Ltd, S. Kidman & Co Pty Ltd, MJ Bale Group) were instead recorded as target-discovery candidates T-AU-2026-00040 through T-AU-2026-00042.",
+      "evidence_ids": ["E-021"],
+      "status_change": "None"
     }
   ]
 }

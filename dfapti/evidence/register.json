@@ -401,6 +401,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T12:36:00Z"
+    },
+    {
+      "evidence_id": "E-021",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Treasury",
+      "document_title": "Climate related financial reporting and guidance (Treasury.gov.au)",
+      "publication_date": null,
+      "capture_date": "2026-07-21T13:37:00Z",
+      "source_url": "https://treasury.gov.au/policy-topics/banking-and-finance/sustainable-finance/climate-financial-reporting-guidance",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "Treasury's policy page for the mandatory climate-related financial disclosure regime, tracking the May 2026 Federal Budget proposal to raise the 'Group 3' proprietary-company reporting thresholds from $50m to $100m consolidated revenue and $25m to $50m consolidated gross assets (the 100-employee threshold unchanged), which would move some private companies out of scope entirely, plus a flagged Treasury consultation on three narrower settings: clarifying how 'undue cost or effort' applies, recalibrating assurance settings to be proportionate to reporter size/maturity, and setting clearer boundaries on supplier information requests. As of the most recent reporting these measures are proposed only, subject to consultation and legislative design, not yet enacted.",
+      "verification_notes": "Source URL located via search and cross-confirmed via multiple independent legal/accounting-firm summaries (BDO, Allens, CA ANZ, Accounting Times) describing consistent specific figures (the $50m->$100m and $25m->$50m threshold changes, the three consultation areas) all attributed to the same May 2026 Budget measure. Confidence set to MEDIUM rather than HIGH because the sandbox could not directly view the live Treasury page text itself (only search-result snippets and secondary summaries converged on it) and because the measure is explicitly described as proposed/not yet legislated. document_hash unset for the same reason; the GitHub Actions runner's hash-capture pass can complete a direct fetch. Directly on-topic: this is a live proposed change to the scope of the Chapter 2M regime this case tracks.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL corroborated via multiple independent secondary summaries rather than a direct view of the primary page text; document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-21T13:37:00Z"
     }
   ]
 }

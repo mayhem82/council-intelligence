@@ -1031,6 +1031,87 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T12:37:21Z",
       "last_updated": "2026-07-21T12:37:21Z"
+    },
+    {
+      "target_id": "T-AU-2026-00040",
+      "name": "Hancock Agriculture Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-298mr-asic-issues-over-2-2-million-in-infringement-notices-to-12-large-proprietary-companies-for-alleged-failure-to-lodge-financial-reports/",
+          "title": "25-298MR ASIC issues over $2.2 million in infringement notices to 12 large proprietary companies for alleged failure to lodge financial reports",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Hancock Agriculture Pty Ltd was one of 12 large proprietary companies issued infringement notices by ASIC (published 11 December 2025) for allegedly failing to lodge audited FY24 financial reports on time, following a three-month ASIC surveillance campaign into non-lodgement by large proprietary companies. Penalties across the 12 companies ranged from $150,240 to $187,800 each, totalling over $2.2 million, all paid in full.",
+      "risk_indicators": [
+        "Issued an ASIC infringement notice for alleged failure to lodge an audited FY24 financial report on time",
+        "One of 12 companies targeted in a dedicated ASIC surveillance campaign on large-proprietary-company non-lodgement",
+        "Penalty paid in full; payment of an infringement notice is not an admission of guilt or liability"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T13:36:14Z",
+      "last_updated": "2026-07-21T13:36:14Z"
+    },
+    {
+      "target_id": "T-AU-2026-00041",
+      "name": "S. Kidman & Co Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-298mr-asic-issues-over-2-2-million-in-infringement-notices-to-12-large-proprietary-companies-for-alleged-failure-to-lodge-financial-reports/",
+          "title": "25-298MR ASIC issues over $2.2 million in infringement notices to 12 large proprietary companies for alleged failure to lodge financial reports",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "S. Kidman & Co Pty Ltd, one of Australia's largest cattle station operators, was one of 12 large proprietary companies issued infringement notices by ASIC (published 11 December 2025) for allegedly failing to lodge audited FY24 financial reports on time, following a three-month ASIC surveillance campaign into non-lodgement by large proprietary companies. Penalties across the 12 companies ranged from $150,240 to $187,800 each, totalling over $2.2 million, all paid in full.",
+      "risk_indicators": [
+        "Issued an ASIC infringement notice for alleged failure to lodge an audited FY24 financial report on time",
+        "One of 12 companies targeted in a dedicated ASIC surveillance campaign on large-proprietary-company non-lodgement",
+        "Penalty paid in full; payment of an infringement notice is not an admission of guilt or liability"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T13:36:14Z",
+      "last_updated": "2026-07-21T13:36:14Z"
+    },
+    {
+      "target_id": "T-AU-2026-00042",
+      "name": "MJ Bale Group",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-298mr-asic-issues-over-2-2-million-in-infringement-notices-to-12-large-proprietary-companies-for-alleged-failure-to-lodge-financial-reports/",
+          "title": "25-298MR ASIC issues over $2.2 million in infringement notices to 12 large proprietary companies for alleged failure to lodge financial reports",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "MJ Bale Group was one of 12 large proprietary companies issued infringement notices by ASIC (published 11 December 2025) for allegedly failing to lodge audited financial reports on time, paying $198,000 (a higher amount reflecting an increase in the penalty unit value applicable at the time of the alleged contravention). MJ Bale has since lodged its outstanding FY22 through FY25 reports.",
+      "risk_indicators": [
+        "Issued an ASIC infringement notice, paying $198,000, for alleged failure to lodge audited financial reports on time",
+        "One of 12 companies targeted in a dedicated ASIC surveillance campaign on large-proprietary-company non-lodgement",
+        "Has since lodged its outstanding FY22-FY25 reports; payment of an infringement notice is not an admission of guilt or liability"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T13:36:14Z",
+      "last_updated": "2026-07-21T13:36:14Z"
     }
   ]
 }
