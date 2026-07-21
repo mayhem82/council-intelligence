@@ -977,6 +977,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T10:36:45Z",
       "last_updated": "2026-07-21T10:36:45Z"
+    },
+    {
+      "target_id": "T-AU-2026-00038",
+      "name": "FIIG Securities Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-021mr-asic-action-sees-fiig-securities-ordered-to-pay-2-5-million-over-cyber-security-failures/",
+          "title": "26-021MR ASIC action sees FIIG Securities ordered to pay $2.5 million over cyber security failures",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered FIIG Securities Limited to pay a $2.5 million penalty plus $500,000 towards ASIC's costs \u2014 the first civil penalty imposed on an Australian Financial Services licensee for cybersecurity-related contraventions of its general licensee obligations under section 912A of the Corporations Act 2001. FIIG admitted that over a four-year period it failed to have adequate cybersecurity measures in place, which contributed to a May 2023 cyberattack in which approximately 385GB of data, including sensitive client information, was exfiltrated from its systems.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $2.5 million, admitted by the company \u2014 the first such penalty for cybersecurity-related licensee obligation failures in Australia",
+        "Admitted inadequate cybersecurity measures over a four-year period prior to a May 2023 data breach affecting approximately 385GB of data including sensitive client information",
+        "Court also ordered an independent-expert compliance programme to review its cyber security and resilience systems"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T11:37:08Z",
+      "last_updated": "2026-07-21T11:37:08Z"
     }
   ]
 }

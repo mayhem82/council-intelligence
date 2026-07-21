@@ -60,6 +60,12 @@
       "event": "Scheduled agent pass (:30). Added E-018 (ASIC's administration of the sustainability reporting requirements — the resource page setting out ASIC's 'pragmatic and proportionate' supervision/enforcement approach, its stated trigger for commencing an enforcement investigation, and its relief discretion), ACCEPTED at HIGH confidence, cross-confirmed via independent search corroboration. Directly on-topic for this case's scope (ASIC's administration of the Chapter 2M regime).",
       "evidence_ids": ["E-018"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Scheduled agent pass (:30). Added E-019 (AUASB's Sustainability Assurance implementation support hub, covering ASSA 5000 and ASSA 5010, the audit/assurance standards that attach to Chapter 2M sustainability reports), ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries. Directly on-topic: this is the audit/assurance side of the same regime already covered by E-006/E-007 (ANAO) and E-014 (ASIC audit FAQs). Considered but declined to add two other ANAO items surfaced this pass (\"Governance of Climate Change Commitments\" performance audit, \"ANAO's Approach to Auditing Climate and Energy\" speech): both concern government agencies' own climate-commitment governance/ANAO's audit program generally, not the Chapter 2M corporate reporting regime specifically, so adding them would manufacture relevance that isn't there — same reasoning already applied to excluding greenwashing litigation from this case's scope.",
+      "evidence_ids": ["E-019"],
+      "status_change": "None"
     }
   ]
 }

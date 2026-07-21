@@ -361,6 +361,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T10:30:00Z"
+    },
+    {
+      "evidence_id": "E-019",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "AUASB",
+      "document_title": "Sustainability Assurance implementation support hub (ASSA 5000 / ASSA 5010)",
+      "publication_date": null,
+      "capture_date": "2026-07-21T11:36:00Z",
+      "source_url": "https://www.auasb.gov.au/implementation-support/sustainability-assurance/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "The Auditing and Assurance Standards Board's implementation support hub for the sustainability assurance framework underpinning Chapter 2M sustainability reports: ASSA 5000 (General Requirements for Sustainability Assurance Engagements, approved 28 January 2025, applying to reporting periods beginning on or after 1 January 2025) and ASSA 5010 (the timeline specifying the phase-in of limited and reasonable assurance for Group 1, 2 and 3 reporting entities from 1 January 2025 to 30 June 2030).",
+      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent content (ASSA 5000/5010 titles, approval date, phase-in timeline) matching this exact AUASB hub page, corroborated further by a third independent search. This is an evergreen resource page with no publication byline. document_hash remains unset since this sandbox cannot fetch auasb.gov.au directly; the GitHub Actions runner's hash-capture pass can complete that. Directly on-topic: AUASB is the standard-setter for the mandatory assurance requirements that attach to Chapter 2M sustainability reports, the audit/assurance side of the same regime already covered by E-006/E-007 (ANAO) and E-014 (ASIC's own audit FAQs).",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-21T11:36:00Z"
     }
   ]
 }
