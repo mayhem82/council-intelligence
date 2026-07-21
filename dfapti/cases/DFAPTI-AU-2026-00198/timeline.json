@@ -30,6 +30,12 @@
       "event": "Operator supplied the live text of both ASIC pages directly (working around this sandbox's inability to fetch asic.gov.au). Confirmed E-001/E-003's exact publication date (18 May 2026) and full article text, and E-002's hub-page content. Noted one honest caveat: the 259/34/225 lodgement figures in E-003 live in an embedded Figure 1 image, not in the captured text, so those specific numbers still rest on search-engine corroboration rather than direct document confirmation — E-003's confidence was adjusted from HIGH to MEDIUM to reflect that. document_hash still unset on all three (a text capture isn't a raw byte fetch).",
       "evidence_ids": ["E-001", "E-002", "E-003"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Scope correction: rewrote investigation_objective and scope in case.json. This case's role is to track ASIC's administration of the sustainability reporting regime as a trigger/feeder source for the target discovery layer (dfapti/targets/), not as an investigation of ASIC in its own right — matching the original DFAPTI role correction (DFAPTI is the target-discovery engine; this case is trigger source #1, not the whole mission). Noted honestly: the ASIC material held so far (E-001–E-013) does not name specific reporting entities, so no candidates have yet been extracted from this case's own evidence — that isn't a gap to paper over, it's what the source material actually says.",
+      "evidence_ids": [],
+      "status_change": "None"
     }
   ]
 }

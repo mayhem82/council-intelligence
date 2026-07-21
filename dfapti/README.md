@@ -91,11 +91,19 @@ one by hand:
    needs no editing, it derives the case ID from its own URL path.
 5. Add the case ID to `cases/index.json`.
 
-## Current case
+## Current cases
 
-- **DFAPTI-AU-2026-00198** — ASIC Sustainability Reporting Review. Seeded
-  with three evidence entries (E-001–E-003) directly from the case brief.
-  These are recorded as `HELD`, not `ACCEPTED`: no source URL has yet been
-  independently retrieved and hashed, and under the Factualism Audit Rules
-  ACCEPTED requires a verified primary source. Run the monitor or manually
-  confirm each item against asic.gov.au to promote them.
+- **DFAPTI-AU-2026-00198** — ASIC Sustainability Reporting Review. This is
+  case #1: a trigger source, not an investigation of ASIC for its own
+  sake. It tracks ASIC's administration of the mandatory Chapter 2M
+  sustainability reporting regime specifically so any named entity that
+  turns up in that material alongside a public-interest indicator can be
+  handed to the target discovery layer (`targets/`) as a candidate. As of
+  2026-07-21, 13 evidence entries (E-001–E-013) are captured, but the
+  material itself doesn't name specific reporting entities (ASIC's
+  early-observations review and its relief-decisions register both
+  describe outcomes without naming who they're about) — so no candidates
+  have been extracted from this case yet, honestly, not by omission.
+- Further cases are created automatically by `scripts/promote_candidates.py`
+  whenever the target discovery layer verifies a named entity — see
+  `targets/README.md`.
