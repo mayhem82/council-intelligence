@@ -339,11 +339,18 @@
           "title": "25-141MR Three GFG Alliance Group companies ordered to lodge outstanding annual reports with ASIC",
           "verified": true,
           "document_hash": null
+        },
+        {
+          "url": "https://cer.gov.au/about-us/our-compliance-approach/compliance-and-enforcement-priorities/compliance-and-enforcement-priorities-2025-26/compliance-update-january-to-march-2026",
+          "title": "Compliance update - January to March 2026 (Clean Energy Regulator, Safeguard Mechanism excess emissions situations)",
+          "verified": true,
+          "document_hash": null
         }
       ],
       "public_interest_reason": "Named in ASIC media release 25-141MR (and the preceding 25-113MR) as a GFG Alliance Group company subject to Supreme Court of NSW orders over alleged failure to lodge annual financial reports.",
       "risk_indicators": [
-        "Subject of Supreme Court of NSW civil proceedings (commenced June 2025) and consent orders (21 August 2025) over alleged failure to lodge its FY2024 annual report, per 25-141MR/25-113MR"
+        "Subject of Supreme Court of NSW civil proceedings (commenced June 2025) and consent orders (21 August 2025) over alleged failure to lodge its FY2024 annual report, per 25-141MR/25-113MR",
+        "In an excess emissions situation under the Safeguard Mechanism as at the 1 April 2026 compliance deadline, per the Clean Energy Regulator's January-March 2026 compliance update"
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 7,
@@ -351,7 +358,7 @@
       "promoted_case_id": null,
       "rejection_reason": null,
       "discovered_at": "2026-07-21T01:36:41Z",
-      "last_updated": "2026-07-21T01:36:41Z"
+      "last_updated": "2026-07-21T07:36:03Z"
     },
     {
       "target_id": "T-AU-2026-00015",
@@ -370,12 +377,19 @@
           "title": "26-041MR ASIC files Court action to wind up Liberty Bell Bay after failures to lodge financial reports",
           "verified": true,
           "document_hash": null
+        },
+        {
+          "url": "https://cer.gov.au/about-us/our-compliance-approach/compliance-and-enforcement-priorities/compliance-and-enforcement-priorities-2025-26/compliance-update-january-to-march-2026",
+          "title": "Compliance update - January to March 2026 (Clean Energy Regulator, Safeguard Mechanism excess emissions situations)",
+          "verified": true,
+          "document_hash": null
         }
       ],
       "public_interest_reason": "Named in ASIC media release 25-141MR (and the preceding 25-113MR) as a GFG Alliance Group company subject to Supreme Court of NSW orders over alleged failure to lodge annual financial reports across multiple years; escalated to a winding-up application per 26-041MR.",
       "risk_indicators": [
         "Subject of Supreme Court of NSW civil proceedings over alleged failure to lodge annual reports for FY2021-FY2024, per 25-141MR/25-113MR",
-        "Reported to have failed to comply with the resulting court orders, leading ASIC to file a winding-up application (26-041MR)"
+        "Reported to have failed to comply with the resulting court orders, leading ASIC to file a winding-up application (26-041MR)",
+        "In an excess emissions situation under the Safeguard Mechanism as at the 1 April 2026 compliance deadline, per the Clean Energy Regulator's January-March 2026 compliance update"
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 7,
@@ -383,7 +397,7 @@
       "promoted_case_id": null,
       "rejection_reason": null,
       "discovered_at": "2026-07-21T01:36:41Z",
-      "last_updated": "2026-07-21T01:36:51Z"
+      "last_updated": "2026-07-21T07:36:03Z"
     },
     {
       "target_id": "T-AU-2026-00016",
@@ -715,6 +729,32 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T06:36:10Z",
       "last_updated": "2026-07-21T06:36:10Z"
+    },
+    {
+      "target_id": "T-AU-2026-00029",
+      "name": "OneSteel Manufacturing Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Environmental impact",
+      "source_evidence": [
+        {
+          "url": "https://cer.gov.au/about-us/our-compliance-approach/compliance-and-enforcement-priorities/compliance-and-enforcement-priorities-2025-26/compliance-update-january-to-march-2026",
+          "title": "Compliance update - January to March 2026 (Clean Energy Regulator, Safeguard Mechanism excess emissions situations)",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Operator of the Whyalla Steelworks facility (currently in external administration, part of the former GFG Alliance group), named by the Clean Energy Regulator as one of three facilities in an excess emissions situation under the Safeguard Mechanism as at the 1 April 2026 compliance deadline. Completed a partial surrender of 198,003 units to reduce its excess position but remained non-compliant at the deadline.",
+      "risk_indicators": [
+        "In an excess emissions situation under the Safeguard Mechanism as at the 1 April 2026 compliance deadline, per the Clean Energy Regulator's January-March 2026 compliance update",
+        "Completed only a partial unit surrender (198,003 units) toward its excess emissions position"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T07:36:03Z",
+      "last_updated": "2026-07-21T07:36:03Z"
     }
   ]
 }
