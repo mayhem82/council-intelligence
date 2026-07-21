@@ -755,6 +755,39 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T07:36:03Z",
       "last_updated": "2026-07-21T07:36:03Z"
+    },
+    {
+      "target_id": "T-AU-2026-00030",
+      "name": "Sunshine Loans Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2024-releases/24-074mr-court-finds-sunshine-loans-charged-customers-prohibited-fees/",
+          "title": "24-074MR Court finds Sunshine Loans charged customers prohibited fees",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.hcourt.gov.au/sites/default/files/eresources/2026-03-18/HCA/SunshineLoans%20Pty%20Ltd%20v%20Australian%20Securities%20and%20Investments%20Commission%20(B23-2025)%20[2026]%20HCA%208.pdf",
+          "title": "SunshineLoans Pty Ltd v Australian Securities and Investments Commission [2026] HCA 8",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Federal Court found Sunshine Loans Pty Ltd contravened the National Credit Code and National Consumer Credit Protection Act 2009 by charging a prohibited $35 'amendment fee' on over 670,000 small amount credit contracts between 1 July 2016 and 2 November 2020, in proceedings brought by ASIC seeking $10.5 million in penalties. The company's application to have the trial judge recuse himself from the penalty hearing (on apprehended-bias grounds) was dismissed by the High Court of Australia on 18 March 2026 ([2026] HCA 8).",
+      "risk_indicators": [
+        "Found by the Federal Court to have contravened the National Credit Code/NCCP Act by charging a prohibited fee on over 670,000 small amount credit contracts",
+        "Subject of ASIC penalty proceedings seeking $10.5 million",
+        "Unsuccessfully sought recusal of the trial judge from the penalty hearing; application dismissed by the High Court of Australia, [2026] HCA 8"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T08:35:52Z",
+      "last_updated": "2026-07-21T08:35:52Z"
     }
   ]
 }
