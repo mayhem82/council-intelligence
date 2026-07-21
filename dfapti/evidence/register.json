@@ -421,6 +421,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T13:37:00Z"
+    },
+    {
+      "evidence_id": "E-022",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "AUASB",
+      "document_title": "Sustainability Assurance - FAQs",
+      "publication_date": null,
+      "capture_date": "2026-07-21T14:35:00Z",
+      "source_url": "https://www.auasb.gov.au/implementation-support/sustainability-assurance/sustainability-assurance-faqs/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "AUASB FAQs supplementing ASSA 5000, addressing practical assurance questions for Chapter 2M sustainability reports: the difference between AASB S2's whole-of-GPFR materiality lens and ASSA 5000's assurance-scope-only lens; that later-year voluntary/non-assured sustainability disclosures (e.g. in the Operating and Financial Review, or voluntary AASB S1/climate disclosures) fall outside assurance scope; the 'another practitioner' provisions for entities using a different firm for NGERS Scope 1/2 emissions assurance than for the Act sustainability report; and that entities may appoint one auditor or separate auditors for their financial and sustainability reports, except RSEs which must use the same auditor for both.",
+      "verification_notes": "Source URL located and cross-confirmed via search results returning consistent, specific FAQ content (materiality distinction, NGERS 'another practitioner' provisions, auditor appointment options) matching this exact AUASB page, corroborated by a related ASIC news item on the same FAQ topic. document_hash remains unset since this sandbox cannot fetch auasb.gov.au directly. Directly on-topic: this is a distinct sub-page of the AUASB assurance hub already partly captured as E-019, addressing the practical assurance mechanics of the same Chapter 2M regime.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-21T14:35:00Z"
     }
   ]
 }

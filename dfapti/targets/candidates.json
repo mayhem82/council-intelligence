@@ -1112,6 +1112,61 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T13:36:14Z",
       "last_updated": "2026-07-21T13:36:14Z"
+    },
+    {
+      "target_id": "T-AU-2026-00043",
+      "name": "EnergyAustralia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.aer.gov.au/documents/aer-infringement-notices-energyaustralia-pty-ltd-inf-20260001-and-inf-20260002",
+          "title": "AER Infringement Notices - EnergyAustralia Pty Ltd - INF-20260001 and INF-20260002",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "EnergyAustralia Pty Ltd paid two AER infringement notices totalling $142,800 for alleged breaches of the National Energy Retail Law and National Energy Retail Rules. The AER alleged EnergyAustralia transferred an elderly customer's electricity account to itself without obtaining consent (after another person had mistakenly set up an account at that address), then sent bills and disconnection warnings, and disconnected the customer without following the required notice procedures under the Retail Rules.",
+      "risk_indicators": [
+        "Paid $142,800 across two AER infringement notices for alleged Retail Law and Retail Rules breaches",
+        "Alleged failure to obtain customer consent before transferring an electricity account",
+        "Alleged failure to follow required notice procedures before disconnecting an elderly customer"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T14:36:53Z",
+      "last_updated": "2026-07-21T14:36:53Z"
+    },
+    {
+      "target_id": "T-AU-2026-00044",
+      "name": "Origin Energy Electricity Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.aer.gov.au/publications/reports/compliance/aer-v-origin-energy-electricity-ltd-ors",
+          "title": "AER v Origin Energy Electricity Ltd & Ors",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The AER instituted Federal Court proceedings on 19 December 2025 against Origin Energy Electricity Ltd and three other Origin subsidiaries, alleging the group continued to receive Centrepay payments from customers who had closed their accounts and fully paid what they owed, without informing or refunding them within the required timeframe \u2014 around 77,000 alleged breaches affecting over 3,400 customers between December 2019 and March 2025, totalling more than $2.5 million in retained overcharges. The AER also alleges Origin knew of the processing issue as early as 2017 and paused a process that could have prevented further overcharging, and separately failed to have adequate compliance-monitoring policies and systems in place. The AER is seeking penalties, declarations, customer remediation and a compliance program.",
+      "risk_indicators": [
+        "Subject of Federal Court proceedings instituted by the AER on 19 December 2025, alleging around 77,000 breaches of the National Energy Retail Rules/Law",
+        "Alleged to have retained more than $2.5 million in Centrepay overcharges from over 3,400 affected customers",
+        "Alleged to have known of the systems issue as early as 2017 and to have paused a process that could have prevented further overcharging",
+        "AER separately alleges a failure to have adequate policies, systems and procedures to monitor Retail Rules compliance"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T14:36:53Z",
+      "last_updated": "2026-07-21T14:36:53Z"
     }
   ]
 }
