@@ -281,6 +281,66 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T00:40:00Z"
+    },
+    {
+      "evidence_id": "E-015",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "Reporting and audit update - Issue 1",
+      "publication_date": "2025-08",
+      "capture_date": "2026-07-21T01:35:32Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-1/",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "First issue of ASIC's quarterly Reporting and Audit Update newsletter (reported as published around August 2025), launching the series for report preparers, auditors, professional advisors and report users; referenced the first round of mandatory sustainability reports being due for lodgement with ASIC from March 2026.",
+      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (August 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured — blocked by this session's sandbox network policy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and approximate date corroborated via search cross-reference only; document_hash not yet computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-21T01:35:32Z"
+    },
+    {
+      "evidence_id": "E-016",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "Reporting and audit update - Issue 2",
+      "publication_date": "2025-11",
+      "capture_date": "2026-07-21T01:35:32Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-2/",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "Second issue of ASIC's Reporting and Audit Update newsletter (reported as released November 2025), covering guidance on auditor obligations to report suspected contraventions in connection with sustainability reporting (in line with recent law changes), and FAQs on auditing/assurance requirements for sustainability reports.",
+      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (November 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured — blocked by this session's sandbox network policy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and approximate date corroborated via search cross-reference only; document_hash not yet computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-21T01:35:32Z"
+    },
+    {
+      "evidence_id": "E-017",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "Reporting and audit update – Issue 3",
+      "publication_date": "2026-02-20",
+      "capture_date": "2026-07-21T01:35:32Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-3/",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "Third issue of ASIC's Reporting and Audit Update newsletter (reported as published 20 February 2026), continuing coverage of sustainability and financial reporting regulatory developments ahead of the 30 June 2026 reporting season.",
+      "verification_notes": "Source URL and specific date (20 February 2026) located via independent search, reported as sourced from page metadata rather than directly read by this session (fetch blocked by sandbox network policy). Treat the exact date as MEDIUM confidence pending direct confirmation.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and date corroborated via search cross-reference only; document_hash not yet computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-21T01:35:32Z"
     }
   ]
 }

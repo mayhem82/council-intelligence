@@ -226,6 +226,164 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T00:39:01Z",
       "last_updated": "2026-07-21T00:39:01Z"
+    },
+    {
+      "target_id": "T-AU-2026-00010",
+      "name": "Mecca Brands Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-057mr-mecca-companies-pay-594-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-057MR Mecca companies pay $594,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in ASIC media release 26-057MR as one of three Mecca-group entities paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report for FY ended 28 December 2024, per 26-057MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T01:36:41Z",
+      "last_updated": "2026-07-21T01:36:41Z"
+    },
+    {
+      "target_id": "T-AU-2026-00011",
+      "name": "Mecca Brands NZ Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-057mr-mecca-companies-pay-594-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-057MR Mecca companies pay $594,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in ASIC media release 26-057MR as one of three Mecca-group entities paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report for FY ended 28 December 2024, per 26-057MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T01:36:41Z",
+      "last_updated": "2026-07-21T01:36:41Z"
+    },
+    {
+      "target_id": "T-AU-2026-00012",
+      "name": "RTCH Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-057mr-mecca-companies-pay-594-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-057MR Mecca companies pay $594,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in ASIC media release 26-057MR as one of three Mecca-group entities paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report for FY ended 28 December 2024, per 26-057MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T01:36:41Z",
+      "last_updated": "2026-07-21T01:36:41Z"
+    },
+    {
+      "target_id": "T-AU-2026-00013",
+      "name": "Liberty Primary Metals Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-141mr-three-gfg-alliance-group-companies-ordered-to-lodge-outstanding-annual-reports-with-asic/",
+          "title": "25-141MR Three GFG Alliance Group companies ordered to lodge outstanding annual reports with ASIC",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in ASIC media release 25-141MR (and the preceding 25-113MR) as a GFG Alliance Group company subject to Supreme Court of NSW orders over alleged failure to lodge annual financial reports.",
+      "risk_indicators": [
+        "Subject of Supreme Court of NSW civil proceedings (commenced June 2025) and consent orders (21 August 2025) over alleged failure to lodge its FY2024 annual report, per 25-141MR/25-113MR",
+        "Reported to be in voluntary administration as of a subsequent ASIC published notice"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T01:36:41Z",
+      "last_updated": "2026-07-21T01:36:41Z"
+    },
+    {
+      "target_id": "T-AU-2026-00014",
+      "name": "Tahmoor Coal Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-141mr-three-gfg-alliance-group-companies-ordered-to-lodge-outstanding-annual-reports-with-asic/",
+          "title": "25-141MR Three GFG Alliance Group companies ordered to lodge outstanding annual reports with ASIC",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in ASIC media release 25-141MR (and the preceding 25-113MR) as a GFG Alliance Group company subject to Supreme Court of NSW orders over alleged failure to lodge annual financial reports.",
+      "risk_indicators": [
+        "Subject of Supreme Court of NSW civil proceedings (commenced June 2025) and consent orders (21 August 2025) over alleged failure to lodge its FY2024 annual report, per 25-141MR/25-113MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T01:36:41Z",
+      "last_updated": "2026-07-21T01:36:41Z"
+    },
+    {
+      "target_id": "T-AU-2026-00015",
+      "name": "Liberty Bell Bay Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-141mr-three-gfg-alliance-group-companies-ordered-to-lodge-outstanding-annual-reports-with-asic/",
+          "title": "25-141MR Three GFG Alliance Group companies ordered to lodge outstanding annual reports with ASIC",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-041mr-asic-files-court-action-to-wind-up-liberty-bell-bay-after-failures-to-lodge-financial-reports/",
+          "title": "26-041MR ASIC files Court action to wind up Liberty Bell Bay after failures to lodge financial reports",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in ASIC media release 25-141MR (and the preceding 25-113MR) as a GFG Alliance Group company subject to Supreme Court of NSW orders over alleged failure to lodge annual financial reports across multiple years; escalated to a winding-up application per 26-041MR.",
+      "risk_indicators": [
+        "Subject of Supreme Court of NSW civil proceedings over alleged failure to lodge annual reports for FY2021-FY2024, per 25-141MR/25-113MR",
+        "Reported to have failed to comply with the resulting court orders, leading ASIC to file a winding-up application (26-041MR)"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T01:36:41Z",
+      "last_updated": "2026-07-21T01:36:51Z"
     }
   ]
 }

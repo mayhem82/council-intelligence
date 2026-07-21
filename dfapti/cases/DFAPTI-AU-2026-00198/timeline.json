@@ -42,6 +42,12 @@
       "event": "Scheduled agent pass (:30). Added E-014 (ASIC FAQs: Review or audit of sustainability reports, updated 18 May 2026), ACCEPTED. Separately, per this case's reframed role as a target-discovery trigger source: found and cross-verified 9 named entities in real ASIC infringement-notice media releases for late financial-report lodgement (26-090MR: Canva Pty Ltd, Canva Operations Pty Limited, Canva Trading Pty Ltd, Fusion Books Pty Ltd; 26-111MR: Inditex Australia Pty Ltd (Zara), H&M Hennes & Mauritz Pty Ltd, Sephora Australia Pty Ltd; 25-278MR: Liberty Infrabuild Limited, Liberty Holdings Australia Pty Ltd). These are NOT added to this case's own evidence — they're recorded as verified candidates (T-AU-2026-00001 through T-AU-2026-00009) in dfapti/targets/candidates.json, per the Target Visibility Gate, awaiting automatic promotion into their own cases by promote_candidates.py.",
       "evidence_ids": ["E-014"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Scheduled agent pass (:30). Added E-015/E-016/E-017 (ASIC's Reporting and audit update Issues 1-3, completing the series alongside Issue 4 already held as E-010), ACCEPTED at MEDIUM confidence pending direct date/content confirmation. Separately, per this case's role as a target-discovery trigger source: found and cross-verified 6 more named entities (Mecca Brands Pty Ltd, Mecca Brands NZ Pty Ltd, RTCH Pty Ltd per 26-057MR; Liberty Primary Metals Australia Pty Ltd, Tahmoor Coal Pty Ltd, Liberty Bell Bay Pty Ltd per 25-141MR, with Liberty Bell Bay additionally tied to the escalated winding-up action 26-041MR). Recorded as candidates T-AU-2026-00010 through T-AU-2026-00015 in dfapti/targets/candidates.json, not added to this case's own evidence, per the Target Visibility Gate.",
+      "evidence_ids": ["E-015", "E-016", "E-017"],
+      "status_change": "None"
     }
   ]
 }
