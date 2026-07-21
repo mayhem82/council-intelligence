@@ -1,5 +1,231 @@
 {
   "$schema": "schema.json",
   "register_notice": "Internal only — never linked from the public dashboard. See dfapti/rules/factualism-audit.md, 'Target Visibility Gate'. A candidate is promoted to a public case only once at least one source_evidence entry is independently verified to the same bar as an ACCEPTED evidence record.",
-  "candidates": []
+  "candidates": [
+    {
+      "target_id": "T-AU-2026-00001",
+      "name": "Canva Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-090mr-canva-group-pays-792-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-090MR Canva Group pays $792,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T00:39:01Z",
+      "last_updated": "2026-07-21T00:39:01Z"
+    },
+    {
+      "target_id": "T-AU-2026-00002",
+      "name": "Canva Operations Pty Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-090mr-canva-group-pays-792-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-090MR Canva Group pays $792,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T00:39:01Z",
+      "last_updated": "2026-07-21T00:39:01Z"
+    },
+    {
+      "target_id": "T-AU-2026-00003",
+      "name": "Canva Trading Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-090mr-canva-group-pays-792-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-090MR Canva Group pays $792,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T00:39:01Z",
+      "last_updated": "2026-07-21T00:39:01Z"
+    },
+    {
+      "target_id": "T-AU-2026-00004",
+      "name": "Fusion Books Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-090mr-canva-group-pays-792-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-090MR Canva Group pays $792,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T00:39:01Z",
+      "last_updated": "2026-07-21T00:39:01Z"
+    },
+    {
+      "target_id": "T-AU-2026-00005",
+      "name": "Inditex Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-111mr-fashion-and-beauty-retailers-trading-under-the-zara-h-m-and-sephora-brands-pay-596-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-111MR Fashion and beauty retailers trading under the Zara, H&M and Sephora brands pay $596,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Zara brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-111MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T00:39:01Z",
+      "last_updated": "2026-07-21T00:39:01Z"
+    },
+    {
+      "target_id": "T-AU-2026-00006",
+      "name": "H&M Hennes & Mauritz Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-111mr-fashion-and-beauty-retailers-trading-under-the-zara-h-m-and-sephora-brands-pay-596-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-111MR Fashion and beauty retailers trading under the Zara, H&M and Sephora brands pay $596,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in an ASIC media release as the entity trading under the H&M brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-111MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T00:39:01Z",
+      "last_updated": "2026-07-21T00:39:01Z"
+    },
+    {
+      "target_id": "T-AU-2026-00007",
+      "name": "Sephora Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-111mr-fashion-and-beauty-retailers-trading-under-the-zara-h-m-and-sephora-brands-pay-596-000-in-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "26-111MR Fashion and beauty retailers trading under the Zara, H&M and Sephora brands pay $596,000 in infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Sephora brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-111MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T00:39:01Z",
+      "last_updated": "2026-07-21T00:39:01Z"
+    },
+    {
+      "target_id": "T-AU-2026-00008",
+      "name": "Liberty Infrabuild Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-278mr-infrabuild-companies-pay-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "25-278MR Infrabuild companies pay infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in an ASIC media release as a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($187,800) for alleged late lodgement of an audited financial report, per 25-278MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T00:39:01Z",
+      "last_updated": "2026-07-21T00:39:01Z"
+    },
+    {
+      "target_id": "T-AU-2026-00009",
+      "name": "Liberty Holdings Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-278mr-infrabuild-companies-pay-infringement-notices-for-failing-to-lodge-financial-reports-on-time/",
+          "title": "25-278MR Infrabuild companies pay infringement notices for failing to lodge financial reports on time",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Named in an ASIC media release as the parent of Liberty Infrabuild Limited, a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "risk_indicators": [
+        "Received an ASIC infringement notice ($187,800) for alleged late lodgement of an audited financial report, per 25-278MR"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T00:39:01Z",
+      "last_updated": "2026-07-21T00:39:01Z"
+    }
+  ]
 }

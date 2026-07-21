@@ -36,6 +36,12 @@
       "event": "Scope correction: rewrote investigation_objective and scope in case.json. This case's role is to track ASIC's administration of the sustainability reporting regime as a trigger/feeder source for the target discovery layer (dfapti/targets/), not as an investigation of ASIC in its own right — matching the original DFAPTI role correction (DFAPTI is the target-discovery engine; this case is trigger source #1, not the whole mission). Noted honestly: the ASIC material held so far (E-001–E-013) does not name specific reporting entities, so no candidates have yet been extracted from this case's own evidence — that isn't a gap to paper over, it's what the source material actually says.",
       "evidence_ids": [],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Scheduled agent pass (:30). Added E-014 (ASIC FAQs: Review or audit of sustainability reports, updated 18 May 2026), ACCEPTED. Separately, per this case's reframed role as a target-discovery trigger source: found and cross-verified 9 named entities in real ASIC infringement-notice media releases for late financial-report lodgement (26-090MR: Canva Pty Ltd, Canva Operations Pty Limited, Canva Trading Pty Ltd, Fusion Books Pty Ltd; 26-111MR: Inditex Australia Pty Ltd (Zara), H&M Hennes & Mauritz Pty Ltd, Sephora Australia Pty Ltd; 25-278MR: Liberty Infrabuild Limited, Liberty Holdings Australia Pty Ltd). These are NOT added to this case's own evidence — they're recorded as verified candidates (T-AU-2026-00001 through T-AU-2026-00009) in dfapti/targets/candidates.json, per the Target Visibility Gate, awaiting automatic promotion into their own cases by promote_candidates.py.",
+      "evidence_ids": ["E-014"],
+      "status_change": "None"
     }
   ]
 }

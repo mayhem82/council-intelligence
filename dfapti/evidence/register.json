@@ -261,6 +261,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T23:30:00Z"
+    },
+    {
+      "evidence_id": "E-014",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "FAQs: Review or audit of sustainability reports",
+      "publication_date": "2026-05-18",
+      "capture_date": "2026-07-21T00:00:00Z",
+      "source_url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/faqs-review-or-audit-of-sustainability-reports/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC FAQs covering review/audit requirements for sustainability reports under the Corporations Act — limited assurance (review) or reasonable assurance (audit) depending on phase-in, auditor rotation as it applies to sustainability report assurance, and full audit becoming mandatory for financial years commencing on or after 1 July 2030. Updated 18 May 2026 (per two independent search results reporting this update date).",
+      "verification_notes": "Source URL located and cross-confirmed via independent search queries returning consistent content and the same '18 May 2026' update date. Direct fetch to compute document_hash is blocked by this session's sandbox network policy — the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and update date independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-21T00:40:00Z"
     }
   ]
 }
