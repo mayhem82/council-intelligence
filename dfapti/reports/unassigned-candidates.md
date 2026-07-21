@@ -47,4 +47,32 @@ existing case's `keywords.json`.
   any action of their own) — pending the same open named-individuals policy
   question.
 
+- **Mathias Bekier and Paula Martin** (former CEO and General Counsel,
+  The Star Entertainment Group Limited) — Federal Court disqualified Bekier
+  and Martin from managing corporations for six and seven years respectively
+  and ordered them to pay $1.1 million in combined pecuniary penalties
+  (June 2026) for breaching their duty of care and diligence in relation to
+  money-laundering/criminal-activity risk at the company's casino operations
+  (source: `https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-123mr-former-star-entertainment-executives-mathias-bekier-and-paula-martin-disqualified-and-ordered-to-pay-penalties/`).
+  Not added as candidates for the same reason as Blumentals/Pellew above:
+  this ASIC action was brought against the individuals for breach of
+  personal director/officer duties, not against The Star Entertainment
+  Group as a corporate respondent (proceedings against seven other Star
+  directors, including former Chairman John O'Neill, were in fact
+  dismissed) — pending the same open named-individuals policy question.
+  Note this is separate from AUSTRAC's own civil penalty proceedings against
+  two Star Entertainment corporate entities, which ARE recorded as
+  candidates (T-AU-2026-00061, T-AU-2026-00062) since those proceedings
+  target the companies directly.
+
+- **David John Parker** (Coolangatta, Qld) and **Lambros Hilellis** — ASIC
+  disqualified both from managing corporations for the maximum five-year
+  period in April 2026, following the respective collapse of four companies
+  each (Parker's owing $3 million; Hilellis's, including Polyseal
+  Waterproofing Qld Pty Ltd, owing $12.4 million including $3.7 million to
+  the ATO). Not added as candidates: both matters are individual director
+  disqualifications following company insolvency, not regulatory findings
+  against the collapsed companies themselves — pending the same open
+  named-individuals policy question.
+
 No other candidates recorded yet.
