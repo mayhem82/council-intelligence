@@ -1572,6 +1572,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T20:36:03Z",
       "last_updated": "2026-07-21T20:36:03Z"
+    },
+    {
+      "target_id": "T-AU-2026-00060",
+      "name": "Australian Clinical Labs Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.oaic.gov.au/news/media-centre/australian-clinical-labs-ordered-to-pay-penalties-in-relation-to-medlab-pathology-data-breach-in-first-for-privacy-act",
+          "title": "Australian Clinical Labs ordered to pay penalties in relation to Medlab Pathology data breach in first for Privacy Act",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Australian Clinical Labs Limited (ACL) to pay $5.8 million in civil penalties \u2014 the first civil penalties ever ordered under the Privacy Act 1988 (Cth) \u2014 in relation to a February 2022 data breach of its Medlab Pathology business, in which a threat actor exfiltrated approximately 86 gigabytes of data including the personal information of at least 223,000 individuals. The penalty comprised $4.2 million for failing to take reasonable steps to protect personal information (APP 11.1), $800,000 for failing to carry out a reasonable and expeditious assessment of whether an eligible data breach had occurred, and $800,000 for failing to properly notify the Australian Information Commissioner of the breach.",
+      "risk_indicators": [
+        "First-ever civil penalty ordered under the Privacy Act 1988, totalling $5.8 million",
+        "Data breach exfiltrated personal information of at least 223,000 individuals",
+        "Penalty included separate contraventions for inadequate breach assessment and failure to properly notify the regulator"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T21:36:02Z",
+      "last_updated": "2026-07-21T21:36:02Z"
     }
   ]
 }
