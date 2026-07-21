@@ -1518,6 +1518,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T19:35:57Z",
       "last_updated": "2026-07-21T19:35:57Z"
+    },
+    {
+      "target_id": "T-AU-2026-00058",
+      "name": "HSBC Bank Australia Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-127mr-federal-court-orders-35-million-penalty-against-hsbc-for-scam-protection-failures/",
+          "title": "26-127MR Federal Court orders $35 million penalty against HSBC for scam protection failures",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered HSBC Bank Australia Limited to pay a $35 million penalty \u2014 one of the first cases of its kind globally \u2014 after the bank admitted serious failures protecting customers from scams. Between January 2020 and August 2024, HSBC received more than 1,000 reports of unauthorised transactions totalling $34.6 million, and admitted inadequate controls on its internal transfer system between May 2023 and May 2024, a 380% surge in unauthorised-transaction reports in FY24, and average investigation times of 144 days. Approximately $21.5 million in compensation had been paid to affected customers by the time of judgment, with further payments expected, plus an additional $6.5 million in recovered funds returned.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $35 million, admitted, for scam-protection failures \u2014 one of the first cases of its kind globally",
+        "Admitted inadequate internal transfer system controls and average scam-investigation times of 144 days",
+        "More than 1,000 unauthorised-transaction reports totalling $34.6 million between January 2020 and August 2024"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T20:36:03Z",
+      "last_updated": "2026-07-21T20:36:03Z"
+    },
+    {
+      "target_id": "T-AU-2026-00059",
+      "name": "ASX Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Government accountability",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-143mr-asx-ordered-to-pay-20-5-million-penalty-for-misleading-conduct-relating-to-chess-replacement-project/",
+          "title": "26-143MR ASX ordered to pay $20.5 million penalty for misleading conduct relating to CHESS replacement project",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered ASX Limited, operator of Australia's national securities exchange, to pay a $20.5 million penalty after admitting a 10 February 2022 market announcement stating its CHESS replacement project was 'progressing well' was misleading, in contravention of the ASIC Act. Six weeks after the announcement ASX acknowledged a strong likelihood of delays, and by November 2022 the project (intended to replace critical clearing/settlement infrastructure using distributed ledger technology) was paused entirely, with ASX writing off approximately $245-255 million in project costs. ASX was also ordered to pay $3 million toward ASIC's costs.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $20.5 million, admitted, for misleading conduct concerning critical market infrastructure",
+        "Misleading statement concerned a project underpinning Australia's securities clearing and settlement system",
+        "Project was subsequently paused with approximately $245-255 million in costs written off"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T20:36:03Z",
+      "last_updated": "2026-07-21T20:36:03Z"
     }
   ]
 }
