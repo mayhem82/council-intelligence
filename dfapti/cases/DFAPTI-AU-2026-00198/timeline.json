@@ -24,6 +24,12 @@
       "event": "Scheduled agent evidence sweep (:30 pass). Added E-010 (ASIC Reporting and audit update - Issue 4), E-011 (ASIC sustainability reporting and audit relief decisions register), and E-012 (ASIC's first sustainability-reporting educational modules release) — all directly on-topic ASIC primary sources, ACCEPTED. Added E-013 (an ASIC speech on financial system climate risk) as HELD: retained as a confirmed primary source, but not cited for any specific factual claim until its full text is reviewed. All four checked against existing entries for duplicate source_url before appending.",
       "evidence_ids": ["E-010", "E-011", "E-012", "E-013"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Operator supplied the live text of both ASIC pages directly (working around this sandbox's inability to fetch asic.gov.au). Confirmed E-001/E-003's exact publication date (18 May 2026) and full article text, and E-002's hub-page content. Noted one honest caveat: the 259/34/225 lodgement figures in E-003 live in an embedded Figure 1 image, not in the captured text, so those specific numbers still rest on search-engine corroboration rather than direct document confirmation — E-003's confidence was adjusted from HIGH to MEDIUM to reflect that. document_hash still unset on all three (a text capture isn't a raw byte fetch).",
+      "evidence_ids": ["E-001", "E-002", "E-003"],
+      "status_change": "None"
     }
   ]
 }
