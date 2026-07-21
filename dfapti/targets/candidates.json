@@ -1,6 +1,6 @@
 {
   "$schema": "schema.json",
-  "register_notice": "Internal only — never linked from the public dashboard. See dfapti/rules/factualism-audit.md, 'Target Visibility Gate'. A candidate is promoted to a public case only once at least one source_evidence entry is independently verified to the same bar as an ACCEPTED evidence record.",
+  "register_notice": "Internal only \u2014 never linked from the public dashboard. See dfapti/rules/factualism-audit.md, 'Target Visibility Gate'. A candidate is promoted to a public case only once at least one source_evidence entry is independently verified to the same bar as an ACCEPTED evidence record.",
   "candidates": [
     {
       "target_id": "T-AU-2026-00001",
@@ -15,7 +15,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
       ],
@@ -40,7 +40,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
       ],
@@ -65,7 +65,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
       ],
@@ -90,7 +90,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
       ],
@@ -115,7 +115,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Zara brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Zara brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-111MR"
       ],
@@ -140,7 +140,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as the entity trading under the H&M brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as the entity trading under the H&M brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-111MR"
       ],
@@ -165,7 +165,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Sephora brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Sephora brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-111MR"
       ],
@@ -190,7 +190,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($187,800) for alleged late lodgement of an audited financial report, per 25-278MR"
       ],
@@ -215,7 +215,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as the parent of Liberty Infrabuild Limited, a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as the parent of Liberty Infrabuild Limited, a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($187,800) for alleged late lodgement of an audited financial report, per 25-278MR"
       ],
@@ -489,7 +489,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Paid a penalty (reported as $60,000 in one AER source; an earlier related release cites $100,000/$140,000 total across the two distributors — treat the exact split as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules — obligations that exist specifically to protect customers dependent on electricity supply for life support equipment.",
+      "public_interest_reason": "Paid a penalty (reported as $60,000 in one AER source; an earlier related release cites $100,000/$140,000 total across the two distributors \u2014 treat the exact split as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules \u2014 obligations that exist specifically to protect customers dependent on electricity supply for life support equipment.",
       "risk_indicators": [
         "Alleged breach of life support customer obligations under the National Energy Retail Rules, resulting in an AER penalty and administrative undertaking"
       ],
@@ -514,7 +514,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Paid a penalty (reported as $80,000 in one AER source; figures vary slightly across related AER releases — treat as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules.",
+      "public_interest_reason": "Paid a penalty (reported as $80,000 in one AER source; figures vary slightly across related AER releases \u2014 treat as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules.",
       "risk_indicators": [
         "Alleged breach of life support customer obligations under the National Energy Retail Rules, resulting in an AER penalty and administrative undertaking"
       ],
@@ -591,7 +591,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Ordered by the Federal Court to pay a $250,000 penalty for allegedly failing to become a member of the Energy and Water Ombudsman NSW scheme, in breach of the National Energy Retail Law — a consumer-access-to-redress compliance matter.",
+      "public_interest_reason": "Ordered by the Federal Court to pay a $250,000 penalty for allegedly failing to become a member of the Energy and Water Ombudsman NSW scheme, in breach of the National Energy Retail Law \u2014 a consumer-access-to-redress compliance matter.",
       "risk_indicators": [
         "Ordered by the Federal Court to pay a $250,000 penalty for alleged failure to join a mandatory ombudsman scheme under the National Energy Retail Law"
       ],
@@ -616,7 +616,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Paid $10,704,600 under APRA infringement notices for alleged breaches of the Superannuation Industry (Supervision) Act 1993 (failing to invest members' default superannuation contributions in MySuper products), and gave APRA a court enforceable undertaking to rectify compliance deficiencies and compensate members. OPC is one of four superannuation trustees owned by Insignia Financial Ltd (formerly IOOF Holdings Limited), with approximately 700,000 members and over $37 billion in funds under management — a matter with direct financial consequences for a large number of superannuation members.",
+      "public_interest_reason": "Paid $10,704,600 under APRA infringement notices for alleged breaches of the Superannuation Industry (Supervision) Act 1993 (failing to invest members' default superannuation contributions in MySuper products), and gave APRA a court enforceable undertaking to rectify compliance deficiencies and compensate members. OPC is one of four superannuation trustees owned by Insignia Financial Ltd (formerly IOOF Holdings Limited), with approximately 700,000 members and over $37 billion in funds under management \u2014 a matter with direct financial consequences for a large number of superannuation members.",
       "risk_indicators": [
         "Paid $10,704,600 under APRA infringement notices for alleged SIS Act breaches (failure to direct default contributions to MySuper products)",
         "Gave APRA a court enforceable undertaking to rectify compliance deficiencies and compensate affected members"
@@ -788,6 +788,114 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T08:35:52Z",
       "last_updated": "2026-07-21T08:35:52Z"
+    },
+    {
+      "target_id": "T-AU-2026-00031",
+      "name": "Mercer Superannuation (Australia) Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2024-releases/24-173mr-asic-s-first-greenwashing-case-results-in-landmark-11-3-million-penalty-for-mercer/",
+          "title": "24-173MR ASIC's first greenwashing case results in landmark $11.3 million penalty for Mercer",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Mercer Superannuation (Australia) Limited to pay an $11.3 million penalty \u2014 ASIC's first successful greenwashing civil penalty case \u2014 after Mercer admitted to making misleading statements that seven 'Sustainable Plus' superannuation investment options excluded investments in carbon-intensive industries such as thermal coal, when adequate systems were not in place to ensure the ESG claims were accurate or that exclusions were enforced.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $11.3 million for greenwashing conduct, admitted by the company",
+        "Court also made an adverse publicity order requiring disclosure of the contraventions",
+        "Root cause found to be inadequate systems to verify and enforce ESG exclusion claims"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T09:38:43Z",
+      "last_updated": "2026-07-21T09:38:43Z"
+    },
+    {
+      "target_id": "T-AU-2026-00032",
+      "name": "Vanguard Investments Australia Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2024-releases/24-213mr-asic-s-vanguard-greenwashing-action-results-in-record-12-9-million-penalty/",
+          "title": "24-213MR ASIC's Vanguard greenwashing action results in record $12.9 million penalty",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Vanguard Investments Australia to pay a $12.9 million penalty \u2014 the largest greenwashing penalty imposed in Australia to date \u2014 after Vanguard admitted that approximately 74% of the securities (by market value) in its Ethically Conscious Global Aggregate Bond Index Fund had not actually been researched or screened against the ESG exclusion criteria it had told investors would be applied.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $12.9 million, the largest greenwashing penalty in Australia to date",
+        "Admitted approximately 74% of the fund's securities by market value were not researched or screened against its stated ESG criteria",
+        "This was ASIC's second successful greenwashing civil penalty action"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T09:38:43Z",
+      "last_updated": "2026-07-21T09:38:43Z"
+    },
+    {
+      "target_id": "T-AU-2026-00033",
+      "name": "LGSS Pty Ltd (trustee for Active Super)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-042mr-active-super-ordered-to-pay-10-5-million-penalty-in-asic-s-third-greenwashing-court-action/",
+          "title": "25-042MR Active Super ordered to pay $10.5 million penalty in ASIC's third greenwashing court action",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered LGSS Pty Ltd, as trustee for the Active Super fund, to pay a $10.5 million penalty \u2014 ASIC's third successful greenwashing civil penalty action \u2014 after finding Active Super had claimed in its marketing to eliminate investments posing environmental or community risk (including gambling, coal mining and oil tar sands) while continuing to hold direct investments in companies such as Shell Plc and Whitehaven Coal.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $10.5 million for false or misleading ESG representations",
+        "Found to have retained direct investments (e.g. Shell Plc, Whitehaven Coal) in categories it had publicly claimed to exclude",
+        "ASIC's third successful greenwashing civil penalty action"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T09:38:43Z",
+      "last_updated": "2026-07-21T09:38:43Z"
+    },
+    {
+      "target_id": "T-AU-2026-00034",
+      "name": "Fiducian Investment Management Services Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-225mr-asic-acts-against-esg-investment-fund-responsible-entity-alleging-governance-failures-and-misleading-conduct/",
+          "title": "25-225MR ASIC acts against ESG investment fund responsible entity alleging governance failures and misleading conduct",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "ASIC commenced its fourth greenwashing civil penalty action against Fiducian Investment Management Services Limited (FIMSL) as responsible entity of the Diversified Social Aspirations Fund, alleging FIMSL failed to act with care and diligence, made misleading statements in the fund's PDS about monitoring underlying investments, and failed to address investor concerns that the fund held investments in companies including BHP, Rio Tinto, Woodside Energy, Newcrest Mining and Orica. FIMSL has agreed to make admissions but a Statement of Agreed Facts and penalty had not been finalised or approved by the court as of the most recent reporting.",
+      "risk_indicators": [
+        "Subject of ASIC's fourth greenwashing civil penalty action, alleging governance failures and misleading PDS statements",
+        "FIMSL has agreed to make admissions of contraventions of the Corporations Act and ASIC Act",
+        "Proceedings not yet concluded: no court-approved penalty as of the most recent reporting"
+      ],
+      "evidence_confidence": "MEDIUM",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T09:38:43Z",
+      "last_updated": "2026-07-21T09:38:43Z"
     }
   ]
 }

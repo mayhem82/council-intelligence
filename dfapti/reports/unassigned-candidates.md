@@ -16,4 +16,19 @@ existing case's `keywords.json`.
   greenwashing enforcement specifically — would need real case citations
   and judgment URLs captured directly, not secondary law-firm summaries.
 
+## Borderline Target — 2026-07-21
+
+- **David Mark Blumentals** (sole director, D365.Group Pty Ltd) — Fair Work
+  Ombudsman secured a $35,308 penalty plus approximately $150,000 in personal
+  compensation orders against Blumentals for deliberately underpaying 16
+  workers (source: `https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/june-2026/20260603-blumentals-penalty-media-release`).
+  Not added as a candidate: D365.Group Pty Ltd has been in liquidation since
+  2023, and the penalty/compensation orders landed on Blumentals personally
+  as a named individual, not on the company. DFAPTI's candidate schema and
+  every existing entry name corporate entities only — whether to extend
+  target discovery to named individuals (where the underlying finding is
+  fully adjudicated, as this one is) is an open policy question raised with
+  the operator and not yet answered. Logged here rather than acted on
+  unilaterally.
+
 No other candidates recorded yet.
