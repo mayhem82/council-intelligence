@@ -614,6 +614,107 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T05:36:02Z",
       "last_updated": "2026-07-21T05:36:02Z"
+    },
+    {
+      "target_id": "T-AU-2026-00025",
+      "name": "Union Standard International Group Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-117mr-federal-court-orders-record-300-million-penalties-in-asic-s-case-over-egregious-union-standard-and-cfd-operator-misconduct/",
+          "title": "26-117MR Federal Court orders record $300 million penalties in ASIC's case over 'egregious' Union Standard and CFD operator misconduct",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Collapsed CFD issuer found by the Federal Court to have engaged in systemic unconscionable conduct (with its former authorised representatives) between 2018-2020; ASIC's media release describes penalties totalling $300.2 million as the highest ever secured in an ASIC matter, with customer losses exceeding $83 million.",
+      "risk_indicators": [
+        "Subject of Federal Court-ordered penalties totalling $300.2 million (ASIC's largest-ever recorded penalty in a single matter) for systemic unconscionable conduct 2018-2020"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 6,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T06:36:10Z",
+      "last_updated": "2026-07-21T06:36:10Z"
+    },
+    {
+      "target_id": "T-AU-2026-00026",
+      "name": "Maxi EFX Global AU Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-117mr-federal-court-orders-record-300-million-penalties-in-asic-s-case-over-egregious-union-standard-and-cfd-operator-misconduct/",
+          "title": "26-117MR Federal Court orders record $300 million penalties in ASIC's case over 'egregious' Union Standard and CFD operator misconduct",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Traded as EuropeFX; a former authorised representative of Union Standard International Group found by the Federal Court to have engaged in systemic unconscionable conduct, part of the $300.2 million combined penalty action, with customers of EuropeFX and TradeFred together losing over $83 million.",
+      "risk_indicators": [
+        "Found by the Federal Court to have engaged in systemic unconscionable conduct as an authorised representative of Union Standard, part of a $300.2 million combined penalty action"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 6,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T06:36:10Z",
+      "last_updated": "2026-07-21T06:36:10Z"
+    },
+    {
+      "target_id": "T-AU-2026-00027",
+      "name": "BrightAU Capital Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-117mr-federal-court-orders-record-300-million-penalties-in-asic-s-case-over-egregious-union-standard-and-cfd-operator-misconduct/",
+          "title": "26-117MR Federal Court orders record $300 million penalties in ASIC's case over 'egregious' Union Standard and CFD operator misconduct",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Traded as TradeFred; a former authorised representative of Union Standard International Group found by the Federal Court to have engaged in systemic unconscionable conduct, part of the $300.2 million combined penalty action.",
+      "risk_indicators": [
+        "Found by the Federal Court to have engaged in systemic unconscionable conduct as an authorised representative of Union Standard, part of a $300.2 million combined penalty action"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 6,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T06:36:10Z",
+      "last_updated": "2026-07-21T06:36:10Z"
+    },
+    {
+      "target_id": "T-AU-2026-00028",
+      "name": "Qteq Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/oil-and-gas-services-company-qteq-and-its-chairman-collectively-fined-6-million-for-attempted-cartel-conduct",
+          "title": "Oil and gas services company Qteq and its chairman collectively fined $6 million for attempted cartel conduct",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Queensland-based oil and gas services company fined $5 million by the Federal Court (in proceedings brought by the ACCC) for attempted cartel conduct between 2017-2019, attempting to induce suppliers into arrangements including provisions not to supply services to large oil and gas companies and to rig a multi-million-dollar tender.",
+      "risk_indicators": [
+        "Fined $5 million by the Federal Court for attempted cartel conduct (ACCC proceedings)",
+        "Its executive chairman was separately fined $1 million, described by the ACCC as the highest individual competition-law penalty in Australia"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 7,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-21T06:36:10Z",
+      "last_updated": "2026-07-21T06:36:10Z"
     }
   ]
 }
