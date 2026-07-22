@@ -117,4 +117,22 @@ existing case's `keywords.json`.
   should be independently verified against fedcourt.gov.au or AustLII
   before use as evidence.
 
+- **Eric Wilson** (former CEO, Xinja Bank Ltd) and **Craig Swanger**
+  (former non-executive director and chair, Xinja Bank Ltd) — APRA
+  disqualified Wilson for 8 years and Swanger for 10 years under the
+  Financial Accountability Regime (the first enforcement action under
+  Australia's post-BEAR accountability regime), after finding they
+  breached accountability obligations tied to 2020 "side agreements"
+  with investors that were presented as Common Equity Tier 1 capital
+  raisings but contained terms undermining that CET1 status. APRA
+  found Wilson knew or should have known the capital could not
+  qualify as CET1 and failed to deal openly with APRA about the side
+  agreements (sources: `https://www.apra.gov.au/news-and-publications/apra-disqualifies-two-directors-of-xinja-bank-under-far`
+  and `https://www.apra.gov.au/news-and-publications/apra-disqualifies-former-chair-of-xinja-bank-under-financial-accountability`).
+  Not added as a candidate: Xinja Bank Ltd has been in liquidation
+  since 2020 and is not itself a respondent to this action - the
+  disqualifications attach to Wilson and Swanger personally under
+  their individual accountability obligations - pending the same open
+  named-individuals policy question as the entries above.
+
 No other candidates recorded yet.

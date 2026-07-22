@@ -2998,6 +2998,88 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T21:35:00Z",
       "last_updated": "2026-07-22T21:35:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00110",
+      "name": "Amazon Commercial Services Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/amazon-in-court-for-introducing-ads-to-prime-video-using-allegedly-unfair-contract-terms",
+          "title": "Amazon in court for introducing ads to Prime Video using allegedly unfair contract terms",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court proceedings on 29 June 2026 alleging Amazon Commercial Services Pty Ltd included five unfair terms in its standard-form Prime subscription contracts, held by more than one million annual subscribers between November 2023 and August 2025, letting it unilaterally degrade services or alter conditions without pro-rata refunds. The ACCC further alleges Amazon relied on these terms in July 2024 to introduce advertising into Prime Video without compensating subscribers, who then had to pay an extra $2.99 per month to remain ad-free. This is among the first contested cases under Australia's unfair contract terms civil penalty regime.",
+      "risk_indicators": [
+        "Subject of Federal Court proceedings brought by the ACCC alleging unfair contract terms, ongoing",
+        "Alleged to have relied on contested contract terms to introduce advertising without compensating over one million subscribers",
+        "Among the first contested cases under Australia's unfair contract terms civil penalty regime"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T22:00:00Z",
+      "last_updated": "2026-07-22T22:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00111",
+      "name": "Mastermyne Crinum Operations Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.rshq.qld.gov.au/media/$7m-penalty-in-first-industrial-manslaughter-conviction",
+          "title": "$7M penalty in first industrial manslaughter conviction",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Mastermyne Crinum Operations Pty Ltd, a subsidiary of the Metarock Group, was found guilty by jury of industrial manslaughter under Queensland's Coal Mining Safety and Health Act 1999 - the first such conviction since the offence took effect in 2020 - following the death of underground miner Graham Dawson in a roof collapse at the Crinum coal mine on 14 September 2021. Resources Safety and Health Queensland found the company's strata control systems were inadequate. The District Court of Queensland imposed a $7 million fine plus costs, Australia's largest-ever work health and safety penalty; the company has lodged a notice of appeal.",
+      "risk_indicators": [
+        "First-ever conviction for industrial manslaughter under Queensland's Coal Mining Safety and Health Act 1999",
+        "Fined $7 million plus costs, described as Australia's largest-ever work health and safety penalty",
+        "Regulator found the company's strata control systems were inadequate",
+        "Company has lodged a notice of appeal against the conviction"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T22:00:00Z",
+      "last_updated": "2026-07-22T22:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00112",
+      "name": "Bureau Veritas Minerals Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.safework.sa.gov.au/news-and-alerts/news/news/2025new/crusher-incident-leads-to-$210,000-fine",
+          "title": "Crusher incident leads to $210,000 fine",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Bureau Veritas Minerals Pty Ltd pleaded guilty to a charge under South Australia's Work Health and Safety Act 2012 and was fined $210,000 (reduced 40% from $350,000 for an early guilty plea) plus costs and a Victims of Crime Levy, after a 20-year-old worker employed only a few weeks had a gloved hand pulled into a rock crusher's rollers at a Wingfield workshop in June 2023, amputating part of a finger. SafeWork SA found the company failed to provide an adequate interlock device, failed to assess energisation risk during clearing tasks, and gave inadequate training and supervision.",
+      "risk_indicators": [
+        "Pleaded guilty to a work health and safety offence following a worker's serious crush injury",
+        "Regulator found the company failed to provide an adequate machine interlock device and gave inadequate training and supervision",
+        "Fined $210,000 plus costs by the SA Employment Court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T22:00:00Z",
+      "last_updated": "2026-07-22T22:00:00Z"
     }
   ]
 }
