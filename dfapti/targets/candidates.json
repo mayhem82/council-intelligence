@@ -773,13 +773,26 @@
           "title": "SunshineLoans Pty Ltd v Australian Securities and Investments Commission [2026] HCA 8",
           "verified": true,
           "document_hash": null
+        },
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-046mr-full-federal-court-finds-in-favour-of-asic-in-two-appeals-concerning-sunshine-loans/",
+          "title": "25-046MR Full Federal Court finds in favour of ASIC in two appeals concerning Sunshine Loans",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-052mr-high-court-finds-in-favour-of-asic-on-an-appeal-by-sunshine-loans/",
+          "title": "26-052MR High Court finds in favour of ASIC on an appeal by Sunshine Loans",
+          "verified": true,
+          "document_hash": null
         }
       ],
-      "public_interest_reason": "Federal Court found Sunshine Loans Pty Ltd contravened the National Credit Code and National Consumer Credit Protection Act 2009 by charging a prohibited $35 'amendment fee' on over 670,000 small amount credit contracts between 1 July 2016 and 2 November 2020, in proceedings brought by ASIC seeking $10.5 million in penalties. The company's application to have the trial judge recuse himself from the penalty hearing (on apprehended-bias grounds) was dismissed by the High Court of Australia on 18 March 2026 ([2026] HCA 8).",
+      "public_interest_reason": "Federal Court found Sunshine Loans Pty Ltd contravened the National Credit Code and National Consumer Credit Protection Act 2009 by charging a prohibited $35 'amendment fee' on over 670,000 small amount credit contracts between 1 July 2016 and 2 November 2020, in proceedings brought by ASIC seeking $10.5 million in penalties. The company's application to have the trial judge recuse himself from the penalty hearing (on apprehended-bias grounds) was dismissed by the High Court of Australia on 18 March 2026 ([2026] HCA 8). Following the trial judge's recusal from the penalty phase (on apprehended-bias grounds relating to his credibility findings against Sunshine Loans and its witnesses), ASIC successfully appealed that recusal decision to the Full Federal Court (March 2025) and then, after Sunshine Loans' further appeal, to the High Court, which found unanimously (7-0) in ASIC's favour on 18 March 2026. The penalty hearing has now been remitted to the original trial judge, Justice Roger Derrington, for determination.",
       "risk_indicators": [
         "Found by the Federal Court to have contravened the National Credit Code/NCCP Act by charging a prohibited fee on over 670,000 small amount credit contracts",
         "Subject of ASIC penalty proceedings seeking $10.5 million",
-        "Unsuccessfully sought recusal of the trial judge from the penalty hearing; application dismissed by the High Court of Australia, [2026] HCA 8"
+        "Unsuccessfully sought recusal of the trial judge from the penalty hearing; application dismissed by the High Court of Australia, [2026] HCA 8",
+        "Unanimous 7-0 High Court decision confirming the trial judge should not have recused himself from the penalty phase, following an earlier Full Federal Court win for ASIC on the same recusal question"
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 5,
@@ -787,7 +800,7 @@
       "promoted_case_id": null,
       "rejection_reason": null,
       "discovered_at": "2026-07-21T08:35:52Z",
-      "last_updated": "2026-07-21T08:35:52Z"
+      "last_updated": "2026-07-22T11:35:38Z"
     },
     {
       "target_id": "T-AU-2026-00031",
@@ -2188,6 +2201,40 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T10:37:06Z",
       "last_updated": "2026-07-22T10:37:06Z"
+    },
+    {
+      "target_id": "T-AU-2026-00082",
+      "name": "Equity Trustees Superannuation Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-176mr-asic-sues-equity-trustees-alleging-due-diligence-failures-relating-to-shield/",
+          "title": "25-176MR ASIC sues Equity Trustees alleging due diligence failures relating to Shield",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-101mr-asic-sues-equity-trustees-alleging-first-guardian-onboarding-failures/",
+          "title": "26-101MR ASIC sues Equity Trustees alleging First Guardian onboarding failures",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "ASIC commenced two separate Federal Court civil penalty proceedings against Equity Trustees Superannuation Limited as superannuation platform trustee: one alleging due diligence failures overseeing around $160 million of retirement savings invested into the Shield Master Fund during 2023-2024, and a second alleging it allowed about 2,700 members of the NQ Super & Pension fund to invest more than $65 million in First Guardian between June 2023 and March 2024 without obtaining critical documents (the fund's constitution, audited financial statements, compliance plan audit), and permitted members to invest 100% of their superannuation balances despite evidence the fund was or may have been illiquid. Both matters are part of ASIC's broader 2026 enforcement priority into the collapse of First Guardian and related funds, through which more than $420 million has been repaid to investors to date.",
+      "risk_indicators": [
+        "Subject of two separate Federal Court civil penalty proceedings brought by ASIC, both ongoing",
+        "Alleged to have permitted members to invest without obtaining critical fund documents including audited financial statements",
+        "Alleged to have permitted 100% superannuation-balance investment in a fund despite evidence of possible illiquidity",
+        "Proceedings are part of a broader regulatory response in which more than $420 million has been repaid to affected investors to date"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T11:36:24Z",
+      "last_updated": "2026-07-22T11:36:24Z"
     }
   ]
 }
