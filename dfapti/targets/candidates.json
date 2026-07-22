@@ -1158,14 +1158,21 @@
           "title": "AER v Origin Energy Electricity Ltd & Ors",
           "verified": true,
           "document_hash": null
+        },
+        {
+          "url": "https://www.aer.gov.au/news/articles/news-releases/origin-penalised-17-million-customer-hardship-breaches",
+          "title": "Origin penalised $17 million for customer hardship breaches",
+          "verified": true,
+          "document_hash": null
         }
       ],
-      "public_interest_reason": "The AER instituted Federal Court proceedings on 19 December 2025 against Origin Energy Electricity Ltd and three other Origin subsidiaries, alleging the group continued to receive Centrepay payments from customers who had closed their accounts and fully paid what they owed, without informing or refunding them within the required timeframe \u2014 around 77,000 alleged breaches affecting over 3,400 customers between December 2019 and March 2025, totalling more than $2.5 million in retained overcharges. The AER also alleges Origin knew of the processing issue as early as 2017 and paused a process that could have prevented further overcharging, and separately failed to have adequate compliance-monitoring policies and systems in place. The AER is seeking penalties, declarations, customer remediation and a compliance program.",
+      "public_interest_reason": "The AER instituted Federal Court proceedings on 19 December 2025 against Origin Energy Electricity Ltd and three other Origin subsidiaries, alleging the group continued to receive Centrepay payments from customers who had closed their accounts and fully paid what they owed, without informing or refunding them within the required timeframe \u2014 around 77,000 alleged breaches affecting over 3,400 customers between December 2019 and March 2025, totalling more than $2.5 million in retained overcharges. The AER also alleges Origin knew of the processing issue as early as 2017 and paused a process that could have prevented further overcharging, and separately failed to have adequate compliance-monitoring policies and systems in place. The AER is seeking penalties, declarations, customer remediation and a compliance program. Separately, the Federal Court found Origin Energy Electricity Ltd and other Origin entities breached hardship-customer obligations under the National Energy Retail Law/Rules on more than 100,000 occasions between January 2018 and October 2021, affecting more than 90,000 customers across NSW, the ACT, Queensland and South Australia, resulting in a $17 million penalty \u2014 the largest total penalty ever imposed for breaches of that law at the time \u2014 plus $200,000 in costs and a compliance program.",
       "risk_indicators": [
         "Subject of Federal Court proceedings instituted by the AER on 19 December 2025, alleging around 77,000 breaches of the National Energy Retail Rules/Law",
         "Alleged to have retained more than $2.5 million in Centrepay overcharges from over 3,400 affected customers",
         "Alleged to have known of the systems issue as early as 2017 and to have paused a process that could have prevented further overcharging",
-        "AER separately alleges a failure to have adequate policies, systems and procedures to monitor Retail Rules compliance"
+        "AER separately alleges a failure to have adequate policies, systems and procedures to monitor Retail Rules compliance",
+        "Separately found to have breached customer hardship obligations on more than 100,000 occasions, affecting over 90,000 customers, resulting in a $17 million penalty"
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 4,
@@ -1173,7 +1180,7 @@
       "promoted_case_id": null,
       "rejection_reason": null,
       "discovered_at": "2026-07-21T14:36:53Z",
-      "last_updated": "2026-07-21T14:36:53Z"
+      "last_updated": "2026-07-22T10:37:06Z"
     },
     {
       "target_id": "T-AU-2026-00045",
@@ -2127,6 +2134,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T09:36:53Z",
       "last_updated": "2026-07-22T09:36:53Z"
+    },
+    {
+      "target_id": "T-AU-2026-00080",
+      "name": "M2 Energy Pty Ltd (trading as Dodo Power & Gas)",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.aer.gov.au/news/articles/news-releases/dodo-pays-406800-penalty-alleged-breaches-hardship-and-payment-plan-obligations",
+          "title": "Dodo pays $406,800 penalty for alleged breaches of hardship and payment plan obligations",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "M2 Energy Pty Ltd, trading as Dodo Power & Gas, paid $406,800 across six AER infringement notices for alleged breaches of the National Energy Retail Rules protecting customers experiencing hardship: failing to inform three hardship customers of its hardship policy, and failing to have regard to three customers' capacity to pay when establishing payment plans. The AER also accepted a court-enforceable undertaking in which Dodo admitted the breaches and acknowledged broader concerns about its hardship, payment-plan and direct-debit compliance systems.",
+      "risk_indicators": [
+        "Paid $406,800 across six AER infringement notices for alleged hardship-obligation breaches",
+        "Admitted breaches under a court-enforceable undertaking, alongside acknowledged broader compliance-system concerns",
+        "Found by AER's compliance review to have failed to inform hardship customers of its hardship policy"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T10:37:06Z",
+      "last_updated": "2026-07-22T10:37:06Z"
+    },
+    {
+      "target_id": "T-AU-2026-00081",
+      "name": "Red Energy Pty Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.aer.gov.au/news/articles/news-releases/red-energy-fined-allegedly-removing-hardship-protections",
+          "title": "Red Energy fined for allegedly removing hardship protections",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Red Energy Pty Limited paid $474,600 in penalties and gave the AER a court-enforceable undertaking after allegedly failing to maintain its hardship policy and offer suitable payment plans for up to 371 customers who had been receiving hardship assistance but lost that status upon moving to a new residence while remaining a Red Energy customer, leaving them vulnerable to disconnection, debt collection and credit default listings.",
+      "risk_indicators": [
+        "Paid $474,600 in AER penalties for alleged hardship-policy and payment-plan failures",
+        "Alleged to have failed to identify and assist up to 371 hardship customers who moved residence",
+        "Consumers left vulnerable to disconnection, debt collection and credit default listings as a result"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T10:37:06Z",
+      "last_updated": "2026-07-22T10:37:06Z"
     }
   ]
 }
