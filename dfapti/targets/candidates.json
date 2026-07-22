@@ -2073,6 +2073,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T08:37:06Z",
       "last_updated": "2026-07-22T08:37:06Z"
+    },
+    {
+      "target_id": "T-AU-2026-00078",
+      "name": "Telstra Group Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/telstra-to-pay-50m-penalty-for-unconscionable-sales-to-indigenous-consumers",
+          "title": "Telstra to pay $50m penalty for unconscionable sales to Indigenous consumers",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Telstra to pay $50 million \u2014 the second-highest penalty ever imposed under the Australian Consumer Law \u2014 for unconscionable conduct after sales staff at five licensed Telstra-branded stores in the Northern Territory, South Australia and Western Australia signed up 108 Indigenous consumers to multiple post-paid mobile contracts between January 2016 and August 2018 that they did not understand and could not afford. The Court found staff manipulated credit assessments, misrepresented products as free, and exploited customers' social, language, literacy and cultural vulnerabilities, leaving them with debts to Telstra ranging from $1,600 to almost $20,000. Telstra also gave the ACCC an enforceable undertaking to remediate affected consumers, improve its compliance program and expand its Indigenous telephone hotline and digital literacy program.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $50 million, the second-highest ever under the Australian Consumer Law",
+        "Found to have exploited the social, language, literacy and cultural vulnerabilities of 108 Indigenous consumers across multiple states/territories",
+        "Enforceable undertaking includes consumer remediation and expansion of Indigenous-specific support services"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T09:36:53Z",
+      "last_updated": "2026-07-22T09:36:53Z"
+    },
+    {
+      "target_id": "T-AU-2026-00079",
+      "name": "Jump Loops Pty Ltd (in liquidation, trading as Jump Swim)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/jump-swim-ordered-to-pay-penalties-of-23-million-and-ian-campbell-ordered-to-pay-compensation",
+          "title": "Jump Swim ordered to pay penalties of $23 million and Ian Campbell ordered to pay compensation",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Jump Loops Pty Ltd, trading as Jump Swim (now in liquidation), to pay $23 million in penalties for falsely representing to 174 franchisees that they would have an operational swim school within 12 months of signing a franchise agreement \u2014 most never received one \u2014 and for accepting payments from 127 franchisees when it knew or ought to have known there was no reasonable basis to expect it could deliver within that timeframe. The company's founder and former managing director, Ian Michael Campbell, was separately ordered to pay $500,000 in compensation to franchisees and a $400,000 personal penalty, and was restrained from acting as a franchisor for three years.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $23 million against the corporate franchisor",
+        "Found to have accepted payments from 127 franchisees despite knowing it likely could not deliver an operational business within the represented timeframe",
+        "Company is now in liquidation; its founder was separately penalised and restrained from future franchisor activity"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T09:36:53Z",
+      "last_updated": "2026-07-22T09:36:53Z"
     }
   ]
 }

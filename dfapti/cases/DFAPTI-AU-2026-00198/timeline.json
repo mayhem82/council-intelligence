@@ -126,6 +126,12 @@
       "event": "Scheduled agent pass (:30). Added E-029 (ASIC's 'Sustainability reporting: Further regulatory resources and news' navigational hub page), ACCEPTED at MEDIUM confidence (confirmed as a distinct, on-topic page, but only general content description available, not specific new facts). Distinct from the main hub (E-002) and administration/relief pages already captured.",
       "evidence_ids": ["E-029"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Scheduled agent pass (:30). Added E-030 (24-247MR, ASIC's 7 November 2024 media release seeking feedback on draft Regulatory Guide 000 and Consultation Paper 380, the precursor to the finalised RG 280 already held as E-005) and E-031 (REP 809, ASIC's 31 March 2025 report responding to the 60 stakeholder submissions received on CP 380), both ACCEPTED at HIGH confidence, cross-confirmed via independent search queries. Fills a genuine documentary gap between the enacting legislation and the finalised regulatory guide by capturing the consultation process itself.",
+      "evidence_ids": ["E-030", "E-031"],
+      "status_change": "None"
     }
   ]
 }
