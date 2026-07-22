@@ -2406,6 +2406,93 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T14:45:00Z",
       "last_updated": "2026-07-22T14:45:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00089",
+      "name": "A&S Labels Pty Ltd (trading as Tiger Mist)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/clothing-retailer-tiger-mist-pays-penalties-for-allegedly-misleading-consumers-about-return-rights",
+          "title": "Clothing retailer Tiger Mist pays penalties for allegedly misleading consumers about return rights",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "A&S Labels Pty Ltd, trading as online clothing retailer Tiger Mist, paid $26,640 after the ACCC issued two infringement notices over its website's Returns page, which between around November 2021 and February 2022 falsely told consumers that faulty items could only be returned within 30 days and had to be in original packaging - both misstatements of the unlimited, condition-free consumer guarantee rights that apply to faulty goods under the Australian Consumer Law.",
+      "risk_indicators": [
+        "Paid $26,640 over two ACCC infringement notices for misrepresenting statutory consumer guarantee rights",
+        "Alleged to have imposed a false 30-day return time limit and a false original-packaging requirement on faulty-item returns"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T15:15:00Z",
+      "last_updated": "2026-07-22T15:15:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00090",
+      "name": "Fitbit LLC",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/fitbit-to-pay-11m-in-penalties-for-misrepresentations-about-consumer-guarantee-rights",
+          "title": "Fitbit to pay $11m in penalties for misrepresentations about consumer guarantee rights",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered US-based Fitbit LLC to pay an $11 million penalty after it admitted making false or misleading representations to 58 Australian consumers about their statutory consumer guarantee rights - telling some consumers a refund was only available if a faulty device was returned within 45 days, and telling others no replacement was available once the device's two-year warranty period had expired, both contrary to consumer guarantees under the Australian Consumer Law that are not time-limited in this way.",
+      "risk_indicators": [
+        "Admitted making false or misleading representations to 58 Australian consumers about consumer guarantee rights",
+        "Ordered by the Federal Court to pay an $11 million penalty",
+        "Alleged to have imposed a false 45-day return window and a false post-warranty replacement bar contrary to statutory consumer guarantees"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T15:15:00Z",
+      "last_updated": "2026-07-22T15:15:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00091",
+      "name": "University of New South Wales",
+      "jurisdiction": "Australia",
+      "issue_category": "Systemic failures",
+      "source_evidence": [
+        {
+          "url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/january-2026/20260114-unsw-penalty-media-release",
+          "title": "UNSW penalised $213,120 for 'systemic' breaches",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/july-2026/20260703-unsw-eu-media-release",
+          "title": "The University of NSW signs Enforceable Undertaking",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Circuit and Family Court imposed a $213,120 penalty on the University of New South Wales on 14 January 2026 after it admitted breaching the Fair Work Act between 2017 and 2022 by failing to make and keep employment records for 63 casual academics and failing to include casual loading details on pay slips, with the Court describing the failures as 'systemic, long-standing, and long-lasting'; UNSW only admitted the breaches after the Fair Work Ombudsman commenced legal action in 2023, despite having been put on notice as early as 2018. UNSW subsequently signed a further enforceable undertaking (reported 3 July 2026) covering approximately $32.7 million in back-payments to 33,069 current and former staff.",
+      "risk_indicators": [
+        "Admitted systemic, long-standing Fair Work Act record-keeping and pay-slip breaches affecting casual academic staff",
+        "Court found UNSW had been put on notice of the issue as early as 2018 but only admitted the breaches after legal action was commenced in 2023",
+        "Ordered to pay a $213,120 penalty",
+        "Subsequently signed a separate enforceable undertaking covering approximately $32.7 million in back-payments to over 33,000 current and former staff"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T15:15:00Z",
+      "last_updated": "2026-07-22T15:15:00Z"
     }
   ]
 }
