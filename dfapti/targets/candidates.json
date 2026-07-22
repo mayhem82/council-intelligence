@@ -1761,6 +1761,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T00:36:28Z",
       "last_updated": "2026-07-22T00:36:28Z"
+    },
+    {
+      "target_id": "T-AU-2026-00067",
+      "name": "Coles Supermarkets Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/court-finds-that-coles-misled-customers-over-down-down-claims",
+          "title": "Court finds that Coles misled customers over 'Down Down' claims",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court found Coles Supermarkets Australia made false or misleading representations about 'Down Down' discounts on 245 common products between February 2022 and May 2023, in proceedings instituted by the ACCC in September 2024. The Court found Coles temporarily raised prices by at least 15% for a short period before applying a 'Down Down' promotion at a price still higher than or equal to the pre-increase price, and found misleading representations in 13 of the 14 ticket types considered at the liability hearing. Penalties and other orders remain to be determined.",
+      "risk_indicators": [
+        "Federal Court liability finding of misleading conduct in 13 of 14 discount-ticket types examined",
+        "Conduct concerned pricing representations across 245 common supermarket products over 15 months",
+        "Penalty phase not yet determined as of the liability judgment"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T01:36:07Z",
+      "last_updated": "2026-07-22T01:36:07Z"
+    },
+    {
+      "target_id": "T-AU-2026-00068",
+      "name": "Woolworths Group Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/accc-takes-woolworths-and-coles-to-court-over-alleged-misleading-prices-dropped-and-down-down-claims",
+          "title": "ACCC takes Woolworths and Coles to court over alleged misleading 'Prices Dropped' and 'Down Down' claims",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced separate Federal Court proceedings against Woolworths Group Limited alleging false or misleading 'Prices Dropped' representations on 266 products between September 2021 and May 2023, mirroring the parallel Coles matter: products allegedly had prices raised by at least 15% for a brief period before being placed in a 'Prices Dropped' promotion at a price still higher than or equal to the pre-rise price. As of the most recent reporting, proceedings were ongoing without a determined liability finding.",
+      "risk_indicators": [
+        "Subject of Federal Court civil proceedings alleging misleading discount-pricing representations across 266 products",
+        "Alleged conduct spanned September 2021 to May 2023",
+        "Proceedings are ongoing; allegations not yet determined by the court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T01:36:07Z",
+      "last_updated": "2026-07-22T01:36:07Z"
     }
   ]
 }
