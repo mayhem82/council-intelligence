@@ -95,4 +95,26 @@ existing case's `keywords.json`.
   were exposed, is already recorded as a candidate — T-AU-2026-00046 — since
   that action targets the corporate entity directly.)
 
+## Manual Review — 2026-07-22
+
+- **Australasian Centre for Corporate Responsibility v Santos Limited**
+  [2026] FCA 96 (Federal Court, Markovic J, judgment handed down
+  17 February 2026) — a concrete case citation for the greenwashing
+  litigation track flagged in the 2026-07-20 entry above, found during
+  a routine evidence sweep for DFAPTI-AU-2026-00198. ACCR alleged
+  Santos' 2020 Investor Day Presentation, 2020 Annual Report, and 2021
+  Climate Change Report were misleading or deceptive under s1041H of
+  the Corporations Act and ss18/33 of the Australian Consumer Law over
+  its net-zero roadmap and "clean energy"/"clean fuel" claims. The
+  Court dismissed all claims, finding "clean" was understood
+  comparatively rather than absolutely in context, and ordered ACCR to
+  pay costs. Not added to case 00198: this is greenwashing/misleading-
+  statement litigation, not a Chapter 2M mandatory sustainability-
+  reporting compliance matter — same reasoning as the 2026-07-20 entry.
+  The primary judgment text itself was not directly retrievable in this
+  pass (only the case citation and ACCR's own media alert were found);
+  if a dedicated greenwashing-litigation case is opened, this citation
+  should be independently verified against fedcourt.gov.au or AustLII
+  before use as evidence.
+
 No other candidates recorded yet.

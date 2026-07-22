@@ -2864,6 +2864,86 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T19:05:00Z",
       "last_updated": "2026-07-22T19:05:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00105",
+      "name": "Grill'd Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/grilld-in-court-for-allegedly-misleading-customers-about-tree-day-tuesday-donations",
+          "title": "Grill'd in court for allegedly misleading customers about 'Tree Day Tuesday' donations",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court proceedings on 16 June 2026 alleging that Grill'd's 'Tree Day Tuesday' campaign (January 2021-April 2024) represented that $1 from every Tuesday burger purchase would go to tree-planting through its partner Greenfleet Trust, when undisclosed conditions - requiring Relish loyalty membership, dine-in purchase, a qualifying main item bought at the front counter, a barcode scan, and no other offer combined - meant only a small share of purchases actually qualified (reported as roughly 4% of over 5 million Tuesday burgers sold). The ACCC has characterised the conduct as a form of greenwashing.",
+      "risk_indicators": [
+        "Subject of Federal Court proceedings brought by the ACCC alleging misleading environmental/charitable representations, ongoing",
+        "Alleged that only a small share of purchases actually qualified for the advertised tree-planting donation due to undisclosed conditions"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T19:40:00Z",
+      "last_updated": "2026-07-22T19:40:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00106",
+      "name": "Societe Generale Securities Australia Pty Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-189mr-societe-generale-securities-australia-fined-3-88-million-for-market-gatekeeper-failures/",
+          "title": "25-189MR Societe Generale Securities Australia fined $3.88 million for market gatekeeper failures",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "ASIC's Market Disciplinary Panel fined Societe Generale Securities Australia Pty Limited $3.88 million for market gatekeeper failures, finding it breached market integrity rules by failing to prevent 33 suspicious client orders (placed by two clients between May 2023 and February 2024) on ASX 24 electricity and wheat futures that exhibited 'mark the close' characteristics - orders placed in the final two minutes before market close, capable of influencing the daily settlement price. This was ASIC's fifth enforcement action within 15 months over electricity and wheat futures market manipulation.",
+      "risk_indicators": [
+        "Fined $3.88 million by ASIC's Market Disciplinary Panel for failing to prevent suspicious client trading activity",
+        "Found to have failed to prevent 33 orders exhibiting characteristics consistent with attempts to influence a market settlement price",
+        "Part of a pattern of five ASIC enforcement actions within 15 months over the same futures markets"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T19:40:00Z",
+      "last_updated": "2026-07-22T19:40:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00107",
+      "name": "The Ella Group (NSW) Pty Ltd (trading as Funtime Childcare)",
+      "jurisdiction": "Australia",
+      "issue_category": "Systemic failures",
+      "source_evidence": [
+        {
+          "url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/march-2026/20260331-the-ella-group-nsw-pty-ltd-cn-penalty-media-release",
+          "title": "Sydney childcare centre penalised again",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Circuit and Family Court imposed a $37,560 penalty on The Ella Group (NSW) Pty Ltd, trading as Funtime Childcare in Greenacre, Sydney, and a $7,512 penalty on its sole director, for failing to comply with a Fair Work Ombudsman Compliance Notice requiring calculation and back-payment of underpayments owed to a young full-time early childhood educator (April 2021-May 2023). This was the second such compliance-notice penalty action against the same entity and director, following an earlier $28,875 company/$5,775 director penalty reported in September 2025 over a different underpayment period.",
+      "risk_indicators": [
+        "Penalised twice by the Federal Circuit and Family Court for failing to comply with Fair Work Ombudsman Compliance Notices over worker underpayments",
+        "Court found the company's conduct in the second matter to reflect a serious and deliberate disregard of its legal obligations",
+        "Director personally penalised alongside the company on both occasions"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T19:40:00Z",
+      "last_updated": "2026-07-22T19:40:00Z"
     }
   ]
 }
