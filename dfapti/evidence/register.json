@@ -641,6 +641,46 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T12:05:00Z"
+    },
+    {
+      "evidence_id": "E-033",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Securities and Investments Commission",
+      "document_title": "Parliamentary Joint Committee on Corporations and Financial Services, Opening Statement, 20 March 2026",
+      "publication_date": "2026-03-20",
+      "capture_date": "2026-07-22",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/speeches/parliamentary-joint-committee-on-corporations-and-financial-services-opening-statement-20-march-2026/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Opening statement delivered by then-ASIC Deputy Chair Sarah Court to the Parliamentary Joint Committee on Corporations and Financial Services, alongside Commissioner Kate O'Rourke, Executive Director Chris Savundra, and Senior Executive Leader (Sustainability, Financial Reporting and Audit) Claire LaBouchardiere. States that strengthening market disclosure - financial reporting, sustainability reporting and audit - is a key ASIC strategic priority, and that ASIC's surveillance now includes review of mandatory Chapter 2M sustainability reports, taking a 'pragmatic and proportionate' approach to supervision and enforcement in the early years of the regime.",
+      "verification_notes": "Confirmed via three independent WebSearch queries (title search, subject-matter search, quoted-phrase search) returning identical title/date/URL; sandbox cannot directly fetch asic.gov.au (blocked), so verification rests on cross-referenced search corroboration per Factualism Audit rules for this environment.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": "MEDIUM-HIGH",
+        "rationale": "Primary-source ASIC speech transcript, corroborated by three independent searches returning matching title/date/URL; not directly fetched so document_hash withheld."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-22T16:10:00Z"
+    },
+    {
+      "evidence_id": "E-034",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Securities and Investments Commission",
+      "document_title": "Additional Budget Estimates, Opening Statement, Senate Economics Legislation Committee, 5 June 2026",
+      "publication_date": "2026-06-05",
+      "capture_date": "2026-07-22",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/speeches/additional-budget-estimates-opening-statement-senate-economics-legislation-committee-5-june-2026/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "New ASIC Chair Sarah Court's first parliamentary committee appearance in the role, delivered to the Senate Economics Legislation Committee's Additional Budget Estimates hearing. Confirms ASIC's administration of the mandatory Chapter 2M climate reporting framework continues, with a focus on Group 1 entity sustainability reports and ongoing engagement with large audit firms on assurance methodologies. States the review of reports for the year ended 31 December 2025 is ongoing, with comprehensive final observations expected in the second half of 2026 - consistent with, but a distinct primary document from, ASIC's already-logged media releases on the same timeline.",
+      "verification_notes": "Confirmed via two independent WebSearch queries returning identical title/date/URL; sandbox cannot directly fetch asic.gov.au (blocked), so verification rests on cross-referenced search corroboration per Factualism Audit rules for this environment.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": "MEDIUM-HIGH",
+        "rationale": "Primary-source ASIC speech transcript, corroborated by two independent searches returning matching title/date/URL; not directly fetched so document_hash withheld."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-22T16:10:00Z"
     }
   ]
 }

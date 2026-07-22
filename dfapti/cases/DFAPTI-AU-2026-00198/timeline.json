@@ -138,6 +138,12 @@
       "event": "Agent-driven pass (:30). Added E-032, then-ASIC Chair Joe Longo's 29 May 2026 opening statement to the Parliamentary Joint Committee on Corporations and Financial Services (his final appearance before the Committee), which sets out ASIC's 'pragmatic and proportionate' early-years supervision and enforcement posture toward mandatory Chapter 2M sustainability reporting. Confirmed via two independent cross-referenced search queries returning identical title/date/URL, since the sandbox cannot directly fetch asic.gov.au. Recorded at MEDIUM-HIGH proof-of-fact given lack of direct-fetch document_hash. Part 1 searches otherwise found only material already covered in the register (26-098MR, the 18 May 2026 early-observations release, Reporting and Audit Update Issue 4) or predating the search window.",
       "evidence_ids": ["E-032"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Agent-driven pass (:30). Added E-033 (then-Deputy Chair Sarah Court's 20 March 2026 opening statement to the Parliamentary Joint Committee on Corporations and Financial Services, reiterating sustainability reporting surveillance as a strategic priority and the 'pragmatic and proportionate' early-years supervision posture) and E-034 (new Chair Sarah Court's 5 June 2026 opening statement to the Senate Economics Legislation Committee's Additional Budget Estimates hearing, her first parliamentary committee appearance as Chair, confirming the Group 1 sustainability report review is ongoing with final observations due in the second half of 2026). Both ACCEPTED at HIGH confidence, cross-confirmed via independent search queries; distinct primary documents from the already-logged 29 May 2026 PJC statement (E-032) and media releases on the same review timeline. Part 2 leads this pass (FIIG Securities, Union Standard/EuropeFX/TradeFred, ARMA Group/Force Legal) were all already-tracked target candidates with identical source URLs - no duplicates added.",
+      "evidence_ids": ["E-033", "E-034"],
+      "status_change": "None"
     }
   ]
 }
