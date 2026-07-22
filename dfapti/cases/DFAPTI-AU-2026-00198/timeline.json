@@ -102,6 +102,12 @@
       "event": "Scheduled agent pass (:30). Added E-025 (Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026, merging the FRC, AASB and AUASB into a new body, External Reporting Australia, with a Governing Council and three standard-setting boards including sustainability reporting), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries plus the bill's explanatory memorandum and industry press. Directly on-topic: a major institutional restructure of the bodies (AASB, AUASB) that set the sustainability-assurance standards already tracked in this case via E-006/E-007/E-019/E-022/E-024.",
       "evidence_ids": ["E-025"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Scheduled agent pass (:30). Added E-026, confirming the Financial Reporting System Reform Bill received Royal Assent and was registered on the Federal Register of Legislation on 8 July 2026 as Act No. 61, 2026 (C2026A00061). This identifier was cross-confirmed across three independent search queries this pass (having been flagged but left unconfirmed in the two prior passes), so it clears the same evidentiary bar as ACCEPTED evidence. ACCEPTED at MEDIUM confidence (the exact URL path was inferred from an equivalent confirmed Act's pattern, not directly observed). Finalises the institutional reform already tracked via E-025.",
+      "evidence_ids": ["E-026"],
+      "status_change": "None"
     }
   ]
 }

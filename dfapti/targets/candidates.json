@@ -1815,6 +1815,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T01:36:07Z",
       "last_updated": "2026-07-22T01:36:07Z"
+    },
+    {
+      "target_id": "T-AU-2026-00069",
+      "name": "Block Earner (Web3 Ventures Pty Ltd)",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-124mr-asic-successful-in-high-court-block-earner-appeal/",
+          "title": "26-124MR ASIC successful in High Court Block Earner appeal",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The High Court unanimously (7-0) found that digital asset service provider Block Earner engaged in unlicensed financial services conduct by offering its fixed-yield digital asset product 'Earner' (offered March-November 2022) without an Australian Financial Services Licence, overturning the Full Federal Court's 2025 decision that Earner was not a financial product. ASIC commenced civil penalty proceedings on 23 November 2022; the Federal Court found unlicensed conduct in February 2024 but relieved Block Earner of any penalty in June 2024, a relief decision ASIC appealed. The High Court's June 2026 ruling on the licensing question sends the matter back to the Full Federal Court to determine ASIC's appeal against the penalty relief.",
+      "risk_indicators": [
+        "High Court unanimously found unlicensed financial services conduct in offering a fixed-yield digital asset product",
+        "Federal Court's earlier decision to relieve the company of any penalty is now subject to further appeal following the High Court ruling",
+        "Matter remains before the courts pending the Full Federal Court's determination of the penalty question"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T02:36:27Z",
+      "last_updated": "2026-07-22T02:36:27Z"
     }
   ]
 }
