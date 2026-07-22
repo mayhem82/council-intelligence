@@ -721,6 +721,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T19:00:00Z"
+    },
+    {
+      "evidence_id": "E-037",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Securities and Investments Commission / Australian Accounting Standards Board",
+      "document_title": "ASIC and AASB launch sustainability reporting webinar series",
+      "publication_date": "2026-05-20",
+      "capture_date": "2026-07-22",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/asic-and-aasb-launch-sustainability-reporting-webinar-series/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC and the AASB jointly hosted a three-part series of free online webinars, distinct from the earlier in-person workshop series already logged, aimed at smaller and mid-size companies still building capacity for climate-related financial disclosures. The first webinar (16 June 2026) covered an introduction to climate science; the third webinar (30 June 2026) covered GHG emissions accounting - Scope 1, 2 and 3 calculations, the GHG Protocol, and financed emissions. Each session featured University of Technology Sydney (UTS) presentations followed by Q&A with ASIC, AASB and UTS.",
+      "verification_notes": "Confirmed via three independent WebSearch queries, each independently returning the exact title and URL as the top result and consistently corroborating the three-part structure, June 2026 dates, and UTS involvement; the sandbox cannot directly fetch asic.gov.au (blocked), so verification rests on cross-referenced search corroboration. The exact 20 May 2026 announcement date could not be independently confirmed via search snippets and is carried over from the discovering agent's initial read; treat with slightly lower confidence than the other confirmed facts.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": "MEDIUM-HIGH",
+        "rationale": "Genuine, distinct ASIC/AASB initiative with structure and content independently corroborated across three searches; announcement date not independently verified, and no direct-fetch document_hash available."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-22T23:20:00Z"
     }
   ]
 }

@@ -156,6 +156,12 @@
       "event": "Agent-driven pass (:30). Added E-036, ASIC Corporations (Electronic Lodgment of Financial and Sustainability Reports) Instrument 2026/59, remade ahead of its 1 April 2026 sunset date. It replaces the earlier 2016/181 instrument and extends electronic dual-lodgment relief for financial, sustainability and directors' reports to entities listed on Cboe Australia (previously only ASX/NSX/SSX), now expiring 1 April 2031. This is the first Chapter 2M-specific legislative instrument captured for this case, distinct from the Budget/PBS threshold-change material (E-035) and the earlier guidance/consultation material. ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries; exact making/consultation dates not independently confirmable due to sandbox fetch blocks on asic.gov.au and legislation.gov.au. Part 2 leads this pass (Money3 Corporation) were an already-tracked candidate with an identical source URL - no duplicate added.",
       "evidence_ids": ["E-036"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Agent-driven pass (:30). Added E-037, the ASIC/AASB sustainability reporting webinar series (three free online sessions, 16/25/30 June 2026, featuring UTS presentations), aimed at smaller and mid-size companies building capacity for climate-related financial disclosures - distinct from the already-logged in-person workshop series and e-learning modules. ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries returning identical title/URL/structure. Part 2 leads this pass (Binance Australia Derivatives/Oztures Trading, Qantas, NDN Care Services/Della Dale Aged Care) were all genuinely new but out of case scope, added as target candidates instead; one lead (BPS Financial/Qoin) was an already-tracked candidate.",
+      "evidence_ids": ["E-037"],
+      "status_change": "None"
     }
   ]
 }

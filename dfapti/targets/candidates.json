@@ -3080,6 +3080,88 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T22:00:00Z",
       "last_updated": "2026-07-22T22:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00113",
+      "name": "Oztures Trading Pty Ltd (trading as Binance Australia Derivatives)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-055mr-binance-australia-derivatives-ordered-to-pay-10-million-penalty-for-onboarding-failures-causing-millions-in-client-trading-losses/",
+          "title": "26-055MR Binance Australia Derivatives ordered to pay $10 million penalty for onboarding failures causing millions in client trading losses",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Oztures Trading Pty Ltd, trading as Binance Australia Derivatives, to pay a $10 million penalty (orders handed down 27 March 2026) after it admitted misclassifying more than 85% of its Australian client base - 524 retail investors - as wholesale clients between July 2022 and April 2023, exposing them to high-risk crypto derivatives products without the consumer protections required for retail clients. The misclassified clients suffered approximately $8.66 million in trading losses and paid approximately $3.89 million in fees; ASIC separately oversaw approximately $13.1 million in compensation to affected clients in 2023.",
+      "risk_indicators": [
+        "Admitted misclassifying over 85% of its Australian client base as wholesale rather than retail clients",
+        "Ordered by the Federal Court to pay a $10 million penalty",
+        "Misclassified clients suffered a combined $8.66 million in trading losses and paid $3.89 million in fees"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T23:25:00Z",
+      "last_updated": "2026-07-22T23:25:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00114",
+      "name": "Qantas Airways Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/federal-court-orders-qantas-to-pay-100m-in-penalties-for-misleading-consumers",
+          "title": "Federal Court orders Qantas to pay $100m in penalties for misleading consumers",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Qantas Airways Limited to pay $100 million in penalties (8 October 2024) for misleading 86,597 members of the public by selling tickets on flights it had already decided to cancel, and misleading 883,977 people by not promptly notifying them of flight cancellations. Qantas separately agreed to pay approximately $20 million in compensation to affected passengers ($225 for domestic/trans-Tasman flights, $450 for international flights, per eligible passenger).",
+      "risk_indicators": [
+        "Ordered by the Federal Court to pay a $100 million penalty for misleading consumers",
+        "Found to have sold tickets on flights already decided to be cancelled, affecting 86,597 members of the public",
+        "Found to have delayed cancellation notifications to 883,977 people",
+        "Separately committed approximately $20 million to a customer compensation program"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T23:25:00Z",
+      "last_updated": "2026-07-22T23:25:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00115",
+      "name": "NDN Care Services Pty Ltd (trading as Della Dale Aged Care)",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.agedcarequality.gov.au/news-publications/media-statement/statement-liz-hefren-webb-aged-care-quality-and-safety-commissioner-revocation-approved-provider-status-ndn-care-services-pty-ltd-della-dale-aged-care-ringwood-vic",
+          "title": "Statement from Liz Hefren-Webb, Aged Care Quality and Safety Commissioner - Revocation of Approved Provider Status of NDN Care Services Pty Ltd (Della Dale Aged Care), Ringwood (VIC)",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Aged Care Quality and Safety Commission revoked the approved provider status of NDN Care Services Pty Ltd, trading as Della Dale Aged Care in Ringwood, Victoria - its most severe regulatory sanction - after finding all 19 residents were prescribed psychotropic medication without proper management, planning or monitoring as required by the Aged Care Quality Standards, and that an 'extreme form of physical restraint' had been used on a resident without consideration of their safety or wellbeing. The notice was issued in May 2025, with the revocation taking effect 26 September 2025.",
+      "risk_indicators": [
+        "Approved provider status revoked by the Aged Care Quality and Safety Commission, its most severe sanction",
+        "Found to have prescribed psychotropic medication to all residents without proper management or monitoring",
+        "Found to have used an extreme form of physical restraint on a resident without regard to their safety or wellbeing"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T23:25:00Z",
+      "last_updated": "2026-07-22T23:25:00Z"
     }
   ]
 }
