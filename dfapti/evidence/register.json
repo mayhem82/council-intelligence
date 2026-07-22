@@ -541,6 +541,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T04:35:00Z"
+    },
+    {
+      "evidence_id": "E-028",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "AASB",
+      "document_title": "AASB S2025-1 Amendments to Greenhouse Gas Emissions Disclosures",
+      "publication_date": "2025-12-17",
+      "capture_date": "2026-07-22T06:35:00Z",
+      "source_url": "https://standards.aasb.gov.au/sites/default/files/2025-12/AASBS2025-1_12-25.pdf",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "The AASB issued AASB S2025-1 on 17 December 2025, amending AASB S2 Climate-related Disclosures to provide additional relief and clarify existing relief for Scope 3 Category 15 (financed emissions) greenhouse gas emissions disclosures, including permitting entities to limit measurement/disclosure to financed emissions and permitting classification systems other than GICS to disaggregate financed emissions data. The amendments align with equivalent ISSB amendments to IFRS S2 (issued 11 December 2025) and apply to annual reporting periods beginning on or after 1 January 2027.",
+      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent detail (issue date, Scope 3 Category 15 relief content, ISSB alignment, 2027 application date) matching this exact AASB standard document, corroborated by a Grant Thornton sustainability reporting alert and the AASB's own S2 amendments FAQ page. document_hash remains unset since this sandbox cannot fetch aasb.gov.au directly. Directly on-topic: a substantive amendment to AASB S2, the core standard underpinning the Chapter 2M regime this case tracks.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-22T06:35:00Z"
     }
   ]
 }

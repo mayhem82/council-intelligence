@@ -114,6 +114,12 @@
       "event": "Scheduled agent pass (:30). Added E-027 (ASIC and AASB's May 2026 in-person workshop series across Sydney, Melbourne, Brisbane and Perth, delivered by UTS, helping smaller and mid-size companies prepare for mandatory sustainability reporting), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Distinct from E-024 (interactive e-learning modules) and the separate webinar series already referenced elsewhere.",
       "evidence_ids": ["E-027"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Scheduled agent pass (:30). Added E-028 (AASB S2025-1 Amendments to Greenhouse Gas Emissions Disclosures, issued 17 December 2025, providing additional Scope 3 Category 15/financed-emissions relief and aligning with equivalent ISSB amendments to IFRS S2, effective for periods beginning on or after 1 January 2027), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries plus the AASB's own S2 amendments FAQ page. Directly on-topic: a substantive amendment to the core AASB S2 standard underpinning the Chapter 2M regime.",
+      "evidence_ids": ["E-028"],
+      "status_change": "None"
     }
   ]
 }

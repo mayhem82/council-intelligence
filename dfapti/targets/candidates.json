@@ -1773,13 +1773,20 @@
           "title": "Court finds that Coles misled customers over 'Down Down' claims",
           "verified": true,
           "document_hash": null
+        },
+        {
+          "url": "https://www.accc.gov.au/media-release/accc-opposes-coles%E2%80%99-acquisition-of-a-supermarket-and-liquor-site-in-kalgoorlie-0",
+          "title": "ACCC opposes Coles' acquisition of a supermarket and liquor site in Kalgoorlie",
+          "verified": true,
+          "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court found Coles Supermarkets Australia made false or misleading representations about 'Down Down' discounts on 245 common products between February 2022 and May 2023, in proceedings instituted by the ACCC in September 2024. The Court found Coles temporarily raised prices by at least 15% for a short period before applying a 'Down Down' promotion at a price still higher than or equal to the pre-increase price, and found misleading representations in 13 of the 14 ticket types considered at the liability hearing. Penalties and other orders remain to be determined.",
+      "public_interest_reason": "The Federal Court found Coles Supermarkets Australia made false or misleading representations about 'Down Down' discounts on 245 common products between February 2022 and May 2023, in proceedings instituted by the ACCC in September 2024. The Court found Coles temporarily raised prices by at least 15% for a short period before applying a 'Down Down' promotion at a price still higher than or equal to the pre-increase price, and found misleading representations in 13 of the 14 ticket types considered at the liability hearing. Penalties and other orders remain to be determined. Separately, on 1 July 2026 the ACCC determined \u2014 its first outright refusal under Australia's new mandatory merger control regime (effective from 1 January 2026) \u2014 that Coles' proposed acquisition of a lease for a vacant supermarket and liquor site in Kalgoorlie-Boulder would likely substantially lessen competition in the retail supply of groceries there, finding it would likely lead to the exit of an effective independent full-line competitor from the market.",
       "risk_indicators": [
         "Federal Court liability finding of misleading conduct in 13 of 14 discount-ticket types examined",
         "Conduct concerned pricing representations across 245 common supermarket products over 15 months",
-        "Penalty phase not yet determined as of the liability judgment"
+        "Penalty phase not yet determined as of the liability judgment",
+        "Subject of the ACCC's first outright merger refusal under the new mandatory regime, over a proposed Kalgoorlie site acquisition found likely to substantially lessen grocery competition"
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 5,
@@ -1787,7 +1794,7 @@
       "promoted_case_id": null,
       "rejection_reason": null,
       "discovered_at": "2026-07-22T01:36:07Z",
-      "last_updated": "2026-07-22T01:36:07Z"
+      "last_updated": "2026-07-22T06:37:13Z"
     },
     {
       "target_id": "T-AU-2026-00068",
@@ -1923,6 +1930,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T05:35:44Z",
       "last_updated": "2026-07-22T05:35:44Z"
+    },
+    {
+      "target_id": "T-AU-2026-00073",
+      "name": "Yamaha Motor Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/accc-opposes-yamahas-proposed-acquisition-of-telwater",
+          "title": "ACCC opposes Yamaha's proposed acquisition of Telwater",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC opposed Yamaha Motor Australia Pty Ltd's proposed acquisition of Telwater Pty Ltd (announced 18 December 2025) following an in-depth investigation, finding it likely to substantially lessen competition in the wholesale supply of outboard motors in Australia. The ACCC's concern centred on the combined entity's ability and incentive to leverage Telwater's dominant position (60-70% market share) in aluminium trailer boats to disadvantage rival outboard motor suppliers through bundling or tying strategies, which the ACCC considered likely to leave consumers with lower quality, higher prices and fewer brand choices.",
+      "risk_indicators": [
+        "Subject of an ACCC merger opposition decision following an in-depth competition investigation",
+        "ACCC found the proposed acquisition likely to substantially lessen competition in outboard motor wholesale supply",
+        "ACCC identified a specific risk of bundling/tying strategies leveraging a proposed acquisition target's dominant market position"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T06:37:13Z",
+      "last_updated": "2026-07-22T06:37:13Z"
+    },
+    {
+      "target_id": "T-AU-2026-00074",
+      "name": "Telwater Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/accc-opposes-yamahas-proposed-acquisition-of-telwater",
+          "title": "ACCC opposes Yamaha's proposed acquisition of Telwater",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC opposed Yamaha Motor Australia's proposed acquisition of Telwater Pty Ltd (announced 18 December 2025) following an in-depth investigation, finding it likely to substantially lessen competition in the wholesale supply of outboard motors in Australia. Telwater, market leader in aluminium trailer boats (approximately 60-70% market share via its Quintrex, Stacer and Yellowfin brands), was the acquisition target; the ACCC's concern centred on the combined entity's ability to leverage that dominant position to disadvantage rival outboard motor suppliers.",
+      "risk_indicators": [
+        "Named as the acquisition target in an ACCC merger opposition decision following an in-depth competition investigation",
+        "Holds an approximately 60-70% market share in aluminium trailer boats, a position the ACCC found could be leveraged anti-competitively if the acquisition proceeded",
+        "ACCC found the proposed transaction likely to substantially lessen competition in outboard motor wholesale supply"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T06:37:13Z",
+      "last_updated": "2026-07-22T06:37:13Z"
     }
   ]
 }
