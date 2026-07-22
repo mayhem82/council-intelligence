@@ -2297,6 +2297,115 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T13:10:00Z",
       "last_updated": "2026-07-22T13:10:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00085",
+      "name": "Dispensed Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.tga.gov.au/news/media-releases/dispensed-pty-ltd-issued-infringement-notices-and-directed-cease-alleged-unlawful-advertising-medicinal-cannabis",
+          "title": "Dispensed Pty Ltd issued infringement notices and directed to cease alleged unlawful advertising of medicinal cannabis",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Therapeutic Goods Administration issued Dispensed Pty Ltd six infringement notices totalling $118,800, plus a direction notice, over alleged unlawful advertising of prescription-only medicinal cannabis to consumers on third-party websites and social media, including indirect references such as 'plant medicine' and 'cannabinoid-based therapies' not permitted under the Therapeutic Goods Act 1989. Advertising restrictions on prescription-only medicines exist to prevent consumers self-selecting scheduled drugs based on promotional claims rather than clinical advice.",
+      "risk_indicators": [
+        "Issued six TGA infringement notices totalling $118,800 plus a direction notice to cease conduct",
+        "Alleged advertising of a prescription-only medicine directly to consumers, contrary to the Therapeutic Goods Act 1989",
+        "Notices paid September 2025"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T14:45:00Z",
+      "last_updated": "2026-07-22T14:45:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00086",
+      "name": "Castra Licensee Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Systemic failures",
+      "source_evidence": [
+        {
+          "url": "https://www.austrac.gov.au/new-and-media/news/federal-court-imposes-penalties-after-businesses-fail-pay-austrac-infringement-notices",
+          "title": "Federal Court imposes penalties after businesses fail to pay AUSTRAC infringement notices",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "AUSTRAC issued infringement notices in September 2024 to a batch of 16 businesses, including Castra Licensee Pty Ltd, for failing to lodge their 2023 annual AML/CTF compliance reports. Castra did not pay its notice, and AUSTRAC escalated to Federal Court civil penalty proceedings; on 26 May 2026 Justice Lee ordered Castra to pay a $50,000 pecuniary penalty plus $15,000 costs.",
+      "risk_indicators": [
+        "Failed to lodge a mandatory annual AML/CTF compliance report",
+        "Did not pay an AUSTRAC infringement notice, resulting in escalation to Federal Court civil penalty proceedings",
+        "Ordered by the Federal Court to pay a $50,000 penalty plus $15,000 costs (26 May 2026)"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T14:45:00Z",
+      "last_updated": "2026-07-22T14:45:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00087",
+      "name": "Princeton Securities (NSW) Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Systemic failures",
+      "source_evidence": [
+        {
+          "url": "https://www.austrac.gov.au/new-and-media/news/federal-court-imposes-penalties-after-businesses-fail-pay-austrac-infringement-notices",
+          "title": "Federal Court imposes penalties after businesses fail to pay AUSTRAC infringement notices",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "In the same batch action as Castra Licensee Pty Ltd, AUSTRAC issued Princeton Securities (NSW) Pty Ltd an infringement notice in September 2024 for failing to lodge its 2023 annual AML/CTF compliance report. Princeton did not pay, and on 26 May 2026 the Federal Court (on joint submissions with AUSTRAC) ordered it to pay an agreed $45,000 penalty plus $5,000 costs.",
+      "risk_indicators": [
+        "Failed to lodge a mandatory annual AML/CTF compliance report",
+        "Did not pay an AUSTRAC infringement notice, resulting in escalation to Federal Court civil penalty proceedings",
+        "Ordered by the Federal Court to pay an agreed $45,000 penalty plus $5,000 costs (26 May 2026)"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T14:45:00Z",
+      "last_updated": "2026-07-22T14:45:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00088",
+      "name": "Mount Pritchard and District Community Club Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Systemic failures",
+      "source_evidence": [
+        {
+          "url": "https://austrac.gov.au/news-and-media/media-release/austrac-launches-civil-penalty-proceedings-against-pokies-giant-mounties",
+          "title": "AUSTRAC launches civil penalty proceedings against pokies giant Mounties",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "AUSTRAC commenced Federal Court civil penalty proceedings on 30 July 2025 against Mount Pritchard and District Community Club Ltd, trading as Mounties, alleging serious and systemic non-compliance with AML/CTF laws, including operating without a compliant AML/CTF program and failing to appropriately monitor high-risk customers. The club group operates approximately 1,400 poker machines across 8 of its 10 venues and generates hundreds of millions of dollars in gaming revenue annually. The matter remains before the Federal Court.",
+      "risk_indicators": [
+        "Subject of Federal Court civil penalty proceedings brought by AUSTRAC, ongoing",
+        "Alleged to have operated without a compliant AML/CTF program across a large-scale poker machine operation",
+        "Alleged failure to appropriately monitor high-risk customers",
+        "Operates roughly 1,400 poker machines generating hundreds of millions of dollars in gaming revenue annually"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T14:45:00Z",
+      "last_updated": "2026-07-22T14:45:00Z"
     }
   ]
 }
