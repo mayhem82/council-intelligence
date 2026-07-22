@@ -75,4 +75,24 @@ existing case's `keywords.json`.
   against the collapsed companies themselves — pending the same open
   named-individuals policy question.
 
+- **Paul Chiodo, Ilya Frolov and Mark Yorston** (former directors) and
+  **Jeremy Danon and Ilya Frolov** (former compliance committee members) of
+  Keystone Asset Management Ltd (Receivers & Managers Appointed) (In
+  Liquidation) — ASIC commenced Federal Court proceedings (26-133MR) alleging
+  breach of director/officer duties and compliance-committee obligations in
+  relation to the Shield Master Fund, into which more than $530 million in
+  retirement savings from around 5,800 investors flowed. ASIC alleges around
+  $305 million was transferred to a related property development fund and
+  then to entities linked to Chiodo and Frolov without proper security,
+  valuations, oversight or conflict management (source:
+  `https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-133mr-asic-sues-former-keystone-asset-management-directors-and-compliance-committee-members-over-alleged-shield-failures/`).
+  Not added as a candidate for the same reason as the entries above: Keystone
+  Asset Management itself is already in receivership/liquidation and is not
+  a civil-penalty respondent in this action — the proceedings target the
+  named individuals personally — pending the same open named-individuals
+  policy question. (Separately, Macquarie Investment Management Limited,
+  the superannuation platform trustee through which many Shield investors
+  were exposed, is already recorded as a candidate — T-AU-2026-00046 — since
+  that action targets the corporate entity directly.)
+
 No other candidates recorded yet.

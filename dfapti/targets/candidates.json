@@ -1124,21 +1124,28 @@
           "title": "AER Infringement Notices - EnergyAustralia Pty Ltd - INF-20260001 and INF-20260002",
           "verified": true,
           "document_hash": null
+        },
+        {
+          "url": "https://www.accc.gov.au/media-release/energyaustralia-to-pay-14m-for-making-misleading-statements-and-breaching-the-electricity-retail-code",
+          "title": "EnergyAustralia to pay $14m for making misleading statements and breaching the Electricity Retail Code",
+          "verified": true,
+          "document_hash": null
         }
       ],
-      "public_interest_reason": "EnergyAustralia Pty Ltd paid two AER infringement notices totalling $142,800 for alleged breaches of the National Energy Retail Law and National Energy Retail Rules. The AER alleged EnergyAustralia transferred an elderly customer's electricity account to itself without obtaining consent (after another person had mistakenly set up an account at that address), then sent bills and disconnection warnings, and disconnected the customer without following the required notice procedures under the Retail Rules.",
+      "public_interest_reason": "EnergyAustralia Pty Ltd paid two AER infringement notices totalling $142,800 for alleged breaches of the National Energy Retail Law and National Energy Retail Rules. The AER alleged EnergyAustralia transferred an elderly customer's electricity account to itself without obtaining consent (after another person had mistakenly set up an account at that address), then sent bills and disconnection warnings, and disconnected the customer without following the required notice procedures under the Retail Rules. Separately, the Federal Court ordered EnergyAustralia to pay $14 million in penalties (the ACCC's first proceeding under the Electricity Retail Code since its 2019 introduction) after EnergyAustralia admitted sending misleading price-change communications to around 566,000 consumers between June and September 2022, including misrepresenting the estimated annual price of its electricity offer for an average customer and failing to state the lowest possible price, plus 27 non-compliant online electricity offers over the same period.",
       "risk_indicators": [
         "Paid $142,800 across two AER infringement notices for alleged Retail Law and Retail Rules breaches",
         "Alleged failure to obtain customer consent before transferring an electricity account",
-        "Alleged failure to follow required notice procedures before disconnecting an elderly customer"
+        "Alleged failure to follow required notice procedures before disconnecting an elderly customer",
+        "Federal Court penalty of $14 million, admitted, for misleading pricing communications sent to approximately 566,000 consumers \u2014 the ACCC's first Electricity Retail Code proceeding"
       ],
       "evidence_confidence": "HIGH",
-      "priority_score": 4,
+      "priority_score": 5,
       "status": "CANDIDATE",
       "promoted_case_id": null,
       "rejection_reason": null,
       "discovered_at": "2026-07-21T14:36:53Z",
-      "last_updated": "2026-07-21T14:36:53Z"
+      "last_updated": "2026-07-22T07:37:14Z"
     },
     {
       "target_id": "T-AU-2026-00044",
@@ -1984,6 +1991,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T06:37:13Z",
       "last_updated": "2026-07-22T06:37:13Z"
+    },
+    {
+      "target_id": "T-AU-2026-00075",
+      "name": "Diamond Energy Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/diamond-energy-pays-penalties-for-failing-to-adequately-communicate-pricing-information-to-consumers-0",
+          "title": "Diamond Energy pays penalties for failing to adequately communicate pricing information to consumers",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Diamond Energy Pty Ltd paid $46,950 in penalties across three ACCC infringement notices for breaching the Electricity Retail Code, after admitting that in June 2024 it sent price-change communications to 12,809 customers that failed to include mandatory pricing information (including the lowest possible price). The ACCC also accepted a court-enforceable undertaking under which Diamond Energy committed to update its price-change notification templates and implement a compliance program.",
+      "risk_indicators": [
+        "Paid $46,950 across three ACCC infringement notices for alleged Electricity Retail Code breaches",
+        "Admitted failing to include mandatory pricing information in communications sent to 12,809 customers",
+        "Gave the ACCC a court-enforceable undertaking to update notification templates and implement a compliance program"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T07:37:14Z",
+      "last_updated": "2026-07-22T07:37:14Z"
     }
   ]
 }
