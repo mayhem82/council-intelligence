@@ -2263,6 +2263,40 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T12:05:00Z",
       "last_updated": "2026-07-22T12:05:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00084",
+      "name": "H.E.S.T. Australia Ltd (HESTA)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-266mr-hesta-pays-asic-infringement-notices-alleging-misleading-statements-about-carbon-emissions/",
+          "title": "25-266MR HESTA pays ASIC infringement notices alleging misleading statements about carbon emissions",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2023-releases/23-299mr-hesta-trustee-pays-infringement-notices-for-misleading-marketing/",
+          "title": "23-299MR HESTA trustee pays infringement notices for misleading marketing",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "H.E.S.T. Australia Ltd, trustee of the HESTA superannuation fund, has paid two separate rounds of ASIC infringement notices for misleading member-facing marketing. On 3 November 2025 it paid $37,560 over paid search-engine ads (April 2021-December 2024) claiming HESTA was 'committed to remove all investment in carbon emissions by 2050', which ASIC found misleading because the fund's actual target is net-zero via offsetting rather than full removal of carbon-emitting investments. This follows an earlier action in which HESTA paid $48,600 over three infringement notices (23-299MR) for advertising a 'Balanced Growth' option's 10-year performance figures on Facebook/Instagram/webinar without disclosing that the 10-year period referenced had already ended 5-14 months before publication.",
+      "risk_indicators": [
+        "Paid two separate rounds of ASIC infringement notices for misleading member-facing marketing within roughly two years",
+        "Alleged to have overstated the scope of its carbon-emissions investment exclusion in paid advertising",
+        "Alleged to have advertised historical investment-performance figures without disclosing the reporting period had already lapsed",
+        "Payment of an infringement notice is not an admission of guilt or liability under ASIC's process"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T13:10:00Z",
+      "last_updated": "2026-07-22T13:10:00Z"
     }
   ]
 }
