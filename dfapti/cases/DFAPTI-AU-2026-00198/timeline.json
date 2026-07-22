@@ -120,6 +120,12 @@
       "event": "Scheduled agent pass (:30). Added E-028 (AASB S2025-1 Amendments to Greenhouse Gas Emissions Disclosures, issued 17 December 2025, providing additional Scope 3 Category 15/financed-emissions relief and aligning with equivalent ISSB amendments to IFRS S2, effective for periods beginning on or after 1 January 2027), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries plus the AASB's own S2 amendments FAQ page. Directly on-topic: a substantive amendment to the core AASB S2 standard underpinning the Chapter 2M regime.",
       "evidence_ids": ["E-028"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Scheduled agent pass (:30). Added E-029 (ASIC's 'Sustainability reporting: Further regulatory resources and news' navigational hub page), ACCEPTED at MEDIUM confidence (confirmed as a distinct, on-topic page, but only general content description available, not specific new facts). Distinct from the main hub (E-002) and administration/relief pages already captured.",
+      "evidence_ids": ["E-029"],
+      "status_change": "None"
     }
   ]
 }

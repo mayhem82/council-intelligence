@@ -561,6 +561,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T06:35:00Z"
+    },
+    {
+      "evidence_id": "E-029",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "Sustainability reporting: Further regulatory resources and news",
+      "publication_date": null,
+      "capture_date": "2026-07-22T08:35:00Z",
+      "source_url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/sustainability-reporting-further-regulatory-resources-and-news/",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "An ASIC navigational/resources hub page under the sustainability-reporting section, indexing further resources and news distinct from the main hub (E-002) and the administration/relief pages already captured (E-011, E-018): guidance for preparers, ASIC's administration of the regime, audit and assurance of sustainability reports, and the historical development of climate-related financial disclosure obligations.",
+      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent content description (further resources/news index, greenwashing information sheet reference) matching this exact ASIC page. Confidence set to MEDIUM rather than HIGH since this is a navigational index page and the searches returned only a general content description rather than specific new facts distinct from already-captured resources. document_hash remains unset since this sandbox cannot fetch asic.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-22T08:35:00Z"
     }
   ]
 }

@@ -2018,6 +2018,61 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T07:37:14Z",
       "last_updated": "2026-07-22T07:37:14Z"
+    },
+    {
+      "target_id": "T-AU-2026-00076",
+      "name": "Medtronic Australasia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.tga.gov.au/news/media-releases/medtronic-australasia-pty-ltd-ordered-pay-22-million-largest-ever-penalty-unlawful-supply-therapeutic-goods",
+          "title": "Medtronic Australasia Pty Ltd ordered to pay $22 million - the largest ever penalty for unlawful supply of therapeutic goods",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Medtronic Australasia Pty Ltd to pay $22 million in penalties \u2014 the largest ever imposed under the Therapeutic Goods Act 1989 \u2014 for unlawfully supplying 16,267 units of its Infuse Bone Graft Kit without the separately packaged LT Cage between September 2015 and January 2020, when the Australian Register of Therapeutic Goods entry only permitted supply of the two products together. The TGA commenced proceedings in August 2021; Medtronic was also ordered to pay $1 million toward the TGA's legal costs.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $22 million, the largest ever imposed under the Therapeutic Goods Act 1989",
+        "Found to have unlawfully supplied more than 16,000 units of a medical device kit outside its permitted ARTG registration over a four-and-a-half-year period",
+        "Supplied the non-compliant kits to a large number of hospitals"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T08:37:06Z",
+      "last_updated": "2026-07-22T08:37:06Z"
+    },
+    {
+      "target_id": "T-AU-2026-00077",
+      "name": "Philips Electronics Australia Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.tga.gov.au/news/media-releases/court-proceedings-initiated-against-philips-electronics-australia-limited",
+          "title": "Court proceedings initiated against Philips Electronics Australia Limited",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The TGA commenced Federal Court proceedings against Philips Electronics Australia Limited alleging the unlawful supply of sleep apnoea and breathing-support devices that did not meet Australian safety and performance requirements. The devices contained a foam (PE-PUR) at risk of degrading and releasing particulates that could be inhaled or ingested, with potential harm including respiratory tract irritation, inflammatory response and effects on the reproductive system. The TGA alleges more than 44,000 separate instances of unlawful supply between June 2019 and October 2022 (depending on device), and separately issued ten infringement notices totalling $133,200.",
+      "risk_indicators": [
+        "Subject of Federal Court proceedings alleging unlawful supply of medical devices not meeting safety and performance requirements",
+        "TGA alleges more than 44,000 separate instances of unlawful supply over a three-year period",
+        "Devices at issue contained foam with a real risk of degrading and releasing particulates that could be inhaled or ingested by patients",
+        "Also issued ten TGA infringement notices totalling $133,200"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T08:37:06Z",
+      "last_updated": "2026-07-22T08:37:06Z"
     }
   ]
 }
