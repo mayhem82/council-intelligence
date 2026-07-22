@@ -2493,6 +2493,165 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T15:15:00Z",
       "last_updated": "2026-07-22T15:15:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00092",
+      "name": "Borger Crane Hire & Rigging Services Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/four-mobile-crane-companies-in-court-over-alleged-cartel-activity",
+          "title": "Four mobile crane companies in court over alleged cartel activity",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court civil cartel proceedings on 3 September 2025 alleging that four Sydney mobile crane hire companies coordinated via WhatsApp groups not to supply cranes to certain customers and construction sites between 2020 and 2024. Two of the four companies are also alleged to have attempted to fix prices in 2022. The matter is ongoing, with trial not expected until 2027.",
+      "risk_indicators": [
+        "Named respondent in Federal Court civil cartel proceedings brought by the ACCC, ongoing",
+        "Alleged to have coordinated via messaging groups not to supply cranes to certain customers or construction sites",
+        "Alleged to have attempted to fix prices with a competitor in 2022"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T17:50:00Z",
+      "last_updated": "2026-07-22T17:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00093",
+      "name": "MCR Melrose Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/four-mobile-crane-companies-in-court-over-alleged-cartel-activity",
+          "title": "Four mobile crane companies in court over alleged cartel activity",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court civil cartel proceedings on 3 September 2025 alleging that four Sydney mobile crane hire companies coordinated via WhatsApp groups not to supply cranes to certain customers and construction sites between 2020 and 2024. Two of the four companies are also alleged to have attempted to fix prices in 2022. The matter is ongoing, with trial not expected until 2027.",
+      "risk_indicators": [
+        "Named respondent in Federal Court civil cartel proceedings brought by the ACCC, ongoing",
+        "Alleged to have coordinated via messaging groups not to supply cranes to certain customers or construction sites",
+        "Alleged to have attempted to fix prices with a competitor in 2022"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T17:50:00Z",
+      "last_updated": "2026-07-22T17:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00094",
+      "name": "Two Way Cranes Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/four-mobile-crane-companies-in-court-over-alleged-cartel-activity",
+          "title": "Four mobile crane companies in court over alleged cartel activity",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court civil cartel proceedings on 3 September 2025 alleging that four Sydney mobile crane hire companies coordinated via WhatsApp groups not to supply cranes to certain customers and construction sites between 2020 and 2024. Two of the four companies are also alleged to have attempted to fix prices in 2022. The matter is ongoing, with trial not expected until 2027.",
+      "risk_indicators": [
+        "Named respondent in Federal Court civil cartel proceedings brought by the ACCC, ongoing",
+        "Alleged to have coordinated via messaging groups not to supply cranes to certain customers or construction sites"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T17:50:00Z",
+      "last_updated": "2026-07-22T17:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00095",
+      "name": "Ultra-Lift Cranes Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/four-mobile-crane-companies-in-court-over-alleged-cartel-activity",
+          "title": "Four mobile crane companies in court over alleged cartel activity",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court civil cartel proceedings on 3 September 2025 alleging that four Sydney mobile crane hire companies coordinated via WhatsApp groups not to supply cranes to certain customers and construction sites between 2020 and 2024. Two of the four companies are also alleged to have attempted to fix prices in 2022. The matter is ongoing, with trial not expected until 2027.",
+      "risk_indicators": [
+        "Named respondent in Federal Court civil cartel proceedings brought by the ACCC, ongoing",
+        "Alleged to have coordinated via messaging groups not to supply cranes to certain customers or construction sites"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T17:50:00Z",
+      "last_updated": "2026-07-22T17:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00096",
+      "name": "Phenix Trading Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Environmental impact",
+      "source_evidence": [
+        {
+          "url": "https://cer.gov.au/news-and-media/news/2026/march/phenix-tradings-registration-permanently-suspended",
+          "title": "Phenix Trading's registration permanently suspended",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Clean Energy Regulator permanently suspended Phenix Trading Pty Ltd's registration under the Renewable Energy (Electricity) Act 2000 on 5 March 2026, no longer satisfied it was a 'fit and proper person', following NSW IPART cancelling its Energy Savings Scheme/Peak Demand Reduction Scheme accreditation and rejecting approximately 618,555 Energy Savings Certificates worth an estimated $10 million over exaggerated freezer energy-efficiency claims and false information, and Victoria's Essential Services Commission separately suspending it (via subsidiary LEDSaves) from the Victorian Energy Upgrades scheme over falsely claimed weather-sealing and shower-rose installations.",
+      "risk_indicators": [
+        "Registration permanently suspended by the Clean Energy Regulator on fit-and-proper-person grounds",
+        "NSW IPART rejected approximately 618,555 energy-efficiency certificates worth an estimated $10 million linked to the company",
+        "Separately suspended by Victoria's Essential Services Commission (via a subsidiary) from a state energy-upgrades scheme"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T17:50:00Z",
+      "last_updated": "2026-07-22T17:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00097",
+      "name": "Fundhost Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-030mr-fundhost-pays-infringement-notice-for-making-misleading-representations-about-polen-capital-global-growth-fund/",
+          "title": "26-030MR Fundhost pays infringement notice for making misleading representations about Polen Capital Global Growth Fund",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Fundhost Limited, as responsible entity of the Polen Capital Global Growth Fund, paid a $19,800 ASIC infringement notice (paid 13 February 2026) over a misleading performance chart published by its investment manager that combined a related overseas fund's performance with the Fund's own, misleadingly depicting outperformance against a benchmark index since the Fund's March 2021 inception.",
+      "risk_indicators": [
+        "Paid an ASIC infringement notice of $19,800 over a misleading fund-performance chart",
+        "Payment of an infringement notice is not an admission of liability under ASIC's process"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T17:50:00Z",
+      "last_updated": "2026-07-22T17:50:00Z"
     }
   ]
 }
