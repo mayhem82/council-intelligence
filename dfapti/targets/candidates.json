@@ -948,13 +948,21 @@
           "title": "APRA accepts court enforceable undertaking from Cbus and launches investigation",
           "verified": true,
           "document_hash": null
+        },
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-286mr-cbus-ordered-to-pay-23-5-million-penalty-for-serious-failures-in-processing-members-death-benefits-and-insurance-claims/",
+          "title": "25-286MR Cbus ordered to pay $23.5 million penalty for serious failures in processing members death benefits and insurance claims",
+          "verified": true,
+          "document_hash": null
         }
       ],
-      "public_interest_reason": "APRA accepted a court enforceable undertaking from United Super Pty Ltd, trustee for the Construction and Building Unions Superannuation Fund (Cbus, over 920,000 member accounts and around $100 billion in funds under management), after a prudential review found significant and persistent weaknesses in its operational risk management framework across four areas: operational risk management, information/IT resilience, insurance claims processing and administration, and expenditure management. APRA separately launched an investigation into United Super for possible breaches of the Superannuation Industry (Supervision) Act 1993, focused on expenditure management practices.",
+      "public_interest_reason": "APRA accepted a court enforceable undertaking from United Super Pty Ltd, trustee for the Construction and Building Unions Superannuation Fund (Cbus, over 920,000 member accounts and around $100 billion in funds under management), after a prudential review found significant and persistent weaknesses in its operational risk management framework across four areas: operational risk management, information/IT resilience, insurance claims processing and administration, and expenditure management. APRA separately launched an investigation into United Super for possible breaches of the Superannuation Industry (Supervision) Act 1993, focused on expenditure management practices. In a separate ASIC action (25-286MR), the Federal Court ordered United Super to pay a $23.5 million penalty after admitting serious failures in processing death benefit and total-and-permanent-disability insurance claims, which delayed payments to more than 7,000 members, plus two failures to report the matters to ASIC within required statutory timeframes. United Super was separately ordered to undertake a compliance program, pay roughly $500,000 towards ASIC's legal costs, and fund an approximately $32 million member remediation program for lost earnings and wrongfully charged fees.",
       "risk_indicators": [
         "Subject of an APRA court enforceable undertaking following findings of significant and persistent operational risk management weaknesses",
         "Undertaking spans four areas: operational risk management, IT resilience, insurance claims administration, and expenditure management",
-        "Separately under APRA investigation for possible breaches of the SIS Act relating to expenditure management practices"
+        "Separately under APRA investigation for possible breaches of the SIS Act relating to expenditure management practices",
+        "Ordered to pay a separate $23.5 million penalty for serious, admitted failures in processing members' death benefit and disability insurance claims, delaying payments to over 7,000 members",
+        "Admitted two failures to report the claims-processing failures to ASIC within required statutory timeframes"
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 5,
@@ -962,7 +970,7 @@
       "promoted_case_id": null,
       "rejection_reason": null,
       "discovered_at": "2026-07-21T10:36:45Z",
-      "last_updated": "2026-07-21T10:36:45Z"
+      "last_updated": "2026-07-22T18:25:00Z"
     },
     {
       "target_id": "T-AU-2026-00037",
@@ -2652,6 +2660,62 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T17:50:00Z",
       "last_updated": "2026-07-22T17:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00098",
+      "name": "Australian Fiduciaries Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-199mr-federal-court-freezes-assets-and-appoints-receivers-to-related-entities-of-australian-fiduciaries-limited/",
+          "title": "25-199MR Federal Court freezes assets and appoints receivers to related entities of Australian Fiduciaries Limited",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court froze assets and appointed receivers to entities related to Australian Fiduciaries Limited (AFL), which operated managed investment schemes into which approximately $160 million was invested by around 600 retail investors, largely via self-managed superannuation funds. On 16 June 2026, Justice Downes granted ASIC leave to amend its originating process to seek the winding-up of eight corporate defendants under receivership and three registered managed investment schemes AFL operated, with a hearing listed for 8 October 2026. ASIC separately cancelled AFL's Australian financial services licence on 2 July 2026.",
+      "risk_indicators": [
+        "Subject of Federal Court asset-freezing orders and receivership over related entities",
+        "ASIC is seeking the winding-up of eight corporate defendants and three registered managed investment schemes it operated",
+        "Approximately $160 million invested by around 600 retail investors, largely through self-managed superannuation funds, is involved",
+        "ASIC cancelled the entity's Australian financial services licence on 2 July 2026",
+        "Matter is ongoing, with a further Federal Court hearing listed for 8 October 2026"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T18:25:00Z",
+      "last_updated": "2026-07-22T18:25:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00099",
+      "name": "Forestry Corporation of NSW",
+      "jurisdiction": "Australia",
+      "issue_category": "Environmental impact",
+      "source_evidence": [
+        {
+          "url": "https://www.epa.nsw.gov.au/news/epamedia/260120-60-000-penalty-to-forestry-corp-nsw-for-mogo-state-forest-water-pollution",
+          "title": "$60,000 penalty to Forestry Corp NSW for Mogo State Forest water pollution",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NSW Environment Protection Authority issued Forestry Corporation of NSW two penalty notices totalling $60,000 (issued 20 January 2026) after inspections found a machinery crossing on Dooga Creek in the Mogo State Forest, a designated Environmentally Significant Area, was not built to best-practice standard, causing sediment erosion and water pollution. The EPA also found Forestry Corporation had failed to complete required clean-up work under a prior clean-up notice.",
+      "risk_indicators": [
+        "Issued two NSW EPA penalty notices totalling $60,000 over water pollution from a forestry operation",
+        "Alleged to have failed to complete required remediation work under a prior EPA clean-up notice",
+        "Incident occurred within a designated Environmentally Significant Area"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T18:25:00Z",
+      "last_updated": "2026-07-22T18:25:00Z"
     }
   ]
 }

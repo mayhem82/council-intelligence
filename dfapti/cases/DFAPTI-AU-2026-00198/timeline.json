@@ -144,6 +144,12 @@
       "event": "Agent-driven pass (:30). Added E-033 (then-Deputy Chair Sarah Court's 20 March 2026 opening statement to the Parliamentary Joint Committee on Corporations and Financial Services, reiterating sustainability reporting surveillance as a strategic priority and the 'pragmatic and proportionate' early-years supervision posture) and E-034 (new Chair Sarah Court's 5 June 2026 opening statement to the Senate Economics Legislation Committee's Additional Budget Estimates hearing, her first parliamentary committee appearance as Chair, confirming the Group 1 sustainability report review is ongoing with final observations due in the second half of 2026). Both ACCEPTED at HIGH confidence, cross-confirmed via independent search queries; distinct primary documents from the already-logged 29 May 2026 PJC statement (E-032) and media releases on the same review timeline. Part 2 leads this pass (FIIG Securities, Union Standard/EuropeFX/TradeFred, ARMA Group/Force Legal) were all already-tracked target candidates with identical source URLs - no duplicates added.",
       "evidence_ids": ["E-033", "E-034"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Agent-driven pass (:30). Added E-035, the 2026-27 Portfolio Budget Statements (Treasury Portfolio, Budget Related Paper No. 1.15, tabled ~12 May 2026), which flag planned changes to the Chapter 2M regime intended to reduce compliance burden on smaller entities: raising the consolidated revenue threshold from $50m to $100m and consolidated gross assets threshold from $25m to $50m, shrinking the Group 3 reporting population, plus a foreshadowed Treasury/ASIC consultation on 'undue cost or effort' relief, assurance-setting proportionality, and supplier-information-request limits. Recorded at MEDIUM confidence - the primary PDF could not be directly fetched (sandbox proxy blocks treasury.gov.au), so verification rests on the document's title/paper-number matching search indexing plus consistent corroboration of the specific figures across five-plus independent professional-services summaries. This is the first genuinely new primary-source lead for this case in several consecutive passes.",
+      "evidence_ids": ["E-035"],
+      "status_change": "None"
     }
   ]
 }

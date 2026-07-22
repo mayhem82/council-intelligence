@@ -681,6 +681,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T16:10:00Z"
+    },
+    {
+      "evidence_id": "E-035",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Treasury",
+      "document_title": "Portfolio Budget Statements 2026-27, Budget Related Paper No. 1.15 (Treasury Portfolio)",
+      "publication_date": "2026-05-12",
+      "capture_date": "2026-07-22",
+      "source_url": "https://treasury.gov.au/sites/default/files/2026-05/pbs-treasury-2026-27.pdf",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "The 2026-27 Portfolio Budget Statements flag government-planned adjustments to the Chapter 2M climate-related financial disclosures (sustainability reporting) regime intended to reduce the compliance burden on smaller entities: raising the consolidated revenue threshold that determines which large proprietary companies are captured from $50 million to $100 million, and the consolidated gross assets threshold from $25 million to $50 million (no change to the 100-employee test), which would shrink the population of Group 3 reporting entities. The Budget also foreshadows a further Treasury consultation, with ASIC involvement, on relief concepts including clarifying 'undue cost or effort' (including Scope 3 relief), recalibrating assurance settings proportionate to reporter size/maturity, and clearer boundaries on supplier information requests.",
+      "verification_notes": "The primary PDF could not be directly fetched (asic.gov.au/treasury.gov.au blocked by the sandbox's outbound proxy, HTTP 403), so this entry rests on cross-referenced search corroboration: the exact document title, paper number, and file path were confirmed via search indexing, and the specific dollar figures and consultation elements were corroborated consistently across five or more independent professional-services summaries (CA ANZ, BDO, Allens, NetNada, Avarni, Accounting Times) across two separate search queries. Recorded at MEDIUM rather than HIGH confidence because the primary-source text itself was never directly read.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": "MEDIUM",
+        "rationale": "Genuine government Budget document, confirmed to exist with matching title/paper number, but content verified only via consistent secondary-source corroboration rather than direct primary-text read."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-22T18:20:00Z"
     }
   ]
 }
