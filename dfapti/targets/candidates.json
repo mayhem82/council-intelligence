@@ -2716,6 +2716,154 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T18:25:00Z",
       "last_updated": "2026-07-22T18:25:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00100",
+      "name": "Diamond Wheels Pty Ltd (trading as Lansvale Motor Group)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-114mr-court-finds-south-west-sydney-car-dealership-and-former-director-engaged-in-unlicensed-lending-and-charged-unlawful-fees/",
+          "title": "26-114MR Court finds south-west Sydney car dealership and former director engaged in unlicensed lending and charged unlawful fees",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court found that Diamond Wheels Pty Ltd (trading as Lansvale Motor Group) and Keo Automotive Pty Ltd provided car loans without holding a required Australian Credit Licence and charged unlawful, excessive interest, in some cases nearly double the lawful amount. A director of one company and former director of the other was found liable for his role in setting up the loan arrangements. All parties admitted the contraventions after 19 months of litigation; a penalty hearing is listed for 20 August 2026.",
+      "risk_indicators": [
+        "Federal Court found the companies provided car loans without holding a required credit licence",
+        "Found to have charged unlawful, excessive interest, in some cases nearly double the lawful amount",
+        "All parties admitted the contraventions; penalty hearing listed for 20 August 2026"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T19:05:00Z",
+      "last_updated": "2026-07-22T19:05:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00101",
+      "name": "Keo Automotive Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-114mr-court-finds-south-west-sydney-car-dealership-and-former-director-engaged-in-unlicensed-lending-and-charged-unlawful-fees/",
+          "title": "26-114MR Court finds south-west Sydney car dealership and former director engaged in unlicensed lending and charged unlawful fees",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court found that Diamond Wheels Pty Ltd (trading as Lansvale Motor Group) and Keo Automotive Pty Ltd provided car loans without holding a required Australian Credit Licence and charged unlawful, excessive interest, in some cases nearly double the lawful amount. A director of one company and former director of the other was found liable for his role in setting up the loan arrangements. All parties admitted the contraventions after 19 months of litigation; a penalty hearing is listed for 20 August 2026.",
+      "risk_indicators": [
+        "Federal Court found the companies provided car loans without holding a required credit licence",
+        "Found to have charged unlawful, excessive interest, in some cases nearly double the lawful amount",
+        "All parties admitted the contraventions; penalty hearing listed for 20 August 2026"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T19:05:00Z",
+      "last_updated": "2026-07-22T19:05:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00102",
+      "name": "Cigno Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-078mr-cigno-australia-and-director-mark-swanepoel-bsf-solutions-and-director-brenton-harrison-to-pay-7-million-in-penalties-for-credit-act-breaches/",
+          "title": "26-078MR Cigno Australia and director Mark Swanepoel, BSF Solutions and director Brenton Harrison, to pay $7 million in penalties for Credit Act breaches",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-097mr-asic-appeals-7-million-penalty-in-cigno-australia-bsf-solutions-and-directors-case/",
+          "title": "26-097MR ASIC appeals $7 million penalty in Cigno Australia, BSF Solutions and directors' case",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered combined penalties of $7 million against Cigno Australia Pty Ltd ($3 million), BSF Solutions Pty Ltd ($3 million) and their respective directors, for engaging in credit activity without an Australian Credit Licence and charging prohibited fees under a 'No Upfront Charge Loan Model' that charged consumers more than $90 million in unlawful fees between July 2022 and May 2024. ASIC has since appealed the $7 million penalty to the Full Federal Court, stating it is concerned the amount provides insufficient deterrence.",
+      "risk_indicators": [
+        "Federal Court found the company engaged in credit activity without a required licence and charged prohibited fees",
+        "Penalty imposed as part of a combined $7 million judgment across two companies and two individual directors",
+        "Consumers alleged to have been charged more than $90 million in unlawful fees under the lending model",
+        "ASIC has appealed the penalty as insufficient, appeal hearing not yet set"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T19:05:00Z",
+      "last_updated": "2026-07-22T19:05:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00103",
+      "name": "BSF Solutions Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-078mr-cigno-australia-and-director-mark-swanepoel-bsf-solutions-and-director-brenton-harrison-to-pay-7-million-in-penalties-for-credit-act-breaches/",
+          "title": "26-078MR Cigno Australia and director Mark Swanepoel, BSF Solutions and director Brenton Harrison, to pay $7 million in penalties for Credit Act breaches",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-097mr-asic-appeals-7-million-penalty-in-cigno-australia-bsf-solutions-and-directors-case/",
+          "title": "26-097MR ASIC appeals $7 million penalty in Cigno Australia, BSF Solutions and directors' case",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered combined penalties of $7 million against Cigno Australia Pty Ltd ($3 million), BSF Solutions Pty Ltd ($3 million) and their respective directors, for engaging in credit activity without an Australian Credit Licence and charging prohibited fees under a 'No Upfront Charge Loan Model' that charged consumers more than $90 million in unlawful fees between July 2022 and May 2024. ASIC has since appealed the $7 million penalty to the Full Federal Court, stating it is concerned the amount provides insufficient deterrence.",
+      "risk_indicators": [
+        "Federal Court found the company engaged in credit activity without a required licence and charged prohibited fees",
+        "Penalty imposed as part of a combined $7 million judgment across two companies and two individual directors",
+        "Consumers alleged to have been charged more than $90 million in unlawful fees under the lending model",
+        "ASIC has appealed the penalty as insufficient, appeal hearing not yet set"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T19:05:00Z",
+      "last_updated": "2026-07-22T19:05:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00104",
+      "name": "Yidaki Support Services Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.ndiscommission.gov.au/node/1643402",
+          "title": "Yidaki Support Services Pty Ltd - NDIS Quality and Safeguards Commission banning order",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NDIS Quality and Safeguards Commission made a permanent banning order against Yidaki Support Services Pty Ltd under section 73ZN(1)(b)(iii) of the National Disability Insurance Scheme Act 2013, made 13 April 2026 and effective 12 May 2026, prohibiting the company from providing supports or services to people with disability anywhere in Australia. The order followed a Commission delegate's finding that the company and an associated individual are not suitable to be involved in the provision of disability supports.",
+      "risk_indicators": [
+        "Subject of a permanent NDIS Commission banning order prohibiting it from providing disability supports or services anywhere in Australia",
+        "Commission delegate found the company and an associated individual not suitable to be involved in disability support provision"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T19:05:00Z",
+      "last_updated": "2026-07-22T19:05:00Z"
     }
   ]
 }

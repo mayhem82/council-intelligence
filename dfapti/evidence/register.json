@@ -701,6 +701,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T18:20:00Z"
+    },
+    {
+      "evidence_id": "E-036",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Securities and Investments Commission",
+      "document_title": "ASIC updates financial reporting relief instruments (ASIC Corporations (Electronic Lodgment of Financial and Sustainability Reports) Instrument 2026/59)",
+      "publication_date": "2026-03-01",
+      "capture_date": "2026-07-22",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/asic-updates-financial-reporting-relief-instruments/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC remade three legislative instruments ahead of their 1 April 2026 sunset date. Instrument 2026/59, ASIC Corporations (Electronic Lodgment of Financial and Sustainability Reports) Instrument 2026/59, replaces the earlier 2016/181 instrument and extends electronic dual-lodgment relief for financial, sustainability and directors' reports to entities listed on Cboe Australia (previously the relief applied only to entities listed on ASX/NSX/SSX). Two companion instruments were also remade: 2026/183 (rounding in financial/directors' reports) and 2026/180 (disregarding technical relief). All three now expire 1 April 2031. This is the first Chapter 2M-specific legislative instrument (rather than guidance or media commentary) captured for this case.",
+      "verification_notes": "The primary ASIC page and the legislation.gov.au register entry (F2026L00362) could not be directly fetched (sandbox proxy blocks asic.gov.au/legislation.gov.au, HTTP 403), so verification rests on cross-referenced search corroboration: the instrument number, full title, sustainability-report coverage, and Cboe Australia extension were each independently confirmed across three separate search queries returning consistent results from ASIC and legislation.gov.au search-index snapshots. The exact consultation/making dates were not independently confirmable via search snippets alone.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": "MEDIUM-HIGH",
+        "rationale": "Genuine legislative instrument, core facts (number, title, sustainability-report scope, Cboe extension) confirmed across three independent searches; exact dates and primary-text wording not directly read due to fetch blocks."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-22T19:00:00Z"
     }
   ]
 }

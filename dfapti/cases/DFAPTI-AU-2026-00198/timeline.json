@@ -150,6 +150,12 @@
       "event": "Agent-driven pass (:30). Added E-035, the 2026-27 Portfolio Budget Statements (Treasury Portfolio, Budget Related Paper No. 1.15, tabled ~12 May 2026), which flag planned changes to the Chapter 2M regime intended to reduce compliance burden on smaller entities: raising the consolidated revenue threshold from $50m to $100m and consolidated gross assets threshold from $25m to $50m, shrinking the Group 3 reporting population, plus a foreshadowed Treasury/ASIC consultation on 'undue cost or effort' relief, assurance-setting proportionality, and supplier-information-request limits. Recorded at MEDIUM confidence - the primary PDF could not be directly fetched (sandbox proxy blocks treasury.gov.au), so verification rests on the document's title/paper-number matching search indexing plus consistent corroboration of the specific figures across five-plus independent professional-services summaries. This is the first genuinely new primary-source lead for this case in several consecutive passes.",
       "evidence_ids": ["E-035"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Agent-driven pass (:30). Added E-036, ASIC Corporations (Electronic Lodgment of Financial and Sustainability Reports) Instrument 2026/59, remade ahead of its 1 April 2026 sunset date. It replaces the earlier 2016/181 instrument and extends electronic dual-lodgment relief for financial, sustainability and directors' reports to entities listed on Cboe Australia (previously only ASX/NSX/SSX), now expiring 1 April 2031. This is the first Chapter 2M-specific legislative instrument captured for this case, distinct from the Budget/PBS threshold-change material (E-035) and the earlier guidance/consultation material. ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries; exact making/consultation dates not independently confirmable due to sandbox fetch blocks on asic.gov.au and legislation.gov.au. Part 2 leads this pass (Money3 Corporation) were an already-tracked candidate with an identical source URL - no duplicate added.",
+      "evidence_ids": ["E-036"],
+      "status_change": "None"
     }
   ]
 }
