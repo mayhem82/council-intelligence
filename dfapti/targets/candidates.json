@@ -2944,6 +2944,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T19:40:00Z",
       "last_updated": "2026-07-22T19:40:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00108",
+      "name": "Risham Nominees Pty Ltd (trading as Centenary Bakehouse)",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.worksafe.vic.gov.au/news/2026-06/bakery-fined-record-34-million-workplace-manslaughter",
+          "title": "Bakery fined record $3.4 million for workplace manslaughter",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Risham Nominees Pty Ltd, trading as Centenary Bakehouse, was convicted of workplace manslaughter - only the second such conviction under Victoria's workplace manslaughter provisions since their 2020 introduction - and fined $3.4 million, a record penalty, over the death of worker Jassim Al Shadori, who fell approximately 4.5 metres through a roof space while removing insulation panels at the company's Reservoir bakery on 1 August 2021. WorkSafe Victoria found no fall-prevention controls had been applied before the roof works began, despite harnesses being available but not required to be used.",
+      "risk_indicators": [
+        "Convicted of workplace manslaughter, only the second such conviction in Victoria since the offence was introduced in 2020",
+        "Fined $3.4 million, a record penalty for the offence",
+        "WorkSafe found no fall-prevention controls were required or applied despite equipment being available"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T21:35:00Z",
+      "last_updated": "2026-07-22T21:35:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00109",
+      "name": "Pearl Construction Group Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.worksafe.vic.gov.au/news/2026-04/builder-fined-over-workers-fatal-fall",
+          "title": "Builder fined over worker's fatal fall",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Pearl Construction Group Pty Ltd pleaded guilty to failing to ensure a workplace under its management and control was safe and without risks to health, and was fined $150,000 in the Melbourne County Court, following the death of a 23-year-old worker who fell approximately three metres through an unprotected stair void while carrying steel at a multi-storey townhouse site in Glen Waverley in September 2022. A subcontractor sole trader involved in the same incident was separately sentenced to a community corrections order plus a $10,000 fine.",
+      "risk_indicators": [
+        "Pleaded guilty to failing to ensure a safe workplace following a worker's fatal fall",
+        "Fined $150,000 by the Melbourne County Court",
+        "Incident involved an unprotected stair void with no fall-prevention measures in place"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T21:35:00Z",
+      "last_updated": "2026-07-22T21:35:00Z"
     }
   ]
 }
