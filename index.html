@@ -154,7 +154,7 @@
     document.getElementById('status').addEventListener('change', event => { state.status = event.target.value; render(); });
     document.getElementById('sort').addEventListener('change', event => { state.sort = event.target.value; render(); });
 
-    fetch(DATA_PATH + '?cache=' + Date.now()).then(response => { if (!response.ok) throw new Error('Missing dashboard data'); return response.json(); }).then(data => { dashboard = data; selectedId = data.matters?.[0]?.id || null; renderFilters(); render(); }).catch(error => { console.error(error); document.getElementById('metrics').innerHTML = ''; document.getElementById('matterList').innerHTML = '<div class="empty">Dashboard data could not be loaded.</div>'; document.getElementById('detail').innerHTML = '<div class="empty">Check public/council-dashboard-data.json in the repository.</div>'; });
+    fetch(DATA_PATH + '?cache=' + Date.now()).then(response => { if (!response.ok) throw new Error('Missing dashboard data'); return response.json(); }).then(data => { dashboard = data; const hashId = decodeURIComponent(location.hash.slice(1)); selectedId = (hashId && data.matters?.some(m => m.id === hashId)) ? hashId : (data.matters?.[0]?.id || null); renderFilters(); render(); }).catch(error => { console.error(error); document.getElementById('metrics').innerHTML = ''; document.getElementById('matterList').innerHTML = '<div class="empty">Dashboard data could not be loaded.</div>'; document.getElementById('detail').innerHTML = '<div class="empty">Check public/council-dashboard-data.json in the repository.</div>'; });
   </script>
 </body>
 </html>
