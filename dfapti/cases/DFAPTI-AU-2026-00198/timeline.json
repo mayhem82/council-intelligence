@@ -132,6 +132,12 @@
       "event": "Scheduled agent pass (:30). Added E-030 (24-247MR, ASIC's 7 November 2024 media release seeking feedback on draft Regulatory Guide 000 and Consultation Paper 380, the precursor to the finalised RG 280 already held as E-005) and E-031 (REP 809, ASIC's 31 March 2025 report responding to the 60 stakeholder submissions received on CP 380), both ACCEPTED at HIGH confidence, cross-confirmed via independent search queries. Fills a genuine documentary gap between the enacting legislation and the finalised regulatory guide by capturing the consultation process itself.",
       "evidence_ids": ["E-030", "E-031"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Agent-driven pass (:30). Added E-032, then-ASIC Chair Joe Longo's 29 May 2026 opening statement to the Parliamentary Joint Committee on Corporations and Financial Services (his final appearance before the Committee), which sets out ASIC's 'pragmatic and proportionate' early-years supervision and enforcement posture toward mandatory Chapter 2M sustainability reporting. Confirmed via two independent cross-referenced search queries returning identical title/date/URL, since the sandbox cannot directly fetch asic.gov.au. Recorded at MEDIUM-HIGH proof-of-fact given lack of direct-fetch document_hash. Part 1 searches otherwise found only material already covered in the register (26-098MR, the 18 May 2026 early-observations release, Reporting and Audit Update Issue 4) or predating the search window.",
+      "evidence_ids": ["E-032"],
+      "status_change": "None"
     }
   ]
 }

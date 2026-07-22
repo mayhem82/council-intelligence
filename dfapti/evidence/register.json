@@ -621,6 +621,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T09:35:00Z"
+    },
+    {
+      "evidence_id": "E-032",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Securities and Investments Commission",
+      "document_title": "Parliamentary Joint Committee on Corporations and Financial Services, Opening Statement, 29 May 2026",
+      "publication_date": "2026-05-29",
+      "capture_date": "2026-07-22",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/speeches/parliamentary-joint-committee-on-corporations-and-financial-services-opening-statement-29-may-2026/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Then-ASIC Chair Joe Longo's opening statement to the Parliamentary Joint Committee on Corporations and Financial Services inquiry into oversight of ASIC, delivered in his final appearance before the Committee after five years as Chair (accompanied by incoming Chair Sarah Court and other Commissioners). Addresses ASIC's financial reporting, sustainability reporting and audit priorities, describing a 'pragmatic and proportionate' early-years supervision and enforcement approach to mandatory Chapter 2M sustainability/climate reporting, ongoing surveillance of Group 1 entity sustainability reports, and engagement with large audit firms on assurance methodologies.",
+      "verification_notes": "Confirmed via two independent WebSearch queries returning identical title, date and URL; sandbox cannot directly fetch asic.gov.au (blocked), so verification rests on cross-referenced search corroboration per Factualism Audit rules for this environment.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": "MEDIUM-HIGH",
+        "rationale": "Primary-source ASIC speech transcript, corroborated by two independent searches returning matching title/date/URL; not directly fetched so document_hash withheld."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-22T12:05:00Z"
     }
   ]
 }

@@ -2235,6 +2235,34 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T11:36:24Z",
       "last_updated": "2026-07-22T11:36:24Z"
+    },
+    {
+      "target_id": "T-AU-2026-00083",
+      "name": "HTFS Nominees Pty Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Government accountability",
+      "source_evidence": [
+        {
+          "url": "https://www.apra.gov.au/news-and-publications/apra-imposes-additional-licence-conditions-htfs-nominees-pty-limited",
+          "title": "APRA imposes additional licence conditions on HTFS Nominees Pty Limited",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "APRA imposed additional licence conditions on HTFS Nominees Pty Limited, trustee of the HUB24 Super Fund (approximately 165,000 member accounts and more than $55 billion in funds under management), following an APRA thematic review of investment governance, strategic planning and member-outcomes practices across superannuation platform trustees. The conditions require appointment of an independent expert to review the fund's platform investment menus and its frameworks for investment governance, conflicts management, strategic objectives and member outcomes. The conditions apply notwithstanding HUB24 Limited's pending acquisition of HTFS from EQT Holdings.",
+      "risk_indicators": [
+        "Subject of additional APRA licence conditions following a regulator thematic review",
+        "Required to appoint an independent expert to review investment governance and conflicts-management frameworks",
+        "Trustee for a fund holding more than $55 billion in member retirement savings across roughly 165,000 accounts",
+        "Conditions imposed during a pending change-of-ownership transaction for the trustee entity"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T12:05:00Z",
+      "last_updated": "2026-07-22T12:05:00Z"
     }
   ]
 }
