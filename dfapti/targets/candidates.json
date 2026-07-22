@@ -1896,6 +1896,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T04:36:09Z",
       "last_updated": "2026-07-22T04:36:09Z"
+    },
+    {
+      "target_id": "T-AU-2026-00072",
+      "name": "Fewstone Pty Ltd (trading as City Beach)",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/city-beach-ordered-to-pay-14-million-in-penalties-for-supplying-non-compliant-button-battery-products",
+          "title": "City Beach ordered to pay $14 million in penalties for supplying non-compliant button battery products",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Fewstone Pty Ltd, trading as City Beach, to pay $14 million in penalties in the ACCC's first proceeding alleging breaches of the mandatory button battery safety and information standards. Between June 2022 and October 2024, City Beach supplied products (including toys, digital notepads, keyrings, lights and light-up Jibbitz accessories, many marketed to children) that did not comply with the safety standard on more than 54,000 occasions and the information standard on more than 56,000 occasions. The Court found 'pervasive failures' by City Beach to inform itself of its Australian Consumer Law obligations, noting the conduct exposed more than 50,000 young children to the risk of severe injury or death. The Court also ordered a compliance programme and corrective advertising.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $14 million \u2014 the first judgment under the button battery safety standards",
+        "Court found 'pervasive failures' to comply with safety requirements across more than 110,000 combined non-compliant supplies",
+        "Court found the conduct exposed more than 50,000 young children to risk of severe injury or death"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T05:35:44Z",
+      "last_updated": "2026-07-22T05:35:44Z"
     }
   ]
 }
