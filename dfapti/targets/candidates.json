@@ -1869,6 +1869,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T03:36:13Z",
       "last_updated": "2026-07-22T03:36:13Z"
+    },
+    {
+      "target_id": "T-AU-2026-00071",
+      "name": "Bendigo and Adelaide Bank Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.apra.gov.au/news-and-publications/apra-and-austrac-take-action-response-risk-management-deficiencies-bendigo",
+          "title": "APRA and AUSTRAC take action in response to risk management deficiencies at Bendigo and Adelaide Bank",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "APRA applied a $50 million operational risk capital charge on Bendigo and Adelaide Bank Limited, effective 1 January 2026, reducing its Level 2 Common Equity Tier 1 ratio by approximately 17 basis points, while AUSTRAC commenced an enforcement investigation into potential serious contraventions of the AML/CTF Act. The action followed an independent Deloitte review into suspected money laundering at a Bendigo Bank branch, which found significant deficiencies in the bank's identification, mitigation and management of money laundering and terrorism financing risk, with regulators concerned the weaknesses may extend more broadly across the bank's operations.",
+      "risk_indicators": [
+        "APRA capital charge of $50 million imposed for operational risk deficiencies",
+        "AUSTRAC enforcement investigation commenced over potential serious AML/CTF Act contraventions",
+        "Independent review found significant deficiencies in money-laundering and terrorism-financing risk management, with regulators concerned issues may be systemic across the bank"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T04:36:09Z",
+      "last_updated": "2026-07-22T04:36:09Z"
     }
   ]
 }

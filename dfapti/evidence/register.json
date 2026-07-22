@@ -521,6 +521,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T02:35:00Z"
+    },
+    {
+      "evidence_id": "E-027",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "ASIC and AASB team up to help smaller companies get ready for sustainability reporting",
+      "publication_date": null,
+      "capture_date": "2026-07-22T04:35:00Z",
+      "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/asic-and-aasb-team-up-to-help-smaller-companies-get-ready-for-sustainability-reporting/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC and the AASB hosted a series of free in-person workshops in May 2026 across Sydney, Melbourne, Brisbane and Perth, delivered by the University of Technology Sydney, for smaller and mid-size companies beginning their preparation for mandatory sustainability reporting (financial years commencing on or after 1 July 2026/2027). The workshops featured expert-led presentations, discussions and practical activities.",
+      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent detail (May 2026 dates, four-city locations, UTS delivery partner) matching this exact ASIC news item. Distinct from E-024 (the interactive e-learning modules) and the separately-referenced webinar series: this item specifically covers the in-person workshop series. document_hash remains unset since this sandbox cannot fetch asic.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-22T04:35:00Z"
     }
   ]
 }

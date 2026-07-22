@@ -108,6 +108,12 @@
       "event": "Scheduled agent pass (:30). Added E-026, confirming the Financial Reporting System Reform Bill received Royal Assent and was registered on the Federal Register of Legislation on 8 July 2026 as Act No. 61, 2026 (C2026A00061). This identifier was cross-confirmed across three independent search queries this pass (having been flagged but left unconfirmed in the two prior passes), so it clears the same evidentiary bar as ACCEPTED evidence. ACCEPTED at MEDIUM confidence (the exact URL path was inferred from an equivalent confirmed Act's pattern, not directly observed). Finalises the institutional reform already tracked via E-025.",
       "evidence_ids": ["E-026"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-22",
+      "event": "Scheduled agent pass (:30). Added E-027 (ASIC and AASB's May 2026 in-person workshop series across Sydney, Melbourne, Brisbane and Perth, delivered by UTS, helping smaller and mid-size companies prepare for mandatory sustainability reporting), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Distinct from E-024 (interactive e-learning modules) and the separate webinar series already referenced elsewhere.",
+      "evidence_ids": ["E-027"],
+      "status_change": "None"
     }
   ]
 }
