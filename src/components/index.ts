@@ -4,4 +4,5 @@ export { ChatInput } from './ChatInput';
 export { Sidebar } from './Sidebar';
 export { WelcomeScreen } from './WelcomeScreen';
 export { SettingsDialog } from './SettingsDialog';
-export { TopBanner } from './TopBanner'; 
+export { TopBanner } from './TopBanner';
+export { FloodwatchCanvas } from './FloodwatchCanvas';
