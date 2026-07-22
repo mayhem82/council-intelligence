@@ -1680,6 +1680,87 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-21T23:36:15Z",
       "last_updated": "2026-07-21T23:36:15Z"
+    },
+    {
+      "target_id": "T-AU-2026-00064",
+      "name": "Optus Mobile Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/federal-court-orders-optus-to-pay-100m-penalty-for-unconscionable-conduct",
+          "title": "Federal Court orders Optus to pay $100m penalty for unconscionable conduct",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court approved a $100 million penalty against Optus Mobile Pty Ltd for unconscionable conduct, after sales staff at 16 retail stores pressured over 400 vulnerable consumers between August 2019 and July 2023 into purchasing telecommunications products and services they did not want, need or could afford. Affected consumers included people with mental disability, diminished cognitive capacity, limited financial literacy, English not as a first language, and many First Nations Australians from regional, remote and very remote areas. The Court found commission-based sales arrangements had clear potential to incentivise the exploitative conduct.",
+      "risk_indicators": [
+        "Federal Court civil penalty of $100 million for unconscionable conduct, one of the largest ACCC-related consumer penalties",
+        "Affected more than 400 consumers, many experiencing vulnerability or disadvantage, over a four-year period",
+        "Court found commission-based sales incentive structures had clear potential to exacerbate consumer vulnerability"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T00:36:28Z",
+      "last_updated": "2026-07-22T00:36:28Z"
+    },
+    {
+      "target_id": "T-AU-2026-00065",
+      "name": "ARMA Group Holdings Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/arma-group-and-force-legal-in-court-over-more-than-320000-allegedly-misleading-debt-notices",
+          "title": "ARMA Group and Force Legal in Court over more than 320,000 allegedly misleading debt notices",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court proceedings against debt-collection agency ARMA Group Holdings Pty Ltd (owned by ASX-listed Credit Clear Limited), alleging it issued more than 320,000 letters, emails and text messages between February 2022 and September 2025 falsely suggesting consumers were legally required to pay debts, including debts that were no longer outstanding or were statute-barred. Credit Clear, ARMA and Force Legal (a related legal practice) deny the allegations and intend to defend the proceedings.",
+      "risk_indicators": [
+        "Subject of Federal Court civil proceedings alleging over 320,000 misleading debt-collection communications",
+        "Alleged to have represented debts as due when they were statute-barred or no longer outstanding",
+        "Proceedings are ongoing and defended; allegations not yet determined by the court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T00:36:28Z",
+      "last_updated": "2026-07-22T00:36:28Z"
+    },
+    {
+      "target_id": "T-AU-2026-00066",
+      "name": "Force Legal Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/arma-group-and-force-legal-in-court-over-more-than-320000-allegedly-misleading-debt-notices",
+          "title": "ARMA Group and Force Legal in Court over more than 320,000 allegedly misleading debt notices",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court proceedings against legal practice Force Legal Pty Ltd (owned by ASX-listed Credit Clear Limited, alongside related debt collector ARMA Group), alleging it sent letters containing misrepresentations about the steps it would take to escalate debt-recovery matters and the consequences of non-payment, including warnings that wages could be deducted without court proceedings and claims consumers would automatically be liable for legal costs and interest. Credit Clear, ARMA and Force Legal deny the allegations and intend to defend the proceedings.",
+      "risk_indicators": [
+        "Subject of Federal Court civil proceedings alleging misrepresentations in debt-recovery correspondence",
+        "Alleged misrepresentations included consequences of non-payment not guaranteed under Australian law",
+        "Proceedings are ongoing and defended; allegations not yet determined by the court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-22T00:36:28Z",
+      "last_updated": "2026-07-22T00:36:28Z"
     }
   ]
 }
