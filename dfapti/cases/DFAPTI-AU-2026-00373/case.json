@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00373",
+  "title": "Sea Swift Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "On 12 June 2026 the ACCC accepted a court-enforceable undertaking (s.87B) from Sea Swift Pty Ltd, the dominant supplier of scheduled sea freight to remote communities in the Northern Territory and Far North Queensland. The ACCC was concerned Sea Swift used long-term exclusive contracts with staggered end dates, including terms letting Sea Swift match any competitor proposal, in a way that had the purpose or effect of substantially lessening competition and could have prevented rival freight suppliers from growing large enough to compete. These are essential shipping routes for remote and often Indigenous communities with no practical alternative freight option, so reduced competition in this specific market carries a direct public-safety/essential-supply dimension distinct from an ordinary competition matter.",
+  "scope": "Accepted a court-enforceable undertaking (s.87B) after ACCC raised concerns about exclusive dealing conduct; Described by the ACCC as the dominant supplier of scheduled sea freight to remote NT and Far North Queensland communities; Undertaking requires amending existing and future contracts to remove the clauses of concern and notifying customers directly",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

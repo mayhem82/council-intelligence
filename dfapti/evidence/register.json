@@ -4801,6 +4801,46 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-23T18:24:43Z"
+    },
+    {
+      "evidence_id": "E-241",
+      "case_id": "DFAPTI-AU-2026-00373",
+      "source_authority": "ACCC",
+      "document_title": "Shipping company Sea Swift amends contracts with remote customers following ACCC investigation",
+      "publication_date": null,
+      "capture_date": "2026-07-23T18:36:32Z",
+      "source_url": "https://www.accc.gov.au/media-release/shipping-company-sea-swift-amends-contracts-with-remote-customers-following-accc-investigation",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Sea Swift Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: On 12 June 2026 the ACCC accepted a court-enforceable undertaking (s.87B) from Sea Swift Pty Ltd, the dominant supplier of scheduled sea freight to remote communities in the Northern Territory and Far North Queensland. The ACCC was concerned Sea Swift used long-term exclusive contracts with staggered end dates, including terms letting Sea Swift match any competitor proposal, in a way that had the purpose or effect of substantially lessening competition and could have prevented rival freight suppliers from growing large enough to compete. These are essential shipping routes for remote and often Indigenous communities with no practical alternative freight option, so reduced competition in this specific market carries a direct public-safety/essential-supply dimension distinct from an ordinary competition matter.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T18:36:32Z"
+    },
+    {
+      "evidence_id": "E-242",
+      "case_id": "DFAPTI-AU-2026-00373",
+      "source_authority": "ACCC",
+      "document_title": "Sea Swift Pty Ltd, a subsidiary of Sea Swift (Holdings) Pty Limited (ACN 159 387 390) - s.87B undertaking",
+      "publication_date": null,
+      "capture_date": "2026-07-23T18:36:32Z",
+      "source_url": "https://www.accc.gov.au/public-registers/undertakings-registers/section-87b-undertakings-register/sea-swift-pty-ltd-a-subsidiary-of-sea-swift-holdings-pty-limited-acn-159-387-390-s87b-undertaking",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Sea Swift Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: On 12 June 2026 the ACCC accepted a court-enforceable undertaking (s.87B) from Sea Swift Pty Ltd, the dominant supplier of scheduled sea freight to remote communities in the Northern Territory and Far North Queensland. The ACCC was concerned Sea Swift used long-term exclusive contracts with staggered end dates, including terms letting Sea Swift match any competitor proposal, in a way that had the purpose or effect of substantially lessening competition and could have prevented rival freight suppliers from growing large enough to compete. These are essential shipping routes for remote and often Indigenous communities with no practical alternative freight option, so reduced competition in this specific market carries a direct public-safety/essential-supply dimension distinct from an ordinary competition matter.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T18:36:32Z"
     }
   ]
 }

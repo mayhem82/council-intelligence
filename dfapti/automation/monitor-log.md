@@ -156,3 +156,9 @@ Candidates promoted: 149
 - T-AU-2026-00173 (Wrigley Metal Roofing Co Pty Ltd) -> DFAPTI-AU-2026-00370, evidence: E-238
 - T-AU-2026-00174 (BI Australia Pty Ltd) -> DFAPTI-AU-2026-00371, evidence: E-239
 - T-AU-2026-00175 (Mable Technologies Pty Ltd) -> DFAPTI-AU-2026-00372, evidence: E-240
+
+## Target Promotion Run 20260723T183632Z
+
+Run time UTC: 2026-07-23T18:36:32Z
+Candidates promoted: 1
+- T-AU-2026-00176 (Sea Swift Pty Ltd) -> DFAPTI-AU-2026-00373, evidence: E-241, E-242
