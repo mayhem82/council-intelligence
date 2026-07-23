@@ -4643,6 +4643,34 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T16:30:00Z",
       "last_updated": "2026-07-23T16:30:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00171",
+      "name": "Sushi Bay Pty Ltd (in liq), Sushi Bay ACT Pty Ltd (in liq), Auskobay Pty Ltd (in liq) and Auskoja Pty Ltd (in liq)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.fairwork.gov.au/newsroom/media-releases/2024-media-releases/august-2024/20240806-sushi-bay-penalty-media-release",
+          "title": "Record penalties of $15.3 million for exploitation of migrant workers at sushi outlets",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court imposed what the Fair Work Ombudsman described as its highest-ever combined penalty at the time: $15.3 million against four related Sushi Bay group companies (Sushi Bay Pty Ltd, Sushi Bay ACT Pty Ltd, Auskobay Pty Ltd and Auskoja Pty Ltd, all now in liquidation) plus their sole director. The companies underpaid 163 workers - mostly Korean nationals on student, working holiday and skilled worker visas - a total of $653,129 between February 2016 and January 2020 across outlets in NSW, Darwin and Canberra, and falsified records in an attempt to cover it up.",
+      "risk_indicators": [
+        "Federal Court penalty described by the Fair Work Ombudsman as its highest ever secured in a legal action at the time",
+        "163 workers, predominantly visa-holders, underpaid over a four-year period",
+        "Court found records were falsified to conceal the underpayments",
+        "All four corporate entities are now in liquidation"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T17:15:00Z",
+      "last_updated": "2026-07-23T17:15:00Z"
     }
   ]
 }
