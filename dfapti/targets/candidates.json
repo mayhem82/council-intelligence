@@ -4698,6 +4698,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T18:00:00Z",
       "last_updated": "2026-07-23T18:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00173",
+      "name": "Wrigley Metal Roofing Co Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.safework.nsw.gov.au/news/safework-media-releases/company-fined-$225,000-after-worker-injured-in-a-fall",
+          "title": "Company fined $225,000 after worker injured in a fall",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Wrigley Metal Roofing Co Pty Ltd was fined $225,000 in the District Court of NSW after pleading guilty to a Work Health and Safety Act 2011 offence, following an incident on 25 July 2022 in which a worker fell nearly 3.8 metres from the roof of a residential dwelling at Avalon Beach and suffered serious injuries. The company had been engaged to assist the principal contractor with re-sheeting and cladding work at the site.",
+      "risk_indicators": [
+        "Convicted and fined by the District Court of NSW for a Work Health and Safety Act breach",
+        "Incident involved a nearly 3.8 metre fall resulting in serious injury to a worker",
+        "Company pleaded guilty to failing to comply with its health and safety duty to workers"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T19:00:00Z",
+      "last_updated": "2026-07-23T19:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00174",
+      "name": "BI Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.safework.nsw.gov.au/news/safework-media-releases/company-fined-$400,000-after-forklift-incident",
+          "title": "Company fined $400,000 after forklift incident",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "BI Australia Pty Ltd was convicted by the District Court of NSW and fined $400,000 after a SafeWork NSW investigation into a workplace incident on 11 February 2022 at Kingsgrove, in which a casual forklift operator was struck and injured by a moving forklift while walking through an onsite car park being used as a makeshift storage area. The court found the company failed to ensure a proper risk assessment was in place before allowing workers on site.",
+      "risk_indicators": [
+        "Convicted by the District Court of NSW for a Work Health and Safety Act breach",
+        "Court found the company's failure to conduct a proper risk assessment was inconsistent with a proactive or systematic approach to safety",
+        "Incident resulted in a worker being struck and injured by a forklift"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T19:00:00Z",
+      "last_updated": "2026-07-23T19:00:00Z"
     }
   ]
 }

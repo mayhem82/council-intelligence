@@ -179,4 +179,18 @@ existing case's `keywords.json`.
   company's own licence was also cancelled, this should be
   reconsidered as a company-level candidate.
 
+## Manual Review — 2026-07-23 (second entry)
+
+- **George Zanbaka** (sole trader, trading as Zanbaka Building
+  Renovations, Rendering & Tiling, Sydney) — convicted and fined
+  $90,000 by the Industrial Court of NSW following a SafeWork NSW
+  prosecution, after two workers fell at least 2.5 metres when a
+  concrete garage roof collapsed during demolition work on 26 April
+  2023 (source: `https://www.safework.nsw.gov.au/news/safework-media-releases/building-renovator-fined-$90,000-and-ordered-to-undertake-whs-training-after-workers-injured-in-a-fall`).
+  Not added as a candidate: SafeWork NSW's own release and independent
+  reporting (Mirage News) both confirm the prosecution and conviction
+  are against Zanbaka personally as a sole trader, not against a
+  registered company - pending the same open named-individuals policy
+  question as the entries above.
+
 No other candidates recorded yet.
