@@ -4589,6 +4589,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T11:20:00Z",
       "last_updated": "2026-07-23T11:20:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00169",
+      "name": "Deutsche Bank AG (Australian branch)",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-149mr-deutsche-bank-pays-2-million-penalty-for-systemic-trade-reporting-failures/",
+          "title": "26-149MR Deutsche Bank pays $2 million penalty for systemic trade reporting failures",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "ASIC issued Deutsche Bank an infringement notice resulting in a $2 million penalty for systemic breaches of the ASIC Derivative Transaction Rules (Reporting) 2024 between 21 October 2024 and 15 August 2025. Deutsche Bank failed to accurately report mandatory 'direction' field data (whether the bank was acting as buyer or seller) for over 260,000 foreign exchange and commodities OTC derivative transactions across 208 separate business days - data ASIC relies on to monitor systemic risk and detect potential market abuse.",
+      "risk_indicators": [
+        "ASIC infringement notice and $2 million penalty for systemic derivative-transaction reporting breaches",
+        "Failures affected over 260,000 transactions across nearly a year and 208 separate business days",
+        "ASIC assessed the failures as systemic, reflecting deficiencies in the bank's internal reporting framework"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T15:00:00Z",
+      "last_updated": "2026-07-23T15:00:00Z"
     }
   ]
 }
