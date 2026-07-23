@@ -4374,6 +4374,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T06:50:00Z",
       "last_updated": "2026-07-23T06:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00161",
+      "name": "Better Together Support Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.ndiscommission.gov.au/about-us/compliance-and-enforcement/compliance-actions/search",
+          "title": "NDIS Quality and Safeguards Commission compliance and enforcement actions search (notice of revocation of registration, Better Together Support Pty Ltd, 30 March 2026)",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NDIS Quality and Safeguards Commission issued a notice of revocation of registration to Better Together Support Pty Ltd (a registered provider of group and centre-based activities in Peakhurst, NSW) on 30 March 2026, on the basis a delegate of the Commissioner reasonably believed the company contravened section 73J of the NDIS Act by failing to complete an assessment of the remaining elements of its Certification audit due three months after service delivery commenced. The revocation took effect from 5pm on 8 June 2026.",
+      "risk_indicators": [
+        "NDIS Commission notice of revocation of registration issued over an alleged contravention of section 73J of the NDIS Act",
+        "Alleged failure to complete a required post-commencement Certification audit assessment for a support category serving people with disability",
+        "Registration revocation took effect several months after the initial notice, ending the provider's ability to deliver NDIS supports"
+      ],
+      "evidence_confidence": "MEDIUM",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T08:35:00Z",
+      "last_updated": "2026-07-23T08:35:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00162",
+      "name": "Reinforced Concrete Pipes Australia (NSW) Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Environmental impact",
+      "source_evidence": [
+        {
+          "url": "https://www.epa.nsw.gov.au/news/epamedia/250716-epa-secures-enforceable-undertaking-with-concrete-company-following-investigation",
+          "title": "EPA secures Enforceable Undertaking with concrete company following investigation",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NSW EPA agreed to a $100,000 Enforceable Undertaking with Reinforced Concrete Pipes Australia (NSW) Pty Ltd following an investigation that began when the company applied for an Environment Protection Licence in December 2022 and the EPA found it had been producing more than 30,000 tonnes of steel-reinforced concrete pipes annually at its Somersby facility between 2018 and 2022 without any licence at all \u2014 operating for several years with no formal monitoring of dust, water pollution or noise. The EU payment funds local environmental restoration projects, including platypus population monitoring and protection.",
+      "risk_indicators": [
+        "NSW EPA enforceable undertaking of $100,000 following an unlicensed-operation investigation",
+        "Company operated a concrete manufacturing facility producing over 30,000 tonnes annually for at least four years without any Environment Protection Licence",
+        "No formal monitoring of dust, water pollution or noise impacts during the unlicensed operating period"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T08:35:00Z",
+      "last_updated": "2026-07-23T08:35:00Z"
     }
   ]
 }
