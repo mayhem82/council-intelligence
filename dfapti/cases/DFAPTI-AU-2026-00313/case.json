@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00313",
+  "title": "University of New South Wales — Systemic failures",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Systemic failures",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Circuit and Family Court imposed a $213,120 penalty on the University of New South Wales on 14 January 2026 after it admitted breaching the Fair Work Act between 2017 and 2022 by failing to make and keep employment records for 63 casual academics and failing to include casual loading details on pay slips, with the Court describing the failures as 'systemic, long-standing, and long-lasting'; UNSW only admitted the breaches after the Fair Work Ombudsman commenced legal action in 2023, despite having been put on notice as early as 2018. UNSW subsequently signed a further enforceable undertaking (reported 3 July 2026) covering approximately $32.7 million in back-payments to 33,069 current and former staff.",
+  "scope": "Admitted systemic, long-standing Fair Work Act record-keeping and pay-slip breaches affecting casual academic staff; Court found UNSW had been put on notice of the issue as early as 2018 but only admitted the breaches after legal action was commenced in 2023; Ordered to pay a $213,120 penalty; Subsequently signed a separate enforceable undertaking covering approximately $32.7 million in back-payments to over 33,000 current and former staff",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

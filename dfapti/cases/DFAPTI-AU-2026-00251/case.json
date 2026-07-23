@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00251",
+  "title": "Qteq Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Queensland-based oil and gas services company fined $5 million by the Federal Court (in proceedings brought by the ACCC) for attempted cartel conduct between 2017-2019, attempting to induce suppliers into arrangements including provisions not to supply services to large oil and gas companies and to rig a multi-million-dollar tender.",
+  "scope": "Fined $5 million by the Federal Court for attempted cartel conduct (ACCC proceedings); Its executive chairman was separately fined $1 million, described by the ACCC as the highest individual competition-law penalty in Australia",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

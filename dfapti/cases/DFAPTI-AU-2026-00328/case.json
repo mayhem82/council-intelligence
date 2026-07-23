@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00328",
+  "title": "Amazon Commercial Services Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court proceedings on 29 June 2026 alleging Amazon Commercial Services Pty Ltd included five unfair terms in its standard-form Prime subscription contracts, held by more than one million annual subscribers between November 2023 and August 2025, letting it unilaterally degrade services or alter conditions without pro-rata refunds. The ACCC further alleges Amazon relied on these terms in July 2024 to introduce advertising into Prime Video without compensating subscribers, who then had to pay an extra $2.99 per month to remain ad-free. This is among the first contested cases under Australia's unfair contract terms civil penalty regime.",
+  "scope": "Subject of Federal Court proceedings brought by the ACCC alleging unfair contract terms, ongoing; Alleged to have relied on contested contract terms to introduce advertising without compensating over one million subscribers; Among the first contested cases under Australia's unfair contract terms civil penalty regime",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

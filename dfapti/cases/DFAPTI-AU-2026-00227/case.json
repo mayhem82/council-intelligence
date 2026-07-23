@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00227",
+  "title": "Fusion Books Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
+  "scope": "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

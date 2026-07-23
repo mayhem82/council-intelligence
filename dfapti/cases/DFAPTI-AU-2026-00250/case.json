@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00250",
+  "title": "BrightAU Capital Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Traded as TradeFred; a former authorised representative of Union Standard International Group found by the Federal Court to have engaged in systemic unconscionable conduct, part of the $300.2 million combined penalty action.",
+  "scope": "Found by the Federal Court to have engaged in systemic unconscionable conduct as an authorised representative of Union Standard, part of a $300.2 million combined penalty action",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00359",
+  "title": "Centre Capital Securities Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "ASIC cancelled both the Australian Financial Services licence and Australian Credit licence of Centre Capital Securities Pty Ltd, effective 29 January 2026, after the company failed to pay industry funding levies owed to ASIC for more than 12 months, covering the 2017-18 to 2022-23 financial years.",
+  "scope": "Both its AFS licence and Australian Credit licence cancelled by ASIC; Found to have failed to pay industry funding levies owed to ASIC across six financial years",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

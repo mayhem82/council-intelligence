@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00291",
+  "title": "Woolworths Group Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced separate Federal Court proceedings against Woolworths Group Limited alleging false or misleading 'Prices Dropped' representations on 266 products between September 2021 and May 2023, mirroring the parallel Coles matter: products allegedly had prices raised by at least 15% for a brief period before being placed in a 'Prices Dropped' promotion at a price still higher than or equal to the pre-rise price. As of the most recent reporting, proceedings were ongoing without a determined liability finding.",
+  "scope": "Subject of Federal Court civil proceedings alleging misleading discount-pricing representations across 266 products; Alleged conduct spanned September 2021 to May 2023; Proceedings are ongoing; allegations not yet determined by the court",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

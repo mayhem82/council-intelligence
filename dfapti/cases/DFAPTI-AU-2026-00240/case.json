@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00240",
+  "title": "Vacaciones eDreams, S.L — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Paid $59,400 in ACCC infringement notices and gave a court-enforceable s.87B undertaking over allegedly misleading subscription pricing practices (advertising a subscription as '$0.00'/'FREE' without adequately disclosing conditions, and not prominently displaying total annual cost).",
+  "scope": "Paid $59,400 in ACCC infringement notices for allegedly misleading subscription pricing claims; Gave the ACCC a court-enforceable undertaking (s.87B) admitting conduct contravened or likely contravened the Australian Consumer Law",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

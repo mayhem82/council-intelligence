@@ -1,0 +1,14 @@
+{
+  "case_id": "DFAPTI-AU-2026-00324",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00103 (BSF Solutions Pty Ltd). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-190",
+        "E-191"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

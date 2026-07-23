@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00253",
+  "title": "Sunshine Loans Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Federal Court found Sunshine Loans Pty Ltd contravened the National Credit Code and National Consumer Credit Protection Act 2009 by charging a prohibited $35 'amendment fee' on over 670,000 small amount credit contracts between 1 July 2016 and 2 November 2020, in proceedings brought by ASIC seeking $10.5 million in penalties. The company's application to have the trial judge recuse himself from the penalty hearing (on apprehended-bias grounds) was dismissed by the High Court of Australia on 18 March 2026 ([2026] HCA 8). Following the trial judge's recusal from the penalty phase (on apprehended-bias grounds relating to his credibility findings against Sunshine Loans and its witnesses), ASIC successfully appealed that recusal decision to the Full Federal Court (March 2025) and then, after Sunshine Loans' further appeal, to the High Court, which found unanimously (7-0) in ASIC's favour on 18 March 2026. The penalty hearing has now been remitted to the original trial judge, Justice Roger Derrington, for determination.",
+  "scope": "Found by the Federal Court to have contravened the National Credit Code/NCCP Act by charging a prohibited fee on over 670,000 small amount credit contracts; Subject of ASIC penalty proceedings seeking $10.5 million; Unsuccessfully sought recusal of the trial judge from the penalty hearing; application dismissed by the High Court of Australia, [2026] HCA 8; Unanimous 7-0 High Court decision confirming the trial judge should not have recused himself from the penalty phase, following an earlier Full Federal Court win for ASIC on the same recusal question",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC",
+    "High Court"
+  ]
+}

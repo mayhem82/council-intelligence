@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00290",
+  "title": "Coles Supermarkets Australia Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court found Coles Supermarkets Australia made false or misleading representations about 'Down Down' discounts on 245 common products between February 2022 and May 2023, in proceedings instituted by the ACCC in September 2024. The Court found Coles temporarily raised prices by at least 15% for a short period before applying a 'Down Down' promotion at a price still higher than or equal to the pre-increase price, and found misleading representations in 13 of the 14 ticket types considered at the liability hearing. Penalties and other orders remain to be determined. Separately, on 1 July 2026 the ACCC determined — its first outright refusal under Australia's new mandatory merger control regime (effective from 1 January 2026) — that Coles' proposed acquisition of a lease for a vacant supermarket and liquor site in Kalgoorlie-Boulder would likely substantially lessen competition in the retail supply of groceries there, finding it would likely lead to the exit of an effective independent full-line competitor from the market.",
+  "scope": "Federal Court liability finding of misleading conduct in 13 of 14 discount-ticket types examined; Conduct concerned pricing representations across 245 common supermarket products over 15 months; Penalty phase not yet determined as of the liability judgment; Subject of the ACCC's first outright merger refusal under the new mandatory regime, over a proposed Kalgoorlie site acquisition found likely to substantially lessen grocery competition",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

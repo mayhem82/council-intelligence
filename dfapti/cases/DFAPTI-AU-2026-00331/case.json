@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00331",
+  "title": "AustralianSuper Pty Ltd (as trustee) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "ASIC commenced Federal Court civil penalty proceedings alleging AustralianSuper Pty Ltd, as trustee, took between four months and four years to assess at least 6,897 death benefit claims between 1 July 2019 and 18 October 2024, took 15 to 213 days to issue claim forms in 254 cases, and failed to pay benefits to beneficiaries 'as soon as practicable' in at least 752 cases, in alleged breach of its obligation to act efficiently, honestly and fairly. The proceedings remain active, with a penalty hearing now listed for 9 September 2026 following several case-management adjournments through 2026.",
+  "scope": "Subject of ongoing Federal Court civil penalty proceedings brought by ASIC; Alleged to have taken between four months and four years to assess thousands of death benefit claims; Alleged to have failed to pay benefits 'as soon as practicable' in at least 752 cases; Penalty hearing listed for 9 September 2026 following repeated adjournments",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

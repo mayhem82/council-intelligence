@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00247",
+  "title": "OnePath Custodians Pty Limited — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Paid $10,704,600 under APRA infringement notices for alleged breaches of the Superannuation Industry (Supervision) Act 1993 (failing to invest members' default superannuation contributions in MySuper products), and gave APRA a court enforceable undertaking to rectify compliance deficiencies and compensate members. OPC is one of four superannuation trustees owned by Insignia Financial Ltd (formerly IOOF Holdings Limited), with approximately 700,000 members and over $37 billion in funds under management — a matter with direct financial consequences for a large number of superannuation members.",
+  "scope": "Paid $10,704,600 under APRA infringement notices for alleged SIS Act breaches (failure to direct default contributions to MySuper products); Gave APRA a court enforceable undertaking to rectify compliance deficiencies and compensate affected members",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "APRA"
+  ]
+}

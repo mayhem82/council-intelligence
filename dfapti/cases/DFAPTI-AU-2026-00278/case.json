@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00278",
+  "title": "First Mutual Private Equity Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered on 13 July 2026 that First Mutual Private Equity Pty Ltd and an unregistered managed investment scheme operated by it and an individual be wound up, following an ASIC application, and appointed independent liquidators. ASIC's investigation indicates that between January 2020 and August 2025, around $131 million was raised from investors purportedly to be invested on the ASX. The winding-up was sought to enable orderly administration of remaining assets and, where possible, return of funds to investors.",
+  "scope": "Subject of a Federal Court winding-up order obtained on ASIC's application, with independent liquidators appointed; ASIC's investigation indicates approximately $131 million was raised from investors between January 2020 and August 2025; Winding-up sought specifically to identify and return available funds to investors",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

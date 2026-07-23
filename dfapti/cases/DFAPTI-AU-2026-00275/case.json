@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00275",
+  "title": "AMP Superannuation Limited and N.M. Superannuation Proprietary Limited (AMP Super) — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "APRA accepted a court enforceable undertaking from AMP Superannuation Limited and N.M. Superannuation Proprietary Limited (collectively AMP Super, which controls two superannuation funds with estimated net assets of $116 billion) to address governance and risk-management deficiencies, following a lengthy APRA investigation into past conduct that APRA believes led to a number of potential breaches of the Superannuation Industry (Supervision) Act 1993.",
+  "scope": "Subject of an APRA court enforceable undertaking addressing governance and risk-management deficiencies; Undertaking followed a lengthy APRA investigation into past conduct believed to involve potential SIS Act breaches; Trustee entities control superannuation funds with estimated net assets of $116 billion",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "APRA"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00325",
+  "title": "Grill'd Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court proceedings on 16 June 2026 alleging that Grill'd's 'Tree Day Tuesday' campaign (January 2021-April 2024) represented that $1 from every Tuesday burger purchase would go to tree-planting through its partner Greenfleet Trust, when undisclosed conditions - requiring Relish loyalty membership, dine-in purchase, a qualifying main item bought at the front counter, a barcode scan, and no other offer combined - meant only a small share of purchases actually qualified (reported as roughly 4% of over 5 million Tuesday burgers sold). The ACCC has characterised the conduct as a form of greenwashing.",
+  "scope": "Subject of Federal Court proceedings brought by the ACCC alleging misleading environmental/charitable representations, ongoing; Alleged that only a small share of purchases actually qualified for the advertised tree-planting donation due to undisclosed conditions",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

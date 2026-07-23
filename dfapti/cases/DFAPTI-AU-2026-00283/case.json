@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00283",
+  "title": "Australian Clinical Labs Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Australian Clinical Labs Limited (ACL) to pay $5.8 million in civil penalties — the first civil penalties ever ordered under the Privacy Act 1988 (Cth) — in relation to a February 2022 data breach of its Medlab Pathology business, in which a threat actor exfiltrated approximately 86 gigabytes of data including the personal information of at least 223,000 individuals. The penalty comprised $4.2 million for failing to take reasonable steps to protect personal information (APP 11.1), $800,000 for failing to carry out a reasonable and expeditious assessment of whether an eligible data breach had occurred, and $800,000 for failing to properly notify the Australian Information Commissioner of the breach.",
+  "scope": "First-ever civil penalty ordered under the Privacy Act 1988, totalling $5.8 million; Data breach exfiltrated personal information of at least 223,000 individuals; Penalty included separate contraventions for inadequate breach assessment and failure to properly notify the regulator",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

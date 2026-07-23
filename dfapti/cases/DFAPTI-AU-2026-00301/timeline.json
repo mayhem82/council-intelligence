@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00301",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00079 (Jump Loops Pty Ltd (in liquidation, trading as Jump Swim)). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-163"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

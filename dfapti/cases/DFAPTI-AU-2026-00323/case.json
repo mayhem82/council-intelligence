@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00323",
+  "title": "Cigno Australia Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered combined penalties of $7 million against Cigno Australia Pty Ltd ($3 million), BSF Solutions Pty Ltd ($3 million) and their respective directors, for engaging in credit activity without an Australian Credit Licence and charging prohibited fees under a 'No Upfront Charge Loan Model' that charged consumers more than $90 million in unlawful fees between July 2022 and May 2024. ASIC has since appealed the $7 million penalty to the Full Federal Court, stating it is concerned the amount provides insufficient deterrence.",
+  "scope": "Federal Court found the company engaged in credit activity without a required licence and charged prohibited fees; Penalty imposed as part of a combined $7 million judgment across two companies and two individual directors; Consumers alleged to have been charged more than $90 million in unlawful fees under the lending model; ASIC has appealed the penalty as insufficient, appeal hearing not yet set",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

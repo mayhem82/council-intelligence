@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00260",
+  "title": "Fiducian Portfolio Services Limited — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "APRA imposed additional licence conditions (effective 2 April 2026) on Fiducian Portfolio Services Limited, trustee of the Fiducian Superannuation Fund (approximately 9,779 member accounts, over $3.1 billion in funds under management), after a review identified concerns including insufficiently rigorous investment selection criteria and due diligence, weak monitoring/reporting frameworks, management of related-party conflicts of interest, and deficiencies in board governance and oversight. Note: this is a distinct legal entity from Fiducian Investment Management Services Limited (T-AU-2026-00034), which is the subject of a separate ASIC greenwashing action against a different Fiducian-group entity.",
+  "scope": "Subject of additional APRA licence conditions effective 2 April 2026 following a review of investment governance; Findings included insufficiently rigorous investment selection/due diligence criteria and weak monitoring frameworks; Findings also included deficiencies in board governance and management of related-party conflicts of interest",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "APRA"
+  ]
+}

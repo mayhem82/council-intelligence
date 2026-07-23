@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00337",
+  "title": "Tesla Motors Australia Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Tesla Motors Australia Pty Ltd paid $155,460 after the ACCC issued ten infringement notices for allegedly failing to conduct required safety testing and provide mandatory button-battery warnings on three key fob models and two illuminated door-sill light models, covering 952 units sold between June 2022 and May 2023.",
+  "scope": "Paid $155,460 over ten ACCC infringement notices for failing to safety-test and warn on button-battery-containing accessories",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

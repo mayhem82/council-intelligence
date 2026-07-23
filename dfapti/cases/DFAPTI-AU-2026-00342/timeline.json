@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00342",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00129 (Callide Power Trading Pty Ltd). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-210"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

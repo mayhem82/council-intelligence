@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00333",
+  "title": "Stratfund Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "ASIC issued interim design and distribution obligations stop orders against two products managed under Stratfund Limited's Australian Fixed Income Fund - the Wealthon Vault Development Fund and The People's Equity Fund - over deficiencies in their target market determinations. ASIC found the target market determination for the Wealthon Vault fund wrongly suggested a target market of retail investors seeking capital preservation and income, when the product was not designed for that purpose. The orders bar Stratfund from dealing in interests, giving a product disclosure statement, or providing general advice recommending the products to retail clients, and are described as part of ASIC's increased risk-based surveillance of managed investment schemes and private credit.",
+  "scope": "Subject of interim ASIC stop orders barring dealings with retail clients in two of its managed products; Regulator found a target market determination misrepresented the products' suitability for capital-preservation and income-seeking investors; Part of ASIC's stated increased surveillance of managed investment schemes and private credit",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

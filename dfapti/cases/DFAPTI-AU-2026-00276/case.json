@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00276",
+  "title": "Money3 Loans Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Money3 Loans Pty Ltd to pay $1.55 million in penalties for breaching responsible lending obligations in providing car finance to vulnerable consumers largely or solely reliant on Centrelink payments. For five loans entered into between May 2019 and February 2021, the Court found Money3 did not make reasonable inquiries about or verify borrowers' living expenses using bank statement data it held, and in one instance failed to make reasonable inquiries about a borrower's requirements and objectives. ASIC commenced proceedings on 17 May 2023.",
+  "scope": "Federal Court civil penalty of $1.55 million for breaching responsible lending obligations; Found to have failed to make reasonable inquiries about or verify borrowers' living expenses for five car-finance loans; Affected borrowers were largely or solely reliant on Centrelink payments",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

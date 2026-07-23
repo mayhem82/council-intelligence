@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00347",
+  "title": "Switch Nutrition Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Therapeutic Goods Administration issued Switch Nutrition Pty Ltd four infringement notices totalling $79,200, announced late April 2026, over alleged unlawful advertising of products containing Nicotinamide Mononucleotide and Vitamin D3 claiming to treat serious medical conditions - a prohibited representation under the Therapeutic Goods Act and Advertising Code.",
+  "scope": "Paid $79,200 over four TGA infringement notices for alleged unlawful advertising claiming products could treat serious medical conditions",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

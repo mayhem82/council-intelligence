@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00296",
+  "title": "Telwater Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC opposed Yamaha Motor Australia's proposed acquisition of Telwater Pty Ltd (announced 18 December 2025) following an in-depth investigation, finding it likely to substantially lessen competition in the wholesale supply of outboard motors in Australia. Telwater, market leader in aluminium trailer boats (approximately 60-70% market share via its Quintrex, Stacer and Yellowfin brands), was the acquisition target; the ACCC's concern centred on the combined entity's ability to leverage that dominant position to disadvantage rival outboard motor suppliers.",
+  "scope": "Named as the acquisition target in an ACCC merger opposition decision following an in-depth competition investigation; Holds an approximately 60-70% market share in aluminium trailer boats, a position the ACCC found could be leveraged anti-competitively if the acquisition proceeded; ACCC found the proposed transaction likely to substantially lessen competition in outboard motor wholesale supply",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00245",
+  "title": "Alinta Energy Retail Sales Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Paid $1,089,000 in AER penalties (a record 15 infringement notices) for allegedly overcharging Centrepay customers (a government bill-paying service for Centrelink recipients) across NSW, Qld and SA between 2019-2024, and failing to inform/refund them within required timeframes.",
+  "scope": "Paid $1,089,000 in AER infringement notice penalties for alleged Centrepay overcharging and failure to timely inform/refund welfare-payment customers",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "AER"
+  ]
+}

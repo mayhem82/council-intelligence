@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00244",
+  "title": "AGL Retail Energy Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "One of four AGL Energy Limited subsidiaries the Federal Court found breached overcharging rules relating to Centrepay payments (a government bill-paying service for Centrelink recipients), resulting in the largest total penalty ($25 million) ever imposed for breaches of the National Energy Laws. 483 Centrepay customers were overcharged and 16,156 breaches found for failing to inform/refund within required timeframes. The other three subsidiary entities named in the same action were not independently identified by name in the sources reviewed this pass, so are not separately recorded as candidates.",
+  "scope": "Found by the Federal Court to have breached National Energy Retail Rules overcharging obligations relating to Centrepay (welfare-payment) customers; Subject to the largest total penalty ($25 million) ever imposed for National Energy Laws breaches; Decision under appeal to the Full Federal Court as of the source reviewed (heard November 2025, pending)",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "AER"
+  ]
+}

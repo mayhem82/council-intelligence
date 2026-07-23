@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00303",
+  "title": "Red Energy Pty Limited — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Red Energy Pty Limited paid $474,600 in penalties and gave the AER a court-enforceable undertaking after allegedly failing to maintain its hardship policy and offer suitable payment plans for up to 371 customers who had been receiving hardship assistance but lost that status upon moving to a new residence while remaining a Red Energy customer, leaving them vulnerable to disconnection, debt collection and credit default listings.",
+  "scope": "Paid $474,600 in AER penalties for alleged hardship-policy and payment-plan failures; Alleged to have failed to identify and assist up to 371 hardship customers who moved residence; Consumers left vulnerable to disconnection, debt collection and credit default listings as a result",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "AER"
+  ]
+}

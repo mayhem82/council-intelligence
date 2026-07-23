@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DFAPTI Case</title>
+<link rel="stylesheet" href="../../dashboard/style.css">
+</head>
+<body>
+<div class="banner">
+  ⚠ PRIVATE — This investigation record is for the operator's own review. Not intended for public distribution or as submission-grade evidence until independently verified.
+</div>
+<header class="site">
+  <a class="back-link" href="../../index.html">← All Cases</a>
+  <h1 id="case-title">Loading…</h1>
+  <p class="tagline" id="case-tagline"></p>
+</header>
+<main>
+  <section class="panel">
+    <p class="section-title">Case Overview</p>
+    <div id="overview"></div>
+  </section>
+
+  <section class="panel">
+    <p class="section-title">Investigation Timeline</p>
+    <table id="timeline-table">
+      <thead><tr><th>Date</th><th>Event</th><th>Evidence IDs</th><th>Status Change</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section class="panel">
+    <p class="section-title">Evidence Register</p>
+    <div class="filters" id="filters">
+      <button data-filter="ALL" class="active">All</button>
+      <button data-filter="ACCEPTED">Accepted</button>
+      <button data-filter="HELD">Held</button>
+      <button data-filter="REJECTED">Rejected</button>
+      <button data-filter="PENDING">Pending</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th><th>Date</th><th>Source</th><th>Document</th>
+          <th>Classification</th><th>Confidence</th><th>Verification</th>
+        </tr>
+      </thead>
+      <tbody id="evidence-body"></tbody>
+    </table>
+  </section>
+</main>
+<script src="../../dashboard/case-viewer.js"></script>
+</body>
+</html>

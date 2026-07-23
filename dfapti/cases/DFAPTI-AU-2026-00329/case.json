@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00329",
+  "title": "Oztures Trading Pty Ltd (trading as Binance Australia Derivatives) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Oztures Trading Pty Ltd, trading as Binance Australia Derivatives, to pay a $10 million penalty (orders handed down 27 March 2026) after it admitted misclassifying more than 85% of its Australian client base - 524 retail investors - as wholesale clients between July 2022 and April 2023, exposing them to high-risk crypto derivatives products without the consumer protections required for retail clients. The misclassified clients suffered approximately $8.66 million in trading losses and paid approximately $3.89 million in fees; ASIC separately oversaw approximately $13.1 million in compensation to affected clients in 2023.",
+  "scope": "Admitted misclassifying over 85% of its Australian client base as wholesale rather than retail clients; Ordered by the Federal Court to pay a $10 million penalty; Misclassified clients suffered a combined $8.66 million in trading losses and paid $3.89 million in fees",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

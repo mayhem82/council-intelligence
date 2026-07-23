@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00352",
+  "title": "3M Company and 3M Australia Pty Ltd — Environmental impact",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Environmental impact",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Commonwealth commenced Federal Court proceedings on 28 May 2026 against 3M Company and 3M Australia Pty Ltd, seeking more than $2 billion in damages over PFAS ('forever chemicals') contamination arising from aqueous film-forming foam used at 28 Defence bases. The Commonwealth alleges 3M withheld information and misrepresented the environmental risks of its firefighting foam, and gave assurances about its disposal and environmental safety inconsistent with its own internal knowledge.",
+  "scope": "Subject of Federal Court proceedings brought by the Commonwealth seeking more than $2 billion in damages, ongoing; Alleged to have withheld information and misrepresented environmental risks of a product used at 28 Defence bases; Allegations concern PFAS contamination, a substance associated with long-term environmental and health effects",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

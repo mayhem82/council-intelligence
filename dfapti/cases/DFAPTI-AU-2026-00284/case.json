@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00284",
+  "title": "The Star Pty Limited — Systemic failures",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Systemic failures",
+  "jurisdiction": "Australia",
+  "investigation_objective": "AUSTRAC commenced civil penalty proceedings in the Federal Court against The Star Pty Limited alleging serious and systemic non-compliance with Australia's anti-money laundering and counter-terrorism financing (AML/CTF) laws, including poor governance, failures of risk management, and failure to carry out appropriate ongoing customer due diligence over a number of years. The investigation followed a proactive AUSTRAC industry-wide compliance campaign beginning September 2019, with an enforcement investigation opened in June 2021. As of March 2026, the Federal Court had not yet delivered judgment, with AUSTRAC noting its own submissions were completed in mid-2025.",
+  "scope": "Subject of Federal Court civil penalty proceedings brought by AUSTRAC alleging serious and systemic AML/CTF non-compliance; Alleged failures include poor governance, inadequate risk management, and failure to conduct ongoing customer due diligence over a number of years; Proceedings remain undetermined as of March 2026, more than four years after the enforcement investigation was opened",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

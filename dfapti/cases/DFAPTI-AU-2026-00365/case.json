@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00365",
+  "title": "CPB Contractors Pty Limited — Environmental impact",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Environmental impact",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW EPA fined CPB Contractors Pty Limited $45,000 for breaching Environment Protection Licence noise-mitigation conditions during night works on the NSW Government's publicly funded Warringah Freeway Upgrade, following an unannounced inspection - the EPA's own release notes this is the second such fine tied to the same project.",
+  "scope": "Fined by the NSW EPA for breaching Environment Protection Licence noise-mitigation conditions; Breach occurred on a large, publicly funded transport infrastructure project; Second EPA fine of this kind tied to the same project, per the regulator's own release",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

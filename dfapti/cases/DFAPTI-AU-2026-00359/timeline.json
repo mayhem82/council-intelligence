@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00359",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00157 (Centre Capital Securities Pty Ltd). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-227"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

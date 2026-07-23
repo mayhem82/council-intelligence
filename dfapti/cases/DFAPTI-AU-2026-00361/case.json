@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00361",
+  "title": "Dusk Australasia Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court proceedings on 22 July 2026 against homewares retailer Dusk Australasia Pty Ltd (a wholly-owned subsidiary of ASX-listed Dusk Group Limited), alleging it supplied 66,453 products across 29 product lines (candles, diffusers, tealights, snow globes and other LED items) containing button batteries between 17 May 2023 and 12 December 2024 in breach of mandatory safety and information standards under the Australian Consumer Law. The ACCC also alleges Dusk breached a court-enforceable undertaking it had already given in April 2023, after an earlier matter in which Dusk paid $106,560 across eight infringement notices for non-compliant button-battery Halloween products.",
+  "scope": "Subject of ACCC Federal Court proceedings alleging breach of mandatory product safety and information standards; Alleged breach of a pre-existing court-enforceable undertaking from an earlier, related 2023 enforcement matter; Matter concerns tens of thousands of consumer products containing button batteries, a hazard the ACCC treats as a standing national child-safety priority",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00311",
+  "title": "A&S Labels Pty Ltd (trading as Tiger Mist) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "A&S Labels Pty Ltd, trading as online clothing retailer Tiger Mist, paid $26,640 after the ACCC issued two infringement notices over its website's Returns page, which between around November 2021 and February 2022 falsely told consumers that faulty items could only be returned within 30 days and had to be in original packaging - both misstatements of the unlimited, condition-free consumer guarantee rights that apply to faulty goods under the Australian Consumer Law.",
+  "scope": "Paid $26,640 over two ACCC infringement notices for misrepresenting statutory consumer guarantee rights; Alleged to have imposed a false 30-day return time limit and a false original-packaging requirement on faulty-item returns",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

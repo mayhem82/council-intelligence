@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00366",
+  "title": "Deutsche Bank AG (Australian branch) — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "ASIC issued Deutsche Bank an infringement notice resulting in a $2 million penalty for systemic breaches of the ASIC Derivative Transaction Rules (Reporting) 2024 between 21 October 2024 and 15 August 2025. Deutsche Bank failed to accurately report mandatory 'direction' field data (whether the bank was acting as buyer or seller) for over 260,000 foreign exchange and commodities OTC derivative transactions across 208 separate business days - data ASIC relies on to monitor systemic risk and detect potential market abuse.",
+  "scope": "ASIC infringement notice and $2 million penalty for systemic derivative-transaction reporting breaches; Failures affected over 260,000 transactions across nearly a year and 208 separate business days; ASIC assessed the failures as systemic, reflecting deficiencies in the bank's internal reporting framework",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

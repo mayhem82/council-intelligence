@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00363",
+  "title": "Absolute QSEC Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Fair Work Ombudsman alleges Cairns-based security company Absolute QSEC Pty Ltd failed to comply with a February 2025 Fair Work Commission order to pay $9,333 in compensation plus superannuation to a casual security officer found to have been unfairly dismissed, and has sought a court order for payment plus interest.",
+  "scope": "Alleged failure to comply with a Fair Work Commission order to pay compensation to an unfairly dismissed worker; Fair Work Ombudsman has sought a court order to enforce payment plus interest",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

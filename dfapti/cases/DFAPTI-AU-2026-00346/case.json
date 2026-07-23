@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00346",
+  "title": "ACPharm Queensland Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Therapeutic Goods Administration issued ACPharm Queensland Pty Ltd five infringement notices totalling $99,000, paid October 2025, over alleged unlawful advertising of medicinal cannabis and other therapeutic goods not entered on the Australian Register of Therapeutic Goods.",
+  "scope": "Paid $99,000 over five TGA infringement notices for alleged unlawful advertising of unregistered therapeutic goods",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

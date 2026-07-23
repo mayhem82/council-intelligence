@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00299",
+  "title": "Philips Electronics Australia Limited — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The TGA commenced Federal Court proceedings against Philips Electronics Australia Limited alleging the unlawful supply of sleep apnoea and breathing-support devices that did not meet Australian safety and performance requirements. The devices contained a foam (PE-PUR) at risk of degrading and releasing particulates that could be inhaled or ingested, with potential harm including respiratory tract irritation, inflammatory response and effects on the reproductive system. The TGA alleges more than 44,000 separate instances of unlawful supply between June 2019 and October 2022 (depending on device), and separately issued ten infringement notices totalling $133,200.",
+  "scope": "Subject of Federal Court proceedings alleging unlawful supply of medical devices not meeting safety and performance requirements; TGA alleges more than 44,000 separate instances of unlawful supply over a three-year period; Devices at issue contained foam with a real risk of degrading and releasing particulates that could be inhaled or ingested by patients; Also issued ten TGA infringement notices totalling $133,200",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

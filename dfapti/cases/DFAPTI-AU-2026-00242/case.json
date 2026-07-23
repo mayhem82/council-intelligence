@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00242",
+  "title": "Energex — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Paid a penalty (reported as $60,000 in one AER source; an earlier related release cites $100,000/$140,000 total across the two distributors — treat the exact split as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules — obligations that exist specifically to protect customers dependent on electricity supply for life support equipment.",
+  "scope": "Alleged breach of life support customer obligations under the National Energy Retail Rules, resulting in an AER penalty and administrative undertaking",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "AER"
+  ]
+}

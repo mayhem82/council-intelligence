@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00270",
+  "title": "BlueScope Steel Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Full Federal Court dismissed BlueScope Steel Ltd's appeal against a $57.5 million civil penalty — the highest penalty ever imposed for cartel conduct or a competition-law breach in Australia — for attempting to induce eight steel distributors and an overseas manufacturer to fix and raise pricing for flat steel products supplied in Australia between September 2013 and June 2014, in ACCC proceedings first instituted in August 2019. A former BlueScope general manager was separately penalised $500,000 in the same proceedings; that individual is noted here as context only and is not recorded as a separate candidate.",
+  "scope": "Highest penalty ever imposed for cartel conduct or a competition-law breach in Australia ($57.5 million), upheld on appeal by the Full Federal Court; Found to have attempted to induce eight steel distributors and an overseas manufacturer to fix and raise flat-steel pricing; Federal Court proceedings ran from institution in August 2019 through a 2022 cartel-conduct finding to the 2023 penalty and 2025 appeal dismissal",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

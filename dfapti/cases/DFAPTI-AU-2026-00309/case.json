@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00309",
+  "title": "Princeton Securities (NSW) Pty Ltd — Systemic failures",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Systemic failures",
+  "jurisdiction": "Australia",
+  "investigation_objective": "In the same batch action as Castra Licensee Pty Ltd, AUSTRAC issued Princeton Securities (NSW) Pty Ltd an infringement notice in September 2024 for failing to lodge its 2023 annual AML/CTF compliance report. Princeton did not pay, and on 26 May 2026 the Federal Court (on joint submissions with AUSTRAC) ordered it to pay an agreed $45,000 penalty plus $5,000 costs.",
+  "scope": "Failed to lodge a mandatory annual AML/CTF compliance report; Did not pay an AUSTRAC infringement notice, resulting in escalation to Federal Court civil penalty proceedings; Ordered by the Federal Court to pay an agreed $45,000 penalty plus $5,000 costs (26 May 2026)",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

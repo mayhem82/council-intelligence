@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00269",
+  "title": "Macquarie Investment Management Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court declared that Macquarie Investment Management Limited (MIML), as superannuation platform trustee, contravened the Corporations Act by failing to place the Shield Master Fund on a watch list for heightened monitoring despite warning signs, after more than $480 million was invested in Shield by at least 5,800 consumers (mostly via superannuation platforms) since February 2022. Macquarie separately admitted contraventions and, under a court-enforceable undertaking, paid approximately $321 million to over 3,000 affected members — 100% of the amounts they invested less any withdrawals.",
+  "scope": "Federal Court declared contraventions of the Corporations Act for failing to place a fund on a watch list for heightened monitoring despite warning signs; Paid approximately $321 million to over 3,000 affected members under a court-enforceable undertaking, following admitted contraventions; Fund at issue attracted more than $480 million from at least 5,800 consumers since February 2022 before the failures were addressed",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

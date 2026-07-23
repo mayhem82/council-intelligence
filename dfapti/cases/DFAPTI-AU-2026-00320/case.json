@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00320",
+  "title": "Australian Fiduciaries Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court froze assets and appointed receivers to entities related to Australian Fiduciaries Limited (AFL), which operated managed investment schemes into which approximately $160 million was invested by around 600 retail investors, largely via self-managed superannuation funds. On 16 June 2026, Justice Downes granted ASIC leave to amend its originating process to seek the winding-up of eight corporate defendants under receivership and three registered managed investment schemes AFL operated, with a hearing listed for 8 October 2026. ASIC separately cancelled AFL's Australian financial services licence on 2 July 2026.",
+  "scope": "Subject of Federal Court asset-freezing orders and receivership over related entities; ASIC is seeking the winding-up of eight corporate defendants and three registered managed investment schemes it operated; Approximately $160 million invested by around 600 retail investors, largely through self-managed superannuation funds, is involved; ASIC cancelled the entity's Australian financial services licence on 2 July 2026; Matter is ongoing, with a further Federal Court hearing listed for 8 October 2026",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

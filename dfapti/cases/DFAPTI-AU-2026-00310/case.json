@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00310",
+  "title": "Mount Pritchard and District Community Club Ltd — Systemic failures",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Systemic failures",
+  "jurisdiction": "Australia",
+  "investigation_objective": "AUSTRAC commenced Federal Court civil penalty proceedings on 30 July 2025 against Mount Pritchard and District Community Club Ltd, trading as Mounties, alleging serious and systemic non-compliance with AML/CTF laws, including operating without a compliant AML/CTF program and failing to appropriately monitor high-risk customers. The club group operates approximately 1,400 poker machines across 8 of its 10 venues and generates hundreds of millions of dollars in gaming revenue annually. The matter remains before the Federal Court.",
+  "scope": "Subject of Federal Court civil penalty proceedings brought by AUSTRAC, ongoing; Alleged to have operated without a compliant AML/CTF program across a large-scale poker machine operation; Alleged failure to appropriately monitor high-risk customers; Operates roughly 1,400 poker machines generating hundreds of millions of dollars in gaming revenue annually",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

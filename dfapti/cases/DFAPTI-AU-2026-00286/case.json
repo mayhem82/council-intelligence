@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00286",
+  "title": "BPS Financial Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered BPS Financial Pty Ltd to pay $14 million in penalties ($2 million for unlicensed conduct, $12 million for misleading and deceptive conduct) after finding it issued and advised on its Qoin Wallet crypto product for almost three years without holding an Australian Financial Services Licence, and made false and misleading representations about the product, including as to token convertibility and regulatory approval. During the misconduct period (2020-2023) BPS issued more than 96,000 Qoin Wallets and generated over $42 million in revenue from Qoin token sales. The company was also permanently restrained from further misleading claims and barred from operating a financial services business without a licence for ten years.",
+  "scope": "Federal Court civil penalty of $14 million for unlicensed conduct and misleading/deceptive representations; Found to have operated without an Australian Financial Services Licence for almost three years, issuing more than 96,000 crypto wallets; Permanently restrained from further misleading claims and barred from operating a financial services business without a licence for ten years",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

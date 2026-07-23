@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00266",
+  "title": "EnergyAustralia Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "EnergyAustralia Pty Ltd paid two AER infringement notices totalling $142,800 for alleged breaches of the National Energy Retail Law and National Energy Retail Rules. The AER alleged EnergyAustralia transferred an elderly customer's electricity account to itself without obtaining consent (after another person had mistakenly set up an account at that address), then sent bills and disconnection warnings, and disconnected the customer without following the required notice procedures under the Retail Rules. Separately, the Federal Court ordered EnergyAustralia to pay $14 million in penalties (the ACCC's first proceeding under the Electricity Retail Code since its 2019 introduction) after EnergyAustralia admitted sending misleading price-change communications to around 566,000 consumers between June and September 2022, including misrepresenting the estimated annual price of its electricity offer for an average customer and failing to state the lowest possible price, plus 27 non-compliant online electricity offers over the same period.",
+  "scope": "Paid $142,800 across two AER infringement notices for alleged Retail Law and Retail Rules breaches; Alleged failure to obtain customer consent before transferring an electricity account; Alleged failure to follow required notice procedures before disconnecting an elderly customer; Federal Court penalty of $14 million, admitted, for misleading pricing communications sent to approximately 566,000 consumers — the ACCC's first Electricity Retail Code proceeding",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC",
+    "AER"
+  ]
+}

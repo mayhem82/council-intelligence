@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00368",
+  "title": "Sushi Bay Pty Ltd (in liq), Sushi Bay ACT Pty Ltd (in liq), Auskobay Pty Ltd (in liq) and Auskoja Pty Ltd (in liq) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court imposed what the Fair Work Ombudsman described as its highest-ever combined penalty at the time: $15.3 million against four related Sushi Bay group companies (Sushi Bay Pty Ltd, Sushi Bay ACT Pty Ltd, Auskobay Pty Ltd and Auskoja Pty Ltd, all now in liquidation) plus their sole director. The companies underpaid 163 workers - mostly Korean nationals on student, working holiday and skilled worker visas - a total of $653,129 between February 2016 and January 2020 across outlets in NSW, Darwin and Canberra, and falsified records in an attempt to cover it up.",
+  "scope": "Federal Court penalty described by the Fair Work Ombudsman as its highest ever secured in a legal action at the time; 163 workers, predominantly visa-holders, underpaid over a four-year period; Court found records were falsified to conceal the underpayments; All four corporate entities are now in liquidation",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

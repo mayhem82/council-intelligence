@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00341",
+  "title": "Electricity Transmission Ministerial Holding Corporation Limited (trading as Transgrid) — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Australian Energy Regulator commenced Federal Court proceedings on 17 December 2025 alleging Transgrid breached the National Electricity Rules by failing to manage, maintain and operate its transmission network to minimise outages (June 2022-October 2024), failing to restore power as soon as possible following a severe weather event on 16 October 2024 that downed transmission towers and cut supply to approximately 12,700 Broken Hill properties (with one back-up generator unavailable due to maintenance and the other suffering multiple outages, leaving power intermittent until 31 October 2024), breaching its NSW transmission operator licence conditions in FY2024-25, and failing to maintain a compliance program for its back-up generators. The AER is seeking pecuniary penalties, declarations and costs.",
+  "scope": "Subject of ongoing Federal Court proceedings brought by the Australian Energy Regulator; Alleged failure to restore power for around two weeks to approximately 12,700 properties after a severe weather event; Alleged that a back-up generator was unavailable due to maintenance during the outage; Alleged breach of NSW transmission operator licence conditions",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "AER"
+  ]
+}

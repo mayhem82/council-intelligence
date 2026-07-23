@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00332",
+  "title": "Luxottica Franchising Australia Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC issued Luxottica Franchising Australia Pty Ltd, franchisor of the OPSM and Laubman & Pank optical retail chains, a $19,800 infringement notice (reported March 2026) over an allegedly out-of-date Franchise Disclosure Register profile - a register that has been out of date since around May 2025 - in alleged breach of the Franchising Code of Conduct. Luxottica paid the penalty and has since updated its disclosure.",
+  "scope": "Paid a $19,800 ACCC infringement notice over an allegedly out-of-date franchise disclosure register profile; Payment of an infringement notice is not an admission of liability under the ACCC's process",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

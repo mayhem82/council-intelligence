@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00264",
+  "title": "S. Kidman & Co Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "S. Kidman & Co Pty Ltd, one of Australia's largest cattle station operators, was one of 12 large proprietary companies issued infringement notices by ASIC (published 11 December 2025) for allegedly failing to lodge audited FY24 financial reports on time, following a three-month ASIC surveillance campaign into non-lodgement by large proprietary companies. Penalties across the 12 companies ranged from $150,240 to $187,800 each, totalling over $2.2 million, all paid in full.",
+  "scope": "Issued an ASIC infringement notice for alleged failure to lodge an audited FY24 financial report on time; One of 12 companies targeted in a dedicated ASIC surveillance campaign on large-proprietary-company non-lodgement; Penalty paid in full; payment of an infringement notice is not an admission of guilt or liability",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

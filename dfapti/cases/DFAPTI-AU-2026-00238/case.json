@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00238",
+  "title": "Liberty Bell Bay Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Named in ASIC media release 25-141MR (and the preceding 25-113MR) as a GFG Alliance Group company subject to Supreme Court of NSW orders over alleged failure to lodge annual financial reports across multiple years; escalated to a winding-up application per 26-041MR.",
+  "scope": "Subject of Supreme Court of NSW civil proceedings over alleged failure to lodge annual reports for FY2021-FY2024, per 25-141MR/25-113MR; Reported to have failed to comply with the resulting court orders, leading ASIC to file a winding-up application (26-041MR); In an excess emissions situation under the Safeguard Mechanism as at the 1 April 2026 compliance deadline, per the Clean Energy Regulator's January-March 2026 compliance update",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC",
+    "Unknown"
+  ]
+}

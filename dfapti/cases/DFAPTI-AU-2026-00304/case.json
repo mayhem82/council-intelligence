@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00304",
+  "title": "Equity Trustees Superannuation Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "ASIC commenced two separate Federal Court civil penalty proceedings against Equity Trustees Superannuation Limited as superannuation platform trustee: one alleging due diligence failures overseeing around $160 million of retirement savings invested into the Shield Master Fund during 2023-2024, and a second alleging it allowed about 2,700 members of the NQ Super & Pension fund to invest more than $65 million in First Guardian between June 2023 and March 2024 without obtaining critical documents (the fund's constitution, audited financial statements, compliance plan audit), and permitted members to invest 100% of their superannuation balances despite evidence the fund was or may have been illiquid. Both matters are part of ASIC's broader 2026 enforcement priority into the collapse of First Guardian and related funds, through which more than $420 million has been repaid to investors to date.",
+  "scope": "Subject of two separate Federal Court civil penalty proceedings brought by ASIC, both ongoing; Alleged to have permitted members to invest without obtaining critical fund documents including audited financial statements; Alleged to have permitted 100% superannuation-balance investment in a fund despite evidence of possible illiquidity; Proceedings are part of a broader regulatory response in which more than $420 million has been repaid to affected investors to date",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

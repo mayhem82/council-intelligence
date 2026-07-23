@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00255",
+  "title": "Vanguard Investments Australia Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Vanguard Investments Australia to pay a $12.9 million penalty — the largest greenwashing penalty imposed in Australia to date — after Vanguard admitted that approximately 74% of the securities (by market value) in its Ethically Conscious Global Aggregate Bond Index Fund had not actually been researched or screened against the ESG exclusion criteria it had told investors would be applied.",
+  "scope": "Federal Court civil penalty of $12.9 million, the largest greenwashing penalty in Australia to date; Admitted approximately 74% of the fund's securities by market value were not researched or screened against its stated ESG criteria; This was ASIC's second successful greenwashing civil penalty action",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

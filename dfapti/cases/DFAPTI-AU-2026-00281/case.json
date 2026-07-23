@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00281",
+  "title": "HSBC Bank Australia Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered HSBC Bank Australia Limited to pay a $35 million penalty — one of the first cases of its kind globally — after the bank admitted serious failures protecting customers from scams. Between January 2020 and August 2024, HSBC received more than 1,000 reports of unauthorised transactions totalling $34.6 million, and admitted inadequate controls on its internal transfer system between May 2023 and May 2024, a 380% surge in unauthorised-transaction reports in FY24, and average investigation times of 144 days. Approximately $21.5 million in compensation had been paid to affected customers by the time of judgment, with further payments expected, plus an additional $6.5 million in recovered funds returned.",
+  "scope": "Federal Court civil penalty of $35 million, admitted, for scam-protection failures — one of the first cases of its kind globally; Admitted inadequate internal transfer system controls and average scam-investigation times of 144 days; More than 1,000 unauthorised-transaction reports totalling $34.6 million between January 2020 and August 2024",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

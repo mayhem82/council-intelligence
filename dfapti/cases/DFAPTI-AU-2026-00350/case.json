@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00350",
+  "title": "Grocery Delivery E-Services Australia Pty Ltd (trading as HelloFresh) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court proceedings (around 16 December 2025) alleging Grocery Delivery E-Services Australia Pty Ltd, trading as HelloFresh, breached the Australian Consumer Law over subscription cancellation traps: 62,061 customers were allegedly charged between January 2023 and March 2025 despite cancelling before the advertised cut-off. The ACCC also alleges HelloFresh required payment details to view its menu while representing that consumers would not be charged unless meals were selected.",
+  "scope": "Subject of Federal Court proceedings brought by the ACCC alleging misleading subscription cancellation representations, ongoing; Alleged that over 62,000 customers were charged despite cancelling before the advertised deadline",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00369",
+  "title": "Onkar Group Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Onkar Group Pty Ltd and its director Maninder Singh Nagi were convicted and fined a combined $1.43 million by a Victorian court after a delivery driver fatally crashed near Shepparton in August 2022, 12 hours into an overnight shift. WorkSafe Victoria's investigation found the driver had completed the same 796km delivery run for 17 consecutive nights, most involving shifts exceeding 12 hours, without adequate rest breaks between shifts. The company was fined $1.1 million for recklessly placing a person in danger of serious injury, plus an aggregate $250,000 for further safety failures; the director was fined an aggregate $80,000.",
+  "scope": "Company convicted and fined for recklessly placing a worker in danger of serious injury; Court findings included a pattern of 17 consecutive overnight shifts without adequate rest breaks prior to the fatal crash; Director separately convicted and fined as an officer who failed to ensure a safe workplace",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "WorkSafe Victoria"
+  ]
+}

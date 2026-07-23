@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00246",
+  "title": "CAM Engineering and Construction Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Ordered by the Federal Court to pay a $250,000 penalty for allegedly failing to become a member of the Energy and Water Ombudsman NSW scheme, in breach of the National Energy Retail Law — a consumer-access-to-redress compliance matter.",
+  "scope": "Ordered by the Federal Court to pay a $250,000 penalty for alleged failure to join a mandatory ombudsman scheme under the National Energy Retail Law",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "AER"
+  ]
+}

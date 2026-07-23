@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00342",
+  "title": "Callide Power Trading Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court penalised Callide Power Trading Pty Ltd $9 million on 4 February 2025 - the highest penalty ever imposed for a breach of performance standards under the National Electricity Rules - after the company admitted failing to ensure its Callide C4 generating unit met required performance standards and failing to plan, design and operate its facilities to comply with those standards. The breach was linked to the 25 May 2021 failure of the Callide C4 unit during a planned battery-charger replacement, which caused approximately 3,045 MW of generation loss and approximately 2,300 MW of customer load disconnection, contributing to widespread blackouts across Queensland. The company was also ordered to pay $150,000 towards the regulator's legal costs.",
+  "scope": "Ordered by the Federal Court to pay $9 million, the highest penalty ever imposed for a National Electricity Rules performance-standard breach; Admitted failing to ensure a generating unit met required performance standards; Breach linked to a generator failure that caused approximately 3,045 MW of generation loss and widespread Queensland blackouts",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "AER"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00343",
+  "title": "American Express Australia Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court found American Express Australia Limited breached design and distribution obligations for two co-branded credit cards distributed through David Jones stores between 25 May and 5 July 2022. Amex ought to have known that high cancelled-application rates suggested the target market determinations were no longer appropriate but continued issuing the cards without reviewing them. Amex admitted the contraventions and was ordered to pay $8 million plus ASIC's costs, described as the first quantified penalty imposed under Australia's design and distribution obligations regime.",
+  "scope": "Admitted breaching design and distribution obligations for two credit card products; Ordered to pay an $8 million penalty, described as the first quantified penalty under the DDO regime; Regulator found the company continued issuing a product despite signs its target market determination was no longer appropriate",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

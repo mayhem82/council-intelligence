@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00302",
+  "title": "M2 Energy Pty Ltd (trading as Dodo Power & Gas) — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "M2 Energy Pty Ltd, trading as Dodo Power & Gas, paid $406,800 across six AER infringement notices for alleged breaches of the National Energy Retail Rules protecting customers experiencing hardship: failing to inform three hardship customers of its hardship policy, and failing to have regard to three customers' capacity to pay when establishing payment plans. The AER also accepted a court-enforceable undertaking in which Dodo admitted the breaches and acknowledged broader concerns about its hardship, payment-plan and direct-debit compliance systems.",
+  "scope": "Paid $406,800 across six AER infringement notices for alleged hardship-obligation breaches; Admitted breaches under a court-enforceable undertaking, alongside acknowledged broader compliance-system concerns; Found by AER's compliance review to have failed to inform hardship customers of its hardship policy",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "AER"
+  ]
+}

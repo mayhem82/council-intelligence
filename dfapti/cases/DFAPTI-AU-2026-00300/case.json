@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00300",
+  "title": "Telstra Group Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Telstra to pay $50 million — the second-highest penalty ever imposed under the Australian Consumer Law — for unconscionable conduct after sales staff at five licensed Telstra-branded stores in the Northern Territory, South Australia and Western Australia signed up 108 Indigenous consumers to multiple post-paid mobile contracts between January 2016 and August 2018 that they did not understand and could not afford. The Court found staff manipulated credit assessments, misrepresented products as free, and exploited customers' social, language, literacy and cultural vulnerabilities, leaving them with debts to Telstra ranging from $1,600 to almost $20,000. Telstra also gave the ACCC an enforceable undertaking to remediate affected consumers, improve its compliance program and expand its Indigenous telephone hotline and digital literacy program. In a separate ACCC matter, the Federal Court found Telstra made false or misleading representations after migrating 8,897 Belong NBN customers, in October-November 2020, from a plan with a 40 Mbps maximum upload speed to one with only 20 Mbps, without notifying them, in breach of the Australian Consumer Law. Telstra was fined $18 million, with remediation to affected customers exceeding $2.3 million.",
+  "scope": "Federal Court civil penalty of $50 million, the second-highest ever under the Australian Consumer Law; Found to have exploited the social, language, literacy and cultural vulnerabilities of 108 Indigenous consumers across multiple states/territories; Enforceable undertaking includes consumer remediation and expansion of Indigenous-specific support services; Separately found by the Federal Court to have downgraded thousands of Belong customers' upload speeds without notification, resulting in an $18 million penalty",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

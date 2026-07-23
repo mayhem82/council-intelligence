@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00305",
+  "title": "HTFS Nominees Pty Limited — Government accountability",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Government accountability",
+  "jurisdiction": "Australia",
+  "investigation_objective": "APRA imposed additional licence conditions on HTFS Nominees Pty Limited, trustee of the HUB24 Super Fund (approximately 165,000 member accounts and more than $55 billion in funds under management), following an APRA thematic review of investment governance, strategic planning and member-outcomes practices across superannuation platform trustees. The conditions require appointment of an independent expert to review the fund's platform investment menus and its frameworks for investment governance, conflicts management, strategic objectives and member outcomes. The conditions apply notwithstanding HUB24 Limited's pending acquisition of HTFS from EQT Holdings.",
+  "scope": "Subject of additional APRA licence conditions following a regulator thematic review; Required to appoint an independent expert to review investment governance and conflicts-management frameworks; Trustee for a fund holding more than $55 billion in member retirement savings across roughly 165,000 accounts; Conditions imposed during a pending change-of-ownership transaction for the trustee entity",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "APRA"
+  ]
+}

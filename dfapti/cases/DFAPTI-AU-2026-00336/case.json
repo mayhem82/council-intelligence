@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00336",
+  "title": "Davie Clothing Pty Ltd (trading as \"Oodie\") — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Davie Clothing Pty Ltd, trading as Oodie, paid $101,280 after the ACCC issued six infringement notices for failing to attach mandatory high fire-danger warning labels to six styles of Kids Beach Oodie under the children's nightwear safety standard, covering roughly 2,400 units sold between September 2022 and July 2023. The company gave a court-enforceable undertaking and issued a voluntary recall; it has separately been issued a further ACCC infringement notice over button-battery warning failures.",
+  "scope": "Paid $101,280 over six ACCC infringement notices for missing mandatory fire-danger warning labels on children's products; Subject of a separate ACCC button-battery infringement notice; Issued a voluntary product recall",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

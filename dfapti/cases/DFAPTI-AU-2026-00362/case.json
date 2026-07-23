@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00362",
+  "title": "Universal Co Roofing & Plumbing Pty Ltd — Government accountability",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Government accountability",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Fair Work Ombudsman commenced Federal Circuit and Family Court proceedings against Universal Co Roofing & Plumbing Pty Ltd and its sole director, alleging underpayment of minimum wages, overtime and unpaid accrued leave affecting a young apprentice and a migrant (Indian visa-holder) worker, after a September 2025 Compliance Notice was allegedly not satisfied. Maximum potential penalty exposure of $99,000 for the company and $19,800 for the director; a directions hearing is listed for 4 September 2026.",
+  "scope": "Subject of Fair Work Ombudsman Federal Circuit and Family Court proceedings alleging underpayment of a young apprentice and a migrant worker; Proceedings allege a prior Compliance Notice was not satisfied before litigation was commenced; Matter involves visa-holder and apprentice workers, cohorts the Fair Work Ombudsman treats as particularly vulnerable to exploitation",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00256",
+  "title": "LGSS Pty Ltd (trustee for Active Super) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered LGSS Pty Ltd, as trustee for the Active Super fund, to pay a $10.5 million penalty — ASIC's third successful greenwashing civil penalty action — after finding Active Super had claimed in its marketing to eliminate investments posing environmental or community risk (including gambling, coal mining and oil tar sands) while continuing to hold direct investments in companies such as Shell Plc and Whitehaven Coal.",
+  "scope": "Federal Court civil penalty of $10.5 million for false or misleading ESG representations; Found to have retained direct investments (e.g. Shell Plc, Whitehaven Coal) in categories it had publicly claimed to exclude; ASIC's third successful greenwashing civil penalty action",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

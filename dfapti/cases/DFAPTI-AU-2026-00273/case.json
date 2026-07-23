@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00273",
+  "title": "Veli Velisha Fresh Produce / Velisha National Farms — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court civil proceedings against Veli Velisha Fresh Produce and Velisha National Farms, alongside two other suppliers and named senior executives (its director/CEO and a senior sales manager, noted here as context only and not recorded as separate candidates), alleging price fixing on 84 occasions in the supply of fresh produce to ALDI stores in NSW, Victoria and Queensland between 2018 and 2024.",
+  "scope": "Subject of Federal Court civil cartel proceedings instituted by the ACCC, alleging price fixing on 84 occasions; Alleged conduct concerns supply of fresh produce to ALDI across three states between 2018 and 2024; Proceedings are ongoing; allegations not yet determined by the court",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

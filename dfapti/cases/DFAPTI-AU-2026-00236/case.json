@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00236",
+  "title": "Liberty Primary Metals Australia Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Named in ASIC media release 25-141MR (and the preceding 25-113MR) as a GFG Alliance Group company subject to Supreme Court of NSW orders over alleged failure to lodge annual financial reports.",
+  "scope": "Subject of Supreme Court of NSW civil proceedings (commenced June 2025) and consent orders (21 August 2025) over alleged failure to lodge its FY2024 annual report, per 25-141MR/25-113MR; Reported to be in voluntary administration as of a subsequent ASIC published notice",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

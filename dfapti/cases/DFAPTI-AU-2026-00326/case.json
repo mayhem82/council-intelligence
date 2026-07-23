@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00326",
+  "title": "Societe Generale Securities Australia Pty Limited — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "ASIC's Market Disciplinary Panel fined Societe Generale Securities Australia Pty Limited $3.88 million for market gatekeeper failures, finding it breached market integrity rules by failing to prevent 33 suspicious client orders (placed by two clients between May 2023 and February 2024) on ASX 24 electricity and wheat futures that exhibited 'mark the close' characteristics - orders placed in the final two minutes before market close, capable of influencing the daily settlement price. This was ASIC's fifth enforcement action within 15 months over electricity and wheat futures market manipulation.",
+  "scope": "Fined $3.88 million by ASIC's Market Disciplinary Panel for failing to prevent suspicious client trading activity; Found to have failed to prevent 33 orders exhibiting characteristics consistent with attempts to influence a market settlement price; Part of a pattern of five ASIC enforcement actions within 15 months over the same futures markets",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

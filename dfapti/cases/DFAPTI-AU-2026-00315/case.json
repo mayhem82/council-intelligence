@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00315",
+  "title": "MCR Melrose Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court civil cartel proceedings on 3 September 2025 alleging that four Sydney mobile crane hire companies coordinated via WhatsApp groups not to supply cranes to certain customers and construction sites between 2020 and 2024. Two of the four companies are also alleged to have attempted to fix prices in 2022. The matter is ongoing, with trial not expected until 2027.",
+  "scope": "Named respondent in Federal Court civil cartel proceedings brought by the ACCC, ongoing; Alleged to have coordinated via messaging groups not to supply cranes to certain customers or construction sites; Alleged to have attempted to fix prices with a competitor in 2022",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

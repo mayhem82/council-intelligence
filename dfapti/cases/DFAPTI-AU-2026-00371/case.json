@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00371",
+  "title": "BI Australia Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "BI Australia Pty Ltd was convicted by the District Court of NSW and fined $400,000 after a SafeWork NSW investigation into a workplace incident on 11 February 2022 at Kingsgrove, in which a casual forklift operator was struck and injured by a moving forklift while walking through an onsite car park being used as a makeshift storage area. The court found the company failed to ensure a proper risk assessment was in place before allowing workers on site.",
+  "scope": "Convicted by the District Court of NSW for a Work Health and Safety Act breach; Court found the company's failure to conduct a proper risk assessment was inconsistent with a proactive or systematic approach to safety; Incident resulted in a worker being struck and injured by a forklift",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

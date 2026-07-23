@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00274",
+  "title": "M. Fragapane & Sons Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court civil proceedings against M. Fragapane & Sons, alongside three other suppliers and named senior executives (its general sales manager, noted here as context only and not recorded as a separate candidate), alleging price fixing on 84 occasions in the supply of fresh produce to ALDI stores in NSW, Victoria and Queensland between 2018 and 2024.",
+  "scope": "Subject of Federal Court civil cartel proceedings instituted by the ACCC, alleging price fixing on 84 occasions; Alleged conduct concerns supply of fresh produce to ALDI across three states between 2018 and 2024; Proceedings are ongoing; allegations not yet determined by the court",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00368",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00171 (Sushi Bay Pty Ltd (in liq), Sushi Bay ACT Pty Ltd (in liq), Auskobay Pty Ltd (in liq) and Auskoja Pty Ltd (in liq)). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-236"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

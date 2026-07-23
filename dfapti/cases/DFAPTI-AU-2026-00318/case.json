@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00318",
+  "title": "Phenix Trading Pty Ltd — Environmental impact",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Environmental impact",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Clean Energy Regulator permanently suspended Phenix Trading Pty Ltd's registration under the Renewable Energy (Electricity) Act 2000 on 5 March 2026, no longer satisfied it was a 'fit and proper person', following NSW IPART cancelling its Energy Savings Scheme/Peak Demand Reduction Scheme accreditation and rejecting approximately 618,555 Energy Savings Certificates worth an estimated $10 million over exaggerated freezer energy-efficiency claims and false information, and Victoria's Essential Services Commission separately suspending it (via subsidiary LEDSaves) from the Victorian Energy Upgrades scheme over falsely claimed weather-sealing and shower-rose installations.",
+  "scope": "Registration permanently suspended by the Clean Energy Regulator on fit-and-proper-person grounds; NSW IPART rejected approximately 618,555 energy-efficiency certificates worth an estimated $10 million linked to the company; Separately suspended by Victoria's Essential Services Commission (via a subsidiary) from a state energy-upgrades scheme",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

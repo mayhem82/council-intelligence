@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00345",
+  "title": "Mojo Power East Pty Ltd (formerly People Energy Pty Ltd) — Environmental impact",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Environmental impact",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Clean Energy Regulator obtained a Federal Court order (dated 25 November 2025) winding up Mojo Power East Pty Ltd, formerly People Energy Pty Ltd and a subsidiary of iON Holdings Ltd, in insolvency over unpaid Renewable Energy Target shortfall charges and interest for the 2022 and 2023 assessment years. The Clean Energy Regulator states parent company iON Holdings Ltd has a history of non-compliance and has failed to settle Renewable Energy Target scheme debts across several subsidiaries, including Mojo Power Pty Ltd, Qenergy Limited and Sanctuary Energy Pty Ltd.",
+  "scope": "Wound up by Federal Court order over unpaid Renewable Energy Target shortfall charges; Parent company described by the regulator as having a history of non-compliance across multiple subsidiaries; Regulator's costs were reimbursed as part of the winding-up order",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

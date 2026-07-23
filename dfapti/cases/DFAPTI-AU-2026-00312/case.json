@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00312",
+  "title": "Fitbit LLC — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered US-based Fitbit LLC to pay an $11 million penalty after it admitted making false or misleading representations to 58 Australian consumers about their statutory consumer guarantee rights - telling some consumers a refund was only available if a faulty device was returned within 45 days, and telling others no replacement was available once the device's two-year warranty period had expired, both contrary to consumer guarantees under the Australian Consumer Law that are not time-limited in this way.",
+  "scope": "Admitted making false or misleading representations to 58 Australian consumers about consumer guarantee rights; Ordered by the Federal Court to pay an $11 million penalty; Alleged to have imposed a false 45-day return window and a false post-warranty replacement bar contrary to statutory consumer guarantees",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

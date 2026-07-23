@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00319",
+  "title": "Fundhost Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Fundhost Limited, as responsible entity of the Polen Capital Global Growth Fund, paid a $19,800 ASIC infringement notice (paid 13 February 2026) over a misleading performance chart published by its investment manager that combined a related overseas fund's performance with the Fund's own, misleadingly depicting outperformance against a benchmark index since the Fund's March 2021 inception.",
+  "scope": "Paid an ASIC infringement notice of $19,800 over a misleading fund-performance chart; Payment of an infringement notice is not an admission of liability under ASIC's process",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

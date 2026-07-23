@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00280",
+  "title": "Edgewell Personal Care Australia Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court proceedings against Edgewell Personal Care Australia Pty Ltd and its US parent, Edgewell Personal Care Company, alleging false or misleading 'reef friendly' claims made on Banana Boat and Hawaiian Tropic sunscreen products between August 2020 and December 2024 (the claim was removed from Australian marketing in October 2023). The ACCC alleges the no-harm representations were misleading because the products contained ingredients that cause or risk causing harm to reefs, including coral and marine life. The ACCC is seeking declarations, penalties, injunctions, a corrective notice, a compliance program and costs.",
+  "scope": "Subject of Federal Court proceedings commenced by the ACCC alleging misleading environmental ('reef friendly') claims; Alleged conduct spanned over four years of marketing before the claim was removed; Proceedings are ongoing; allegations not yet determined by the court",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

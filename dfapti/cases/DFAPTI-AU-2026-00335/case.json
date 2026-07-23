@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00335",
+  "title": "Hungry Jack's Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Hungry Jack's Pty Ltd paid $150,240 after the ACCC issued eight infringement notices over a button-battery-powered Garfield toy, supplied nationwide with children's meals (27,850 units), that lacked the warnings required under the mandatory information standard for button batteries. Hungry Jack's also gave the ACCC a court-enforceable undertaking admitting the likely breach and committing to implement a compliance program.",
+  "scope": "Paid $150,240 over eight ACCC infringement notices for a children's product lacking mandatory button-battery warnings; Gave a court-enforceable undertaking admitting the likely breach",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

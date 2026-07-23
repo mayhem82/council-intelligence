@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00353",
+  "title": "Electro Optic Systems Holdings Limited — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court found that defence and space systems manufacturer Electro Optic Systems Holdings Limited breached its continuous disclosure obligations under the Corporations Act. EOS knew by 25 July 2022 that its 2022 revenue would be approximately $164 million, well below its stated guidance of at least $212.3 million, but did not correct the market until 31 October 2022, a delay of roughly 14 weeks. The company was ordered to pay a $4 million penalty plus ASIC's costs.",
+  "scope": "Found by the Federal Court to have breached continuous disclosure obligations to the market; Alleged to have known its revenue would fall well short of stated guidance for roughly 14 weeks before correcting the market; Ordered to pay a $4 million penalty plus costs",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

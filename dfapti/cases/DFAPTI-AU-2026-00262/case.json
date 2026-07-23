@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00262",
+  "title": "Reebelo Australia Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Reebelo Australia, an online marketplace for new and refurbished electronics, paid $59,400 in penalties after the ACCC issued three infringement notices alleging false or misleading statements about consumer guarantee rights. The statements purported to impose a 14-day time limit on consumers' ability to obtain a remedy for faulty, damaged, misdescribed or wrong-model goods, when the Australian Consumer Law entitles consumers to a remedy regardless of elapsed time. The ACCC noted particular concern given the products involved are often refurbished high-end electronics such as laptops and mobile phones.",
+  "scope": "Paid $59,400 in penalties across three ACCC infringement notices for alleged false or misleading consumer-guarantee representations; Alleged representations imposed a 14-day limit on remedy rights that the Australian Consumer Law does not itself impose; ACCC identified potential financial harm given the higher-value, refurbished electronics products involved",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00370",
+  "title": "Wrigley Metal Roofing Co Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Wrigley Metal Roofing Co Pty Ltd was fined $225,000 in the District Court of NSW after pleading guilty to a Work Health and Safety Act 2011 offence, following an incident on 25 July 2022 in which a worker fell nearly 3.8 metres from the roof of a residential dwelling at Avalon Beach and suffered serious injuries. The company had been engaged to assist the principal contractor with re-sheeting and cladding work at the site.",
+  "scope": "Convicted and fined by the District Court of NSW for a Work Health and Safety Act breach; Incident involved a nearly 3.8 metre fall resulting in serious injury to a worker; Company pleaded guilty to failing to comply with its health and safety duty to workers",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

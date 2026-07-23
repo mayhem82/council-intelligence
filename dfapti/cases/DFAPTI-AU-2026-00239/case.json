@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00239",
+  "title": "JustAnswer LLC — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Subject of Federal Court proceedings brought by the ACCC (ACCC v JustAnswer LLC, VID1259 of 2025), ordered to pay $10 million in penalties for allegedly misleading consumers about subscription pricing (a '$2' offer that led to undisclosed ongoing charges of $50-90/month) and falsely implying affiliation with the Fair Work Ombudsman. The Federal Court has since ordered JustAnswer LLC to pay $10 million in penalties (orders announced 8 July 2026), plus consumer refunds, a corrective notice and a compliance program, confirming the allegations that its chat widget lured consumers with a fake '$2 join' offer that actually enrolled them in $45-$75/month subscriptions, and falsely claimed affiliation with the Fair Work Ombudsman to induce sign-ups.",
+  "scope": "Ordered by the Federal Court to pay $10 million in penalties in ACCC v JustAnswer LLC (VID1259 of 2025); ACCC alleged misleading pricing representations and false government-affiliation claims; Ordered by the Federal Court to pay a $10 million penalty, plus consumer refunds and a compliance program",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

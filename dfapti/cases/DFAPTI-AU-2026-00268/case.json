@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00268",
+  "title": "Australia and New Zealand Banking Group Limited (ANZ) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered ANZ to pay $250 million in combined penalties (delivered 19 December 2025, up from the $240 million ASIC and ANZ had jointly proposed) — the largest combined penalty ASIC has secured against a single entity. ANZ admitted to unconscionable conduct in services provided to the Australian government, incorrectly reporting bond trading data to the government by tens of billions of dollars, and widespread misconduct across products and services affecting nearly 65,000 customers.",
+  "scope": "Ordered to pay $250 million in combined Federal Court penalties, the largest ASIC has secured against a single entity; Admitted unconscionable conduct in services provided to the Australian government, including incorrectly reporting bond trading data by tens of billions of dollars; Admitted widespread misconduct across products and services affecting nearly 65,000 customers",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

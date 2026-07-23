@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00295",
+  "title": "Yamaha Motor Australia Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC opposed Yamaha Motor Australia Pty Ltd's proposed acquisition of Telwater Pty Ltd (announced 18 December 2025) following an in-depth investigation, finding it likely to substantially lessen competition in the wholesale supply of outboard motors in Australia. The ACCC's concern centred on the combined entity's ability and incentive to leverage Telwater's dominant position (60-70% market share) in aluminium trailer boats to disadvantage rival outboard motor suppliers through bundling or tying strategies, which the ACCC considered likely to leave consumers with lower quality, higher prices and fewer brand choices.",
+  "scope": "Subject of an ACCC merger opposition decision following an in-depth competition investigation; ACCC found the proposed acquisition likely to substantially lessen competition in outboard motor wholesale supply; ACCC identified a specific risk of bundling/tying strategies leveraging a proposed acquisition target's dominant market position",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

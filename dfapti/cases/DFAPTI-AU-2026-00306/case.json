@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00306",
+  "title": "H.E.S.T. Australia Ltd (HESTA) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "H.E.S.T. Australia Ltd, trustee of the HESTA superannuation fund, has paid two separate rounds of ASIC infringement notices for misleading member-facing marketing. On 3 November 2025 it paid $37,560 over paid search-engine ads (April 2021-December 2024) claiming HESTA was 'committed to remove all investment in carbon emissions by 2050', which ASIC found misleading because the fund's actual target is net-zero via offsetting rather than full removal of carbon-emitting investments. This follows an earlier action in which HESTA paid $48,600 over three infringement notices (23-299MR) for advertising a 'Balanced Growth' option's 10-year performance figures on Facebook/Instagram/webinar without disclosing that the 10-year period referenced had already ended 5-14 months before publication.",
+  "scope": "Paid two separate rounds of ASIC infringement notices for misleading member-facing marketing within roughly two years; Alleged to have overstated the scope of its carbon-emissions investment exclusion in paid advertising; Alleged to have advertised historical investment-performance figures without disclosing the reporting period had already lapsed; Payment of an infringement notice is not an admission of guilt or liability under ASIC's process",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

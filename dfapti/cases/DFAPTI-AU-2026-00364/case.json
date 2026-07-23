@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00364",
+  "title": "Key Sun Laboratories Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The TGA's own recall record, corroborated by independent pharmacy trade-press reporting with matching batch numbers, describes a recall of four batches of Key Sun children's cough/cold lozenges after a small metal wire was found embedded in a lozenge, with the TGA citing choking, laceration and digestive-tract injury risk to children.",
+  "scope": "Subject of a TGA-recorded product recall over a physical contamination hazard (embedded metal wire); TGA cited choking, laceration and digestive-tract injury risk specifically to children; Four affected batch numbers identified in the recall record",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

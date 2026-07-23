@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00340",
+  "title": "Falcon Capital Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Falcon Capital Limited and the First Guardian Master Fund it operated, along with related unregistered subsidiary funds, to be wound up on just-and-equitable grounds, appointing Ross Blakeley and Paul Harlond of FTI Consulting as liquidators. A receiver was separately appointed over property belonging to Falcon Capital's director, David Anderson. ASIC described the underlying investigation into the fund's collapse as one of its most complex, involving more than 45 court appearances.",
+  "scope": "Ordered wound up by the Federal Court on just-and-equitable grounds; Liquidators and a separate property receiver appointed; Subject of one of ASIC's most complex investigations, per ASIC's own description",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

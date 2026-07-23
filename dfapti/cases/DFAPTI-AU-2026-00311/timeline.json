@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00311",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00089 (A&S Labels Pty Ltd (trading as Tiger Mist)). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-175"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

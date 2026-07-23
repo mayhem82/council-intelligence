@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00289",
+  "title": "Force Legal Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court proceedings against legal practice Force Legal Pty Ltd (owned by ASX-listed Credit Clear Limited, alongside related debt collector ARMA Group), alleging it sent letters containing misrepresentations about the steps it would take to escalate debt-recovery matters and the consequences of non-payment, including warnings that wages could be deducted without court proceedings and claims consumers would automatically be liable for legal costs and interest. Credit Clear, ARMA and Force Legal deny the allegations and intend to defend the proceedings.",
+  "scope": "Subject of Federal Court civil proceedings alleging misrepresentations in debt-recovery correspondence; Alleged misrepresentations included consequences of non-payment not guaranteed under Australian law; Proceedings are ongoing and defended; allegations not yet determined by the court",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

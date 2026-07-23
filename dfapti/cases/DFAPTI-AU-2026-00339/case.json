@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00339",
+  "title": "Diversa Trustees Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "APRA imposed additional licence conditions on Diversa Trustees Limited, trustee for 10 registrable superannuation entities covering approximately 291,000 members and $15 billion in funds under management, effective 23 December 2025, after a thematic review found deficiencies in member onboarding, investment monitoring and conflict-of-interest management. Separately, ASIC commenced Federal Court civil penalty proceedings (8 December 2025) alleging Diversa - through which approximately $300 million was invested by members into the collapsed First Guardian Master Fund between 2020 and 2024 - failed to conduct adequate due diligence and ongoing monitoring, and failed to enforce its own 50% investment holding limit.",
+  "scope": "Subject of additional APRA licence conditions following a thematic review finding onboarding and monitoring deficiencies; Subject of ongoing ASIC Federal Court civil penalty proceedings alleging inadequate due diligence over ~$300 million invested into a collapsed fund; Alleged to have failed to enforce its own investment concentration limit",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "APRA",
+    "ASIC"
+  ]
+}

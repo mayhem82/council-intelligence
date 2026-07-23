@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00287",
+  "title": "Optus Mobile Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court approved a $100 million penalty against Optus Mobile Pty Ltd for unconscionable conduct, after sales staff at 16 retail stores pressured over 400 vulnerable consumers between August 2019 and July 2023 into purchasing telecommunications products and services they did not want, need or could afford. Affected consumers included people with mental disability, diminished cognitive capacity, limited financial literacy, English not as a first language, and many First Nations Australians from regional, remote and very remote areas. The Court found commission-based sales arrangements had clear potential to incentivise the exploitative conduct.",
+  "scope": "Federal Court civil penalty of $100 million for unconscionable conduct, one of the largest ACCC-related consumer penalties; Affected more than 400 consumers, many experiencing vulnerability or disadvantage, over a four-year period; Court found commission-based sales incentive structures had clear potential to exacerbate consumer vulnerability",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

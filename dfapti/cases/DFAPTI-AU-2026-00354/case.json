@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00354",
+  "title": "Regional Express Holdings Limited — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW Supreme Court found Regional Express Holdings Limited (Rex) breached its continuous disclosure obligations over a 28 February 2023 profit forecast, having lacked reasonable grounds from 14 April 2023 to expect a positive FY23 operating profit before disclosing a $35 million operational loss forecast on 20 June 2023. Former executive chair Lim Kim Hai admitted contraventions and accepted a pecuniary penalty and disqualification; ASIC's case against three non-executive directors was unsuccessful and they were cleared.",
+  "scope": "Found by the NSW Supreme Court to have breached continuous disclosure obligations over a profit forecast; Former executive chair admitted contraventions and accepted a pecuniary penalty and disqualification; Three non-executive directors were separately found not to have breached their duties",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

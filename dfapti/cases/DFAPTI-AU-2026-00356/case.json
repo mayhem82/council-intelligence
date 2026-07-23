@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00356",
+  "title": "WiseTech Global Limited — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC accepted a court-enforceable undertaking (accepted 30 December 2025, announced 5 January 2026) requiring WiseTech Global Limited and its subsidiary BluJay Solutions (Australia) Pty Ltd to divest Expedient, a logistics software business acquired as part of WiseTech's e2open acquisition completed in August 2025, to an ACCC-approved buyer capable of operating it as a viable competitor to WiseTech's CargoWise platform. The ACCC found WiseTech completed the acquisition before its competition review had concluded despite being aware the deal raised significant competition concerns - a 'gun-jumping' issue under Australia's new mandatory pre-completion merger notification regime, which took effect 1 January 2026.",
+  "scope": "Subject to a court-enforceable undertaking requiring divestiture of an acquired business after an ACCC competition investigation; Regulator found the underlying acquisition was completed before its competition review concluded, despite awareness of competition concerns; Matter arises under Australia's new mandatory pre-completion merger notification regime",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

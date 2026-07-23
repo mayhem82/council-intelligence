@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00257",
+  "title": "Fiducian Investment Management Services Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "ASIC commenced its fourth greenwashing civil penalty action against Fiducian Investment Management Services Limited (FIMSL) as responsible entity of the Diversified Social Aspirations Fund, alleging FIMSL failed to act with care and diligence, made misleading statements in the fund's PDS about monitoring underlying investments, and failed to address investor concerns that the fund held investments in companies including BHP, Rio Tinto, Woodside Energy, Newcrest Mining and Orica. FIMSL has agreed to make admissions but a Statement of Agreed Facts and penalty had not been finalised or approved by the court as of the most recent reporting.",
+  "scope": "Subject of ASIC's fourth greenwashing civil penalty action, alleging governance failures and misleading PDS statements; FIMSL has agreed to make admissions of contraventions of the Corporations Act and ASIC Act; Proceedings not yet concluded: no court-approved penalty as of the most recent reporting",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

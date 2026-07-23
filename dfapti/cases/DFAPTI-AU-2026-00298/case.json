@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00298",
+  "title": "Medtronic Australasia Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Medtronic Australasia Pty Ltd to pay $22 million in penalties — the largest ever imposed under the Therapeutic Goods Act 1989 — for unlawfully supplying 16,267 units of its Infuse Bone Graft Kit without the separately packaged LT Cage between September 2015 and January 2020, when the Australian Register of Therapeutic Goods entry only permitted supply of the two products together. The TGA commenced proceedings in August 2021; Medtronic was also ordered to pay $1 million toward the TGA's legal costs.",
+  "scope": "Federal Court civil penalty of $22 million, the largest ever imposed under the Therapeutic Goods Act 1989; Found to have unlawfully supplied more than 16,000 units of a medical device kit outside its permitted ARTG registration over a four-and-a-half-year period; Supplied the non-compliant kits to a large number of hospitals",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

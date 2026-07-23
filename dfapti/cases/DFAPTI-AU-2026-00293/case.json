@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00293",
+  "title": "Bendigo and Adelaide Bank Limited — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "APRA applied a $50 million operational risk capital charge on Bendigo and Adelaide Bank Limited, effective 1 January 2026, reducing its Level 2 Common Equity Tier 1 ratio by approximately 17 basis points, while AUSTRAC commenced an enforcement investigation into potential serious contraventions of the AML/CTF Act. The action followed an independent Deloitte review into suspected money laundering at a Bendigo Bank branch, which found significant deficiencies in the bank's identification, mitigation and management of money laundering and terrorism financing risk, with regulators concerned the weaknesses may extend more broadly across the bank's operations.",
+  "scope": "APRA capital charge of $50 million imposed for operational risk deficiencies; AUSTRAC enforcement investigation commenced over potential serious AML/CTF Act contraventions; Independent review found significant deficiencies in money-laundering and terrorism-financing risk management, with regulators concerned issues may be systemic across the bank",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "APRA"
+  ]
+}

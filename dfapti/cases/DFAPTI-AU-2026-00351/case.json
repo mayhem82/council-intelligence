@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00351",
+  "title": "Youfoodz Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced separate Federal Court proceedings (around 16 December 2025) alleging Youfoodz Pty Ltd, also owned by HelloFresh SE, breached the Australian Consumer Law over subscription cancellation traps: 39,408 customers were allegedly charged between October 2022 and November 2024 despite cancelling before the advertised cut-off.",
+  "scope": "Subject of Federal Court proceedings brought by the ACCC alleging misleading subscription cancellation representations, ongoing; Alleged that over 39,000 customers were charged despite cancelling before the advertised deadline",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

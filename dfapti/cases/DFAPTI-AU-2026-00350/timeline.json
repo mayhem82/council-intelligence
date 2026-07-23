@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00350",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00147 (Grocery Delivery E-Services Australia Pty Ltd (trading as HelloFresh)). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-218"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

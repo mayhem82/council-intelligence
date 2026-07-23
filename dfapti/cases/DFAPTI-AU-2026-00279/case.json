@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00279",
+  "title": "Clorox Australia Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Clorox Australia Pty Ltd to pay $8.25 million in penalties — the ACCC's first court greenwashing action since naming it a compliance priority in 2022/23 — for representing on packaging that its GLAD to be GREEN '50% Ocean Plastic Recycled' kitchen and garbage bags were made of at least 50% recycled plastic collected from the ocean or sea, when the plastic was instead collected from communities in Indonesia without formal waste management systems, up to 50km from a shoreline. More than 2.2 million units were supplied under this packaging between June 2021 and July 2023. Clorox cooperated with the ACCC, made admissions, and agreed the penalty jointly with the regulator.",
+  "scope": "Federal Court civil penalty of $8.25 million, admitted, for misleading environmental packaging claims; More than 2.2 million units supplied under the misleading packaging over roughly two years; Court also ordered an ACL compliance program and a corrective notice on Clorox's website and social media",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

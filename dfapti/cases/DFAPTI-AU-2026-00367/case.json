@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00367",
+  "title": "Australian Ethical Superannuation Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "APRA imposed additional licence conditions on Australian Ethical Superannuation Pty Ltd (AES), trustee of the Australian Ethical Retail Superannuation Fund, following a review that identified deficiencies in AES's approach to related-party expenditure - specifically, APRA found AES had not demonstrated adequate processes to scrutinise and justify fees paid to its own parent company, Australian Ethical Investments, under investment management agreements, or that those fees were consistent with members' best financial interests.",
+  "scope": "Subject of additional APRA licence conditions following a related-party expenditure review; APRA found inadequate scrutiny of fees paid to the trustee's own parent company; Required to appoint an independent third party to review and recommend improvements to related-party outsourcing arrangements",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "APRA"
+  ]
+}

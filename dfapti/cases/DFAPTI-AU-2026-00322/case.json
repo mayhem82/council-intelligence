@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00322",
+  "title": "Keo Automotive Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court found that Diamond Wheels Pty Ltd (trading as Lansvale Motor Group) and Keo Automotive Pty Ltd provided car loans without holding a required Australian Credit Licence and charged unlawful, excessive interest, in some cases nearly double the lawful amount. A director of one company and former director of the other was found liable for his role in setting up the loan arrangements. All parties admitted the contraventions after 19 months of litigation; a penalty hearing is listed for 20 August 2026.",
+  "scope": "Federal Court found the companies provided car loans without holding a required credit licence; Found to have charged unlawful, excessive interest, in some cases nearly double the lawful amount; All parties admitted the contraventions; penalty hearing listed for 20 August 2026",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

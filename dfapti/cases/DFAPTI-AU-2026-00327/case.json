@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00327",
+  "title": "The Ella Group (NSW) Pty Ltd (trading as Funtime Childcare) — Systemic failures",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Systemic failures",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Circuit and Family Court imposed a $37,560 penalty on The Ella Group (NSW) Pty Ltd, trading as Funtime Childcare in Greenacre, Sydney, and a $7,512 penalty on its sole director, for failing to comply with a Fair Work Ombudsman Compliance Notice requiring calculation and back-payment of underpayments owed to a young full-time early childhood educator (April 2021-May 2023). This was the second such compliance-notice penalty action against the same entity and director, following an earlier $28,875 company/$5,775 director penalty reported in September 2025 over a different underpayment period.",
+  "scope": "Penalised twice by the Federal Circuit and Family Court for failing to comply with Fair Work Ombudsman Compliance Notices over worker underpayments; Court found the company's conduct in the second matter to reflect a serious and deliberate disregard of its legal obligations; Director personally penalised alongside the company on both occasions",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

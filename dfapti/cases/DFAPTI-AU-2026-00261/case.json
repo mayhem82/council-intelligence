@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00261",
+  "title": "FIIG Securities Limited — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered FIIG Securities Limited to pay a $2.5 million penalty plus $500,000 towards ASIC's costs — the first civil penalty imposed on an Australian Financial Services licensee for cybersecurity-related contraventions of its general licensee obligations under section 912A of the Corporations Act 2001. FIIG admitted that over a four-year period it failed to have adequate cybersecurity measures in place, which contributed to a May 2023 cyberattack in which approximately 385GB of data, including sensitive client information, was exfiltrated from its systems.",
+  "scope": "Federal Court civil penalty of $2.5 million, admitted by the company — the first such penalty for cybersecurity-related licensee obligation failures in Australia; Admitted inadequate cybersecurity measures over a four-year period prior to a May 2023 data breach affecting approximately 385GB of data including sensitive client information; Court also ordered an independent-expert compliance programme to review its cyber security and resilience systems",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

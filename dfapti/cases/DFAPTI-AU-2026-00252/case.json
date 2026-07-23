@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00252",
+  "title": "OneSteel Manufacturing Pty Ltd — Environmental impact",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Environmental impact",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Operator of the Whyalla Steelworks facility (currently in external administration, part of the former GFG Alliance group), named by the Clean Energy Regulator as one of three facilities in an excess emissions situation under the Safeguard Mechanism as at the 1 April 2026 compliance deadline. Completed a partial surrender of 198,003 units to reduce its excess position but remained non-compliant at the deadline.",
+  "scope": "In an excess emissions situation under the Safeguard Mechanism as at the 1 April 2026 compliance deadline, per the Clean Energy Regulator's January-March 2026 compliance update; Completed only a partial unit surrender (198,003 units) toward its excess emissions position",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

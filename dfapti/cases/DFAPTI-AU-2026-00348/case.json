@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00348",
+  "title": "Nourishmeorganics Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Therapeutic Goods Administration issued Victoria-based Nourishmeorganics Pty Ltd an $18,780 infringement notice, paid October 2025, over the alleged unlawful importation and supply of 'Thorne Basic Prenatal' capsules from New Zealand between January and October 2024, a product not entered on the Australian Register of Therapeutic Goods.",
+  "scope": "Paid an $18,780 TGA infringement notice for alleged unlawful import and supply of an unregistered therapeutic good",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

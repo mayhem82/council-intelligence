@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00292",
+  "title": "Block Earner (Web3 Ventures Pty Ltd) — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The High Court unanimously (7-0) found that digital asset service provider Block Earner engaged in unlicensed financial services conduct by offering its fixed-yield digital asset product 'Earner' (offered March-November 2022) without an Australian Financial Services Licence, overturning the Full Federal Court's 2025 decision that Earner was not a financial product. ASIC commenced civil penalty proceedings on 23 November 2022; the Federal Court found unlicensed conduct in February 2024 but relieved Block Earner of any penalty in June 2024, a relief decision ASIC appealed. The High Court's June 2026 ruling on the licensing question sends the matter back to the Full Federal Court to determine ASIC's appeal against the penalty relief.",
+  "scope": "High Court unanimously found unlicensed financial services conduct in offering a fixed-yield digital asset product; Federal Court's earlier decision to relieve the company of any penalty is now subject to further appeal following the High Court ruling; Matter remains before the courts pending the Full Federal Court's determination of the penalty question",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

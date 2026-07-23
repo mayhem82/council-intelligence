@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00241",
+  "title": "Christofi Investments — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Paid $39,600 in ACCC infringement notices for allegedly misleading 'strikethrough' pricing claims on ugg-boot retail websites it owns/administers (Original Ugg Australia Classic, Ugg Originals).",
+  "scope": "Paid $39,600 in ACCC infringement notices for allegedly misleading strikethrough pricing claims",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

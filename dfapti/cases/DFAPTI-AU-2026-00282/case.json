@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00282",
+  "title": "ASX Limited — Government accountability",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Government accountability",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered ASX Limited, operator of Australia's national securities exchange, to pay a $20.5 million penalty after admitting a 10 February 2022 market announcement stating its CHESS replacement project was 'progressing well' was misleading, in contravention of the ASIC Act. Six weeks after the announcement ASX acknowledged a strong likelihood of delays, and by November 2022 the project (intended to replace critical clearing/settlement infrastructure using distributed ledger technology) was paused entirely, with ASX writing off approximately $245-255 million in project costs. ASX was also ordered to pay $3 million toward ASIC's costs.",
+  "scope": "Federal Court civil penalty of $20.5 million, admitted, for misleading conduct concerning critical market infrastructure; Misleading statement concerned a project underpinning Australia's securities clearing and settlement system; Project was subsequently paused with approximately $245-255 million in costs written off",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

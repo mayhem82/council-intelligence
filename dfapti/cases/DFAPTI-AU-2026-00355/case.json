@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00355",
+  "title": "Mobil Oil Australia Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Mobil Oil Australia Pty Ltd to pay $16 million in penalties (17 February 2026) for false or misleading representations at nine Queensland petrol stations, branding fuel as 'Mobil Synergy Fuel' with additives between August 2020 and July 2024 when it was substantially the same as unadditised fuel sold elsewhere. Mobil was also required to publish corrective notices and implement an Australian Consumer Law compliance program.",
+  "scope": "Ordered by the Federal Court to pay a $16 million penalty for misleading fuel-quality representations; Required to publish corrective notices and implement a consumer law compliance program",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

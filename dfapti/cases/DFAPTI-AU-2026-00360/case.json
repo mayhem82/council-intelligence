@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00360",
+  "title": "Ausfinancial Pty Ltd (trading as Swoosh Finance) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "ASIC commenced Federal Court civil penalty proceedings alleging Ausfinancial Pty Ltd, trading as Swoosh Finance, breached responsible lending obligations for at least 11 consumers on medium-amount credit contracts of $2,000 to $5,000 secured against vehicles, boats and trailers, by failing to properly inquire into and verify those borrowers' financial situations. ASIC further alleges Swoosh breached design and distribution obligations by failing to review its target market determinations despite mounting consumer complaints. The proceedings remain unresolved, with trial listed for March 2027.",
+  "scope": "Subject of ongoing Federal Court civil penalty proceedings brought by ASIC; Alleged to have failed to properly verify borrowers' financial situations before extending credit; Alleged to have failed to review target market determinations despite rising consumer complaints",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

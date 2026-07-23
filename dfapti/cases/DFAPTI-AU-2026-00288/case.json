@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00288",
+  "title": "ARMA Group Holdings Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The ACCC commenced Federal Court proceedings against debt-collection agency ARMA Group Holdings Pty Ltd (owned by ASX-listed Credit Clear Limited), alleging it issued more than 320,000 letters, emails and text messages between February 2022 and September 2025 falsely suggesting consumers were legally required to pay debts, including debts that were no longer outstanding or were statute-barred. Credit Clear, ARMA and Force Legal (a related legal practice) deny the allegations and intend to defend the proceedings.",
+  "scope": "Subject of Federal Court civil proceedings alleging over 320,000 misleading debt-collection communications; Alleged to have represented debts as due when they were statute-barred or no longer outstanding; Proceedings are ongoing and defended; allegations not yet determined by the court",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00248",
+  "title": "Union Standard International Group Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Collapsed CFD issuer found by the Federal Court to have engaged in systemic unconscionable conduct (with its former authorised representatives) between 2018-2020; ASIC's media release describes penalties totalling $300.2 million as the highest ever secured in an ASIC matter, with customer losses exceeding $83 million.",
+  "scope": "Subject of Federal Court-ordered penalties totalling $300.2 million (ASIC's largest-ever recorded penalty in a single matter) for systemic unconscionable conduct 2018-2020",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

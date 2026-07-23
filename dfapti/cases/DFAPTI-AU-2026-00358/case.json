@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00358",
+  "title": "Transitional Funding Pty Ltd — Regulatory action",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Regulatory action",
+  "jurisdiction": "Australia",
+  "investigation_objective": "ASIC suspended the Australian credit licence of Transitional Funding Pty Ltd, effective 19 December 2025, for failing to comply with its licence's 'Key Person' condition (requiring notification to ASIC within five business days of a key person ceasing duties, and lodging a variation naming a replacement) and for failing to pay industry funding levies owed to ASIC. The suspension was subsequently extended by ASIC on 16 June 2026 to 17 December 2026.",
+  "scope": "Australian credit licence suspended by ASIC, and the suspension later extended; Found to have failed to comply with a key-person notification licence condition; Found to have failed to pay industry funding levies owed to ASIC",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}

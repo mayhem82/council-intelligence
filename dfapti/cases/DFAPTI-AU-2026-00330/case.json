@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00330",
+  "title": "Qantas Airways Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Qantas Airways Limited to pay $100 million in penalties (8 October 2024) for misleading 86,597 members of the public by selling tickets on flights it had already decided to cancel, and misleading 883,977 people by not promptly notifying them of flight cancellations. Qantas separately agreed to pay approximately $20 million in compensation to affected passengers ($225 for domestic/trans-Tasman flights, $450 for international flights, per eligible passenger).",
+  "scope": "Ordered by the Federal Court to pay a $100 million penalty for misleading consumers; Found to have sold tickets on flights already decided to be cancelled, affecting 86,597 members of the public; Found to have delayed cancellation notifications to 883,977 people; Separately committed approximately $20 million to a customer compensation program",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00301",
+  "title": "Jump Loops Pty Ltd (in liquidation, trading as Jump Swim) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Jump Loops Pty Ltd, trading as Jump Swim (now in liquidation), to pay $23 million in penalties for falsely representing to 174 franchisees that they would have an operational swim school within 12 months of signing a franchise agreement — most never received one — and for accepting payments from 127 franchisees when it knew or ought to have known there was no reasonable basis to expect it could deliver within that timeframe. The company's founder and former managing director, Ian Michael Campbell, was separately ordered to pay $500,000 in compensation to franchisees and a $400,000 personal penalty, and was restrained from acting as a franchisor for three years.",
+  "scope": "Federal Court civil penalty of $23 million against the corporate franchisor; Found to have accepted payments from 127 franchisees despite knowing it likely could not deliver an operational business within the represented timeframe; Company is now in liquidation; its founder was separately penalised and restrained from future franchisor activity",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

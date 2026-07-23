@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00338",
+  "title": "The Wiggles Holdings Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Wiggles Holdings Pty Ltd admitted its button-battery-powered Emma Bow headband, sold to children between June 2022 and March 2024 (3,164 units), likely breached the mandatory button-battery warning requirements of the Australian Consumer Law. The product was recalled in August 2024, and the company gave the ACCC a court-enforceable undertaking including a commitment to produce a public-awareness podcast episode on button-battery risks.",
+  "scope": "Admitted a children's product likely breached mandatory button-battery safety warning requirements; Gave a court-enforceable undertaking to the ACCC following a product recall",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00307",
+  "title": "Dispensed Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Therapeutic Goods Administration issued Dispensed Pty Ltd six infringement notices totalling $118,800, plus a direction notice, over alleged unlawful advertising of prescription-only medicinal cannabis to consumers on third-party websites and social media, including indirect references such as 'plant medicine' and 'cannabinoid-based therapies' not permitted under the Therapeutic Goods Act 1989. Advertising restrictions on prescription-only medicines exist to prevent consumers self-selecting scheduled drugs based on promotional claims rather than clinical advice.",
+  "scope": "Issued six TGA infringement notices totalling $118,800 plus a direction notice to cease conduct; Alleged advertising of a prescription-only medicine directly to consumers, contrary to the Therapeutic Goods Act 1989; Notices paid September 2025",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

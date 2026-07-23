@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00294",
+  "title": "Fewstone Pty Ltd (trading as City Beach) — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Fewstone Pty Ltd, trading as City Beach, to pay $14 million in penalties in the ACCC's first proceeding alleging breaches of the mandatory button battery safety and information standards. Between June 2022 and October 2024, City Beach supplied products (including toys, digital notepads, keyrings, lights and light-up Jibbitz accessories, many marketed to children) that did not comply with the safety standard on more than 54,000 occasions and the information standard on more than 56,000 occasions. The Court found 'pervasive failures' by City Beach to inform itself of its Australian Consumer Law obligations, noting the conduct exposed more than 50,000 young children to the risk of severe injury or death. The Court also ordered a compliance programme and corrective advertising.",
+  "scope": "Federal Court civil penalty of $14 million — the first judgment under the button battery safety standards; Court found 'pervasive failures' to comply with safety requirements across more than 110,000 combined non-compliant supplies; Court found the conduct exposed more than 50,000 young children to risk of severe injury or death",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ACCC"
+  ]
+}

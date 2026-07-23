@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00277",
+  "title": "Australian Unity Funds Management Limited — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Federal Court ordered Australian Unity Funds Management Limited to pay a $7.125 million penalty for breaching design and distribution obligations as responsible entity of the Australian Unity Select Income Fund. AUFM admitted it failed to take reasonable steps to ensure interests in the Fund were only distributed to investors matching its Target Market Determinations: of 328 non-advised investors, 89 were not required to submit a suitability questionnaire, and of the 239 who did, up to 144 gave at least one response suggesting they were outside the target market. The Court also ordered a written adverse publicity notice to impacted investors and payment of ASIC's costs.",
+  "scope": "Federal Court civil penalty of $7.125 million, admitted, for breaching design and distribution obligations; Up to 144 of 239 responding investors gave at least one response suggesting they were outside the fund's target market; Court additionally ordered a written adverse publicity notice to impacted investors",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASIC"
+  ]
+}
