@@ -3486,6 +3486,61 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T01:20:00Z",
       "last_updated": "2026-07-23T01:20:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00128",
+      "name": "Electricity Transmission Ministerial Holding Corporation Limited (trading as Transgrid)",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.aer.gov.au/news/articles/news-releases/aer-institutes-proceedings-against-transgrid-following-2024-broken-hill-outages",
+          "title": "AER institutes proceedings against Transgrid following 2024 Broken Hill outages",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Australian Energy Regulator commenced Federal Court proceedings on 17 December 2025 alleging Transgrid breached the National Electricity Rules by failing to manage, maintain and operate its transmission network to minimise outages (June 2022-October 2024), failing to restore power as soon as possible following a severe weather event on 16 October 2024 that downed transmission towers and cut supply to approximately 12,700 Broken Hill properties (with one back-up generator unavailable due to maintenance and the other suffering multiple outages, leaving power intermittent until 31 October 2024), breaching its NSW transmission operator licence conditions in FY2024-25, and failing to maintain a compliance program for its back-up generators. The AER is seeking pecuniary penalties, declarations and costs.",
+      "risk_indicators": [
+        "Subject of ongoing Federal Court proceedings brought by the Australian Energy Regulator",
+        "Alleged failure to restore power for around two weeks to approximately 12,700 properties after a severe weather event",
+        "Alleged that a back-up generator was unavailable due to maintenance during the outage",
+        "Alleged breach of NSW transmission operator licence conditions"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T02:00:00Z",
+      "last_updated": "2026-07-23T02:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00129",
+      "name": "Callide Power Trading Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.aer.gov.au/news/articles/news-releases/callide-power-trading-penalised-9-million-not-meeting-performance-standards",
+          "title": "Callide Power Trading penalised $9 million for not meeting performance standards",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court penalised Callide Power Trading Pty Ltd $9 million on 4 February 2025 - the highest penalty ever imposed for a breach of performance standards under the National Electricity Rules - after the company admitted failing to ensure its Callide C4 generating unit met required performance standards and failing to plan, design and operate its facilities to comply with those standards. The breach was linked to the 25 May 2021 failure of the Callide C4 unit during a planned battery-charger replacement, which caused approximately 3,045 MW of generation loss and approximately 2,300 MW of customer load disconnection, contributing to widespread blackouts across Queensland. The company was also ordered to pay $150,000 towards the regulator's legal costs.",
+      "risk_indicators": [
+        "Ordered by the Federal Court to pay $9 million, the highest penalty ever imposed for a National Electricity Rules performance-standard breach",
+        "Admitted failing to ensure a generating unit met required performance standards",
+        "Breach linked to a generator failure that caused approximately 3,045 MW of generation loss and widespread Queensland blackouts"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T02:00:00Z",
+      "last_updated": "2026-07-23T02:00:00Z"
     }
   ]
 }
