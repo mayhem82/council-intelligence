@@ -4,175 +4,255 @@
     {
       "date": "2026-07-20",
       "event": "Case opened. Initial evidence seeded from case specification pending independent source retrieval.",
-      "evidence_ids": ["E-001", "E-002", "E-003"],
+      "evidence_ids": [
+        "E-001",
+        "E-002",
+        "E-003"
+      ],
       "status_change": "OPEN -> ACTIVE"
     },
     {
       "date": "2026-07-20",
       "event": "Located and cross-confirmed the real ASIC source documents for E-001, E-002 and E-003 via independent search corroboration. Promoted all three from HELD to ACCEPTED (verified primary source, verified authority, evidence directly supports the recorded statement). document_hash remains unset pending a direct fetch, which the sandboxed session cannot perform but the GitHub Actions runner can.",
-      "evidence_ids": ["E-001", "E-002", "E-003"],
+      "evidence_ids": [
+        "E-001",
+        "E-002",
+        "E-003"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-20",
       "event": "Manual evidence sweep against ASIC, ANAO, Australian Parliament and the Federal Register of Legislation. Added E-004 and E-005 (further ASIC media releases: FY2026-27 focus areas, and Regulatory Guide 280), E-006 and E-007 (ANAO material on auditor regulation and sustainability-report assurance), and E-008/E-009 (the Parliament bill page and the enacted Act establishing the mandatory climate reporting regime). E-006 recorded as HELD pending confirmation of how directly it bears on this case's specific scope. A related but out-of-scope line (Federal Court greenwashing litigation) was logged in reports/unassigned-candidates.md rather than added here, since ASIC treats greenwashing enforcement as a distinct regime from mandatory Chapter 2M sustainability reporting.",
-      "evidence_ids": ["E-004", "E-005", "E-006", "E-007", "E-008", "E-009"],
+      "evidence_ids": [
+        "E-004",
+        "E-005",
+        "E-006",
+        "E-007",
+        "E-008",
+        "E-009"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-20",
-      "event": "Scheduled agent evidence sweep (:30 pass). Added E-010 (ASIC Reporting and audit update - Issue 4), E-011 (ASIC sustainability reporting and audit relief decisions register), and E-012 (ASIC's first sustainability-reporting educational modules release) — all directly on-topic ASIC primary sources, ACCEPTED. Added E-013 (an ASIC speech on financial system climate risk) as HELD: retained as a confirmed primary source, but not cited for any specific factual claim until its full text is reviewed. All four checked against existing entries for duplicate source_url before appending.",
-      "evidence_ids": ["E-010", "E-011", "E-012", "E-013"],
+      "event": "Scheduled agent evidence sweep (:30 pass). Added E-010 (ASIC Reporting and audit update - Issue 4), E-011 (ASIC sustainability reporting and audit relief decisions register), and E-012 (ASIC's first sustainability-reporting educational modules release) \u2014 all directly on-topic ASIC primary sources, ACCEPTED. Added E-013 (an ASIC speech on financial system climate risk) as HELD: retained as a confirmed primary source, but not cited for any specific factual claim until its full text is reviewed. All four checked against existing entries for duplicate source_url before appending.",
+      "evidence_ids": [
+        "E-010",
+        "E-011",
+        "E-012",
+        "E-013"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
-      "event": "Operator supplied the live text of both ASIC pages directly (working around this sandbox's inability to fetch asic.gov.au). Confirmed E-001/E-003's exact publication date (18 May 2026) and full article text, and E-002's hub-page content. Noted one honest caveat: the 259/34/225 lodgement figures in E-003 live in an embedded Figure 1 image, not in the captured text, so those specific numbers still rest on search-engine corroboration rather than direct document confirmation — E-003's confidence was adjusted from HIGH to MEDIUM to reflect that. document_hash still unset on all three (a text capture isn't a raw byte fetch).",
-      "evidence_ids": ["E-001", "E-002", "E-003"],
+      "event": "Operator supplied the live text of both ASIC pages directly (working around this sandbox's inability to fetch asic.gov.au). Confirmed E-001/E-003's exact publication date (18 May 2026) and full article text, and E-002's hub-page content. Noted one honest caveat: the 259/34/225 lodgement figures in E-003 live in an embedded Figure 1 image, not in the captured text, so those specific numbers still rest on search-engine corroboration rather than direct document confirmation \u2014 E-003's confidence was adjusted from HIGH to MEDIUM to reflect that. document_hash still unset on all three (a text capture isn't a raw byte fetch).",
+      "evidence_ids": [
+        "E-001",
+        "E-002",
+        "E-003"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
-      "event": "Scope correction: rewrote investigation_objective and scope in case.json. This case's role is to track ASIC's administration of the sustainability reporting regime as a trigger/feeder source for the target discovery layer (dfapti/targets/), not as an investigation of ASIC in its own right — matching the original DFAPTI role correction (DFAPTI is the target-discovery engine; this case is trigger source #1, not the whole mission). Noted honestly: the ASIC material held so far (E-001–E-013) does not name specific reporting entities, so no candidates have yet been extracted from this case's own evidence — that isn't a gap to paper over, it's what the source material actually says.",
+      "event": "Scope correction: rewrote investigation_objective and scope in case.json. This case's role is to track ASIC's administration of the sustainability reporting regime as a trigger/feeder source for the target discovery layer (dfapti/targets/), not as an investigation of ASIC in its own right \u2014 matching the original DFAPTI role correction (DFAPTI is the target-discovery engine; this case is trigger source #1, not the whole mission). Noted honestly: the ASIC material held so far (E-001\u2013E-013) does not name specific reporting entities, so no candidates have yet been extracted from this case's own evidence \u2014 that isn't a gap to paper over, it's what the source material actually says.",
       "evidence_ids": [],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
-      "event": "Scheduled agent pass (:30). Added E-014 (ASIC FAQs: Review or audit of sustainability reports, updated 18 May 2026), ACCEPTED. Separately, per this case's reframed role as a target-discovery trigger source: found and cross-verified 9 named entities in real ASIC infringement-notice media releases for late financial-report lodgement (26-090MR: Canva Pty Ltd, Canva Operations Pty Limited, Canva Trading Pty Ltd, Fusion Books Pty Ltd; 26-111MR: Inditex Australia Pty Ltd (Zara), H&M Hennes & Mauritz Pty Ltd, Sephora Australia Pty Ltd; 25-278MR: Liberty Infrabuild Limited, Liberty Holdings Australia Pty Ltd). These are NOT added to this case's own evidence — they're recorded as verified candidates (T-AU-2026-00001 through T-AU-2026-00009) in dfapti/targets/candidates.json, per the Target Visibility Gate, awaiting automatic promotion into their own cases by promote_candidates.py.",
-      "evidence_ids": ["E-014"],
+      "event": "Scheduled agent pass (:30). Added E-014 (ASIC FAQs: Review or audit of sustainability reports, updated 18 May 2026), ACCEPTED. Separately, per this case's reframed role as a target-discovery trigger source: found and cross-verified 9 named entities in real ASIC infringement-notice media releases for late financial-report lodgement (26-090MR: Canva Pty Ltd, Canva Operations Pty Limited, Canva Trading Pty Ltd, Fusion Books Pty Ltd; 26-111MR: Inditex Australia Pty Ltd (Zara), H&M Hennes & Mauritz Pty Ltd, Sephora Australia Pty Ltd; 25-278MR: Liberty Infrabuild Limited, Liberty Holdings Australia Pty Ltd). These are NOT added to this case's own evidence \u2014 they're recorded as verified candidates (T-AU-2026-00001 through T-AU-2026-00009) in dfapti/targets/candidates.json, per the Target Visibility Gate, awaiting automatic promotion into their own cases by promote_candidates.py.",
+      "evidence_ids": [
+        "E-014"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
       "event": "Scheduled agent pass (:30). Added E-015/E-016/E-017 (ASIC's Reporting and audit update Issues 1-3, completing the series alongside Issue 4 already held as E-010), ACCEPTED at MEDIUM confidence pending direct date/content confirmation. Separately, per this case's role as a target-discovery trigger source: found and cross-verified 6 more named entities (Mecca Brands Pty Ltd, Mecca Brands NZ Pty Ltd, RTCH Pty Ltd per 26-057MR; Liberty Primary Metals Australia Pty Ltd, Tahmoor Coal Pty Ltd, Liberty Bell Bay Pty Ltd per 25-141MR, with Liberty Bell Bay additionally tied to the escalated winding-up action 26-041MR). Recorded as candidates T-AU-2026-00010 through T-AU-2026-00015 in dfapti/targets/candidates.json, not added to this case's own evidence, per the Target Visibility Gate.",
-      "evidence_ids": ["E-015", "E-016", "E-017"],
+      "evidence_ids": [
+        "E-015",
+        "E-016",
+        "E-017"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
-      "event": "Scheduled agent pass (:30). Part 1 check against ASIC sustainability-reporting material found nothing new: the search turned up only material already held (early-observations review, Regulatory Guide 280, educational modules) — nothing forced in. Part 2 target discovery: found and cross-verified ASIC's four Federal Court/civil-penalty greenwashing actions to date — Mercer Superannuation (Australia) Limited ($11.3M, ASIC's first), Vanguard Investments Australia Ltd ($12.9M, ASIC's second, record penalty), LGSS Pty Ltd as trustee for Active Super ($10.5M, ASIC's third), and Fiducian Investment Management Services Limited (ASIC's fourth action, proceedings not yet concluded, admissions agreed but no penalty finalised). Recorded as candidates T-AU-2026-00031 through T-AU-2026-00034 in dfapti/targets/candidates.json, not added to this case's own evidence, per the Target Visibility Gate. Also considered and declined to add a Fair Work Ombudsman matter (D365.Group Pty Ltd / David Mark Blumentals) as a candidate, since the penalty and compensation orders landed on the individual personally rather than the (already-liquidated) company; logged as a borderline case in reports/unassigned-candidates.md pending the still-open named-individuals policy question.",
+      "event": "Scheduled agent pass (:30). Part 1 check against ASIC sustainability-reporting material found nothing new: the search turned up only material already held (early-observations review, Regulatory Guide 280, educational modules) \u2014 nothing forced in. Part 2 target discovery: found and cross-verified ASIC's four Federal Court/civil-penalty greenwashing actions to date \u2014 Mercer Superannuation (Australia) Limited ($11.3M, ASIC's first), Vanguard Investments Australia Ltd ($12.9M, ASIC's second, record penalty), LGSS Pty Ltd as trustee for Active Super ($10.5M, ASIC's third), and Fiducian Investment Management Services Limited (ASIC's fourth action, proceedings not yet concluded, admissions agreed but no penalty finalised). Recorded as candidates T-AU-2026-00031 through T-AU-2026-00034 in dfapti/targets/candidates.json, not added to this case's own evidence, per the Target Visibility Gate. Also considered and declined to add a Fair Work Ombudsman matter (D365.Group Pty Ltd / David Mark Blumentals) as a candidate, since the penalty and compensation orders landed on the individual personally rather than the (already-liquidated) company; logged as a borderline case in reports/unassigned-candidates.md pending the still-open named-individuals policy question.",
       "evidence_ids": [],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
-      "event": "Scheduled agent pass (:30). Added E-018 (ASIC's administration of the sustainability reporting requirements — the resource page setting out ASIC's 'pragmatic and proportionate' supervision/enforcement approach, its stated trigger for commencing an enforcement investigation, and its relief discretion), ACCEPTED at HIGH confidence, cross-confirmed via independent search corroboration. Directly on-topic for this case's scope (ASIC's administration of the Chapter 2M regime).",
-      "evidence_ids": ["E-018"],
+      "event": "Scheduled agent pass (:30). Added E-018 (ASIC's administration of the sustainability reporting requirements \u2014 the resource page setting out ASIC's 'pragmatic and proportionate' supervision/enforcement approach, its stated trigger for commencing an enforcement investigation, and its relief discretion), ACCEPTED at HIGH confidence, cross-confirmed via independent search corroboration. Directly on-topic for this case's scope (ASIC's administration of the Chapter 2M regime).",
+      "evidence_ids": [
+        "E-018"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
-      "event": "Scheduled agent pass (:30). Added E-019 (AUASB's Sustainability Assurance implementation support hub, covering ASSA 5000 and ASSA 5010, the audit/assurance standards that attach to Chapter 2M sustainability reports), ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries. Directly on-topic: this is the audit/assurance side of the same regime already covered by E-006/E-007 (ANAO) and E-014 (ASIC audit FAQs). Considered but declined to add two other ANAO items surfaced this pass (\"Governance of Climate Change Commitments\" performance audit, \"ANAO's Approach to Auditing Climate and Energy\" speech): both concern government agencies' own climate-commitment governance/ANAO's audit program generally, not the Chapter 2M corporate reporting regime specifically, so adding them would manufacture relevance that isn't there — same reasoning already applied to excluding greenwashing litigation from this case's scope.",
-      "evidence_ids": ["E-019"],
+      "event": "Scheduled agent pass (:30). Added E-019 (AUASB's Sustainability Assurance implementation support hub, covering ASSA 5000 and ASSA 5010, the audit/assurance standards that attach to Chapter 2M sustainability reports), ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries. Directly on-topic: this is the audit/assurance side of the same regime already covered by E-006/E-007 (ANAO) and E-014 (ASIC audit FAQs). Considered but declined to add two other ANAO items surfaced this pass (\"Governance of Climate Change Commitments\" performance audit, \"ANAO's Approach to Auditing Climate and Energy\" speech): both concern government agencies' own climate-commitment governance/ANAO's audit program generally, not the Chapter 2M corporate reporting regime specifically, so adding them would manufacture relevance that isn't there \u2014 same reasoning already applied to excluding greenwashing litigation from this case's scope.",
+      "evidence_ids": [
+        "E-019"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
       "event": "Scheduled agent pass (:30). Added E-020 (ASIC's remade legislative instruments 2026/59 and 2026/313, which extend electronic-lodgment relief for sustainability reports to Cboe-listed entities and permit combined related-scheme sustainability reports), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Directly on-topic: both instruments amend the lodgment/administration mechanics of the Chapter 2M regime this case tracks.",
-      "evidence_ids": ["E-020"],
+      "evidence_ids": [
+        "E-020"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
-      "event": "Scheduled agent pass (:30). Added E-021 (Treasury's climate-related financial reporting policy page, tracking the May 2026 Federal Budget's proposed 'Group 3' threshold increases and a flagged consultation on undue-cost-or-effort, assurance proportionality, and supplier information requests), ACCEPTED at MEDIUM confidence — downgraded from HIGH because the sandbox could only corroborate the page via consistent secondary summaries, not a direct view, and because the measures themselves are proposed/not yet legislated. Directly on-topic: a live proposed change to the Chapter 2M regime's scope. Also found ASIC's 25-298MR (12 large proprietary companies fined for late FY24 financial-report lodgement) this pass, but that concerns general financial-report lodgement rather than sustainability reporting specifically, so it was not added here — the three newly named companies (Hancock Agriculture Pty Ltd, S. Kidman & Co Pty Ltd, MJ Bale Group) were instead recorded as target-discovery candidates T-AU-2026-00040 through T-AU-2026-00042.",
-      "evidence_ids": ["E-021"],
+      "event": "Scheduled agent pass (:30). Added E-021 (Treasury's climate-related financial reporting policy page, tracking the May 2026 Federal Budget's proposed 'Group 3' threshold increases and a flagged consultation on undue-cost-or-effort, assurance proportionality, and supplier information requests), ACCEPTED at MEDIUM confidence \u2014 downgraded from HIGH because the sandbox could only corroborate the page via consistent secondary summaries, not a direct view, and because the measures themselves are proposed/not yet legislated. Directly on-topic: a live proposed change to the Chapter 2M regime's scope. Also found ASIC's 25-298MR (12 large proprietary companies fined for late FY24 financial-report lodgement) this pass, but that concerns general financial-report lodgement rather than sustainability reporting specifically, so it was not added here \u2014 the three newly named companies (Hancock Agriculture Pty Ltd, S. Kidman & Co Pty Ltd, MJ Bale Group) were instead recorded as target-discovery candidates T-AU-2026-00040 through T-AU-2026-00042.",
+      "evidence_ids": [
+        "E-021"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
       "event": "Scheduled agent pass (:30). Added E-022 (AUASB's Sustainability Assurance FAQs, a distinct sub-page of the assurance hub already partly captured as E-019, covering materiality-scope differences between AASB S2 and ASSA 5000, NGERS 'another practitioner' provisions, and auditor-appointment options), ACCEPTED at HIGH confidence, cross-confirmed via search corroboration. Directly on-topic as further detail on the assurance mechanics of the Chapter 2M regime this case tracks.",
-      "evidence_ids": ["E-022"],
+      "evidence_ids": [
+        "E-022"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
       "event": "Scheduled agent pass (:30). Added E-023 (ASIC's standing 'Sustainability reporting, financial reporting and audit and assurance focus areas' regulatory-resources page, updated annually each May; FY2026-27 focus areas announced 18 May 2026), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Directly on-topic and linked to the 26-098MR release already held as E-004.",
-      "evidence_ids": ["E-023"],
+      "evidence_ids": [
+        "E-023"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
       "event": "Scheduled agent pass (:30). Added E-024 (ASIC and AASB's May 2026 launch of all eight sustainability-reporting educational modules in interactive e-learning format, aimed at Group 2/3 entities), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Distinct from and expands on E-012 (the December 2025 PDF-only release of the first three modules).",
-      "evidence_ids": ["E-024"],
+      "evidence_ids": [
+        "E-024"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-21",
       "event": "Scheduled agent pass (:30). Added E-025 (Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026, merging the FRC, AASB and AUASB into a new body, External Reporting Australia, with a Governing Council and three standard-setting boards including sustainability reporting), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries plus the bill's explanatory memorandum and industry press. Directly on-topic: a major institutional restructure of the bodies (AASB, AUASB) that set the sustainability-assurance standards already tracked in this case via E-006/E-007/E-019/E-022/E-024.",
-      "evidence_ids": ["E-025"],
+      "evidence_ids": [
+        "E-025"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Scheduled agent pass (:30). Added E-026, confirming the Financial Reporting System Reform Bill received Royal Assent and was registered on the Federal Register of Legislation on 8 July 2026 as Act No. 61, 2026 (C2026A00061). This identifier was cross-confirmed across three independent search queries this pass (having been flagged but left unconfirmed in the two prior passes), so it clears the same evidentiary bar as ACCEPTED evidence. ACCEPTED at MEDIUM confidence (the exact URL path was inferred from an equivalent confirmed Act's pattern, not directly observed). Finalises the institutional reform already tracked via E-025.",
-      "evidence_ids": ["E-026"],
+      "evidence_ids": [
+        "E-026"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Scheduled agent pass (:30). Added E-027 (ASIC and AASB's May 2026 in-person workshop series across Sydney, Melbourne, Brisbane and Perth, delivered by UTS, helping smaller and mid-size companies prepare for mandatory sustainability reporting), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Distinct from E-024 (interactive e-learning modules) and the separate webinar series already referenced elsewhere.",
-      "evidence_ids": ["E-027"],
+      "evidence_ids": [
+        "E-027"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Scheduled agent pass (:30). Added E-028 (AASB S2025-1 Amendments to Greenhouse Gas Emissions Disclosures, issued 17 December 2025, providing additional Scope 3 Category 15/financed-emissions relief and aligning with equivalent ISSB amendments to IFRS S2, effective for periods beginning on or after 1 January 2027), ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries plus the AASB's own S2 amendments FAQ page. Directly on-topic: a substantive amendment to the core AASB S2 standard underpinning the Chapter 2M regime.",
-      "evidence_ids": ["E-028"],
+      "evidence_ids": [
+        "E-028"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Scheduled agent pass (:30). Added E-029 (ASIC's 'Sustainability reporting: Further regulatory resources and news' navigational hub page), ACCEPTED at MEDIUM confidence (confirmed as a distinct, on-topic page, but only general content description available, not specific new facts). Distinct from the main hub (E-002) and administration/relief pages already captured.",
-      "evidence_ids": ["E-029"],
+      "evidence_ids": [
+        "E-029"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Scheduled agent pass (:30). Added E-030 (24-247MR, ASIC's 7 November 2024 media release seeking feedback on draft Regulatory Guide 000 and Consultation Paper 380, the precursor to the finalised RG 280 already held as E-005) and E-031 (REP 809, ASIC's 31 March 2025 report responding to the 60 stakeholder submissions received on CP 380), both ACCEPTED at HIGH confidence, cross-confirmed via independent search queries. Fills a genuine documentary gap between the enacting legislation and the finalised regulatory guide by capturing the consultation process itself.",
-      "evidence_ids": ["E-030", "E-031"],
+      "evidence_ids": [
+        "E-030",
+        "E-031"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Agent-driven pass (:30). Added E-032, then-ASIC Chair Joe Longo's 29 May 2026 opening statement to the Parliamentary Joint Committee on Corporations and Financial Services (his final appearance before the Committee), which sets out ASIC's 'pragmatic and proportionate' early-years supervision and enforcement posture toward mandatory Chapter 2M sustainability reporting. Confirmed via two independent cross-referenced search queries returning identical title/date/URL, since the sandbox cannot directly fetch asic.gov.au. Recorded at MEDIUM-HIGH proof-of-fact given lack of direct-fetch document_hash. Part 1 searches otherwise found only material already covered in the register (26-098MR, the 18 May 2026 early-observations release, Reporting and Audit Update Issue 4) or predating the search window.",
-      "evidence_ids": ["E-032"],
+      "evidence_ids": [
+        "E-032"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Agent-driven pass (:30). Added E-033 (then-Deputy Chair Sarah Court's 20 March 2026 opening statement to the Parliamentary Joint Committee on Corporations and Financial Services, reiterating sustainability reporting surveillance as a strategic priority and the 'pragmatic and proportionate' early-years supervision posture) and E-034 (new Chair Sarah Court's 5 June 2026 opening statement to the Senate Economics Legislation Committee's Additional Budget Estimates hearing, her first parliamentary committee appearance as Chair, confirming the Group 1 sustainability report review is ongoing with final observations due in the second half of 2026). Both ACCEPTED at HIGH confidence, cross-confirmed via independent search queries; distinct primary documents from the already-logged 29 May 2026 PJC statement (E-032) and media releases on the same review timeline. Part 2 leads this pass (FIIG Securities, Union Standard/EuropeFX/TradeFred, ARMA Group/Force Legal) were all already-tracked target candidates with identical source URLs - no duplicates added.",
-      "evidence_ids": ["E-033", "E-034"],
+      "evidence_ids": [
+        "E-033",
+        "E-034"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Agent-driven pass (:30). Added E-035, the 2026-27 Portfolio Budget Statements (Treasury Portfolio, Budget Related Paper No. 1.15, tabled ~12 May 2026), which flag planned changes to the Chapter 2M regime intended to reduce compliance burden on smaller entities: raising the consolidated revenue threshold from $50m to $100m and consolidated gross assets threshold from $25m to $50m, shrinking the Group 3 reporting population, plus a foreshadowed Treasury/ASIC consultation on 'undue cost or effort' relief, assurance-setting proportionality, and supplier-information-request limits. Recorded at MEDIUM confidence - the primary PDF could not be directly fetched (sandbox proxy blocks treasury.gov.au), so verification rests on the document's title/paper-number matching search indexing plus consistent corroboration of the specific figures across five-plus independent professional-services summaries. This is the first genuinely new primary-source lead for this case in several consecutive passes.",
-      "evidence_ids": ["E-035"],
+      "evidence_ids": [
+        "E-035"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Agent-driven pass (:30). Added E-036, ASIC Corporations (Electronic Lodgment of Financial and Sustainability Reports) Instrument 2026/59, remade ahead of its 1 April 2026 sunset date. It replaces the earlier 2016/181 instrument and extends electronic dual-lodgment relief for financial, sustainability and directors' reports to entities listed on Cboe Australia (previously only ASX/NSX/SSX), now expiring 1 April 2031. This is the first Chapter 2M-specific legislative instrument captured for this case, distinct from the Budget/PBS threshold-change material (E-035) and the earlier guidance/consultation material. ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries; exact making/consultation dates not independently confirmable due to sandbox fetch blocks on asic.gov.au and legislation.gov.au. Part 2 leads this pass (Money3 Corporation) were an already-tracked candidate with an identical source URL - no duplicate added.",
-      "evidence_ids": ["E-036"],
+      "evidence_ids": [
+        "E-036"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-22",
       "event": "Agent-driven pass (:30). Added E-037, the ASIC/AASB sustainability reporting webinar series (three free online sessions, 16/25/30 June 2026, featuring UTS presentations), aimed at smaller and mid-size companies building capacity for climate-related financial disclosures - distinct from the already-logged in-person workshop series and e-learning modules. ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries returning identical title/URL/structure. Part 2 leads this pass (Binance Australia Derivatives/Oztures Trading, Qantas, NDN Care Services/Della Dale Aged Care) were all genuinely new but out of case scope, added as target candidates instead; one lead (BPS Financial/Qoin) was an already-tracked candidate.",
-      "evidence_ids": ["E-037"],
+      "evidence_ids": [
+        "E-037"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-23",
       "event": "Agent-driven pass (:30). Added E-038, the AASB S2 Knowledge Hub's General FAQs sub-page, launched around May 2025 by the standard-setter itself as ongoing implementation support for the ASRS (AASB S1/S2), covering foundational application questions distinct from the already-logged audit/assurance FAQs (ASIC's E-014, AUASB's E-022) and the GHG amendment (E-028). ACCEPTED at MEDIUM confidence - the Hub's existence and general scope were cross-confirmed via two independent search queries, but the specific sub-page's own publication/update date could not be pinned down since the sandbox cannot fetch aasb.gov.au directly. Part 1 searches otherwise found only material already covered (early observations release, RG 280, Reporting and Audit Update Issue 4, the relief decisions register) or unverifiable due to fetch blocks.",
-      "evidence_ids": ["E-038"],
+      "evidence_ids": [
+        "E-038"
+      ],
       "status_change": "None"
     },
     {
       "date": "2026-07-23",
       "event": "Agent-driven pass (:30). Added E-039, ASIC's reissued Regulatory Guide 43 'Financial reporting and audit relief' (24 April 2026, replacing the 2011 version and absorbing the withdrawn RG 29). RG 43 expressly cross-references sustainability-report relief under Chapter 2M, directing entities to RG 280 Section E - a genuine, directly on-topic new primary source. ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Part 2 leads this pass (HelloFresh/Youfoodz, Sika Australia, 3M Company/3M Australia) were all genuinely new but out of case scope, added as target candidates instead.",
-      "evidence_ids": ["E-039"],
+      "evidence_ids": [
+        "E-039"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Added E-073, ASIC's own guidance page setting the actual statutory lodgement deadlines for Group 1 sustainability reports (30 September 2026 listed / 30 October 2026 unlisted, under s319 of the Corporations Act) - clarifying that the '30 June 2026' date in the already-recorded early-observations release is the reporting period end, not the lodgement deadline, and that non-lodgement enforcement for this first Group 1 cohort cannot begin until after these dates pass.",
+      "evidence_ids": [
+        "E-073"
+      ],
       "status_change": "None"
     }
   ]

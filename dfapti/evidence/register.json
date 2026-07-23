@@ -1441,6 +1441,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-23T11:05:00Z"
+    },
+    {
+      "evidence_id": "E-073",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "ASIC",
+      "document_title": "How and when to lodge your sustainability report",
+      "publication_date": null,
+      "capture_date": "2026-07-23T12:15:00Z",
+      "source_url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/for-preparers-of-sustainability-reports/how-and-when-to-lodge-your-sustainability-report/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC's own guidance page setting the actual statutory lodgement deadlines for sustainability reports under s319 of the Corporations Act 2001: for Group 1 entities with a 30 June 2026 financial year end, listed entities must lodge their sustainability report (with the auditor's report) by 30 September 2026, and unlisted entities by 30 October 2026 - a three-to-four-month window after year-end, lodged alongside the annual financial report. This clarifies that the '30 June 2026' date referenced in ASIC's early-observations release (E-001/E-003) is the reporting period end date, not the lodgement deadline itself - non-lodgement enforcement for this first full Group 1 cohort cannot meaningfully begin until after these September/October 2026 deadlines pass.",
+      "verification_notes": "Verified via two independent WebSearch queries returning consistent statutory deadline dates (30 September 2026 listed / 30 October 2026 unlisted) and the s319 Corporations Act basis. This sandbox cannot fetch asic.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent WebSearch cross-reference only; no human/document-hash confirmation yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T12:15:00Z"
     }
   ]
 }
