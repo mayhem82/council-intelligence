@@ -4428,6 +4428,60 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T08:35:00Z",
       "last_updated": "2026-07-23T08:35:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00163",
+      "name": "Dusk Australasia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/accc-takes-dusk-to-federal-court-over-alleged-button-battery-safety-breaches",
+          "title": "ACCC takes Dusk to Federal Court over alleged button battery safety breaches",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court proceedings on 22 July 2026 against homewares retailer Dusk Australasia Pty Ltd (a wholly-owned subsidiary of ASX-listed Dusk Group Limited), alleging it supplied 66,453 products across 29 product lines (candles, diffusers, tealights, snow globes and other LED items) containing button batteries between 17 May 2023 and 12 December 2024 in breach of mandatory safety and information standards under the Australian Consumer Law. The ACCC also alleges Dusk breached a court-enforceable undertaking it had already given in April 2023, after an earlier matter in which Dusk paid $106,560 across eight infringement notices for non-compliant button-battery Halloween products.",
+      "risk_indicators": [
+        "Subject of ACCC Federal Court proceedings alleging breach of mandatory product safety and information standards",
+        "Alleged breach of a pre-existing court-enforceable undertaking from an earlier, related 2023 enforcement matter",
+        "Matter concerns tens of thousands of consumer products containing button batteries, a hazard the ACCC treats as a standing national child-safety priority"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T09:45:00Z",
+      "last_updated": "2026-07-23T09:45:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00164",
+      "name": "A. Haros Demolition Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.safework.sa.gov.au/news-and-alerts/news/news/2025new/demolition-company-fined-$72,000-after-worker-suffers-amputation",
+          "title": "Demolition company fined $72,000 after worker suffers amputation",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "A. Haros Demolition Pty Ltd was convicted and fined $72,000 (reduced from $120,000 for an early guilty plea) by the South Australian Employment Court on 2 July 2026 following a SafeWork SA prosecution for a Category 2 offence under the Work Health and Safety Act 2012. A SafeWork SA investigation found the company failed to maintain an exclusion zone around an operating excavator, failed to implement an effective communication system between workers and the operator, and had no spotter present, at a Thebarton demolition site on 15 November 2023 - a worker was struck in the foot by the excavator bucket and suffered a crush injury resulting in amputation of all toes and part of the forefoot.",
+      "risk_indicators": [
+        "Convicted of a Category 2 offence under the Work Health and Safety Act 2012 following a SafeWork SA prosecution",
+        "Court findings included absent exclusion zone, absent spotter, and no effective operator-worker communication system around heavy machinery",
+        "Incident resulted in a worker's partial foot amputation"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T09:45:00Z",
+      "last_updated": "2026-07-23T09:45:00Z"
     }
   ]
 }
