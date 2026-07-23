@@ -3844,6 +3844,164 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T03:40:00Z",
       "last_updated": "2026-07-23T03:40:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00141",
+      "name": "Lactalis Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/lactalis-pays-penalties-over-alleged-misleading-%E2%80%98fresh%E2%80%99-milk-claims",
+          "title": "Lactalis pays penalties over alleged misleading 'fresh' milk claims",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Lactalis Australia Pty Ltd paid $59,400 in penalties, reported in early July 2026, after the ACCC issued three infringement notices alleging false or misleading representations under the Australian Consumer Law: its Golden North 'Country Fresh' 2L milk and Ferguson Valley 'WA DAIRY FRESH' 2L milk were labelled as 'fresh' despite containing substantial reconstituted skim milk and lactose. The company has since removed the 'fresh' claim from the affected labels.",
+      "risk_indicators": [
+        "Paid $59,400 over three ACCC infringement notices for alleged misleading 'fresh' product labelling",
+        "Removed the disputed labelling claim following the ACCC's concerns"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:00:00Z",
+      "last_updated": "2026-07-23T04:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00142",
+      "name": "RUC Mining Contractors Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.worksafe.wa.gov.au/system/files/documents/2025-09/WHS_ProsecutionSummary_20250905_RUC.pdf",
+          "title": "WHS Prosecution Summary - RUC Mining Contractors",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "RUC Mining Contractors Pty Ltd pleaded guilty in the Kalgoorlie Magistrates Court to two counts under Western Australia's Work Health and Safety Act 2020 of exposing workers to a risk of death or serious injury, and was fined $540,000 plus costs. The charges arose from an October 2022 incident at the St Ives Gold Mine near Kambalda, where a worker dismantling a reamer cutting tool at the base of a ventilation shaft was killed by a falling rock and a second worker, a probationary employee, was also injured.",
+      "risk_indicators": [
+        "Pleaded guilty to two work health and safety offences following a worker's death",
+        "Fined $540,000 plus costs",
+        "A second, probationary worker was also injured in the same incident"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:00:00Z",
+      "last_updated": "2026-07-23T04:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00143",
+      "name": "MACA Mining Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.worksafe.wa.gov.au/announcements/worksafe-commences-prosecutions-over-two-mining-fatalities-0",
+          "title": "WorkSafe commences prosecutions over two mining fatalities",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "WorkSafe WA commenced prosecution against MACA Mining Pty Ltd, as mining contractor, over the death of an employee at the Karlawinda mine in October 2022, when a dump truck collided with the utility vehicle he was in, alleging failure to ensure worker health and safety resulting in death under the Work Health and Safety Act 2020. The maximum penalty is $3.5 million.",
+      "risk_indicators": [
+        "Subject of an ongoing WorkSafe WA prosecution alleging a health and safety failure resulting in a worker's death",
+        "Maximum penalty of $3.5 million"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:00:00Z",
+      "last_updated": "2026-07-23T04:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00144",
+      "name": "Greenmount Resources Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.worksafe.wa.gov.au/announcements/worksafe-commences-prosecutions-over-two-mining-fatalities-0",
+          "title": "WorkSafe commences prosecutions over two mining fatalities",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "WorkSafe WA commenced prosecution against Greenmount Resources Pty Ltd, as mine operator, over the death of a contractor's employee at the Karlawinda mine in October 2022, when a dump truck collided with the utility vehicle he was in, alleging failure to ensure worker health and safety resulting in death under the Work Health and Safety Act 2020. The maximum penalty is $3.5 million.",
+      "risk_indicators": [
+        "Subject of an ongoing WorkSafe WA prosecution alleging a health and safety failure resulting in a worker's death",
+        "Maximum penalty of $3.5 million"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:00:00Z",
+      "last_updated": "2026-07-23T04:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00145",
+      "name": "Greenova Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.energysafe.vic.gov.au/media-centre/news/court-fines-solar-installer-9000-over-unsafe-battery-installs",
+          "title": "Court fines solar installer $9,000 over unsafe battery installs",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Greenova Pty Ltd pleaded guilty in the Seymour Magistrates' Court to three charges under Victoria's Electricity Safety Act 1998 over non-compliant battery energy storage system installations at five Victorian properties between December 2023 and July 2024, including a property at Toolamba where an incorrectly installed battery overcharged and ignited, prompting a Country Fire Authority callout. The company was fined $9,000.",
+      "risk_indicators": [
+        "Pleaded guilty to three electrical safety offences over non-compliant battery installations",
+        "One installation caused a battery to overcharge and ignite, requiring a fire brigade callout",
+        "Fined $9,000 by the court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:00:00Z",
+      "last_updated": "2026-07-23T04:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00146",
+      "name": "Peak Gold Mines Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.resources.nsw.gov.au/ministerial-releases/peak-gold-mines-pty-ltd-convicted-and-fined-following-death-of-mine-worker",
+          "title": "Peak Gold Mines Pty Ltd convicted and fined following death of mine worker",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Peak Gold Mines Pty Ltd was convicted and fined $480,000 plus costs by the NSW District Court (21 October 2021) for breaching its duty under the Work Health and Safety Act 2011, following the death of worker Mark Brilley on 3 April 2017 near Cobar. Brilley died from heat and diesel exhaust exposure while operating an open-cabin drill rig approximately one kilometre underground after a ventilation fan had been shut down for maintenance.",
+      "risk_indicators": [
+        "Convicted of a work health and safety offence following a worker's death",
+        "Fined $480,000 plus costs by the NSW District Court"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:00:00Z",
+      "last_updated": "2026-07-23T04:00:00Z"
     }
   ]
 }
