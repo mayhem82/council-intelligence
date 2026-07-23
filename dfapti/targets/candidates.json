@@ -3269,6 +3269,59 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T00:10:00Z",
       "last_updated": "2026-07-23T00:10:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00120",
+      "name": "Stratfund Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-142mr-asic-issues-ddo-stop-orders-against-stratfund-s-australian-fixed-income-fund/",
+          "title": "26-142MR ASIC issues DDO stop orders against Stratfund's Australian Fixed Income Fund",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "ASIC issued interim design and distribution obligations stop orders against two products managed under Stratfund Limited's Australian Fixed Income Fund - the Wealthon Vault Development Fund and The People's Equity Fund - over deficiencies in their target market determinations. ASIC found the target market determination for the Wealthon Vault fund wrongly suggested a target market of retail investors seeking capital preservation and income, when the product was not designed for that purpose. The orders bar Stratfund from dealing in interests, giving a product disclosure statement, or providing general advice recommending the products to retail clients, and are described as part of ASIC's increased risk-based surveillance of managed investment schemes and private credit.",
+      "risk_indicators": [
+        "Subject of interim ASIC stop orders barring dealings with retail clients in two of its managed products",
+        "Regulator found a target market determination misrepresented the products' suitability for capital-preservation and income-seeking investors",
+        "Part of ASIC's stated increased surveillance of managed investment schemes and private credit"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T00:45:00Z",
+      "last_updated": "2026-07-23T00:45:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00121",
+      "name": "Revolut Payments Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.austrac.gov.au/news-and-media/media-release/austrac-issues-187800-infringement-notice-late-reporting",
+          "title": "AUSTRAC issues $187,800 infringement notice for late reporting",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "AUSTRAC issued Revolut Payments Australia Pty Ltd a $187,800 infringement notice after Revolut self-disclosed that it had submitted 10 International Funds Transfer Instruction reports late, in breach of the AML/CTF Act's requirement to report such instructions within 10 working days. AUSTRAC's CEO noted that reporting failures carry regulatory consequences even where a company self-detects, discloses and remediates the issue; Revolut cooperated and paid the notice in full.",
+      "risk_indicators": [
+        "Paid a $187,800 AUSTRAC infringement notice for late mandatory AML/CTF reporting",
+        "Breach was self-disclosed by the company; payment of an infringement notice is not an admission of liability"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T00:45:00Z",
+      "last_updated": "2026-07-23T00:45:00Z"
     }
   ]
 }
