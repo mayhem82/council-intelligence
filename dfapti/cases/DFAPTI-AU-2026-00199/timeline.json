@@ -3,11 +3,19 @@
   "events": [
     {
       "date": "2026-07-23",
-      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00070 (Metropolitan Collieries Pty Ltd). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00070 (Metropolitan Collieries Pty Ltd). Promotion required at least one independently verified source_evidence entry \u2014 see dfapti/rules/factualism-audit.md.",
       "evidence_ids": [
         "E-040"
       ],
       "status_change": "CANDIDATE -> ACTIVE"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Manual evidence sweep found a separate NSW EPA Clean-Up Notice (7-8 August 2023) for a distinct landslip incident at the Helensburgh mine, discharging sediment into Camp Gully Creek - a different event from the September/October 2022 pollution already recorded.",
+      "evidence_ids": [
+        "E-065"
+      ],
+      "status_change": "None"
     }
   ]
 }

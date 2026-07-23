@@ -3,11 +3,20 @@
   "events": [
     {
       "date": "2026-07-23",
-      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00109 (Pearl Construction Group Pty Ltd). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00109 (Pearl Construction Group Pty Ltd). Promotion required at least one independently verified source_evidence entry \u2014 see dfapti/rules/factualism-audit.md.",
       "evidence_ids": [
         "E-044"
       ],
       "status_change": "CANDIDATE -> ACTIVE"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Manual evidence sweep found two further WorkSafe Victoria releases: the original charging-stage release (October 2024) and the sentencing of co-defendant subcontractor Anthony Basa to a corrections order (August 2025).",
+      "evidence_ids": [
+        "E-068",
+        "E-069"
+      ],
+      "status_change": "None"
     }
   ]
 }

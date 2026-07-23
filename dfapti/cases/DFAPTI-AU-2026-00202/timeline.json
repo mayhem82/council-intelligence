@@ -3,11 +3,19 @@
   "events": [
     {
       "date": "2026-07-23",
-      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00108 (Risham Nominees Pty Ltd (trading as Centenary Bakehouse)). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00108 (Risham Nominees Pty Ltd (trading as Centenary Bakehouse)). Promotion required at least one independently verified source_evidence entry \u2014 see dfapti/rules/factualism-audit.md.",
       "evidence_ids": [
         "E-043"
       ],
       "status_change": "CANDIDATE -> ACTIVE"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Manual evidence sweep found WorkSafe Victoria's original charging-stage release (16 May 2023), an earlier procedural stage of the same manslaughter matter whose sentencing is already recorded.",
+      "evidence_ids": [
+        "E-067"
+      ],
+      "status_change": "None"
     }
   ]
 }

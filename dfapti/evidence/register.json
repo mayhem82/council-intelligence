@@ -13,11 +13,11 @@
       "classification": "ACCEPTED",
       "confidence": "HIGH",
       "summary": "ASIC published early observations from a desktop review of sustainability reports prepared under Chapter 2M of the Corporations Act 2001, to assist reporting entities ahead of the 30 June 2026 reporting season. Published 18 May 2026.",
-      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent title and content matching this exact ASIC news item. Publication date and full article text (the 'Published 18 May 2026' byline, the six early-observations items, and the 'next steps' section referencing 26-098MR) were then directly confirmed on 2026-07-21 from the live page text, supplied by the operator (the sandbox itself still cannot fetch asic.gov.au directly). document_hash remains unset since this was a text capture, not a raw byte fetch — the GitHub Actions runner's hash-capture pass can still complete that.",
+      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent title and content matching this exact ASIC news item. Publication date and full article text (the 'Published 18 May 2026' byline, the six early-observations items, and the 'next steps' section referencing 26-098MR) were then directly confirmed on 2026-07-21 from the live page text, supplied by the operator (the sandbox itself still cannot fetch asic.gov.au directly). document_hash remains unset since this was a text capture, not a raw byte fetch \u2014 the GitHub Actions runner's hash-capture pass can still complete that.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
@@ -37,7 +37,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
@@ -53,11 +53,11 @@
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
       "summary": "Per ASIC's early observations release (published 18 May 2026), 259 sustainability reports were lodged for the financial year ending 31 December 2025 (34 from listed entities, 225 from unlisted entities), reviewed for compliance with the Corporations Act and AASB S2.",
-      "verification_notes": "Same source document as E-001. Source URL and article text cross-confirmed via independent search queries and, on 2026-07-21, a direct text capture of the live page supplied by the operator confirming the article itself, its date, and 'Figure 1 sets out an overview of the total number of sustainability reports lodged with ASIC as of 6 May 2026'. IMPORTANT CAVEAT: the specific 259/34/225 figures live in that Figure 1 image, not in the plain text captured — the direct capture confirms the figure exists and its data-as-of date (6 May 2026), but does not itself independently confirm the exact numbers, which still rest on the earlier search-engine corroboration only. Treat those specific numbers as MEDIUM rather than fully document-confirmed until the image or its 'text version' link is captured directly.",
+      "verification_notes": "Same source document as E-001. Source URL and article text cross-confirmed via independent search queries and, on 2026-07-21, a direct text capture of the live page supplied by the operator confirming the article itself, its date, and 'Figure 1 sets out an overview of the total number of sustainability reports lodged with ASIC as of 6 May 2026'. IMPORTANT CAVEAT: the specific 259/34/225 figures live in that Figure 1 image, not in the plain text captured \u2014 the direct capture confirms the figure exists and its data-as-of date (6 May 2026), but does not itself independently confirm the exact numbers, which still rest on the earlier search-engine corroboration only. Treat those specific numbers as MEDIUM rather than fully document-confirmed until the image or its 'text version' link is captured directly.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL and specific figures independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL and specific figures independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
@@ -66,7 +66,7 @@
       "evidence_id": "E-004",
       "case_id": "DFAPTI-AU-2026-00198",
       "source_authority": "ASIC",
-      "document_title": "26-098MR ASIC sets financial reporting, audit and sustainability focus areas for FY 2026–27",
+      "document_title": "26-098MR ASIC sets financial reporting, audit and sustainability focus areas for FY 2026\u201327",
       "publication_date": null,
       "capture_date": "2026-07-20T00:00:00Z",
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-098mr-asic-sets-financial-reporting-audit-and-sustainability-focus-areas-for-fy-2026-27/",
@@ -113,7 +113,7 @@
       "classification": "HELD",
       "confidence": "MEDIUM",
       "summary": "ANAO performance audit of ASIC's regulation of registered company auditors generally. Search results note the responsible ASIC branch was renamed 'Sustainability, Financial Reporting and Audit' in February 2025, but the audit itself is not sustainability-reporting-specific.",
-      "verification_notes": "Source URL confirmed via search. Held rather than Accepted: relevance to this case's specific scope (mandatory sustainability reporting) is indirect — the audit covers ASIC's auditor-regulation function broadly, not sustainability report assurance specifically. Requires reading the full report to confirm how directly it bears on this case before treating findings from it as case-specific evidence.",
+      "verification_notes": "Source URL confirmed via search. Held rather than Accepted: relevance to this case's specific scope (mandatory sustainability reporting) is indirect \u2014 the audit covers ASIC's auditor-regulation function broadly, not sustainability report assurance specifically. Requires reading the full report to confirm how directly it bears on this case before treating findings from it as case-specific evidence.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -186,14 +186,14 @@
       "evidence_id": "E-010",
       "case_id": "DFAPTI-AU-2026-00198",
       "source_authority": "ASIC",
-      "document_title": "Reporting and audit update – Issue 4",
+      "document_title": "Reporting and audit update \u2013 Issue 4",
       "publication_date": null,
       "capture_date": "2026-07-20T00:00:00Z",
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-4/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
       "summary": "ASIC newsletter (Issue 4, reported as May 2026) covering reporting and audit developments including early observations on sustainability reporting, the ASIC/AASB sustainability reporting webinar series, FY2026-27 focus areas, infringement notices for late lodgement, and updated FAQs on auditing and assurance requirements for sustainability reports.",
-      "verification_notes": "Source URL located and confirmed via independent search; content directly on-topic for this case. Direct fetch to compute document_hash is blocked by this session's sandbox network policy — the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
+      "verification_notes": "Source URL located and confirmed via independent search; content directly on-topic for this case. Direct fetch to compute document_hash is blocked by this session's sandbox network policy \u2014 the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -272,8 +272,8 @@
       "source_url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/faqs-review-or-audit-of-sustainability-reports/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "ASIC FAQs covering review/audit requirements for sustainability reports under the Corporations Act — limited assurance (review) or reasonable assurance (audit) depending on phase-in, auditor rotation as it applies to sustainability report assurance, and full audit becoming mandatory for financial years commencing on or after 1 July 2030. Updated 18 May 2026 (per two independent search results reporting this update date).",
-      "verification_notes": "Source URL located and cross-confirmed via independent search queries returning consistent content and the same '18 May 2026' update date. Direct fetch to compute document_hash is blocked by this session's sandbox network policy — the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
+      "summary": "ASIC FAQs covering review/audit requirements for sustainability reports under the Corporations Act \u2014 limited assurance (review) or reasonable assurance (audit) depending on phase-in, auditor rotation as it applies to sustainability report assurance, and full audit becoming mandatory for financial years commencing on or after 1 July 2030. Updated 18 May 2026 (per two independent search results reporting this update date).",
+      "verification_notes": "Source URL located and cross-confirmed via independent search queries returning consistent content and the same '18 May 2026' update date. Direct fetch to compute document_hash is blocked by this session's sandbox network policy \u2014 the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -293,7 +293,7 @@
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
       "summary": "First issue of ASIC's quarterly Reporting and Audit Update newsletter (reported as published around August 2025), launching the series for report preparers, auditors, professional advisors and report users; referenced the first round of mandatory sustainability reports being due for lodgement with ASIC from March 2026.",
-      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (August 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured — blocked by this session's sandbox network policy.",
+      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (August 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured \u2014 blocked by this session's sandbox network policy.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -313,7 +313,7 @@
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
       "summary": "Second issue of ASIC's Reporting and Audit Update newsletter (reported as released November 2025), covering guidance on auditor obligations to report suspected contraventions in connection with sustainability reporting (in line with recent law changes), and FAQs on auditing/assurance requirements for sustainability reports.",
-      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (November 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured — blocked by this session's sandbox network policy.",
+      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (November 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured \u2014 blocked by this session's sandbox network policy.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -326,7 +326,7 @@
       "evidence_id": "E-017",
       "case_id": "DFAPTI-AU-2026-00198",
       "source_authority": "ASIC",
-      "document_title": "Reporting and audit update – Issue 3",
+      "document_title": "Reporting and audit update \u2013 Issue 3",
       "publication_date": "2026-02-20",
       "capture_date": "2026-07-21T01:35:32Z",
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-3/",
@@ -357,7 +357,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T10:30:00Z"
@@ -377,7 +377,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T11:36:00Z"
@@ -392,12 +392,12 @@
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/asic-updates-financial-reporting-relief-instruments/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "ASIC remade two legislative instruments that directly affect Chapter 2M sustainability report administration: ASIC Corporations (Electronic Lodgment of Financial and Sustainability Reports) Instrument 2026/59 (replacing the 2016/181 instrument, extending electronic-lodgment relief for exchange-listed entities' financial, sustainability and directors' reports to Cboe Australia-listed entities, expiring 1 April 2031), and ASIC Corporations (Amendment) Instrument 2026/313, which amends the Related Schemes Reports Instrument 2025/438 to let a registered scheme include its related schemes' sustainability disclosures within a single combined sustainability report — something the Corporations Act sustainability reporting requirements did not previously expressly permit.",
+      "summary": "ASIC remade two legislative instruments that directly affect Chapter 2M sustainability report administration: ASIC Corporations (Electronic Lodgment of Financial and Sustainability Reports) Instrument 2026/59 (replacing the 2016/181 instrument, extending electronic-lodgment relief for exchange-listed entities' financial, sustainability and directors' reports to Cboe Australia-listed entities, expiring 1 April 2031), and ASIC Corporations (Amendment) Instrument 2026/313, which amends the Related Schemes Reports Instrument 2025/438 to let a registered scheme include its related schemes' sustainability disclosures within a single combined sustainability report \u2014 something the Corporations Act sustainability reporting requirements did not previously expressly permit.",
       "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent instrument numbers, titles, and substantive content matching this exact ASIC news item. document_hash remains unset since this sandbox cannot fetch asic.gov.au directly; the GitHub Actions runner's hash-capture pass can complete that. Directly on-topic: both instruments amend the operational/lodgment mechanics of the Chapter 2M sustainability reporting regime this case tracks.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T12:36:00Z"
@@ -437,7 +437,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T14:35:00Z"
@@ -452,12 +452,12 @@
       "source_url": "https://www.asic.gov.au/regulatory-resources/financial-reporting-and-audit/sustainability-reporting-financial-reporting-and-audit-and-assurance-focus-areas/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "ASIC's standing regulatory-resources page (updated annually each May) setting out its enduring and period-specific focus areas for sustainability reporting, financial reporting, and audit/assurance surveillance — the elements where ASIC has identified significant or common non-compliance, or emerging significant challenges for preparers. The FY2026-27 focus areas were announced 18 May 2026, the same date as 26-098MR (E-004).",
+      "summary": "ASIC's standing regulatory-resources page (updated annually each May) setting out its enduring and period-specific focus areas for sustainability reporting, financial reporting, and audit/assurance surveillance \u2014 the elements where ASIC has identified significant or common non-compliance, or emerging significant challenges for preparers. The FY2026-27 focus areas were announced 18 May 2026, the same date as 26-098MR (E-004).",
       "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent content (annual May update cycle, FY2026-27 announcement date, purpose description) matching this exact ASIC page. document_hash remains unset since this sandbox cannot fetch asic.gov.au directly. Directly on-topic: this is ASIC's own standing focus-areas resource for the Chapter 2M sustainability reporting regime, distinct from but linked to the 26-098MR media release (E-004) announcing the same year's focus areas.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T15:35:00Z"
@@ -477,7 +477,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T16:35:00Z"
@@ -492,12 +492,12 @@
       "source_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2526/26bd047",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "The Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026 merges the Financial Reporting Council, the AASB and the AUASB — the two standard-setting bodies already tracked in this case (E-006/E-007/E-019/E-022/E-024 relate to their sustainability-assurance and audit functions) — into a single new body, External Reporting Australia, with an overarching Governing Council and three standard-setting boards covering accounting, audit and assurance, and sustainability reporting. Multiple independent sources report the bill has passed Parliament, with Greens-secured amendments barring representatives of large auditing/consulting firms from sitting on the new Governing Council or its standard-setting boards. Commencement of parts of Schedule 1 is tied to Royal Assent (transitional provisions from the later of 30 June 2026 or the day after Royal Assent; substantive provisions from the later of 1 November 2026 or four months after Royal Assent).",
+      "summary": "The Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026 merges the Financial Reporting Council, the AASB and the AUASB \u2014 the two standard-setting bodies already tracked in this case (E-006/E-007/E-019/E-022/E-024 relate to their sustainability-assurance and audit functions) \u2014 into a single new body, External Reporting Australia, with an overarching Governing Council and three standard-setting boards covering accounting, audit and assurance, and sustainability reporting. Multiple independent sources report the bill has passed Parliament, with Greens-secured amendments barring representatives of large auditing/consulting firms from sitting on the new Governing Council or its standard-setting boards. Commencement of parts of Schedule 1 is tied to Royal Assent (transitional provisions from the later of 30 June 2026 or the day after Royal Assent; substantive provisions from the later of 1 November 2026 or four months after Royal Assent).",
       "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent detail (the merger structure, the External Reporting Australia name, the Greens amendment, the commencement dates) matching this exact Parliament of Australia bill page, corroborated by the bill's Austlii explanatory memorandum and independent accounting-industry press. document_hash remains unset since this sandbox cannot fetch aph.gov.au directly. Directly on-topic: a major institutional restructure of the bodies that set and administer the sustainability-assurance standards for the Chapter 2M regime this case tracks.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T17:37:00Z"
@@ -512,12 +512,12 @@
       "source_url": "https://www.legislation.gov.au/C2026A00061/asmade",
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
-      "summary": "The Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026 received Royal Assent and was registered on the Federal Register of Legislation on 8 July 2026 as Act No. 61, 2026 (C2026A00061). The Act merges the FRC, AASB and AUASB into a new body, External Reporting Australia, responsible for accounting, auditing and assurance, and sustainability standards — confirming and finalising the reform already tracked as E-025 (bill-stage material).",
+      "summary": "The Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026 received Royal Assent and was registered on the Federal Register of Legislation on 8 July 2026 as Act No. 61, 2026 (C2026A00061). The Act merges the FRC, AASB and AUASB into a new body, External Reporting Australia, responsible for accounting, auditing and assurance, and sustainability standards \u2014 confirming and finalising the reform already tracked as E-025 (bill-stage material).",
       "verification_notes": "The specific identifier (Act No. 61, 2026; C2026A00061; registered 8 July 2026) was independently returned and cross-confirmed across three separate search queries in this pass, with consistent detail each time. Confidence set to MEDIUM rather than HIGH because the sandbox could not directly view the live legislation.gov.au page text itself, only search-result snippets referencing it, and the exact URL path (/asmade) was inferred from the equivalent, confirmed pattern used by a related Act (C2026A00049/asmade) rather than directly observed for this Act. document_hash unset; the GitHub Actions runner's hash-capture pass can complete a direct fetch to confirm the exact URL and content. Directly on-topic: this is the enactment of the institutional reform already tracked via E-025.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source identifier corroborated via three independent search cross-references, but the exact URL/document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source identifier corroborated via three independent search cross-references, but the exact URL/document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T02:35:00Z"
@@ -537,7 +537,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T04:35:00Z"
@@ -557,7 +557,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T06:35:00Z"
@@ -577,7 +577,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T08:35:00Z"
@@ -597,7 +597,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T09:35:00Z"
@@ -617,7 +617,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T09:35:00Z"
@@ -1252,7 +1252,7 @@
       "source_url": "https://www.epa.nsw.gov.au/news/epamedia/250716-epa-secures-enforceable-undertaking-with-concrete-company-following-investigation",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "Reinforced Concrete Pipes Australia (NSW) Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW EPA agreed to a $100,000 Enforceable Undertaking with Reinforced Concrete Pipes Australia (NSW) Pty Ltd following an investigation that began when the company applied for an Environment Protection Licence in December 2022 and the EPA found it had been producing more than 30,000 tonnes of steel-reinforced concrete pipes annually at its Somersby facility between 2018 and 2022 without any licence at all — operating for several years with no formal monitoring of dust, water pollution or noise. The EU payment funds local environmental restoration projects, including platypus population monitoring and protection.",
+      "summary": "Reinforced Concrete Pipes Australia (NSW) Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW EPA agreed to a $100,000 Enforceable Undertaking with Reinforced Concrete Pipes Australia (NSW) Pty Ltd following an investigation that began when the company applied for an Environment Protection Licence in December 2022 and the EPA found it had been producing more than 30,000 tonnes of steel-reinforced concrete pipes annually at its Somersby facility between 2018 and 2022 without any licence at all \u2014 operating for several years with no formal monitoring of dust, water pollution or noise. The EU payment funds local environmental restoration projects, including platypus population monitoring and protection.",
       "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
       "document_hash": null,
       "proof_of_fact": {
@@ -1281,6 +1281,166 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-065",
+      "case_id": "DFAPTI-AU-2026-00199",
+      "source_authority": "NSW EPA",
+      "document_title": "EPA issues Metropolitan Collieries Clean-Up Notice for landslip",
+      "publication_date": "2023-08-07",
+      "capture_date": "2026-07-23T11:05:00Z",
+      "source_url": "https://www.epa.nsw.gov.au/News/Media-Releases/2023/EPAMedia230807-EPA-issues-Metropolitan-Collieries-Clean-Up-Notice-for-landslip",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "A separate NSW EPA Clean-Up Notice issued to Metropolitan Collieries Pty Ltd on 7-8 August 2023, after a roughly 600m2 embankment landslip at the Helensburgh mine discharged sediment into Camp Gully Creek and downstream toward the Hacking River and Royal National Park. This is a distinct incident from the September/October 2022 pollution events already the subject of the $500,000+ Land and Environment Court penalty recorded in E-040.",
+      "verification_notes": "Verified via independent WebSearch cross-reference: the notice, date, and quantities recur consistently across the Illawarra Mercury, the St George & Sutherland Shire Leader, the Illawarra Flame, and the Sutherland Shire Environment Centre. This sandbox cannot fetch epa.nsw.gov.au directly. Note: a clean-up notice, not a court penalty - no prosecution outcome for this specific incident was located.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent WebSearch cross-reference only; no human/document-hash confirmation yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T11:05:00Z"
+    },
+    {
+      "evidence_id": "E-066",
+      "case_id": "DFAPTI-AU-2026-00200",
+      "source_authority": "NSW EPA",
+      "document_title": "Forestry Corporation of NSW to pay $450,000 after giant and hollow-bearing trees illegally logged",
+      "publication_date": "2026-03-16",
+      "capture_date": "2026-07-23T11:05:00Z",
+      "source_url": "https://www.epa.nsw.gov.au/news/epamedia/260316-forestry-corporation-of-nsw-to-pay-450-000-after-giant-and-hollow-bearing-trees-illegally-logged",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "A separate, later, and larger NSW Land and Environment Court penalty against Forestry Corporation of NSW: $450,000 for illegally logging six giant and three hollow-bearing trees in Wild Cattle Creek State Forest on the Dorrigo Plateau in June-July 2020, within the footprint of the proposed Great Koala National Park, harming koala habitat and causing cultural harm to the Gumbaynggirr people. Distinct from the Mogo State Forest water-pollution penalty already recorded in E-041.",
+      "verification_notes": "Verified via independent WebSearch cross-reference: amount, location and date recur consistently across Greens NSW, National Indigenous Times, the Nature Conservation Council of NSW, and Forestry Corporation's own statement page. This sandbox cannot fetch epa.nsw.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent WebSearch cross-reference only; no human/document-hash confirmation yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T11:05:00Z"
+    },
+    {
+      "evidence_id": "E-067",
+      "case_id": "DFAPTI-AU-2026-00202",
+      "source_authority": "WorkSafe Victoria",
+      "document_title": "Bakery charged with workplace manslaughter",
+      "publication_date": "2023-05-16",
+      "capture_date": "2026-07-23T11:05:00Z",
+      "source_url": "https://www.worksafe.vic.gov.au/news/2023-05/bakery-charged-workplace-manslaughter",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "WorkSafe Victoria's original charging-stage release for the Risham Nominees (Centenary Bakehouse) matter: two workplace manslaughter charges under s39G(1) of the Occupational Health and Safety Act plus additional s21/s26 charges, laid in May 2023 following a worker's fatal fall. This is an earlier procedural stage of the same matter whose June 2026 sentencing (the record $3.4 million fine) is already recorded in E-043.",
+      "verification_notes": "Verified via independent WebSearch cross-reference: the release recurs consistently and is corroborated by contemporaneous secondary coverage (OHS Reps, Monit) naming Risham Nominees/Centenary Bakehouse and the same incident. This sandbox cannot fetch worksafe.vic.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent WebSearch cross-reference only; no human/document-hash confirmation yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T11:05:00Z"
+    },
+    {
+      "evidence_id": "E-068",
+      "case_id": "DFAPTI-AU-2026-00203",
+      "source_authority": "WorkSafe Victoria",
+      "document_title": "Charges after worker's fatal fall on construction site",
+      "publication_date": "2024-10-01",
+      "capture_date": "2026-07-23T11:05:00Z",
+      "source_url": "https://www.worksafe.vic.gov.au/news/2024-10/charges-after-workers-fatal-fall-construction-site",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "WorkSafe Victoria's original charging-stage release naming both Pearl Construction Group Pty Ltd and subcontractor Anthony Basa (trading as Big Basa Constructions) over a worker's fatal fall, an earlier procedural stage of the same matter already recorded in E-044.",
+      "verification_notes": "Verified via independent WebSearch cross-reference: recurs consistently and is corroborated by Mirage News, The Nightly, SafetyDocs, and OHS Reps. This sandbox cannot fetch worksafe.vic.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent WebSearch cross-reference only; no human/document-hash confirmation yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T11:05:00Z"
+    },
+    {
+      "evidence_id": "E-069",
+      "case_id": "DFAPTI-AU-2026-00203",
+      "source_authority": "WorkSafe Victoria",
+      "document_title": "Sole trader sentenced to corrections order after fatal fall",
+      "publication_date": "2025-08-01",
+      "capture_date": "2026-07-23T11:05:00Z",
+      "source_url": "https://www.worksafe.vic.gov.au/news/2025-08/sole-trader-sentenced-corrections-order-after-fatal-fall",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "WorkSafe Victoria's own release on the sentencing of co-defendant subcontractor Anthony Basa to a corrections order over the same fatal fall matter as Pearl Construction Group (E-044, E-068) - previously only referenced indirectly in case scope, now captured as its own dedicated primary source.",
+      "verification_notes": "Verified via independent WebSearch cross-reference: recurs consistently and is corroborated by Mirage News, The Nightly, SafetyDocs, and OHS Reps. This sandbox cannot fetch worksafe.vic.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent WebSearch cross-reference only; no human/document-hash confirmation yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T11:05:00Z"
+    },
+    {
+      "evidence_id": "E-070",
+      "case_id": "DFAPTI-AU-2026-00219",
+      "source_authority": "Aged Care Quality and Safety Commission",
+      "document_title": "Enforceable Undertaking - Infinite Aged Care (Cornubia) Pty Ltd",
+      "publication_date": null,
+      "capture_date": "2026-07-23T11:05:00Z",
+      "source_url": "https://www.agedcarequality.gov.au/sites/default/files/media/enforceable-undertaking-infinite-aged-care-cornubia.pdf",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "The actual signed Enforceable Undertaking document for Infinite Aged Care (Cornubia) Pty Ltd, a more direct primary source than the generic provider profile page already recorded in E-060.",
+      "verification_notes": "Verified via independent WebSearch cross-reference: URL recurs identically across independent searches and is linked from the Commission's own provider and media pages. This sandbox cannot fetch agedcarequality.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent WebSearch cross-reference only; no human/document-hash confirmation yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T11:05:00Z"
+    },
+    {
+      "evidence_id": "E-071",
+      "case_id": "DFAPTI-AU-2026-00207",
+      "source_authority": "ASQA",
+      "document_title": "Notice to impacted individuals - BG College April 2026 (CPC quals)",
+      "publication_date": "2026-04-01",
+      "capture_date": "2026-07-23T11:05:00Z",
+      "source_url": "https://www.asqa.gov.au/sites/default/files/2026-04/Notice%20to%20impacted%20individuals%20-%20BG%20College%20April%202026%20(CPC%20quals).pdf",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "The actual individual-facing ASQA notice concerning BG College's CPC-coded qualifications (e.g. CPC30220 Carpentry), naming a response deadline of 22 April 2026 - a more direct primary document than the general cancellation summary page already recorded in E-048.",
+      "verification_notes": "Verified via two independent WebSearch queries returning consistent titles, URL, and content (deadline date, qualification codes) both times. This sandbox cannot fetch asqa.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent WebSearch cross-reference only; no human/document-hash confirmation yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T11:05:00Z"
+    },
+    {
+      "evidence_id": "E-072",
+      "case_id": "DFAPTI-AU-2026-00207",
+      "source_authority": "ASQA",
+      "document_title": "Notice to impacted individuals - BG College April 2026 (CPP quals)",
+      "publication_date": "2026-04-01",
+      "capture_date": "2026-07-23T11:05:00Z",
+      "source_url": "https://www.asqa.gov.au/sites/default/files/2026-04/Notice%20to%20impacted%20individuals%20-%20BG%20College%20April%202026%20(CPP%20quals).pdf",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "The actual individual-facing ASQA notice concerning BG College's CPP-coded qualifications (e.g. CPP plumbing qualifications), naming a response deadline of 22 April 2026 - a more direct primary document than the general cancellation summary page already recorded in E-048.",
+      "verification_notes": "Verified via two independent WebSearch queries returning consistent titles, URL, and content (deadline date, qualification codes) both times. This sandbox cannot fetch asqa.gov.au directly.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent WebSearch cross-reference only; no human/document-hash confirmation yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T11:05:00Z"
     }
   ]
 }

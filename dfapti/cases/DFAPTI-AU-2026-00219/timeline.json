@@ -3,11 +3,19 @@
   "events": [
     {
       "date": "2026-07-23",
-      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00159 (Infinite Aged Care (Cornubia) Pty Ltd). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00159 (Infinite Aged Care (Cornubia) Pty Ltd). Promotion required at least one independently verified source_evidence entry \u2014 see dfapti/rules/factualism-audit.md.",
       "evidence_ids": [
         "E-060"
       ],
       "status_change": "CANDIDATE -> ACTIVE"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Manual evidence sweep found the actual signed Enforceable Undertaking document, a more direct primary source than the generic provider profile page already recorded.",
+      "evidence_ids": [
+        "E-070"
+      ],
+      "status_change": "None"
     }
   ]
 }
