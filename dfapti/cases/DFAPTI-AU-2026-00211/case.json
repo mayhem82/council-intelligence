@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00211",
+  "title": "Design Developments Sydney Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW Building Commission issued a building work rectification order against Design Developments Sydney Pty Ltd requiring remediation of serious defects at 38 Hope Street, Penrith. Non-compliance with the order is a criminal offence under NSW building legislation.",
+  "scope": "Subject of a NSW Building Commission rectification order requiring remediation of serious building defects; Non-compliance with the order carries criminal liability under NSW building legislation",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NSW Building Commission"
+  ]
+}

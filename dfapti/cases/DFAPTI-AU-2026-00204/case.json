@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00204",
+  "title": "Mastermyne Crinum Operations Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Mastermyne Crinum Operations Pty Ltd, a subsidiary of the Metarock Group, was found guilty by jury of industrial manslaughter under Queensland's Coal Mining Safety and Health Act 1999 - the first such conviction since the offence took effect in 2020 - following the death of underground miner Graham Dawson in a roof collapse at the Crinum coal mine on 14 September 2021. Resources Safety and Health Queensland found the company's strata control systems were inadequate. The District Court of Queensland imposed a $7 million fine plus costs, Australia's largest-ever work health and safety penalty; the company has lodged a notice of appeal.",
+  "scope": "First-ever conviction for industrial manslaughter under Queensland's Coal Mining Safety and Health Act 1999; Fined $7 million plus costs, described as Australia's largest-ever work health and safety penalty; Regulator found the company's strata control systems were inadequate; Company has lodged a notice of appeal against the conviction",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Resources Safety & Health Queensland"
+  ]
+}

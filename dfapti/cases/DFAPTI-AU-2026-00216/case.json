@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00216",
+  "title": "Greenova Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Greenova Pty Ltd pleaded guilty in the Seymour Magistrates' Court to three charges under Victoria's Electricity Safety Act 1998 over non-compliant battery energy storage system installations at five Victorian properties between December 2023 and July 2024, including a property at Toolamba where an incorrectly installed battery overcharged and ignited, prompting a Country Fire Authority callout. The company was fined $9,000.",
+  "scope": "Pleaded guilty to three electrical safety offences over non-compliant battery installations; One installation caused a battery to overcharge and ignite, requiring a fire brigade callout; Fined $9,000 by the court",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Energy Safe Victoria"
+  ]
+}

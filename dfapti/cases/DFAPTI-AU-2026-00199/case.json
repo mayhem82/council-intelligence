@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00199",
+  "title": "Metropolitan Collieries Pty Ltd — Environmental impact",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Environmental impact",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW Land and Environment Court fined Metropolitan Collieries Pty Ltd (operator of the Helensburgh mine, part of the Peabody Energy group) $196,560 plus $304,806 in the NSW EPA's legal and investigation costs, after the company pleaded guilty to water pollution and licence breach offences. The EPA prosecuted two incidents in September and October 2022 in which the company's failure to maintain the Turkeys Nest Dam caused it to overflow, discharging water contaminated with coal fines and sediment into Camp Gully Creek, which flows into the Hacking River system adjoining the Royal National Park. $150,000 of the penalty is allocated to fund water-quality and environmental monitoring in the Royal National Park and Garawarra State Conservation Area.",
+  "scope": "Pleaded guilty to water pollution and mining licence breach offences in the NSW Land and Environment Court; Total financial consequence exceeding $500,000 including penalty and prosecution costs; Pollution incidents affected a waterway flowing into the Royal National Park and Garawarra State Conservation Area",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NSW EPA"
+  ]
+}

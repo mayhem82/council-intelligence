@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00206",
+  "title": "NDN Care Services Pty Ltd (trading as Della Dale Aged Care) — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Aged Care Quality and Safety Commission revoked the approved provider status of NDN Care Services Pty Ltd, trading as Della Dale Aged Care in Ringwood, Victoria - its most severe regulatory sanction - after finding all 19 residents were prescribed psychotropic medication without proper management, planning or monitoring as required by the Aged Care Quality Standards, and that an 'extreme form of physical restraint' had been used on a resident without consideration of their safety or wellbeing. The notice was issued in May 2025, with the revocation taking effect 26 September 2025.",
+  "scope": "Approved provider status revoked by the Aged Care Quality and Safety Commission, its most severe sanction; Found to have prescribed psychotropic medication to all residents without proper management or monitoring; Found to have used an extreme form of physical restraint on a resident without regard to their safety or wellbeing",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Aged Care Quality and Safety Commission"
+  ]
+}

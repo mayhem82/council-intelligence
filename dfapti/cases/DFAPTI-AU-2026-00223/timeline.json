@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00223",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00164 (A. Haros Demolition Pty Ltd). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-064"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

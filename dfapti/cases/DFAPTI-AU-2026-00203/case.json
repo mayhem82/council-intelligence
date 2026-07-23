@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00203",
+  "title": "Pearl Construction Group Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Pearl Construction Group Pty Ltd pleaded guilty to failing to ensure a workplace under its management and control was safe and without risks to health, and was fined $150,000 in the Melbourne County Court, following the death of a 23-year-old worker who fell approximately three metres through an unprotected stair void while carrying steel at a multi-storey townhouse site in Glen Waverley in September 2022. A subcontractor sole trader involved in the same incident was separately sentenced to a community corrections order plus a $10,000 fine.",
+  "scope": "Pleaded guilty to failing to ensure a safe workplace following a worker's fatal fall; Fined $150,000 by the Melbourne County Court; Incident involved an unprotected stair void with no fall-prevention measures in place",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "WorkSafe Victoria"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00223",
+  "title": "A. Haros Demolition Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "A. Haros Demolition Pty Ltd was convicted and fined $72,000 (reduced from $120,000 for an early guilty plea) by the South Australian Employment Court on 2 July 2026 following a SafeWork SA prosecution for a Category 2 offence under the Work Health and Safety Act 2012. A SafeWork SA investigation found the company failed to maintain an exclusion zone around an operating excavator, failed to implement an effective communication system between workers and the operator, and had no spotter present, at a Thebarton demolition site on 15 November 2023 - a worker was struck in the foot by the excavator bucket and suffered a crush injury resulting in amputation of all toes and part of the forefoot.",
+  "scope": "Convicted of a Category 2 offence under the Work Health and Safety Act 2012 following a SafeWork SA prosecution; Court findings included absent exclusion zone, absent spotter, and no effective operator-worker communication system around heavy machinery; Incident resulted in a worker's partial foot amputation",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "SafeWork SA"
+  ]
+}

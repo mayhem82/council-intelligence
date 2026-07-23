@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00205",
+  "title": "Bureau Veritas Minerals Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Bureau Veritas Minerals Pty Ltd pleaded guilty to a charge under South Australia's Work Health and Safety Act 2012 and was fined $210,000 (reduced 40% from $350,000 for an early guilty plea) plus costs and a Victims of Crime Levy, after a 20-year-old worker employed only a few weeks had a gloved hand pulled into a rock crusher's rollers at a Wingfield workshop in June 2023, amputating part of a finger. SafeWork SA found the company failed to provide an adequate interlock device, failed to assess energisation risk during clearing tasks, and gave inadequate training and supervision.",
+  "scope": "Pleaded guilty to a work health and safety offence following a worker's serious crush injury; Regulator found the company failed to provide an adequate machine interlock device and gave inadequate training and supervision; Fined $210,000 plus costs by the SA Employment Court",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "SafeWork SA"
+  ]
+}

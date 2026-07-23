@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00206",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00115 (NDN Care Services Pty Ltd (trading as Della Dale Aged Care)). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-047"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

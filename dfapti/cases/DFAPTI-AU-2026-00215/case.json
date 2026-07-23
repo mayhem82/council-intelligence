@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00215",
+  "title": "Greenmount Resources Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "WorkSafe WA commenced prosecution against Greenmount Resources Pty Ltd, as mine operator, over the death of a contractor's employee at the Karlawinda mine in October 2022, when a dump truck collided with the utility vehicle he was in, alleging failure to ensure worker health and safety resulting in death under the Work Health and Safety Act 2020. The maximum penalty is $3.5 million.",
+  "scope": "Subject of an ongoing WorkSafe WA prosecution alleging a health and safety failure resulting in a worker's death; Maximum penalty of $3.5 million",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "WorkSafe WA"
+  ]
+}

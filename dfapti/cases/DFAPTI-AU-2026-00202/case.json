@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00202",
+  "title": "Risham Nominees Pty Ltd (trading as Centenary Bakehouse) — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Risham Nominees Pty Ltd, trading as Centenary Bakehouse, was convicted of workplace manslaughter - only the second such conviction under Victoria's workplace manslaughter provisions since their 2020 introduction - and fined $3.4 million, a record penalty, over the death of worker Jassim Al Shadori, who fell approximately 4.5 metres through a roof space while removing insulation panels at the company's Reservoir bakery on 1 August 2021. WorkSafe Victoria found no fall-prevention controls had been applied before the roof works began, despite harnesses being available but not required to be used.",
+  "scope": "Convicted of workplace manslaughter, only the second such conviction in Victoria since the offence was introduced in 2020; Fined $3.4 million, a record penalty for the offence; WorkSafe found no fall-prevention controls were required or applied despite equipment being available",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "WorkSafe Victoria"
+  ]
+}

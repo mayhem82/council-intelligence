@@ -1,6 +1,6 @@
 {
   "$schema": "schema.json",
-  "register_notice": "Internal only \u2014 never linked from the public dashboard. See dfapti/rules/factualism-audit.md, 'Target Visibility Gate'. A candidate is promoted to a public case only once at least one source_evidence entry is independently verified to the same bar as an ACCEPTED evidence record.",
+  "register_notice": "Internal only — never linked from the public dashboard. See dfapti/rules/factualism-audit.md, 'Target Visibility Gate'. A candidate is promoted to a public case only once at least one source_evidence entry is independently verified to the same bar as an ACCEPTED evidence record.",
   "candidates": [
     {
       "target_id": "T-AU-2026-00001",
@@ -15,7 +15,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
       ],
@@ -40,7 +40,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
       ],
@@ -65,7 +65,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
       ],
@@ -90,7 +90,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as one of four Canva Group entities, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-090MR"
       ],
@@ -115,7 +115,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Zara brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Zara brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-111MR"
       ],
@@ -140,7 +140,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as the entity trading under the H&M brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as the entity trading under the H&M brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-111MR"
       ],
@@ -165,7 +165,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Sephora brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as the entity trading under the Sephora brand, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($198,000) for alleged late lodgement of an audited financial report, per 26-111MR"
       ],
@@ -190,7 +190,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($187,800) for alleged late lodgement of an audited financial report, per 25-278MR"
       ],
@@ -215,7 +215,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Named in an ASIC media release as the parent of Liberty Infrabuild Limited, a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline \u2014 a corporate financial-transparency compliance matter.",
+      "public_interest_reason": "Named in an ASIC media release as the parent of Liberty Infrabuild Limited, a GFG Alliance group company, paying an infringement notice for allegedly failing to lodge an audited financial report by the statutory deadline — a corporate financial-transparency compliance matter.",
       "risk_indicators": [
         "Received an ASIC infringement notice ($187,800) for alleged late lodgement of an audited financial report, per 25-278MR"
       ],
@@ -496,7 +496,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Paid a penalty (reported as $60,000 in one AER source; an earlier related release cites $100,000/$140,000 total across the two distributors \u2014 treat the exact split as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules \u2014 obligations that exist specifically to protect customers dependent on electricity supply for life support equipment.",
+      "public_interest_reason": "Paid a penalty (reported as $60,000 in one AER source; an earlier related release cites $100,000/$140,000 total across the two distributors — treat the exact split as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules — obligations that exist specifically to protect customers dependent on electricity supply for life support equipment.",
       "risk_indicators": [
         "Alleged breach of life support customer obligations under the National Energy Retail Rules, resulting in an AER penalty and administrative undertaking"
       ],
@@ -521,7 +521,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Paid a penalty (reported as $80,000 in one AER source; figures vary slightly across related AER releases \u2014 treat as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules.",
+      "public_interest_reason": "Paid a penalty (reported as $80,000 in one AER source; figures vary slightly across related AER releases — treat as MEDIUM pending direct document confirmation) for alleged breaches of life support customer obligations under the National Energy Retail Rules.",
       "risk_indicators": [
         "Alleged breach of life support customer obligations under the National Energy Retail Rules, resulting in an AER penalty and administrative undertaking"
       ],
@@ -598,7 +598,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Ordered by the Federal Court to pay a $250,000 penalty for allegedly failing to become a member of the Energy and Water Ombudsman NSW scheme, in breach of the National Energy Retail Law \u2014 a consumer-access-to-redress compliance matter.",
+      "public_interest_reason": "Ordered by the Federal Court to pay a $250,000 penalty for allegedly failing to become a member of the Energy and Water Ombudsman NSW scheme, in breach of the National Energy Retail Law — a consumer-access-to-redress compliance matter.",
       "risk_indicators": [
         "Ordered by the Federal Court to pay a $250,000 penalty for alleged failure to join a mandatory ombudsman scheme under the National Energy Retail Law"
       ],
@@ -623,7 +623,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "Paid $10,704,600 under APRA infringement notices for alleged breaches of the Superannuation Industry (Supervision) Act 1993 (failing to invest members' default superannuation contributions in MySuper products), and gave APRA a court enforceable undertaking to rectify compliance deficiencies and compensate members. OPC is one of four superannuation trustees owned by Insignia Financial Ltd (formerly IOOF Holdings Limited), with approximately 700,000 members and over $37 billion in funds under management \u2014 a matter with direct financial consequences for a large number of superannuation members.",
+      "public_interest_reason": "Paid $10,704,600 under APRA infringement notices for alleged breaches of the Superannuation Industry (Supervision) Act 1993 (failing to invest members' default superannuation contributions in MySuper products), and gave APRA a court enforceable undertaking to rectify compliance deficiencies and compensate members. OPC is one of four superannuation trustees owned by Insignia Financial Ltd (formerly IOOF Holdings Limited), with approximately 700,000 members and over $37 billion in funds under management — a matter with direct financial consequences for a large number of superannuation members.",
       "risk_indicators": [
         "Paid $10,704,600 under APRA infringement notices for alleged SIS Act breaches (failure to direct default contributions to MySuper products)",
         "Gave APRA a court enforceable undertaking to rectify compliance deficiencies and compensate affected members"
@@ -822,7 +822,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered Mercer Superannuation (Australia) Limited to pay an $11.3 million penalty \u2014 ASIC's first successful greenwashing civil penalty case \u2014 after Mercer admitted to making misleading statements that seven 'Sustainable Plus' superannuation investment options excluded investments in carbon-intensive industries such as thermal coal, when adequate systems were not in place to ensure the ESG claims were accurate or that exclusions were enforced.",
+      "public_interest_reason": "The Federal Court ordered Mercer Superannuation (Australia) Limited to pay an $11.3 million penalty — ASIC's first successful greenwashing civil penalty case — after Mercer admitted to making misleading statements that seven 'Sustainable Plus' superannuation investment options excluded investments in carbon-intensive industries such as thermal coal, when adequate systems were not in place to ensure the ESG claims were accurate or that exclusions were enforced.",
       "risk_indicators": [
         "Federal Court civil penalty of $11.3 million for greenwashing conduct, admitted by the company",
         "Court also made an adverse publicity order requiring disclosure of the contraventions",
@@ -849,7 +849,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered Vanguard Investments Australia to pay a $12.9 million penalty \u2014 the largest greenwashing penalty imposed in Australia to date \u2014 after Vanguard admitted that approximately 74% of the securities (by market value) in its Ethically Conscious Global Aggregate Bond Index Fund had not actually been researched or screened against the ESG exclusion criteria it had told investors would be applied.",
+      "public_interest_reason": "The Federal Court ordered Vanguard Investments Australia to pay a $12.9 million penalty — the largest greenwashing penalty imposed in Australia to date — after Vanguard admitted that approximately 74% of the securities (by market value) in its Ethically Conscious Global Aggregate Bond Index Fund had not actually been researched or screened against the ESG exclusion criteria it had told investors would be applied.",
       "risk_indicators": [
         "Federal Court civil penalty of $12.9 million, the largest greenwashing penalty in Australia to date",
         "Admitted approximately 74% of the fund's securities by market value were not researched or screened against its stated ESG criteria",
@@ -876,7 +876,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered LGSS Pty Ltd, as trustee for the Active Super fund, to pay a $10.5 million penalty \u2014 ASIC's third successful greenwashing civil penalty action \u2014 after finding Active Super had claimed in its marketing to eliminate investments posing environmental or community risk (including gambling, coal mining and oil tar sands) while continuing to hold direct investments in companies such as Shell Plc and Whitehaven Coal.",
+      "public_interest_reason": "The Federal Court ordered LGSS Pty Ltd, as trustee for the Active Super fund, to pay a $10.5 million penalty — ASIC's third successful greenwashing civil penalty action — after finding Active Super had claimed in its marketing to eliminate investments posing environmental or community risk (including gambling, coal mining and oil tar sands) while continuing to hold direct investments in companies such as Shell Plc and Whitehaven Coal.",
       "risk_indicators": [
         "Federal Court civil penalty of $10.5 million for false or misleading ESG representations",
         "Found to have retained direct investments (e.g. Shell Plc, Whitehaven Coal) in categories it had publicly claimed to exclude",
@@ -1019,9 +1019,9 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered FIIG Securities Limited to pay a $2.5 million penalty plus $500,000 towards ASIC's costs \u2014 the first civil penalty imposed on an Australian Financial Services licensee for cybersecurity-related contraventions of its general licensee obligations under section 912A of the Corporations Act 2001. FIIG admitted that over a four-year period it failed to have adequate cybersecurity measures in place, which contributed to a May 2023 cyberattack in which approximately 385GB of data, including sensitive client information, was exfiltrated from its systems.",
+      "public_interest_reason": "The Federal Court ordered FIIG Securities Limited to pay a $2.5 million penalty plus $500,000 towards ASIC's costs — the first civil penalty imposed on an Australian Financial Services licensee for cybersecurity-related contraventions of its general licensee obligations under section 912A of the Corporations Act 2001. FIIG admitted that over a four-year period it failed to have adequate cybersecurity measures in place, which contributed to a May 2023 cyberattack in which approximately 385GB of data, including sensitive client information, was exfiltrated from its systems.",
       "risk_indicators": [
-        "Federal Court civil penalty of $2.5 million, admitted by the company \u2014 the first such penalty for cybersecurity-related licensee obligation failures in Australia",
+        "Federal Court civil penalty of $2.5 million, admitted by the company — the first such penalty for cybersecurity-related licensee obligation failures in Australia",
         "Admitted inadequate cybersecurity measures over a four-year period prior to a May 2023 data breach affecting approximately 385GB of data including sensitive client information",
         "Court also ordered an independent-expert compliance programme to review its cyber security and resilience systems"
       ],
@@ -1165,7 +1165,7 @@
         "Paid $142,800 across two AER infringement notices for alleged Retail Law and Retail Rules breaches",
         "Alleged failure to obtain customer consent before transferring an electricity account",
         "Alleged failure to follow required notice procedures before disconnecting an elderly customer",
-        "Federal Court penalty of $14 million, admitted, for misleading pricing communications sent to approximately 566,000 consumers \u2014 the ACCC's first Electricity Retail Code proceeding"
+        "Federal Court penalty of $14 million, admitted, for misleading pricing communications sent to approximately 566,000 consumers — the ACCC's first Electricity Retail Code proceeding"
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 5,
@@ -1194,7 +1194,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The AER instituted Federal Court proceedings on 19 December 2025 against Origin Energy Electricity Ltd and three other Origin subsidiaries, alleging the group continued to receive Centrepay payments from customers who had closed their accounts and fully paid what they owed, without informing or refunding them within the required timeframe \u2014 around 77,000 alleged breaches affecting over 3,400 customers between December 2019 and March 2025, totalling more than $2.5 million in retained overcharges. The AER also alleges Origin knew of the processing issue as early as 2017 and paused a process that could have prevented further overcharging, and separately failed to have adequate compliance-monitoring policies and systems in place. The AER is seeking penalties, declarations, customer remediation and a compliance program. Separately, the Federal Court found Origin Energy Electricity Ltd and other Origin entities breached hardship-customer obligations under the National Energy Retail Law/Rules on more than 100,000 occasions between January 2018 and October 2021, affecting more than 90,000 customers across NSW, the ACT, Queensland and South Australia, resulting in a $17 million penalty \u2014 the largest total penalty ever imposed for breaches of that law at the time \u2014 plus $200,000 in costs and a compliance program.",
+      "public_interest_reason": "The AER instituted Federal Court proceedings on 19 December 2025 against Origin Energy Electricity Ltd and three other Origin subsidiaries, alleging the group continued to receive Centrepay payments from customers who had closed their accounts and fully paid what they owed, without informing or refunding them within the required timeframe — around 77,000 alleged breaches affecting over 3,400 customers between December 2019 and March 2025, totalling more than $2.5 million in retained overcharges. The AER also alleges Origin knew of the processing issue as early as 2017 and paused a process that could have prevented further overcharging, and separately failed to have adequate compliance-monitoring policies and systems in place. The AER is seeking penalties, declarations, customer remediation and a compliance program. Separately, the Federal Court found Origin Energy Electricity Ltd and other Origin entities breached hardship-customer obligations under the National Energy Retail Law/Rules on more than 100,000 occasions between January 2018 and October 2021, affecting more than 90,000 customers across NSW, the ACT, Queensland and South Australia, resulting in a $17 million penalty — the largest total penalty ever imposed for breaches of that law at the time — plus $200,000 in costs and a compliance program.",
       "risk_indicators": [
         "Subject of Federal Court proceedings instituted by the AER on 19 December 2025, alleging around 77,000 breaches of the National Energy Retail Rules/Law",
         "Alleged to have retained more than $2.5 million in Centrepay overcharges from over 3,400 affected customers",
@@ -1223,7 +1223,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered ANZ to pay $250 million in combined penalties (delivered 19 December 2025, up from the $240 million ASIC and ANZ had jointly proposed) \u2014 the largest combined penalty ASIC has secured against a single entity. ANZ admitted to unconscionable conduct in services provided to the Australian government, incorrectly reporting bond trading data to the government by tens of billions of dollars, and widespread misconduct across products and services affecting nearly 65,000 customers.",
+      "public_interest_reason": "The Federal Court ordered ANZ to pay $250 million in combined penalties (delivered 19 December 2025, up from the $240 million ASIC and ANZ had jointly proposed) — the largest combined penalty ASIC has secured against a single entity. ANZ admitted to unconscionable conduct in services provided to the Australian government, incorrectly reporting bond trading data to the government by tens of billions of dollars, and widespread misconduct across products and services affecting nearly 65,000 customers.",
       "risk_indicators": [
         "Ordered to pay $250 million in combined Federal Court penalties, the largest ASIC has secured against a single entity",
         "Admitted unconscionable conduct in services provided to the Australian government, including incorrectly reporting bond trading data by tens of billions of dollars",
@@ -1250,7 +1250,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court declared that Macquarie Investment Management Limited (MIML), as superannuation platform trustee, contravened the Corporations Act by failing to place the Shield Master Fund on a watch list for heightened monitoring despite warning signs, after more than $480 million was invested in Shield by at least 5,800 consumers (mostly via superannuation platforms) since February 2022. Macquarie separately admitted contraventions and, under a court-enforceable undertaking, paid approximately $321 million to over 3,000 affected members \u2014 100% of the amounts they invested less any withdrawals.",
+      "public_interest_reason": "The Federal Court declared that Macquarie Investment Management Limited (MIML), as superannuation platform trustee, contravened the Corporations Act by failing to place the Shield Master Fund on a watch list for heightened monitoring despite warning signs, after more than $480 million was invested in Shield by at least 5,800 consumers (mostly via superannuation platforms) since February 2022. Macquarie separately admitted contraventions and, under a court-enforceable undertaking, paid approximately $321 million to over 3,000 affected members — 100% of the amounts they invested less any withdrawals.",
       "risk_indicators": [
         "Federal Court declared contraventions of the Corporations Act for failing to place a fund on a watch list for heightened monitoring despite warning signs",
         "Paid approximately $321 million to over 3,000 affected members under a court-enforceable undertaking, following admitted contraventions",
@@ -1277,7 +1277,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Full Federal Court dismissed BlueScope Steel Ltd's appeal against a $57.5 million civil penalty \u2014 the highest penalty ever imposed for cartel conduct or a competition-law breach in Australia \u2014 for attempting to induce eight steel distributors and an overseas manufacturer to fix and raise pricing for flat steel products supplied in Australia between September 2013 and June 2014, in ACCC proceedings first instituted in August 2019. A former BlueScope general manager was separately penalised $500,000 in the same proceedings; that individual is noted here as context only and is not recorded as a separate candidate.",
+      "public_interest_reason": "The Full Federal Court dismissed BlueScope Steel Ltd's appeal against a $57.5 million civil penalty — the highest penalty ever imposed for cartel conduct or a competition-law breach in Australia — for attempting to induce eight steel distributors and an overseas manufacturer to fix and raise pricing for flat steel products supplied in Australia between September 2013 and June 2014, in ACCC proceedings first instituted in August 2019. A former BlueScope general manager was separately penalised $500,000 in the same proceedings; that individual is noted here as context only and is not recorded as a separate candidate.",
       "risk_indicators": [
         "Highest penalty ever imposed for cartel conduct or a competition-law breach in Australia ($57.5 million), upheld on appeal by the Full Federal Court",
         "Found to have attempted to induce eight steel distributors and an overseas manufacturer to fix and raise flat-steel pricing",
@@ -1520,7 +1520,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered Clorox Australia Pty Ltd to pay $8.25 million in penalties \u2014 the ACCC's first court greenwashing action since naming it a compliance priority in 2022/23 \u2014 for representing on packaging that its GLAD to be GREEN '50% Ocean Plastic Recycled' kitchen and garbage bags were made of at least 50% recycled plastic collected from the ocean or sea, when the plastic was instead collected from communities in Indonesia without formal waste management systems, up to 50km from a shoreline. More than 2.2 million units were supplied under this packaging between June 2021 and July 2023. Clorox cooperated with the ACCC, made admissions, and agreed the penalty jointly with the regulator.",
+      "public_interest_reason": "The Federal Court ordered Clorox Australia Pty Ltd to pay $8.25 million in penalties — the ACCC's first court greenwashing action since naming it a compliance priority in 2022/23 — for representing on packaging that its GLAD to be GREEN '50% Ocean Plastic Recycled' kitchen and garbage bags were made of at least 50% recycled plastic collected from the ocean or sea, when the plastic was instead collected from communities in Indonesia without formal waste management systems, up to 50km from a shoreline. More than 2.2 million units were supplied under this packaging between June 2021 and July 2023. Clorox cooperated with the ACCC, made admissions, and agreed the penalty jointly with the regulator.",
       "risk_indicators": [
         "Federal Court civil penalty of $8.25 million, admitted, for misleading environmental packaging claims",
         "More than 2.2 million units supplied under the misleading packaging over roughly two years",
@@ -1574,9 +1574,9 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered HSBC Bank Australia Limited to pay a $35 million penalty \u2014 one of the first cases of its kind globally \u2014 after the bank admitted serious failures protecting customers from scams. Between January 2020 and August 2024, HSBC received more than 1,000 reports of unauthorised transactions totalling $34.6 million, and admitted inadequate controls on its internal transfer system between May 2023 and May 2024, a 380% surge in unauthorised-transaction reports in FY24, and average investigation times of 144 days. Approximately $21.5 million in compensation had been paid to affected customers by the time of judgment, with further payments expected, plus an additional $6.5 million in recovered funds returned.",
+      "public_interest_reason": "The Federal Court ordered HSBC Bank Australia Limited to pay a $35 million penalty — one of the first cases of its kind globally — after the bank admitted serious failures protecting customers from scams. Between January 2020 and August 2024, HSBC received more than 1,000 reports of unauthorised transactions totalling $34.6 million, and admitted inadequate controls on its internal transfer system between May 2023 and May 2024, a 380% surge in unauthorised-transaction reports in FY24, and average investigation times of 144 days. Approximately $21.5 million in compensation had been paid to affected customers by the time of judgment, with further payments expected, plus an additional $6.5 million in recovered funds returned.",
       "risk_indicators": [
-        "Federal Court civil penalty of $35 million, admitted, for scam-protection failures \u2014 one of the first cases of its kind globally",
+        "Federal Court civil penalty of $35 million, admitted, for scam-protection failures — one of the first cases of its kind globally",
         "Admitted inadequate internal transfer system controls and average scam-investigation times of 144 days",
         "More than 1,000 unauthorised-transaction reports totalling $34.6 million between January 2020 and August 2024"
       ],
@@ -1628,7 +1628,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered Australian Clinical Labs Limited (ACL) to pay $5.8 million in civil penalties \u2014 the first civil penalties ever ordered under the Privacy Act 1988 (Cth) \u2014 in relation to a February 2022 data breach of its Medlab Pathology business, in which a threat actor exfiltrated approximately 86 gigabytes of data including the personal information of at least 223,000 individuals. The penalty comprised $4.2 million for failing to take reasonable steps to protect personal information (APP 11.1), $800,000 for failing to carry out a reasonable and expeditious assessment of whether an eligible data breach had occurred, and $800,000 for failing to properly notify the Australian Information Commissioner of the breach.",
+      "public_interest_reason": "The Federal Court ordered Australian Clinical Labs Limited (ACL) to pay $5.8 million in civil penalties — the first civil penalties ever ordered under the Privacy Act 1988 (Cth) — in relation to a February 2022 data breach of its Medlab Pathology business, in which a threat actor exfiltrated approximately 86 gigabytes of data including the personal information of at least 223,000 individuals. The penalty comprised $4.2 million for failing to take reasonable steps to protect personal information (APP 11.1), $800,000 for failing to carry out a reasonable and expeditious assessment of whether an eligible data breach had occurred, and $800,000 for failing to properly notify the Australian Information Commissioner of the breach.",
       "risk_indicators": [
         "First-ever civil penalty ordered under the Privacy Act 1988, totalling $5.8 million",
         "Data breach exfiltrated personal information of at least 223,000 individuals",
@@ -1823,7 +1823,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court found Coles Supermarkets Australia made false or misleading representations about 'Down Down' discounts on 245 common products between February 2022 and May 2023, in proceedings instituted by the ACCC in September 2024. The Court found Coles temporarily raised prices by at least 15% for a short period before applying a 'Down Down' promotion at a price still higher than or equal to the pre-increase price, and found misleading representations in 13 of the 14 ticket types considered at the liability hearing. Penalties and other orders remain to be determined. Separately, on 1 July 2026 the ACCC determined \u2014 its first outright refusal under Australia's new mandatory merger control regime (effective from 1 January 2026) \u2014 that Coles' proposed acquisition of a lease for a vacant supermarket and liquor site in Kalgoorlie-Boulder would likely substantially lessen competition in the retail supply of groceries there, finding it would likely lead to the exit of an effective independent full-line competitor from the market.",
+      "public_interest_reason": "The Federal Court found Coles Supermarkets Australia made false or misleading representations about 'Down Down' discounts on 245 common products between February 2022 and May 2023, in proceedings instituted by the ACCC in September 2024. The Court found Coles temporarily raised prices by at least 15% for a short period before applying a 'Down Down' promotion at a price still higher than or equal to the pre-increase price, and found misleading representations in 13 of the 14 ticket types considered at the liability hearing. Penalties and other orders remain to be determined. Separately, on 1 July 2026 the ACCC determined — its first outright refusal under Australia's new mandatory merger control regime (effective from 1 January 2026) — that Coles' proposed acquisition of a lease for a vacant supermarket and liquor site in Kalgoorlie-Boulder would likely substantially lessen competition in the retail supply of groceries there, finding it would likely lead to the exit of an effective independent full-line competitor from the market.",
       "risk_indicators": [
         "Federal Court liability finding of misleading conduct in 13 of 14 discount-ticket types examined",
         "Conduct concerned pricing representations across 245 common supermarket products over 15 months",
@@ -1913,11 +1913,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 4,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00199",
       "rejection_reason": null,
       "discovered_at": "2026-07-22T03:36:13Z",
-      "last_updated": "2026-07-22T03:36:13Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00071",
@@ -1961,7 +1961,7 @@
       ],
       "public_interest_reason": "The Federal Court ordered Fewstone Pty Ltd, trading as City Beach, to pay $14 million in penalties in the ACCC's first proceeding alleging breaches of the mandatory button battery safety and information standards. Between June 2022 and October 2024, City Beach supplied products (including toys, digital notepads, keyrings, lights and light-up Jibbitz accessories, many marketed to children) that did not comply with the safety standard on more than 54,000 occasions and the information standard on more than 56,000 occasions. The Court found 'pervasive failures' by City Beach to inform itself of its Australian Consumer Law obligations, noting the conduct exposed more than 50,000 young children to the risk of severe injury or death. The Court also ordered a compliance programme and corrective advertising.",
       "risk_indicators": [
-        "Federal Court civil penalty of $14 million \u2014 the first judgment under the button battery safety standards",
+        "Federal Court civil penalty of $14 million — the first judgment under the button battery safety standards",
         "Court found 'pervasive failures' to comply with safety requirements across more than 110,000 combined non-compliant supplies",
         "Court found the conduct exposed more than 50,000 young children to risk of severe injury or death"
       ],
@@ -2067,7 +2067,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered Medtronic Australasia Pty Ltd to pay $22 million in penalties \u2014 the largest ever imposed under the Therapeutic Goods Act 1989 \u2014 for unlawfully supplying 16,267 units of its Infuse Bone Graft Kit without the separately packaged LT Cage between September 2015 and January 2020, when the Australian Register of Therapeutic Goods entry only permitted supply of the two products together. The TGA commenced proceedings in August 2021; Medtronic was also ordered to pay $1 million toward the TGA's legal costs.",
+      "public_interest_reason": "The Federal Court ordered Medtronic Australasia Pty Ltd to pay $22 million in penalties — the largest ever imposed under the Therapeutic Goods Act 1989 — for unlawfully supplying 16,267 units of its Infuse Bone Graft Kit without the separately packaged LT Cage between September 2015 and January 2020, when the Australian Register of Therapeutic Goods entry only permitted supply of the two products together. The TGA commenced proceedings in August 2021; Medtronic was also ordered to pay $1 million toward the TGA's legal costs.",
       "risk_indicators": [
         "Federal Court civil penalty of $22 million, the largest ever imposed under the Therapeutic Goods Act 1989",
         "Found to have unlawfully supplied more than 16,000 units of a medical device kit outside its permitted ARTG registration over a four-and-a-half-year period",
@@ -2128,7 +2128,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered Telstra to pay $50 million \u2014 the second-highest penalty ever imposed under the Australian Consumer Law \u2014 for unconscionable conduct after sales staff at five licensed Telstra-branded stores in the Northern Territory, South Australia and Western Australia signed up 108 Indigenous consumers to multiple post-paid mobile contracts between January 2016 and August 2018 that they did not understand and could not afford. The Court found staff manipulated credit assessments, misrepresented products as free, and exploited customers' social, language, literacy and cultural vulnerabilities, leaving them with debts to Telstra ranging from $1,600 to almost $20,000. Telstra also gave the ACCC an enforceable undertaking to remediate affected consumers, improve its compliance program and expand its Indigenous telephone hotline and digital literacy program. In a separate ACCC matter, the Federal Court found Telstra made false or misleading representations after migrating 8,897 Belong NBN customers, in October-November 2020, from a plan with a 40 Mbps maximum upload speed to one with only 20 Mbps, without notifying them, in breach of the Australian Consumer Law. Telstra was fined $18 million, with remediation to affected customers exceeding $2.3 million.",
+      "public_interest_reason": "The Federal Court ordered Telstra to pay $50 million — the second-highest penalty ever imposed under the Australian Consumer Law — for unconscionable conduct after sales staff at five licensed Telstra-branded stores in the Northern Territory, South Australia and Western Australia signed up 108 Indigenous consumers to multiple post-paid mobile contracts between January 2016 and August 2018 that they did not understand and could not afford. The Court found staff manipulated credit assessments, misrepresented products as free, and exploited customers' social, language, literacy and cultural vulnerabilities, leaving them with debts to Telstra ranging from $1,600 to almost $20,000. Telstra also gave the ACCC an enforceable undertaking to remediate affected consumers, improve its compliance program and expand its Indigenous telephone hotline and digital literacy program. In a separate ACCC matter, the Federal Court found Telstra made false or misleading representations after migrating 8,897 Belong NBN customers, in October-November 2020, from a plan with a 40 Mbps maximum upload speed to one with only 20 Mbps, without notifying them, in breach of the Australian Consumer Law. Telstra was fined $18 million, with remediation to affected customers exceeding $2.3 million.",
       "risk_indicators": [
         "Federal Court civil penalty of $50 million, the second-highest ever under the Australian Consumer Law",
         "Found to have exploited the social, language, literacy and cultural vulnerabilities of 108 Indigenous consumers across multiple states/territories",
@@ -2156,7 +2156,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered Jump Loops Pty Ltd, trading as Jump Swim (now in liquidation), to pay $23 million in penalties for falsely representing to 174 franchisees that they would have an operational swim school within 12 months of signing a franchise agreement \u2014 most never received one \u2014 and for accepting payments from 127 franchisees when it knew or ought to have known there was no reasonable basis to expect it could deliver within that timeframe. The company's founder and former managing director, Ian Michael Campbell, was separately ordered to pay $500,000 in compensation to franchisees and a $400,000 personal penalty, and was restrained from acting as a franchisor for three years.",
+      "public_interest_reason": "The Federal Court ordered Jump Loops Pty Ltd, trading as Jump Swim (now in liquidation), to pay $23 million in penalties for falsely representing to 174 franchisees that they would have an operational swim school within 12 months of signing a franchise agreement — most never received one — and for accepting payments from 127 franchisees when it knew or ought to have known there was no reasonable basis to expect it could deliver within that timeframe. The company's founder and former managing director, Ian Michael Campbell, was separately ordered to pay $500,000 in compensation to franchisees and a $400,000 personal penalty, and was restrained from acting as a franchisor for three years.",
       "risk_indicators": [
         "Federal Court civil penalty of $23 million against the corporate franchisor",
         "Found to have accepted payments from 127 franchisees despite knowing it likely could not deliver an operational business within the represented timeframe",
@@ -2725,11 +2725,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 2,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00200",
       "rejection_reason": null,
       "discovered_at": "2026-07-22T18:25:00Z",
-      "last_updated": "2026-07-22T18:25:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00100",
@@ -2873,11 +2873,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 4,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00201",
       "rejection_reason": null,
       "discovered_at": "2026-07-22T19:05:00Z",
-      "last_updated": "2026-07-22T19:05:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00105",
@@ -2980,11 +2980,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 4,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00202",
       "rejection_reason": null,
       "discovered_at": "2026-07-22T21:35:00Z",
-      "last_updated": "2026-07-22T21:35:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00109",
@@ -3007,11 +3007,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00203",
       "rejection_reason": null,
       "discovered_at": "2026-07-22T21:35:00Z",
-      "last_updated": "2026-07-22T21:35:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00110",
@@ -3062,11 +3062,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 5,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00204",
       "rejection_reason": null,
       "discovered_at": "2026-07-22T22:00:00Z",
-      "last_updated": "2026-07-22T22:00:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00112",
@@ -3089,11 +3089,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00205",
       "rejection_reason": null,
       "discovered_at": "2026-07-22T22:00:00Z",
-      "last_updated": "2026-07-22T22:00:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00113",
@@ -3171,11 +3171,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 5,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00206",
       "rejection_reason": null,
       "discovered_at": "2026-07-22T23:25:00Z",
-      "last_updated": "2026-07-22T23:25:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00116",
@@ -3251,11 +3251,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00207",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T00:10:00Z",
-      "last_updated": "2026-07-23T00:10:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00119",
@@ -3278,11 +3278,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 4,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00208",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T00:10:00Z",
-      "last_updated": "2026-07-23T00:10:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00120",
@@ -3658,11 +3658,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00209",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T03:15:00Z",
-      "last_updated": "2026-07-23T03:15:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00134",
@@ -3786,11 +3786,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00210",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T03:40:00Z",
-      "last_updated": "2026-07-23T03:40:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00139",
@@ -3812,11 +3812,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 2,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00211",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T03:40:00Z",
-      "last_updated": "2026-07-23T03:40:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00140",
@@ -3839,11 +3839,11 @@
       ],
       "evidence_confidence": "MEDIUM",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00212",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T03:40:00Z",
-      "last_updated": "2026-07-23T03:40:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00141",
@@ -3892,11 +3892,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 4,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00213",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T04:00:00Z",
-      "last_updated": "2026-07-23T04:00:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00143",
@@ -3918,11 +3918,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 4,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00214",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T04:00:00Z",
-      "last_updated": "2026-07-23T04:00:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00144",
@@ -3944,11 +3944,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 4,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00215",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T04:00:00Z",
-      "last_updated": "2026-07-23T04:00:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00145",
@@ -3971,11 +3971,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00216",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T04:00:00Z",
-      "last_updated": "2026-07-23T04:00:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00146",
@@ -3997,11 +3997,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00217",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T04:00:00Z",
-      "last_updated": "2026-07-23T04:00:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00147",
@@ -4076,11 +4076,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00218",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T04:30:00Z",
-      "last_updated": "2026-07-23T04:30:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00150",
@@ -4343,11 +4343,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00219",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T06:50:00Z",
-      "last_updated": "2026-07-23T06:50:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00160",
@@ -4369,11 +4369,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00220",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T06:50:00Z",
-      "last_updated": "2026-07-23T06:50:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00161",
@@ -4396,11 +4396,11 @@
       ],
       "evidence_confidence": "MEDIUM",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00221",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T08:35:00Z",
-      "last_updated": "2026-07-23T08:35:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00162",
@@ -4415,7 +4415,7 @@
           "document_hash": null
         }
       ],
-      "public_interest_reason": "The NSW EPA agreed to a $100,000 Enforceable Undertaking with Reinforced Concrete Pipes Australia (NSW) Pty Ltd following an investigation that began when the company applied for an Environment Protection Licence in December 2022 and the EPA found it had been producing more than 30,000 tonnes of steel-reinforced concrete pipes annually at its Somersby facility between 2018 and 2022 without any licence at all \u2014 operating for several years with no formal monitoring of dust, water pollution or noise. The EU payment funds local environmental restoration projects, including platypus population monitoring and protection.",
+      "public_interest_reason": "The NSW EPA agreed to a $100,000 Enforceable Undertaking with Reinforced Concrete Pipes Australia (NSW) Pty Ltd following an investigation that began when the company applied for an Environment Protection Licence in December 2022 and the EPA found it had been producing more than 30,000 tonnes of steel-reinforced concrete pipes annually at its Somersby facility between 2018 and 2022 without any licence at all — operating for several years with no formal monitoring of dust, water pollution or noise. The EU payment funds local environmental restoration projects, including platypus population monitoring and protection.",
       "risk_indicators": [
         "NSW EPA enforceable undertaking of $100,000 following an unlicensed-operation investigation",
         "Company operated a concrete manufacturing facility producing over 30,000 tonnes annually for at least four years without any Environment Protection Licence",
@@ -4423,11 +4423,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00222",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T08:35:00Z",
-      "last_updated": "2026-07-23T08:35:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     },
     {
       "target_id": "T-AU-2026-00163",
@@ -4477,11 +4477,11 @@
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 3,
-      "status": "CANDIDATE",
-      "promoted_case_id": null,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00223",
       "rejection_reason": null,
       "discovered_at": "2026-07-23T09:45:00Z",
-      "last_updated": "2026-07-23T09:45:00Z"
+      "last_updated": "2026-07-23T09:39:16Z"
     }
   ]
 }

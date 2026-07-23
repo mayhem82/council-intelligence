@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00219",
+  "title": "Infinite Aged Care (Cornubia) Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Aged Care Quality and Safety Commission entered an Enforceable Undertaking with Infinite Aged Care (Cornubia) Pty Ltd as part of a sector-wide enforcement round (announced 13 January 2025) against 11 providers found to be falling well short of mandatory care minutes targets for residents over successive quarters.",
+  "scope": "Entered an Enforceable Undertaking with the Aged Care Quality and Safety Commission; Named among 11 providers found to be falling well short of mandatory resident care-minutes targets",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Aged Care Quality and Safety Commission"
+  ]
+}

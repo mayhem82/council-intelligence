@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00208",
+  "title": "Melbourne Training Centre Pty Ltd (trading as Studywise College, RTO 45579) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Australian Skills Quality Authority cancelled the RTO registration of Melbourne Training Centre Pty Ltd, trading as Studywise College, effective 23 July 2025, and published a high-priority notice to impacted individuals in April 2026. Hundreds of students face potential loss of qualifications in courses including Certificate III in Individual Support, Certificate IV in Disability Support, and Diploma of Community Services, with a response deadline of 7 May 2026 given to affected students.",
+  "scope": "RTO registration cancelled by the national vocational education regulator; Hundreds of students in disability-support and community-services courses face potential loss of their qualifications; Regulator issued a high-priority notice to affected individuals",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASQA"
+  ]
+}

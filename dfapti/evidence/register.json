@@ -13,11 +13,11 @@
       "classification": "ACCEPTED",
       "confidence": "HIGH",
       "summary": "ASIC published early observations from a desktop review of sustainability reports prepared under Chapter 2M of the Corporations Act 2001, to assist reporting entities ahead of the 30 June 2026 reporting season. Published 18 May 2026.",
-      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent title and content matching this exact ASIC news item. Publication date and full article text (the 'Published 18 May 2026' byline, the six early-observations items, and the 'next steps' section referencing 26-098MR) were then directly confirmed on 2026-07-21 from the live page text, supplied by the operator (the sandbox itself still cannot fetch asic.gov.au directly). document_hash remains unset since this was a text capture, not a raw byte fetch \u2014 the GitHub Actions runner's hash-capture pass can still complete that.",
+      "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent title and content matching this exact ASIC news item. Publication date and full article text (the 'Published 18 May 2026' byline, the six early-observations items, and the 'next steps' section referencing 26-098MR) were then directly confirmed on 2026-07-21 from the live page text, supplied by the operator (the sandbox itself still cannot fetch asic.gov.au directly). document_hash remains unset since this was a text capture, not a raw byte fetch — the GitHub Actions runner's hash-capture pass can still complete that.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
@@ -37,7 +37,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
@@ -53,11 +53,11 @@
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
       "summary": "Per ASIC's early observations release (published 18 May 2026), 259 sustainability reports were lodged for the financial year ending 31 December 2025 (34 from listed entities, 225 from unlisted entities), reviewed for compliance with the Corporations Act and AASB S2.",
-      "verification_notes": "Same source document as E-001. Source URL and article text cross-confirmed via independent search queries and, on 2026-07-21, a direct text capture of the live page supplied by the operator confirming the article itself, its date, and 'Figure 1 sets out an overview of the total number of sustainability reports lodged with ASIC as of 6 May 2026'. IMPORTANT CAVEAT: the specific 259/34/225 figures live in that Figure 1 image, not in the plain text captured \u2014 the direct capture confirms the figure exists and its data-as-of date (6 May 2026), but does not itself independently confirm the exact numbers, which still rest on the earlier search-engine corroboration only. Treat those specific numbers as MEDIUM rather than fully document-confirmed until the image or its 'text version' link is captured directly.",
+      "verification_notes": "Same source document as E-001. Source URL and article text cross-confirmed via independent search queries and, on 2026-07-21, a direct text capture of the live page supplied by the operator confirming the article itself, its date, and 'Figure 1 sets out an overview of the total number of sustainability reports lodged with ASIC as of 6 May 2026'. IMPORTANT CAVEAT: the specific 259/34/225 figures live in that Figure 1 image, not in the plain text captured — the direct capture confirms the figure exists and its data-as-of date (6 May 2026), but does not itself independently confirm the exact numbers, which still rest on the earlier search-engine corroboration only. Treat those specific numbers as MEDIUM rather than fully document-confirmed until the image or its 'text version' link is captured directly.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL and specific figures independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL and specific figures independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-20T00:00:00Z"
@@ -66,7 +66,7 @@
       "evidence_id": "E-004",
       "case_id": "DFAPTI-AU-2026-00198",
       "source_authority": "ASIC",
-      "document_title": "26-098MR ASIC sets financial reporting, audit and sustainability focus areas for FY 2026\u201327",
+      "document_title": "26-098MR ASIC sets financial reporting, audit and sustainability focus areas for FY 2026–27",
       "publication_date": null,
       "capture_date": "2026-07-20T00:00:00Z",
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-098mr-asic-sets-financial-reporting-audit-and-sustainability-focus-areas-for-fy-2026-27/",
@@ -113,7 +113,7 @@
       "classification": "HELD",
       "confidence": "MEDIUM",
       "summary": "ANAO performance audit of ASIC's regulation of registered company auditors generally. Search results note the responsible ASIC branch was renamed 'Sustainability, Financial Reporting and Audit' in February 2025, but the audit itself is not sustainability-reporting-specific.",
-      "verification_notes": "Source URL confirmed via search. Held rather than Accepted: relevance to this case's specific scope (mandatory sustainability reporting) is indirect \u2014 the audit covers ASIC's auditor-regulation function broadly, not sustainability report assurance specifically. Requires reading the full report to confirm how directly it bears on this case before treating findings from it as case-specific evidence.",
+      "verification_notes": "Source URL confirmed via search. Held rather than Accepted: relevance to this case's specific scope (mandatory sustainability reporting) is indirect — the audit covers ASIC's auditor-regulation function broadly, not sustainability report assurance specifically. Requires reading the full report to confirm how directly it bears on this case before treating findings from it as case-specific evidence.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -186,14 +186,14 @@
       "evidence_id": "E-010",
       "case_id": "DFAPTI-AU-2026-00198",
       "source_authority": "ASIC",
-      "document_title": "Reporting and audit update \u2013 Issue 4",
+      "document_title": "Reporting and audit update – Issue 4",
       "publication_date": null,
       "capture_date": "2026-07-20T00:00:00Z",
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-4/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
       "summary": "ASIC newsletter (Issue 4, reported as May 2026) covering reporting and audit developments including early observations on sustainability reporting, the ASIC/AASB sustainability reporting webinar series, FY2026-27 focus areas, infringement notices for late lodgement, and updated FAQs on auditing and assurance requirements for sustainability reports.",
-      "verification_notes": "Source URL located and confirmed via independent search; content directly on-topic for this case. Direct fetch to compute document_hash is blocked by this session's sandbox network policy \u2014 the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
+      "verification_notes": "Source URL located and confirmed via independent search; content directly on-topic for this case. Direct fetch to compute document_hash is blocked by this session's sandbox network policy — the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -272,8 +272,8 @@
       "source_url": "https://www.asic.gov.au/regulatory-resources/sustainability-reporting/faqs-review-or-audit-of-sustainability-reports/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "ASIC FAQs covering review/audit requirements for sustainability reports under the Corporations Act \u2014 limited assurance (review) or reasonable assurance (audit) depending on phase-in, auditor rotation as it applies to sustainability report assurance, and full audit becoming mandatory for financial years commencing on or after 1 July 2030. Updated 18 May 2026 (per two independent search results reporting this update date).",
-      "verification_notes": "Source URL located and cross-confirmed via independent search queries returning consistent content and the same '18 May 2026' update date. Direct fetch to compute document_hash is blocked by this session's sandbox network policy \u2014 the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
+      "summary": "ASIC FAQs covering review/audit requirements for sustainability reports under the Corporations Act — limited assurance (review) or reasonable assurance (audit) depending on phase-in, auditor rotation as it applies to sustainability report assurance, and full audit becoming mandatory for financial years commencing on or after 1 July 2030. Updated 18 May 2026 (per two independent search results reporting this update date).",
+      "verification_notes": "Source URL located and cross-confirmed via independent search queries returning consistent content and the same '18 May 2026' update date. Direct fetch to compute document_hash is blocked by this session's sandbox network policy — the dfapti-hourly workflow's hash-capture pass can complete this on its next run.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -293,7 +293,7 @@
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
       "summary": "First issue of ASIC's quarterly Reporting and Audit Update newsletter (reported as published around August 2025), launching the series for report preparers, auditors, professional advisors and report users; referenced the first round of mandatory sustainability reports being due for lodgement with ASIC from March 2026.",
-      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (August 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured \u2014 blocked by this session's sandbox network policy.",
+      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (August 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured — blocked by this session's sandbox network policy.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -313,7 +313,7 @@
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
       "summary": "Second issue of ASIC's Reporting and Audit Update newsletter (reported as released November 2025), covering guidance on auditor obligations to report suspected contraventions in connection with sustainability reporting (in line with recent law changes), and FAQs on auditing/assurance requirements for sustainability reports.",
-      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (November 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured \u2014 blocked by this session's sandbox network policy.",
+      "verification_notes": "Source URL located and cross-confirmed via independent search. Publication month (November 2025) reported consistently but not confirmed to exact day; document_hash and full text not yet directly captured — blocked by this session's sandbox network policy.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
@@ -326,7 +326,7 @@
       "evidence_id": "E-017",
       "case_id": "DFAPTI-AU-2026-00198",
       "source_authority": "ASIC",
-      "document_title": "Reporting and audit update \u2013 Issue 3",
+      "document_title": "Reporting and audit update – Issue 3",
       "publication_date": "2026-02-20",
       "capture_date": "2026-07-21T01:35:32Z",
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/reporting-and-audit-update-issue-3/",
@@ -357,7 +357,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T10:30:00Z"
@@ -377,7 +377,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T11:36:00Z"
@@ -392,12 +392,12 @@
       "source_url": "https://www.asic.gov.au/about-asic/news-centre/news-items/asic-updates-financial-reporting-relief-instruments/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "ASIC remade two legislative instruments that directly affect Chapter 2M sustainability report administration: ASIC Corporations (Electronic Lodgment of Financial and Sustainability Reports) Instrument 2026/59 (replacing the 2016/181 instrument, extending electronic-lodgment relief for exchange-listed entities' financial, sustainability and directors' reports to Cboe Australia-listed entities, expiring 1 April 2031), and ASIC Corporations (Amendment) Instrument 2026/313, which amends the Related Schemes Reports Instrument 2025/438 to let a registered scheme include its related schemes' sustainability disclosures within a single combined sustainability report \u2014 something the Corporations Act sustainability reporting requirements did not previously expressly permit.",
+      "summary": "ASIC remade two legislative instruments that directly affect Chapter 2M sustainability report administration: ASIC Corporations (Electronic Lodgment of Financial and Sustainability Reports) Instrument 2026/59 (replacing the 2016/181 instrument, extending electronic-lodgment relief for exchange-listed entities' financial, sustainability and directors' reports to Cboe Australia-listed entities, expiring 1 April 2031), and ASIC Corporations (Amendment) Instrument 2026/313, which amends the Related Schemes Reports Instrument 2025/438 to let a registered scheme include its related schemes' sustainability disclosures within a single combined sustainability report — something the Corporations Act sustainability reporting requirements did not previously expressly permit.",
       "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent instrument numbers, titles, and substantive content matching this exact ASIC news item. document_hash remains unset since this sandbox cannot fetch asic.gov.au directly; the GitHub Actions runner's hash-capture pass can complete that. Directly on-topic: both instruments amend the operational/lodgment mechanics of the Chapter 2M sustainability reporting regime this case tracks.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T12:36:00Z"
@@ -437,7 +437,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T14:35:00Z"
@@ -452,12 +452,12 @@
       "source_url": "https://www.asic.gov.au/regulatory-resources/financial-reporting-and-audit/sustainability-reporting-financial-reporting-and-audit-and-assurance-focus-areas/",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "ASIC's standing regulatory-resources page (updated annually each May) setting out its enduring and period-specific focus areas for sustainability reporting, financial reporting, and audit/assurance surveillance \u2014 the elements where ASIC has identified significant or common non-compliance, or emerging significant challenges for preparers. The FY2026-27 focus areas were announced 18 May 2026, the same date as 26-098MR (E-004).",
+      "summary": "ASIC's standing regulatory-resources page (updated annually each May) setting out its enduring and period-specific focus areas for sustainability reporting, financial reporting, and audit/assurance surveillance — the elements where ASIC has identified significant or common non-compliance, or emerging significant challenges for preparers. The FY2026-27 focus areas were announced 18 May 2026, the same date as 26-098MR (E-004).",
       "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent content (annual May update cycle, FY2026-27 announcement date, purpose description) matching this exact ASIC page. document_hash remains unset since this sandbox cannot fetch asic.gov.au directly. Directly on-topic: this is ASIC's own standing focus-areas resource for the Chapter 2M sustainability reporting regime, distinct from but linked to the 26-098MR media release (E-004) announcing the same year's focus areas.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T15:35:00Z"
@@ -477,7 +477,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T16:35:00Z"
@@ -492,12 +492,12 @@
       "source_url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2526/26bd047",
       "classification": "ACCEPTED",
       "confidence": "HIGH",
-      "summary": "The Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026 merges the Financial Reporting Council, the AASB and the AUASB \u2014 the two standard-setting bodies already tracked in this case (E-006/E-007/E-019/E-022/E-024 relate to their sustainability-assurance and audit functions) \u2014 into a single new body, External Reporting Australia, with an overarching Governing Council and three standard-setting boards covering accounting, audit and assurance, and sustainability reporting. Multiple independent sources report the bill has passed Parliament, with Greens-secured amendments barring representatives of large auditing/consulting firms from sitting on the new Governing Council or its standard-setting boards. Commencement of parts of Schedule 1 is tied to Royal Assent (transitional provisions from the later of 30 June 2026 or the day after Royal Assent; substantive provisions from the later of 1 November 2026 or four months after Royal Assent).",
+      "summary": "The Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026 merges the Financial Reporting Council, the AASB and the AUASB — the two standard-setting bodies already tracked in this case (E-006/E-007/E-019/E-022/E-024 relate to their sustainability-assurance and audit functions) — into a single new body, External Reporting Australia, with an overarching Governing Council and three standard-setting boards covering accounting, audit and assurance, and sustainability reporting. Multiple independent sources report the bill has passed Parliament, with Greens-secured amendments barring representatives of large auditing/consulting firms from sitting on the new Governing Council or its standard-setting boards. Commencement of parts of Schedule 1 is tied to Royal Assent (transitional provisions from the later of 30 June 2026 or the day after Royal Assent; substantive provisions from the later of 1 November 2026 or four months after Royal Assent).",
       "verification_notes": "Source URL located and cross-confirmed via two independent search queries returning consistent detail (the merger structure, the External Reporting Australia name, the Greens amendment, the commencement dates) matching this exact Parliament of Australia bill page, corroborated by the bill's Austlii explanatory memorandum and independent accounting-industry press. document_hash remains unset since this sandbox cannot fetch aph.gov.au directly. Directly on-topic: a major institutional restructure of the bodies that set and administer the sustainability-assurance standards for the Chapter 2M regime this case tracks.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-21T17:37:00Z"
@@ -512,12 +512,12 @@
       "source_url": "https://www.legislation.gov.au/C2026A00061/asmade",
       "classification": "ACCEPTED",
       "confidence": "MEDIUM",
-      "summary": "The Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026 received Royal Assent and was registered on the Federal Register of Legislation on 8 July 2026 as Act No. 61, 2026 (C2026A00061). The Act merges the FRC, AASB and AUASB into a new body, External Reporting Australia, responsible for accounting, auditing and assurance, and sustainability standards \u2014 confirming and finalising the reform already tracked as E-025 (bill-stage material).",
+      "summary": "The Treasury Laws Amendment (Financial Reporting System Reform) Bill 2026 received Royal Assent and was registered on the Federal Register of Legislation on 8 July 2026 as Act No. 61, 2026 (C2026A00061). The Act merges the FRC, AASB and AUASB into a new body, External Reporting Australia, responsible for accounting, auditing and assurance, and sustainability standards — confirming and finalising the reform already tracked as E-025 (bill-stage material).",
       "verification_notes": "The specific identifier (Act No. 61, 2026; C2026A00061; registered 8 July 2026) was independently returned and cross-confirmed across three separate search queries in this pass, with consistent detail each time. Confidence set to MEDIUM rather than HIGH because the sandbox could not directly view the live legislation.gov.au page text itself, only search-result snippets referencing it, and the exact URL path (/asmade) was inferred from the equivalent, confirmed pattern used by a related Act (C2026A00049/asmade) rather than directly observed for this Act. document_hash unset; the GitHub Actions runner's hash-capture pass can complete a direct fetch to confirm the exact URL and content. Directly on-topic: this is the enactment of the institutional reform already tracked via E-025.",
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source identifier corroborated via three independent search cross-references, but the exact URL/document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source identifier corroborated via three independent search cross-references, but the exact URL/document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T02:35:00Z"
@@ -537,7 +537,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T04:35:00Z"
@@ -557,7 +557,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T06:35:00Z"
@@ -577,7 +577,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T08:35:00Z"
@@ -597,7 +597,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T09:35:00Z"
@@ -617,7 +617,7 @@
       "document_hash": null,
       "proof_of_fact": {
         "score": 0,
-        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch \u2014 full Proof of Fact requires that step."
+        "rationale": "Source URL independently corroborated via search cross-reference, but document_hash has not yet been computed from a direct fetch — full Proof of Fact requires that step."
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T09:35:00Z"
@@ -781,6 +781,506 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-23T04:20:00Z"
+    },
+    {
+      "evidence_id": "E-040",
+      "case_id": "DFAPTI-AU-2026-00199",
+      "source_authority": "NSW EPA",
+      "document_title": "Metropolitan Collieries to pay over $500,000 after polluting creek with coal",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.epa.nsw.gov.au/news/epamedia/250324-metropolitan-collieries-to-pay-over-500-000-after-polluting-creek-with-coal",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Metropolitan Collieries Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW Land and Environment Court fined Metropolitan Collieries Pty Ltd (operator of the Helensburgh mine, part of the Peabody Energy group) $196,560 plus $304,806 in the NSW EPA's legal and investigation costs, after the company pleaded guilty to water pollution and licence breach offences. The EPA prosecuted two incidents in September and October 2022 in which the company's failure to maintain the Turkeys Nest Dam caused it to overflow, discharging water contaminated with coal fines and sediment into Camp Gully Creek, which flows into the Hacking River system adjoining the Royal National Park. $150,000 of the penalty is allocated to fund water-quality and environmental monitoring in the Royal National Park and Garawarra State Conservation Area.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-041",
+      "case_id": "DFAPTI-AU-2026-00200",
+      "source_authority": "NSW EPA",
+      "document_title": "$60,000 penalty to Forestry Corp NSW for Mogo State Forest water pollution",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.epa.nsw.gov.au/news/epamedia/260120-60-000-penalty-to-forestry-corp-nsw-for-mogo-state-forest-water-pollution",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Forestry Corporation of NSW is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW Environment Protection Authority issued Forestry Corporation of NSW two penalty notices totalling $60,000 (issued 20 January 2026) after inspections found a machinery crossing on Dooga Creek in the Mogo State Forest, a designated Environmentally Significant Area, was not built to best-practice standard, causing sediment erosion and water pollution. The EPA also found Forestry Corporation had failed to complete required clean-up work under a prior clean-up notice.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-042",
+      "case_id": "DFAPTI-AU-2026-00201",
+      "source_authority": "NDIS Quality and Safeguards Commission",
+      "document_title": "Yidaki Support Services Pty Ltd - NDIS Quality and Safeguards Commission banning order",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.ndiscommission.gov.au/node/1643402",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Yidaki Support Services Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NDIS Quality and Safeguards Commission made a permanent banning order against Yidaki Support Services Pty Ltd under section 73ZN(1)(b)(iii) of the National Disability Insurance Scheme Act 2013, made 13 April 2026 and effective 12 May 2026, prohibiting the company from providing supports or services to people with disability anywhere in Australia. The order followed a Commission delegate's finding that the company and an associated individual are not suitable to be involved in the provision of disability supports.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-043",
+      "case_id": "DFAPTI-AU-2026-00202",
+      "source_authority": "WorkSafe Victoria",
+      "document_title": "Bakery fined record $3.4 million for workplace manslaughter",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.worksafe.vic.gov.au/news/2026-06/bakery-fined-record-34-million-workplace-manslaughter",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Risham Nominees Pty Ltd (trading as Centenary Bakehouse) is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: Risham Nominees Pty Ltd, trading as Centenary Bakehouse, was convicted of workplace manslaughter - only the second such conviction under Victoria's workplace manslaughter provisions since their 2020 introduction - and fined $3.4 million, a record penalty, over the death of worker Jassim Al Shadori, who fell approximately 4.5 metres through a roof space while removing insulation panels at the company's Reservoir bakery on 1 August 2021. WorkSafe Victoria found no fall-prevention controls had been applied before the roof works began, despite harnesses being available but not required to be used.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-044",
+      "case_id": "DFAPTI-AU-2026-00203",
+      "source_authority": "WorkSafe Victoria",
+      "document_title": "Builder fined over worker's fatal fall",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.worksafe.vic.gov.au/news/2026-04/builder-fined-over-workers-fatal-fall",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Pearl Construction Group Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: Pearl Construction Group Pty Ltd pleaded guilty to failing to ensure a workplace under its management and control was safe and without risks to health, and was fined $150,000 in the Melbourne County Court, following the death of a 23-year-old worker who fell approximately three metres through an unprotected stair void while carrying steel at a multi-storey townhouse site in Glen Waverley in September 2022. A subcontractor sole trader involved in the same incident was separately sentenced to a community corrections order plus a $10,000 fine.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-045",
+      "case_id": "DFAPTI-AU-2026-00204",
+      "source_authority": "Resources Safety & Health Queensland",
+      "document_title": "$7M penalty in first industrial manslaughter conviction",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.rshq.qld.gov.au/media/$7m-penalty-in-first-industrial-manslaughter-conviction",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Mastermyne Crinum Operations Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: Mastermyne Crinum Operations Pty Ltd, a subsidiary of the Metarock Group, was found guilty by jury of industrial manslaughter under Queensland's Coal Mining Safety and Health Act 1999 - the first such conviction since the offence took effect in 2020 - following the death of underground miner Graham Dawson in a roof collapse at the Crinum coal mine on 14 September 2021. Resources Safety and Health Queensland found the company's strata control systems were inadequate. The District Court of Queensland imposed a $7 million fine plus costs, Australia's largest-ever work health and safety penalty; the company has lodged a notice of appeal.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-046",
+      "case_id": "DFAPTI-AU-2026-00205",
+      "source_authority": "SafeWork SA",
+      "document_title": "Crusher incident leads to $210,000 fine",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.safework.sa.gov.au/news-and-alerts/news/news/2025new/crusher-incident-leads-to-$210,000-fine",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Bureau Veritas Minerals Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: Bureau Veritas Minerals Pty Ltd pleaded guilty to a charge under South Australia's Work Health and Safety Act 2012 and was fined $210,000 (reduced 40% from $350,000 for an early guilty plea) plus costs and a Victims of Crime Levy, after a 20-year-old worker employed only a few weeks had a gloved hand pulled into a rock crusher's rollers at a Wingfield workshop in June 2023, amputating part of a finger. SafeWork SA found the company failed to provide an adequate interlock device, failed to assess energisation risk during clearing tasks, and gave inadequate training and supervision.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-047",
+      "case_id": "DFAPTI-AU-2026-00206",
+      "source_authority": "Aged Care Quality and Safety Commission",
+      "document_title": "Statement from Liz Hefren-Webb, Aged Care Quality and Safety Commissioner - Revocation of Approved Provider Status of NDN Care Services Pty Ltd (Della Dale Aged Care), Ringwood (VIC)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.agedcarequality.gov.au/news-publications/media-statement/statement-liz-hefren-webb-aged-care-quality-and-safety-commissioner-revocation-approved-provider-status-ndn-care-services-pty-ltd-della-dale-aged-care-ringwood-vic",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "NDN Care Services Pty Ltd (trading as Della Dale Aged Care) is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The Aged Care Quality and Safety Commission revoked the approved provider status of NDN Care Services Pty Ltd, trading as Della Dale Aged Care in Ringwood, Victoria - its most severe regulatory sanction - after finding all 19 residents were prescribed psychotropic medication without proper management, planning or monitoring as required by the Aged Care Quality Standards, and that an 'extreme form of physical restraint' had been used on a resident without consideration of their safety or wellbeing. The notice was issued in May 2025, with the revocation taking effect 26 September 2025.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-048",
+      "case_id": "DFAPTI-AU-2026-00207",
+      "source_authority": "ASQA",
+      "document_title": "Cancelling of qualifications - BG College of Vocational Education and Training Pty Ltd, trading as Safeguard School of Trades, RTO 45850",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.asqa.gov.au/for-students/qualification-integrity-regulatory-action/cancelling-of-qualifications-BG-College-45850",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "BG College of Vocational Education and Training Pty Ltd (trading as Safeguard School of Trades) is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The Australian Skills Quality Authority cancelled qualifications issued by BG College of Vocational Education and Training Pty Ltd (RTO 45850), trading as Safeguard School of Trades, effective 2 December 2025, as part of its qualification-integrity regulatory action program. The cancellation covers Property Services Training Package qualifications issued between 24 March 2023 and 2 December 2025, and Construction/Plumbing/Services qualifications issued between 2 May 2024 and 2 December 2025.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-049",
+      "case_id": "DFAPTI-AU-2026-00208",
+      "source_authority": "ASQA",
+      "document_title": "Notice to impacted individuals - Melbourne Training Centre (high priority)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.asqa.gov.au/sites/default/files/2026-04/Notice%20to%20impacted%20individuals%20-%20Melbourne%20Training%20Centre%20April%202026%20(high%20priority).pdf",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Melbourne Training Centre Pty Ltd (trading as Studywise College, RTO 45579) is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The Australian Skills Quality Authority cancelled the RTO registration of Melbourne Training Centre Pty Ltd, trading as Studywise College, effective 23 July 2025, and published a high-priority notice to impacted individuals in April 2026. Hundreds of students face potential loss of qualifications in courses including Certificate III in Individual Support, Certificate IV in Disability Support, and Diploma of Community Services, with a response deadline of 7 May 2026 given to affected students.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-050",
+      "case_id": "DFAPTI-AU-2026-00209",
+      "source_authority": "NSW Building Commission",
+      "document_title": "Enforceable undertaking to remediate Parramatta building defects",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/enforceable-undertaking-to-remediate-parramatta-building-defects",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Hassall Developments Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW Office of the Building Commissioner secured an enforceable undertaking (October 2023) from Hassall Developments Pty Ltd, developer of two 22-storey 'Imperial Towers' apartment buildings at 9 Hassall Street, Parramatta, after finding serious structural, waterproofing and fire-safety defects that had led to a prohibition order in 2021. Under the undertaking, the company committed to remediate all serious defects and to unwind off-the-plan purchaser contracts, including returning deposits, with a 10-year resale restriction on the affected units.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-051",
+      "case_id": "DFAPTI-AU-2026-00210",
+      "source_authority": "NSW Building Commission",
+      "document_title": "Building Work Rectification Order - 291 George Street, Waterloo NSW 2017",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/building-commission/register-of-building-work-orders/building-work-rectification-order-291-george-street-waterloo-nsw-2017",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Alta Vale Residential Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW Building Commission made its first disciplinary decision against a builder for non-compliance with a building work rectification order, over a property at 291 George Street, Waterloo. The company Alta Vale Residential Pty Ltd was fined $50,000 for breaching its statutory warranty, and its director, Thomas Cull, was fined $40,000 and had his builder's licences cancelled, effective 1 May 2026. The company is barred from entering new building contracts until it complies with the order, and must file monthly progress reports; Alta Vale is seeking internal and potential NCAT review.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-052",
+      "case_id": "DFAPTI-AU-2026-00211",
+      "source_authority": "NSW Building Commission",
+      "document_title": "Building Work Rectification Order for Design Developments Sydney Pty Ltd",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/building-commission/register-of-building-work-orders/building-work-rectification-order-for-design-developments-sydney-pty-ltd",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Design Developments Sydney Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW Building Commission issued a building work rectification order against Design Developments Sydney Pty Ltd requiring remediation of serious defects at 38 Hope Street, Penrith. Non-compliance with the order is a criminal offence under NSW building legislation.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-053",
+      "case_id": "DFAPTI-AU-2026-00212",
+      "source_authority": "NSW Building Commission",
+      "document_title": "Work Order for 177 Burraneer Rd, Caringbah South",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.nsw.gov.au/departments-and-agencies/building-commission/register-of-building-work-orders/work-order-for-177-burraneer-rd-caringbah-south",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Ross Kenna Developments Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW Building Commission issued a building work rectification order (2023) against Ross Kenna Developments Pty Ltd over five townhouses at 177 Burraneer Bay Road, Caringbah South, citing insufficient waterproofing to entryways, garages and car parks, inadequate firefighting equipment, and inadequate balcony overflow drainage, giving 60 days to rectify. Non-compliance with the order is a criminal offence. Secondary press has reported that a prosecution against the company and its director for failing to comply with the order commenced in 2025/2026, though this specific prosecution action could not be independently confirmed against a government source in this pass.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-054",
+      "case_id": "DFAPTI-AU-2026-00213",
+      "source_authority": "WorkSafe WA",
+      "document_title": "WHS Prosecution Summary - RUC Mining Contractors",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.worksafe.wa.gov.au/system/files/documents/2025-09/WHS_ProsecutionSummary_20250905_RUC.pdf",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "RUC Mining Contractors Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: RUC Mining Contractors Pty Ltd pleaded guilty in the Kalgoorlie Magistrates Court to two counts under Western Australia's Work Health and Safety Act 2020 of exposing workers to a risk of death or serious injury, and was fined $540,000 plus costs. The charges arose from an October 2022 incident at the St Ives Gold Mine near Kambalda, where a worker dismantling a reamer cutting tool at the base of a ventilation shaft was killed by a falling rock and a second worker, a probationary employee, was also injured.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-055",
+      "case_id": "DFAPTI-AU-2026-00214",
+      "source_authority": "WorkSafe WA",
+      "document_title": "WorkSafe commences prosecutions over two mining fatalities",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.worksafe.wa.gov.au/announcements/worksafe-commences-prosecutions-over-two-mining-fatalities-0",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "MACA Mining Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: WorkSafe WA commenced prosecution against MACA Mining Pty Ltd, as mining contractor, over the death of an employee at the Karlawinda mine in October 2022, when a dump truck collided with the utility vehicle he was in, alleging failure to ensure worker health and safety resulting in death under the Work Health and Safety Act 2020. The maximum penalty is $3.5 million.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-056",
+      "case_id": "DFAPTI-AU-2026-00215",
+      "source_authority": "WorkSafe WA",
+      "document_title": "WorkSafe commences prosecutions over two mining fatalities",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.worksafe.wa.gov.au/announcements/worksafe-commences-prosecutions-over-two-mining-fatalities-0",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Greenmount Resources Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: WorkSafe WA commenced prosecution against Greenmount Resources Pty Ltd, as mine operator, over the death of a contractor's employee at the Karlawinda mine in October 2022, when a dump truck collided with the utility vehicle he was in, alleging failure to ensure worker health and safety resulting in death under the Work Health and Safety Act 2020. The maximum penalty is $3.5 million.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-057",
+      "case_id": "DFAPTI-AU-2026-00216",
+      "source_authority": "Energy Safe Victoria",
+      "document_title": "Court fines solar installer $9,000 over unsafe battery installs",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.energysafe.vic.gov.au/media-centre/news/court-fines-solar-installer-9000-over-unsafe-battery-installs",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Greenova Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: Greenova Pty Ltd pleaded guilty in the Seymour Magistrates' Court to three charges under Victoria's Electricity Safety Act 1998 over non-compliant battery energy storage system installations at five Victorian properties between December 2023 and July 2024, including a property at Toolamba where an incorrectly installed battery overcharged and ignited, prompting a Country Fire Authority callout. The company was fined $9,000.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-058",
+      "case_id": "DFAPTI-AU-2026-00217",
+      "source_authority": "NSW Resources Regulator",
+      "document_title": "Peak Gold Mines Pty Ltd convicted and fined following death of mine worker",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.resources.nsw.gov.au/ministerial-releases/peak-gold-mines-pty-ltd-convicted-and-fined-following-death-of-mine-worker",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Peak Gold Mines Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: Peak Gold Mines Pty Ltd was convicted and fined $480,000 plus costs by the NSW District Court (21 October 2021) for breaching its duty under the Work Health and Safety Act 2011, following the death of worker Mark Brilley on 3 April 2017 near Cobar. Brilley died from heat and diesel exhaust exposure while operating an open-cabin drill rig approximately one kilometre underground after a ventilation fan had been shut down for maintenance.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-059",
+      "case_id": "DFAPTI-AU-2026-00218",
+      "source_authority": "NSW EPA",
+      "document_title": "Western Sydney company fined $30,000 for dangerous chemicals storage",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.epa.nsw.gov.au/news/epamedia/250207-western-sydney-company-fined-30-000-for-dangerous-chemicals-storage",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Sika Australia Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW Environment Protection Authority fined Sika Australia $30,000 (7 February 2025) after an inspection of its Wetherill Park facility found flammable chemicals stockpiled and stored outside, cement spilled next to a stormwater drain, and a damaged reactor vessel leaking chemicals in a zone classified as having an explosive gas atmosphere. The EPA also issued a Clean Up Notice requiring the reactor to be taken out of use until repaired and site chemical-storage practices improved.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-060",
+      "case_id": "DFAPTI-AU-2026-00219",
+      "source_authority": "Aged Care Quality and Safety Commission",
+      "document_title": "Enforceable Undertaking - Infinite Aged Care (Cornubia) Pty Ltd",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.agedcarequality.gov.au/provider/infinite-aged-care-cornubia-pty-ltd",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Infinite Aged Care (Cornubia) Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The Aged Care Quality and Safety Commission entered an Enforceable Undertaking with Infinite Aged Care (Cornubia) Pty Ltd as part of a sector-wide enforcement round (announced 13 January 2025) against 11 providers found to be falling well short of mandatory care minutes targets for residents over successive quarters.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-061",
+      "case_id": "DFAPTI-AU-2026-00220",
+      "source_authority": "Aged Care Quality and Safety Commission",
+      "document_title": "Enforceable Undertaking - Havilah Hostel Inc",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.agedcarequality.gov.au/sites/default/files/media/eu-havilah-hostel-inc-signed-october-2025.pdf",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Havilah Hostel Inc is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The Aged Care Quality and Safety Commission entered an Enforceable Undertaking with Havilah Hostel Inc, a Maryborough, Victoria facility holding an overall 3-star rating as at 17 July 2025, signed 3 October 2025. The undertaking followed a Commission desktop monitoring assessment (4 April 2025) that identified non-compliance with Quality Standards 2, 3, 7 and 8.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-062",
+      "case_id": "DFAPTI-AU-2026-00221",
+      "source_authority": "NDIS Quality and Safeguards Commission",
+      "document_title": "NDIS Quality and Safeguards Commission compliance and enforcement actions search (notice of revocation of registration, Better Together Support Pty Ltd, 30 March 2026)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.ndiscommission.gov.au/about-us/compliance-and-enforcement/compliance-actions/search",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Better Together Support Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NDIS Quality and Safeguards Commission issued a notice of revocation of registration to Better Together Support Pty Ltd (a registered provider of group and centre-based activities in Peakhurst, NSW) on 30 March 2026, on the basis a delegate of the Commissioner reasonably believed the company contravened section 73J of the NDIS Act by failing to complete an assessment of the remaining elements of its Certification audit due three months after service delivery commenced. The revocation took effect from 5pm on 8 June 2026.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-063",
+      "case_id": "DFAPTI-AU-2026-00222",
+      "source_authority": "NSW EPA",
+      "document_title": "EPA secures Enforceable Undertaking with concrete company following investigation",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.epa.nsw.gov.au/news/epamedia/250716-epa-secures-enforceable-undertaking-with-concrete-company-following-investigation",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Reinforced Concrete Pipes Australia (NSW) Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The NSW EPA agreed to a $100,000 Enforceable Undertaking with Reinforced Concrete Pipes Australia (NSW) Pty Ltd following an investigation that began when the company applied for an Environment Protection Licence in December 2022 and the EPA found it had been producing more than 30,000 tonnes of steel-reinforced concrete pipes annually at its Somersby facility between 2018 and 2022 without any licence at all — operating for several years with no formal monitoring of dust, water pollution or noise. The EU payment funds local environmental restoration projects, including platypus population monitoring and protection.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
+    },
+    {
+      "evidence_id": "E-064",
+      "case_id": "DFAPTI-AU-2026-00223",
+      "source_authority": "SafeWork SA",
+      "document_title": "Demolition company fined $72,000 after worker suffers amputation",
+      "publication_date": null,
+      "capture_date": "2026-07-23T09:39:16Z",
+      "source_url": "https://www.safework.sa.gov.au/news-and-alerts/news/news/2025new/demolition-company-fined-$72,000-after-worker-suffers-amputation",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "A. Haros Demolition Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: A. Haros Demolition Pty Ltd was convicted and fined $72,000 (reduced from $120,000 for an early guilty plea) by the South Australian Employment Court on 2 July 2026 following a SafeWork SA prosecution for a Category 2 offence under the Work Health and Safety Act 2012. A SafeWork SA investigation found the company failed to maintain an exclusion zone around an operating excavator, failed to implement an effective communication system between workers and the operator, and had no spotter present, at a Thebarton demolition site on 15 November 2023 - a worker was struck in the foot by the excavator bucket and suffered a crush injury resulting in amputation of all toes and part of the forefoot.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T09:39:16Z"
     }
   ]
 }

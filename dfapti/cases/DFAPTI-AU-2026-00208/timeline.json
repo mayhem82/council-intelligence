@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00208",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00119 (Melbourne Training Centre Pty Ltd (trading as Studywise College, RTO 45579)). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-049"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

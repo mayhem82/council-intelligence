@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00207",
+  "title": "BG College of Vocational Education and Training Pty Ltd (trading as Safeguard School of Trades) — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Australian Skills Quality Authority cancelled qualifications issued by BG College of Vocational Education and Training Pty Ltd (RTO 45850), trading as Safeguard School of Trades, effective 2 December 2025, as part of its qualification-integrity regulatory action program. The cancellation covers Property Services Training Package qualifications issued between 24 March 2023 and 2 December 2025, and Construction/Plumbing/Services qualifications issued between 2 May 2024 and 2 December 2025.",
+  "scope": "Qualifications it issued were cancelled by the national vocational education regulator under its qualification-integrity enforcement program; Cancellation covers qualifications issued across an approximately two-year window",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "ASQA"
+  ]
+}

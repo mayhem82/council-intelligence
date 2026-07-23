@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00217",
+  "title": "Peak Gold Mines Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "Peak Gold Mines Pty Ltd was convicted and fined $480,000 plus costs by the NSW District Court (21 October 2021) for breaching its duty under the Work Health and Safety Act 2011, following the death of worker Mark Brilley on 3 April 2017 near Cobar. Brilley died from heat and diesel exhaust exposure while operating an open-cabin drill rig approximately one kilometre underground after a ventilation fan had been shut down for maintenance.",
+  "scope": "Convicted of a work health and safety offence following a worker's death; Fined $480,000 plus costs by the NSW District Court",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NSW Resources Regulator"
+  ]
+}

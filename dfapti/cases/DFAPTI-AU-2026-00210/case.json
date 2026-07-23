@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00210",
+  "title": "Alta Vale Residential Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW Building Commission made its first disciplinary decision against a builder for non-compliance with a building work rectification order, over a property at 291 George Street, Waterloo. The company Alta Vale Residential Pty Ltd was fined $50,000 for breaching its statutory warranty, and its director, Thomas Cull, was fined $40,000 and had his builder's licences cancelled, effective 1 May 2026. The company is barred from entering new building contracts until it complies with the order, and must file monthly progress reports; Alta Vale is seeking internal and potential NCAT review.",
+  "scope": "Subject of the NSW Building Commission's first disciplinary decision against a builder for non-compliance with a rectification order; Company fined $50,000 for breach of statutory warranty; director fined $40,000 with licences cancelled; Barred from entering new building contracts until compliance is achieved",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NSW Building Commission"
+  ]
+}

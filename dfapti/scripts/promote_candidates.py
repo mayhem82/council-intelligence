@@ -61,6 +61,30 @@ def source_authority_for_url(url):
         return "Federal Register of Legislation"
     if "anao.gov.au" in url:
         return "ANAO"
+    if "epa.nsw.gov.au" in url:
+        return "NSW EPA"
+    if "ndiscommission.gov.au" in url:
+        return "NDIS Quality and Safeguards Commission"
+    if "worksafe.vic.gov.au" in url:
+        return "WorkSafe Victoria"
+    if "rshq.qld.gov.au" in url:
+        return "Resources Safety & Health Queensland"
+    if "safework.sa.gov.au" in url:
+        return "SafeWork SA"
+    if "worksafe.wa.gov.au" in url:
+        return "WorkSafe WA"
+    if "agedcarequality.gov.au" in url:
+        return "Aged Care Quality and Safety Commission"
+    if "asqa.gov.au" in url:
+        return "ASQA"
+    if "energysafe.vic.gov.au" in url:
+        return "Energy Safe Victoria"
+    if "resources.nsw.gov.au" in url:
+        return "NSW Resources Regulator"
+    if "nsw.gov.au/departments-and-agencies/building-commission" in url:
+        return "NSW Building Commission"
+    if "nsw.gov.au/departments-and-agencies/customer-service" in url:
+        return "NSW Building Commission"
     return "Unknown"
 
 

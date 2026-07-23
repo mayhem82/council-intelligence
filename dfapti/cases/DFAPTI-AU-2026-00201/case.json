@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00201",
+  "title": "Yidaki Support Services Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NDIS Quality and Safeguards Commission made a permanent banning order against Yidaki Support Services Pty Ltd under section 73ZN(1)(b)(iii) of the National Disability Insurance Scheme Act 2013, made 13 April 2026 and effective 12 May 2026, prohibiting the company from providing supports or services to people with disability anywhere in Australia. The order followed a Commission delegate's finding that the company and an associated individual are not suitable to be involved in the provision of disability supports.",
+  "scope": "Subject of a permanent NDIS Commission banning order prohibiting it from providing disability supports or services anywhere in Australia; Commission delegate found the company and an associated individual not suitable to be involved in disability support provision",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NDIS Quality and Safeguards Commission"
+  ]
+}

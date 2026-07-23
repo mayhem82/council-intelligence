@@ -1,0 +1,13 @@
+{
+  "case_id": "DFAPTI-AU-2026-00207",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case auto-created by the Target Visibility Gate, promoted from candidate T-AU-2026-00118 (BG College of Vocational Education and Training Pty Ltd (trading as Safeguard School of Trades)). Promotion required at least one independently verified source_evidence entry — see dfapti/rules/factualism-audit.md.",
+      "evidence_ids": [
+        "E-048"
+      ],
+      "status_change": "CANDIDATE -> ACTIVE"
+    }
+  ]
+}

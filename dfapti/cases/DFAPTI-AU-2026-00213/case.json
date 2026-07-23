@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00213",
+  "title": "RUC Mining Contractors Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "RUC Mining Contractors Pty Ltd pleaded guilty in the Kalgoorlie Magistrates Court to two counts under Western Australia's Work Health and Safety Act 2020 of exposing workers to a risk of death or serious injury, and was fined $540,000 plus costs. The charges arose from an October 2022 incident at the St Ives Gold Mine near Kambalda, where a worker dismantling a reamer cutting tool at the base of a ventilation shaft was killed by a falling rock and a second worker, a probationary employee, was also injured.",
+  "scope": "Pleaded guilty to two work health and safety offences following a worker's death; Fined $540,000 plus costs; A second, probationary worker was also injured in the same incident",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "WorkSafe WA"
+  ]
+}

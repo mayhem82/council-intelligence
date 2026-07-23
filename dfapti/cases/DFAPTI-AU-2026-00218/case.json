@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00218",
+  "title": "Sika Australia Pty Ltd — Environmental impact",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Environmental impact",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW Environment Protection Authority fined Sika Australia $30,000 (7 February 2025) after an inspection of its Wetherill Park facility found flammable chemicals stockpiled and stored outside, cement spilled next to a stormwater drain, and a damaged reactor vessel leaking chemicals in a zone classified as having an explosive gas atmosphere. The EPA also issued a Clean Up Notice requiring the reactor to be taken out of use until repaired and site chemical-storage practices improved.",
+  "scope": "Fined $30,000 by the NSW EPA over dangerous chemical storage practices; Regulator found a damaged reactor vessel leaking chemicals in an explosive-gas-atmosphere zone; Issued a Clean Up Notice requiring remediation before the reactor could be used again",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NSW EPA"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00200",
+  "title": "Forestry Corporation of NSW — Environmental impact",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Environmental impact",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW Environment Protection Authority issued Forestry Corporation of NSW two penalty notices totalling $60,000 (issued 20 January 2026) after inspections found a machinery crossing on Dooga Creek in the Mogo State Forest, a designated Environmentally Significant Area, was not built to best-practice standard, causing sediment erosion and water pollution. The EPA also found Forestry Corporation had failed to complete required clean-up work under a prior clean-up notice.",
+  "scope": "Issued two NSW EPA penalty notices totalling $60,000 over water pollution from a forestry operation; Alleged to have failed to complete required remediation work under a prior EPA clean-up notice; Incident occurred within a designated Environmentally Significant Area",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NSW EPA"
+  ]
+}

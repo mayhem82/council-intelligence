@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00209",
+  "title": "Hassall Developments Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW Office of the Building Commissioner secured an enforceable undertaking (October 2023) from Hassall Developments Pty Ltd, developer of two 22-storey 'Imperial Towers' apartment buildings at 9 Hassall Street, Parramatta, after finding serious structural, waterproofing and fire-safety defects that had led to a prohibition order in 2021. Under the undertaking, the company committed to remediate all serious defects and to unwind off-the-plan purchaser contracts, including returning deposits, with a 10-year resale restriction on the affected units.",
+  "scope": "Regulator found serious structural, waterproofing and fire-safety defects sufficient to warrant a prohibition order; Entered an enforceable undertaking to remediate defects and unwind purchaser contracts; Ten-year resale restriction imposed on affected apartments as part of the undertaking",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NSW Building Commission"
+  ]
+}

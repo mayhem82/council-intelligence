@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00221",
+  "title": "Better Together Support Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NDIS Quality and Safeguards Commission issued a notice of revocation of registration to Better Together Support Pty Ltd (a registered provider of group and centre-based activities in Peakhurst, NSW) on 30 March 2026, on the basis a delegate of the Commissioner reasonably believed the company contravened section 73J of the NDIS Act by failing to complete an assessment of the remaining elements of its Certification audit due three months after service delivery commenced. The revocation took effect from 5pm on 8 June 2026.",
+  "scope": "NDIS Commission notice of revocation of registration issued over an alleged contravention of section 73J of the NDIS Act; Alleged failure to complete a required post-commencement Certification audit assessment for a support category serving people with disability; Registration revocation took effect several months after the initial notice, ending the provider's ability to deliver NDIS supports",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NDIS Quality and Safeguards Commission"
+  ]
+}

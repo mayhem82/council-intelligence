@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00222",
+  "title": "Reinforced Concrete Pipes Australia (NSW) Pty Ltd — Environmental impact",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Environmental impact",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW EPA agreed to a $100,000 Enforceable Undertaking with Reinforced Concrete Pipes Australia (NSW) Pty Ltd following an investigation that began when the company applied for an Environment Protection Licence in December 2022 and the EPA found it had been producing more than 30,000 tonnes of steel-reinforced concrete pipes annually at its Somersby facility between 2018 and 2022 without any licence at all — operating for several years with no formal monitoring of dust, water pollution or noise. The EU payment funds local environmental restoration projects, including platypus population monitoring and protection.",
+  "scope": "NSW EPA enforceable undertaking of $100,000 following an unlicensed-operation investigation; Company operated a concrete manufacturing facility producing over 30,000 tonnes annually for at least four years without any Environment Protection Licence; No formal monitoring of dust, water pollution or noise impacts during the unlicensed operating period",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NSW EPA"
+  ]
+}

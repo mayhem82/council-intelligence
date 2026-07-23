@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00212",
+  "title": "Ross Kenna Developments Pty Ltd — Public safety",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The NSW Building Commission issued a building work rectification order (2023) against Ross Kenna Developments Pty Ltd over five townhouses at 177 Burraneer Bay Road, Caringbah South, citing insufficient waterproofing to entryways, garages and car parks, inadequate firefighting equipment, and inadequate balcony overflow drainage, giving 60 days to rectify. Non-compliance with the order is a criminal offence. Secondary press has reported that a prosecution against the company and its director for failing to comply with the order commenced in 2025/2026, though this specific prosecution action could not be independently confirmed against a government source in this pass.",
+  "scope": "Subject of a NSW Building Commission rectification order citing insufficient waterproofing and inadequate fire safety equipment across five townhouses; Non-compliance with the order carries criminal liability under NSW building legislation; Reported by secondary press, but not independently confirmed against a government source, to be facing prosecution for non-compliance with the order",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "NSW Building Commission"
+  ]
+}
