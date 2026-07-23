@@ -3162,6 +3162,113 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-22T23:25:00Z",
       "last_updated": "2026-07-22T23:25:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00116",
+      "name": "AustralianSuper Pty Ltd (as trustee)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-034mr-asic-sues-australiansuper-alleging-significant-death-benefit-claims-failures/",
+          "title": "25-034MR ASIC sues AustralianSuper alleging significant death benefit claims failures",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "ASIC commenced Federal Court civil penalty proceedings alleging AustralianSuper Pty Ltd, as trustee, took between four months and four years to assess at least 6,897 death benefit claims between 1 July 2019 and 18 October 2024, took 15 to 213 days to issue claim forms in 254 cases, and failed to pay benefits to beneficiaries 'as soon as practicable' in at least 752 cases, in alleged breach of its obligation to act efficiently, honestly and fairly. The proceedings remain active, with a penalty hearing now listed for 9 September 2026 following several case-management adjournments through 2026.",
+      "risk_indicators": [
+        "Subject of ongoing Federal Court civil penalty proceedings brought by ASIC",
+        "Alleged to have taken between four months and four years to assess thousands of death benefit claims",
+        "Alleged to have failed to pay benefits 'as soon as practicable' in at least 752 cases",
+        "Penalty hearing listed for 9 September 2026 following repeated adjournments"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T00:10:00Z",
+      "last_updated": "2026-07-23T00:10:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00117",
+      "name": "Luxottica Franchising Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/opsm-and-laubman-pank-franchisor-pays-penalty-for-alleged-breach-of-franchising-code",
+          "title": "OPSM and Laubman & Pank franchisor pays penalty for alleged breach of Franchising Code",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC issued Luxottica Franchising Australia Pty Ltd, franchisor of the OPSM and Laubman & Pank optical retail chains, a $19,800 infringement notice (reported March 2026) over an allegedly out-of-date Franchise Disclosure Register profile - a register that has been out of date since around May 2025 - in alleged breach of the Franchising Code of Conduct. Luxottica paid the penalty and has since updated its disclosure.",
+      "risk_indicators": [
+        "Paid a $19,800 ACCC infringement notice over an allegedly out-of-date franchise disclosure register profile",
+        "Payment of an infringement notice is not an admission of liability under the ACCC's process"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T00:10:00Z",
+      "last_updated": "2026-07-23T00:10:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00118",
+      "name": "BG College of Vocational Education and Training Pty Ltd (trading as Safeguard School of Trades)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asqa.gov.au/for-students/qualification-integrity-regulatory-action/cancelling-of-qualifications-BG-College-45850",
+          "title": "Cancelling of qualifications - BG College of Vocational Education and Training Pty Ltd, trading as Safeguard School of Trades, RTO 45850",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Australian Skills Quality Authority cancelled qualifications issued by BG College of Vocational Education and Training Pty Ltd (RTO 45850), trading as Safeguard School of Trades, effective 2 December 2025, as part of its qualification-integrity regulatory action program. The cancellation covers Property Services Training Package qualifications issued between 24 March 2023 and 2 December 2025, and Construction/Plumbing/Services qualifications issued between 2 May 2024 and 2 December 2025.",
+      "risk_indicators": [
+        "Qualifications it issued were cancelled by the national vocational education regulator under its qualification-integrity enforcement program",
+        "Cancellation covers qualifications issued across an approximately two-year window"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T00:10:00Z",
+      "last_updated": "2026-07-23T00:10:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00119",
+      "name": "Melbourne Training Centre Pty Ltd (trading as Studywise College, RTO 45579)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asqa.gov.au/sites/default/files/2026-04/Notice%20to%20impacted%20individuals%20-%20Melbourne%20Training%20Centre%20April%202026%20(high%20priority).pdf",
+          "title": "Notice to impacted individuals - Melbourne Training Centre (high priority)",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Australian Skills Quality Authority cancelled the RTO registration of Melbourne Training Centre Pty Ltd, trading as Studywise College, effective 23 July 2025, and published a high-priority notice to impacted individuals in April 2026. Hundreds of students face potential loss of qualifications in courses including Certificate III in Individual Support, Certificate IV in Disability Support, and Diploma of Community Services, with a response deadline of 7 May 2026 given to affected students.",
+      "risk_indicators": [
+        "RTO registration cancelled by the national vocational education regulator",
+        "Hundreds of students in disability-support and community-services courses face potential loss of their qualifications",
+        "Regulator issued a high-priority notice to affected individuals"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T00:10:00Z",
+      "last_updated": "2026-07-23T00:10:00Z"
     }
   ]
 }
