@@ -4108,6 +4108,86 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T04:30:00Z",
       "last_updated": "2026-07-23T04:30:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00151",
+      "name": "Electro Optic Systems Holdings Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-068mr-electro-optic-systems-holdings-ordered-to-pay-4-million-penalty-for-continuous-disclosure-breaches/",
+          "title": "26-068MR Electro Optic Systems Holdings ordered to pay $4 million penalty for continuous disclosure breaches",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court found that defence and space systems manufacturer Electro Optic Systems Holdings Limited breached its continuous disclosure obligations under the Corporations Act. EOS knew by 25 July 2022 that its 2022 revenue would be approximately $164 million, well below its stated guidance of at least $212.3 million, but did not correct the market until 31 October 2022, a delay of roughly 14 weeks. The company was ordered to pay a $4 million penalty plus ASIC's costs.",
+      "risk_indicators": [
+        "Found by the Federal Court to have breached continuous disclosure obligations to the market",
+        "Alleged to have known its revenue would fall well short of stated guidance for roughly 14 weeks before correcting the market",
+        "Ordered to pay a $4 million penalty plus costs"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T05:00:00Z",
+      "last_updated": "2026-07-23T05:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00152",
+      "name": "Regional Express Holdings Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-140mr-rex-held-accountable-for-continuous-disclosure-failure-three-non-executive-directors-did-not-breach-duties/",
+          "title": "26-140MR Rex held accountable for continuous disclosure failure, three non-executive directors did not breach duties",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NSW Supreme Court found Regional Express Holdings Limited (Rex) breached its continuous disclosure obligations over a 28 February 2023 profit forecast, having lacked reasonable grounds from 14 April 2023 to expect a positive FY23 operating profit before disclosing a $35 million operational loss forecast on 20 June 2023. Former executive chair Lim Kim Hai admitted contraventions and accepted a pecuniary penalty and disqualification; ASIC's case against three non-executive directors was unsuccessful and they were cleared.",
+      "risk_indicators": [
+        "Found by the NSW Supreme Court to have breached continuous disclosure obligations over a profit forecast",
+        "Former executive chair admitted contraventions and accepted a pecuniary penalty and disqualification",
+        "Three non-executive directors were separately found not to have breached their duties"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T05:00:00Z",
+      "last_updated": "2026-07-23T05:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00153",
+      "name": "Mobil Oil Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/mobil-to-pay-16m-in-penalties-for-misleading-statements-about-fuel-sold-at-nine-petrol-stations",
+          "title": "Mobil to pay $16m in penalties for misleading statements about fuel sold at nine petrol stations",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Mobil Oil Australia Pty Ltd to pay $16 million in penalties (17 February 2026) for false or misleading representations at nine Queensland petrol stations, branding fuel as 'Mobil Synergy Fuel' with additives between August 2020 and July 2024 when it was substantially the same as unadditised fuel sold elsewhere. Mobil was also required to publish corrective notices and implement an Australian Consumer Law compliance program.",
+      "risk_indicators": [
+        "Ordered by the Federal Court to pay a $16 million penalty for misleading fuel-quality representations",
+        "Required to publish corrective notices and implement a consumer law compliance program"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T05:00:00Z",
+      "last_updated": "2026-07-23T05:00:00Z"
     }
   ]
 }

@@ -135,4 +135,28 @@ existing case's `keywords.json`.
   their individual accountability obligations - pending the same open
   named-individuals policy question as the entries above.
 
+## Manual Review — 2026-07-23
+
+- **NSW Treasury climate-related financial disclosures framework**
+  (Policy and Guidelines Paper TPG24-33, issued 29 October 2024, minor
+  update June 2025 - `https://www.nsw.gov.au/departments-and-agencies/nsw-treasury/documents-library/tpg24-33`)
+  and the **Commonwealth Climate Disclosure Policy** administered by
+  the Department of Finance
+  (`https://www.finance.gov.au/government/climate-action-government-operations/commonwealth-climate-disclosure`)
+  — found during a routine evidence sweep for DFAPTI-AU-2026-00198.
+  Both mandate climate-related financial disclosure, broadly aligned
+  to AASB S2/the ASRS, but for the public sector: NSW public-sector
+  entities (departments, state-owned corporations, councils,
+  Corporations Act subsidiaries) under the NSW framework, and
+  Commonwealth entities/Commonwealth companies under the federal one.
+  Not added to case 00198: these are separate public-sector disclosure
+  regimes administered by Treasury/Finance departments, not ASIC's
+  Chapter 2M corporate sustainability-reporting regime that this case
+  tracks - the same reasoning already applied to excluding greenwashing
+  litigation from this case's scope. Worth their own case if there is
+  interest in public-sector climate disclosure specifically. The
+  Commonwealth policy's exact publication date was not independently
+  confirmed in this pass (sandbox could not fetch finance.gov.au
+  directly).
+
 No other candidates recorded yet.
