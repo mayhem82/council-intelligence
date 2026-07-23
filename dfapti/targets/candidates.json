@@ -4002,6 +4002,112 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T04:00:00Z",
       "last_updated": "2026-07-23T04:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00147",
+      "name": "Grocery Delivery E-Services Australia Pty Ltd (trading as HelloFresh)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/hellofresh-and-youfoodz-in-court-over-alleged-subscription-traps",
+          "title": "HelloFresh and Youfoodz in court over alleged subscription traps",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced Federal Court proceedings (around 16 December 2025) alleging Grocery Delivery E-Services Australia Pty Ltd, trading as HelloFresh, breached the Australian Consumer Law over subscription cancellation traps: 62,061 customers were allegedly charged between January 2023 and March 2025 despite cancelling before the advertised cut-off. The ACCC also alleges HelloFresh required payment details to view its menu while representing that consumers would not be charged unless meals were selected.",
+      "risk_indicators": [
+        "Subject of Federal Court proceedings brought by the ACCC alleging misleading subscription cancellation representations, ongoing",
+        "Alleged that over 62,000 customers were charged despite cancelling before the advertised deadline"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:30:00Z",
+      "last_updated": "2026-07-23T04:30:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00148",
+      "name": "Youfoodz Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/hellofresh-and-youfoodz-in-court-over-alleged-subscription-traps",
+          "title": "HelloFresh and Youfoodz in court over alleged subscription traps",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC commenced separate Federal Court proceedings (around 16 December 2025) alleging Youfoodz Pty Ltd, also owned by HelloFresh SE, breached the Australian Consumer Law over subscription cancellation traps: 39,408 customers were allegedly charged between October 2022 and November 2024 despite cancelling before the advertised cut-off.",
+      "risk_indicators": [
+        "Subject of Federal Court proceedings brought by the ACCC alleging misleading subscription cancellation representations, ongoing",
+        "Alleged that over 39,000 customers were charged despite cancelling before the advertised deadline"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:30:00Z",
+      "last_updated": "2026-07-23T04:30:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00149",
+      "name": "Sika Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Environmental impact",
+      "source_evidence": [
+        {
+          "url": "https://www.epa.nsw.gov.au/news/epamedia/250207-western-sydney-company-fined-30-000-for-dangerous-chemicals-storage",
+          "title": "Western Sydney company fined $30,000 for dangerous chemicals storage",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NSW Environment Protection Authority fined Sika Australia $30,000 (7 February 2025) after an inspection of its Wetherill Park facility found flammable chemicals stockpiled and stored outside, cement spilled next to a stormwater drain, and a damaged reactor vessel leaking chemicals in a zone classified as having an explosive gas atmosphere. The EPA also issued a Clean Up Notice requiring the reactor to be taken out of use until repaired and site chemical-storage practices improved.",
+      "risk_indicators": [
+        "Fined $30,000 by the NSW EPA over dangerous chemical storage practices",
+        "Regulator found a damaged reactor vessel leaking chemicals in an explosive-gas-atmosphere zone",
+        "Issued a Clean Up Notice requiring remediation before the reactor could be used again"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:30:00Z",
+      "last_updated": "2026-07-23T04:30:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00150",
+      "name": "3M Company and 3M Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Environmental impact",
+      "source_evidence": [
+        {
+          "url": "https://ministers.ag.gov.au/media-centre/legal-proceedings-against-3m-company-and-3m-australia-pty-ltd-28-05-2026",
+          "title": "Legal proceedings against 3M Company and 3M Australia Pty Ltd",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Commonwealth commenced Federal Court proceedings on 28 May 2026 against 3M Company and 3M Australia Pty Ltd, seeking more than $2 billion in damages over PFAS ('forever chemicals') contamination arising from aqueous film-forming foam used at 28 Defence bases. The Commonwealth alleges 3M withheld information and misrepresented the environmental risks of its firefighting foam, and gave assurances about its disposal and environmental safety inconsistent with its own internal knowledge.",
+      "risk_indicators": [
+        "Subject of Federal Court proceedings brought by the Commonwealth seeking more than $2 billion in damages, ongoing",
+        "Alleged to have withheld information and misrepresented environmental risks of a product used at 28 Defence bases",
+        "Allegations concern PFAS contamination, a substance associated with long-term environmental and health effects"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T04:30:00Z",
+      "last_updated": "2026-07-23T04:30:00Z"
     }
   ]
 }

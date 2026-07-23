@@ -168,6 +168,12 @@
       "event": "Agent-driven pass (:30). Added E-038, the AASB S2 Knowledge Hub's General FAQs sub-page, launched around May 2025 by the standard-setter itself as ongoing implementation support for the ASRS (AASB S1/S2), covering foundational application questions distinct from the already-logged audit/assurance FAQs (ASIC's E-014, AUASB's E-022) and the GHG amendment (E-028). ACCEPTED at MEDIUM confidence - the Hub's existence and general scope were cross-confirmed via two independent search queries, but the specific sub-page's own publication/update date could not be pinned down since the sandbox cannot fetch aasb.gov.au directly. Part 1 searches otherwise found only material already covered (early observations release, RG 280, Reporting and Audit Update Issue 4, the relief decisions register) or unverifiable due to fetch blocks.",
       "evidence_ids": ["E-038"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Agent-driven pass (:30). Added E-039, ASIC's reissued Regulatory Guide 43 'Financial reporting and audit relief' (24 April 2026, replacing the 2011 version and absorbing the withdrawn RG 29). RG 43 expressly cross-references sustainability-report relief under Chapter 2M, directing entities to RG 280 Section E - a genuine, directly on-topic new primary source. ACCEPTED at HIGH confidence, cross-confirmed via two independent search queries. Part 2 leads this pass (HelloFresh/Youfoodz, Sika Australia, 3M Company/3M Australia) were all genuinely new but out of case scope, added as target candidates instead.",
+      "evidence_ids": ["E-039"],
+      "status_change": "None"
     }
   ]
 }

@@ -761,6 +761,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-23T02:55:00Z"
+    },
+    {
+      "evidence_id": "E-039",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Securities and Investments Commission",
+      "document_title": "Regulatory Guide 43: Financial reporting and audit relief (reissued)",
+      "publication_date": "2026-04-24",
+      "capture_date": "2026-07-23",
+      "source_url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-43-financial-reporting-and-audit-relief/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "ASIC reissued Regulatory Guide 43 'Financial reporting and audit relief' on 24 April 2026, replacing the 2011 version and absorbing the now-withdrawn RG 29 (dual-listed company arrangements). RG 43 expressly notes that similar reporting and audit relief may be available for sustainability reports required under Chapter 2M, and directs entities seeking that relief to RG 280 'Sustainability reporting', particularly Section E - a direct cross-reference tying the general financial-reporting relief framework to the sustainability reporting regime already tracked by this case.",
+      "verification_notes": "Confirmed via two independent WebSearch queries: one corroborating the reissue date and RG 29 withdrawal/absorption, the other independently corroborating the specific Chapter 2M/RG 280 Section E cross-reference language. The sandbox cannot directly fetch asic.gov.au (blocked), so verification rests on cross-referenced search corroboration per Factualism Audit rules for this environment.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": "HIGH",
+        "rationale": "Reissue date, RG 29 absorption, and the specific sustainability-report cross-reference were each independently corroborated across separate searches returning consistent primary-source URL/title matches."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T04:20:00Z"
     }
   ]
 }
