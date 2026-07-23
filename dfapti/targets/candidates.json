@@ -2113,13 +2113,20 @@
           "title": "Telstra to pay $50m penalty for unconscionable sales to Indigenous consumers",
           "verified": true,
           "document_hash": null
+        },
+        {
+          "url": "https://www.accc.gov.au/media-release/telstra-fined-18-million-for-misleading-belong-customers-over-broadband-speed-claims",
+          "title": "Telstra fined $18 million for misleading Belong customers over broadband speed claims",
+          "verified": true,
+          "document_hash": null
         }
       ],
-      "public_interest_reason": "The Federal Court ordered Telstra to pay $50 million \u2014 the second-highest penalty ever imposed under the Australian Consumer Law \u2014 for unconscionable conduct after sales staff at five licensed Telstra-branded stores in the Northern Territory, South Australia and Western Australia signed up 108 Indigenous consumers to multiple post-paid mobile contracts between January 2016 and August 2018 that they did not understand and could not afford. The Court found staff manipulated credit assessments, misrepresented products as free, and exploited customers' social, language, literacy and cultural vulnerabilities, leaving them with debts to Telstra ranging from $1,600 to almost $20,000. Telstra also gave the ACCC an enforceable undertaking to remediate affected consumers, improve its compliance program and expand its Indigenous telephone hotline and digital literacy program.",
+      "public_interest_reason": "The Federal Court ordered Telstra to pay $50 million \u2014 the second-highest penalty ever imposed under the Australian Consumer Law \u2014 for unconscionable conduct after sales staff at five licensed Telstra-branded stores in the Northern Territory, South Australia and Western Australia signed up 108 Indigenous consumers to multiple post-paid mobile contracts between January 2016 and August 2018 that they did not understand and could not afford. The Court found staff manipulated credit assessments, misrepresented products as free, and exploited customers' social, language, literacy and cultural vulnerabilities, leaving them with debts to Telstra ranging from $1,600 to almost $20,000. Telstra also gave the ACCC an enforceable undertaking to remediate affected consumers, improve its compliance program and expand its Indigenous telephone hotline and digital literacy program. In a separate ACCC matter, the Federal Court found Telstra made false or misleading representations after migrating 8,897 Belong NBN customers, in October-November 2020, from a plan with a 40 Mbps maximum upload speed to one with only 20 Mbps, without notifying them, in breach of the Australian Consumer Law. Telstra was fined $18 million, with remediation to affected customers exceeding $2.3 million.",
       "risk_indicators": [
         "Federal Court civil penalty of $50 million, the second-highest ever under the Australian Consumer Law",
         "Found to have exploited the social, language, literacy and cultural vulnerabilities of 108 Indigenous consumers across multiple states/territories",
-        "Enforceable undertaking includes consumer remediation and expansion of Indigenous-specific support services"
+        "Enforceable undertaking includes consumer remediation and expansion of Indigenous-specific support services",
+        "Separately found by the Federal Court to have downgraded thousands of Belong customers' upload speeds without notification, resulting in an $18 million penalty"
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 5,
@@ -2127,7 +2134,7 @@
       "promoted_case_id": null,
       "rejection_reason": null,
       "discovered_at": "2026-07-22T09:36:53Z",
-      "last_updated": "2026-07-22T09:36:53Z"
+      "last_updated": "2026-07-23T02:35:00Z"
     },
     {
       "target_id": "T-AU-2026-00079",
@@ -3541,6 +3548,87 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T02:00:00Z",
       "last_updated": "2026-07-23T02:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00130",
+      "name": "American Express Australia Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2024-releases/24-158mr-american-express-ordered-to-pay-8-million-penalty-for-failing-to-meet-its-design-and-distribution-obligations/",
+          "title": "24-158MR American Express ordered to pay $8 million penalty for failing to meet its design and distribution obligations",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court found American Express Australia Limited breached design and distribution obligations for two co-branded credit cards distributed through David Jones stores between 25 May and 5 July 2022. Amex ought to have known that high cancelled-application rates suggested the target market determinations were no longer appropriate but continued issuing the cards without reviewing them. Amex admitted the contraventions and was ordered to pay $8 million plus ASIC's costs, described as the first quantified penalty imposed under Australia's design and distribution obligations regime.",
+      "risk_indicators": [
+        "Admitted breaching design and distribution obligations for two credit card products",
+        "Ordered to pay an $8 million penalty, described as the first quantified penalty under the DDO regime",
+        "Regulator found the company continued issuing a product despite signs its target market determination was no longer appropriate"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T02:35:00Z",
+      "last_updated": "2026-07-23T02:35:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00131",
+      "name": "Firstmac Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-003mr-firstmac-ordered-to-pay-8-million-in-penalties-for-failing-to-comply-with-its-design-and-distribution-obligations/",
+          "title": "25-003MR Firstmac ordered to pay $8 million in penalties for failing to comply with its design and distribution obligations",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court found Firstmac Limited contravened section 994E(3) of the Corporations Act by failing to take reasonable steps to ensure distribution of its 'High Livez' investment product to hundreds of term deposit customers, between October 2021 and September 2022, was consistent with its target market determination. Firstmac was ordered to pay $8 million plus ASIC's costs. This was the first contested-trial finding of contravention under Australia's design and distribution obligations regime.",
+      "risk_indicators": [
+        "Found by the Federal Court to have contravened design and distribution obligations following a contested trial - the first such finding under the regime",
+        "Ordered to pay an $8 million penalty plus costs",
+        "Distributed an investment product to term deposit customers in a manner found inconsistent with its own target market determination"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T02:35:00Z",
+      "last_updated": "2026-07-23T02:35:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00132",
+      "name": "Mojo Power East Pty Ltd (formerly People Energy Pty Ltd)",
+      "jurisdiction": "Australia",
+      "issue_category": "Environmental impact",
+      "source_evidence": [
+        {
+          "url": "https://cer.gov.au/news-and-media/news/2025/december/renewable-energy-target-enforcement-action-against-mojo-power-east",
+          "title": "Renewable Energy Target enforcement action against Mojo Power East",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Clean Energy Regulator obtained a Federal Court order (dated 25 November 2025) winding up Mojo Power East Pty Ltd, formerly People Energy Pty Ltd and a subsidiary of iON Holdings Ltd, in insolvency over unpaid Renewable Energy Target shortfall charges and interest for the 2022 and 2023 assessment years. The Clean Energy Regulator states parent company iON Holdings Ltd has a history of non-compliance and has failed to settle Renewable Energy Target scheme debts across several subsidiaries, including Mojo Power Pty Ltd, Qenergy Limited and Sanctuary Energy Pty Ltd.",
+      "risk_indicators": [
+        "Wound up by Federal Court order over unpaid Renewable Energy Target shortfall charges",
+        "Parent company described by the regulator as having a history of non-compliance across multiple subsidiaries",
+        "Regulator's costs were reimbursed as part of the winding-up order"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T02:35:00Z",
+      "last_updated": "2026-07-23T02:35:00Z"
     }
   ]
 }
