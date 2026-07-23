@@ -162,6 +162,12 @@
       "event": "Agent-driven pass (:30). Added E-037, the ASIC/AASB sustainability reporting webinar series (three free online sessions, 16/25/30 June 2026, featuring UTS presentations), aimed at smaller and mid-size companies building capacity for climate-related financial disclosures - distinct from the already-logged in-person workshop series and e-learning modules. ACCEPTED at HIGH confidence, cross-confirmed via three independent search queries returning identical title/URL/structure. Part 2 leads this pass (Binance Australia Derivatives/Oztures Trading, Qantas, NDN Care Services/Della Dale Aged Care) were all genuinely new but out of case scope, added as target candidates instead; one lead (BPS Financial/Qoin) was an already-tracked candidate.",
       "evidence_ids": ["E-037"],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Agent-driven pass (:30). Added E-038, the AASB S2 Knowledge Hub's General FAQs sub-page, launched around May 2025 by the standard-setter itself as ongoing implementation support for the ASRS (AASB S1/S2), covering foundational application questions distinct from the already-logged audit/assurance FAQs (ASIC's E-014, AUASB's E-022) and the GHG amendment (E-028). ACCEPTED at MEDIUM confidence - the Hub's existence and general scope were cross-confirmed via two independent search queries, but the specific sub-page's own publication/update date could not be pinned down since the sandbox cannot fetch aasb.gov.au directly. Part 1 searches otherwise found only material already covered (early observations release, RG 280, Reporting and Audit Update Issue 4, the relief decisions register) or unverifiable due to fetch blocks.",
+      "evidence_ids": ["E-038"],
+      "status_change": "None"
     }
   ]
 }

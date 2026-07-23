@@ -741,6 +741,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-22T23:20:00Z"
+    },
+    {
+      "evidence_id": "E-038",
+      "case_id": "DFAPTI-AU-2026-00198",
+      "source_authority": "Australian Accounting Standards Board",
+      "document_title": "AASB S2 Knowledge Hub - General FAQs",
+      "publication_date": "2025-05",
+      "capture_date": "2026-07-23",
+      "source_url": "https://aasb.gov.au/research-resources/knowledge-hub/aasb-s2-knowledge-hub/aasb-s2-frequently-asked-questions/general-faqs/",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "The AASB launched an 'AASB S2 Knowledge Hub' (around May 2025) as a standing implementation-support resource for its own AASB S1/S2 sustainability disclosure standards, structured into General FAQs, Technical FAQs, an Amendments FAQs sub-page, plus guidance and additional resources. The General FAQs sub-page covers foundational application material: what the Australian Sustainability Reporting Standards are, their mandatory application under the Corporations Act 2001, reporting timelines and obligations, and alignment with the ISSB's IFRS S2. This is distinct from the already-logged ASIC audit/review FAQs (E-014) and AUASB assurance FAQs (E-022), which address audit and assurance procedure rather than general standard interpretation, and from the AASB S2025-1 GHG amendment (E-028), which the Hub itself splits into a separate Amendments FAQs sub-page.",
+      "verification_notes": "Confirmed via two independent WebSearch queries as a genuine, distinct AASB primary resource (issued by the standard-setter itself, not ASIC or AUASB), with content scope independently distinguished from already-logged FAQ/guidance items. The Hub's approximate May 2025 launch date is corroborated by an independent secondary source (xbrl.org); the specific General FAQs sub-page's own last-updated date could not be confirmed since the sandbox cannot directly fetch aasb.gov.au (blocked). Recorded at MEDIUM confidence given the imprecise dating.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": "MEDIUM",
+        "rationale": "Genuine, distinct AASB standard-setter resource with scope independently confirmed via search corroboration; exact sub-page publication/update date and full content not directly read due to fetch blocks."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T02:55:00Z"
     }
   ]
 }

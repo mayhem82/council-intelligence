@@ -410,12 +410,19 @@
           "title": "JustAnswer in Court for alleged misleading prices, subscription trap and government affiliation claims",
           "verified": true,
           "document_hash": null
+        },
+        {
+          "url": "https://www.accc.gov.au/media-release/justanswer-to-pay-10m-in-penalties-for-misleading-pricing-representations-and-misleading-affiliation-claims",
+          "title": "JustAnswer to pay $10m in penalties for misleading pricing representations and misleading affiliation claims",
+          "verified": true,
+          "document_hash": null
         }
       ],
-      "public_interest_reason": "Subject of Federal Court proceedings brought by the ACCC (ACCC v JustAnswer LLC, VID1259 of 2025), ordered to pay $10 million in penalties for allegedly misleading consumers about subscription pricing (a '$2' offer that led to undisclosed ongoing charges of $50-90/month) and falsely implying affiliation with the Fair Work Ombudsman.",
+      "public_interest_reason": "Subject of Federal Court proceedings brought by the ACCC (ACCC v JustAnswer LLC, VID1259 of 2025), ordered to pay $10 million in penalties for allegedly misleading consumers about subscription pricing (a '$2' offer that led to undisclosed ongoing charges of $50-90/month) and falsely implying affiliation with the Fair Work Ombudsman. The Federal Court has since ordered JustAnswer LLC to pay $10 million in penalties (orders announced 8 July 2026), plus consumer refunds, a corrective notice and a compliance program, confirming the allegations that its chat widget lured consumers with a fake '$2 join' offer that actually enrolled them in $45-$75/month subscriptions, and falsely claimed affiliation with the Fair Work Ombudsman to induce sign-ups.",
       "risk_indicators": [
         "Ordered by the Federal Court to pay $10 million in penalties in ACCC v JustAnswer LLC (VID1259 of 2025)",
-        "ACCC alleged misleading pricing representations and false government-affiliation claims"
+        "ACCC alleged misleading pricing representations and false government-affiliation claims",
+        "Ordered by the Federal Court to pay a $10 million penalty, plus consumer refunds and a compliance program"
       ],
       "evidence_confidence": "HIGH",
       "priority_score": 5,
@@ -423,7 +430,7 @@
       "promoted_case_id": null,
       "rejection_reason": null,
       "discovered_at": "2026-07-21T02:36:22Z",
-      "last_updated": "2026-07-21T02:36:22Z"
+      "last_updated": "2026-07-23T03:15:00Z"
     },
     {
       "target_id": "T-AU-2026-00017",
@@ -3629,6 +3636,134 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T02:35:00Z",
       "last_updated": "2026-07-23T02:35:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00133",
+      "name": "Hassall Developments Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.nsw.gov.au/departments-and-agencies/customer-service/media-releases/enforceable-undertaking-to-remediate-parramatta-building-defects",
+          "title": "Enforceable undertaking to remediate Parramatta building defects",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NSW Office of the Building Commissioner secured an enforceable undertaking (October 2023) from Hassall Developments Pty Ltd, developer of two 22-storey 'Imperial Towers' apartment buildings at 9 Hassall Street, Parramatta, after finding serious structural, waterproofing and fire-safety defects that had led to a prohibition order in 2021. Under the undertaking, the company committed to remediate all serious defects and to unwind off-the-plan purchaser contracts, including returning deposits, with a 10-year resale restriction on the affected units.",
+      "risk_indicators": [
+        "Regulator found serious structural, waterproofing and fire-safety defects sufficient to warrant a prohibition order",
+        "Entered an enforceable undertaking to remediate defects and unwind purchaser contracts",
+        "Ten-year resale restriction imposed on affected apartments as part of the undertaking"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T03:15:00Z",
+      "last_updated": "2026-07-23T03:15:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00134",
+      "name": "ACPharm Queensland Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.tga.gov.au/news/media-releases/acpharm-queensland-issued-infringement-notices-alleged-unlawful-advertising-therapeutic-goods",
+          "title": "ACPharm Queensland issued infringement notices for alleged unlawful advertising of therapeutic goods",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Therapeutic Goods Administration issued ACPharm Queensland Pty Ltd five infringement notices totalling $99,000, paid October 2025, over alleged unlawful advertising of medicinal cannabis and other therapeutic goods not entered on the Australian Register of Therapeutic Goods.",
+      "risk_indicators": [
+        "Paid $99,000 over five TGA infringement notices for alleged unlawful advertising of unregistered therapeutic goods"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T03:15:00Z",
+      "last_updated": "2026-07-23T03:15:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00135",
+      "name": "Switch Nutrition Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.tga.gov.au/news/media-releases/tga-issues-infringement-notices-alleged-unlawful-advertising-therapeutic-goods-involving-prohibited-representations",
+          "title": "TGA issues infringement notices for alleged unlawful advertising of therapeutic goods involving prohibited representations",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Therapeutic Goods Administration issued Switch Nutrition Pty Ltd four infringement notices totalling $79,200, announced late April 2026, over alleged unlawful advertising of products containing Nicotinamide Mononucleotide and Vitamin D3 claiming to treat serious medical conditions - a prohibited representation under the Therapeutic Goods Act and Advertising Code.",
+      "risk_indicators": [
+        "Paid $79,200 over four TGA infringement notices for alleged unlawful advertising claiming products could treat serious medical conditions"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T03:15:00Z",
+      "last_updated": "2026-07-23T03:15:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00136",
+      "name": "Nourishmeorganics Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.tga.gov.au/news/media-releases/nourishmeorganics-pty-ltd-issued-infringement-notice-alleged-unlawful-supply-therapeutic-good",
+          "title": "Nourishmeorganics Pty Ltd issued infringement notice for the alleged unlawful supply of a therapeutic good",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Therapeutic Goods Administration issued Victoria-based Nourishmeorganics Pty Ltd an $18,780 infringement notice, paid October 2025, over the alleged unlawful importation and supply of 'Thorne Basic Prenatal' capsules from New Zealand between January and October 2024, a product not entered on the Australian Register of Therapeutic Goods.",
+      "risk_indicators": [
+        "Paid an $18,780 TGA infringement notice for alleged unlawful import and supply of an unregistered therapeutic good"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T03:15:00Z",
+      "last_updated": "2026-07-23T03:15:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00137",
+      "name": "Acacia Pharmacy Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.tga.gov.au/safety/compliance-and-enforcement/compliance-actions-and-outcomes/infringement-notices",
+          "title": "TGA infringement notices register (Acacia Pharmacy Pty Ltd entry)",
+          "verified": false,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Therapeutic Goods Administration's infringement notices register records five infringement notices totalling $99,000, paid, against Acacia Pharmacy Pty Ltd (trading as PharmaSave Acacia Ridge Pharmacy), over alleged unlawful importation of unapproved melatonin products not entered on the Australian Register of Therapeutic Goods; laboratory testing reportedly found some of the imported unregistered melatonin products to be counterfeit.",
+      "risk_indicators": [
+        "Paid $99,000 over five TGA infringement notices for alleged unlawful importation of unapproved melatonin products",
+        "Laboratory testing reportedly found some imported unregistered products to be counterfeit"
+      ],
+      "evidence_confidence": "MEDIUM",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T03:15:00Z",
+      "last_updated": "2026-07-23T03:15:00Z"
     }
   ]
 }
