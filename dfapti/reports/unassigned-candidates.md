@@ -159,4 +159,24 @@ existing case's `keywords.json`.
   confirmed in this pass (sandbox could not fetch finance.gov.au
   directly).
 
+- **Declan Tilson** (director) and **Santo Cutuli** (licence nominee
+  and secretary), of Tilson & Sons Building & Construction Pty Ltd —
+  the Queensland Building and Construction Commission cancelled both
+  individuals' licences and disqualified them from holding or
+  influencing a QBCC licence until December 2028, after the company
+  accumulated 44 demerit points (over the 30-point/three-year
+  threshold) for taking excessive deposits, starting work before the
+  contract date, failing to pay the required insurance premium, and
+  failing to comply with rectification directions (source:
+  `https://www.qbcc.qld.gov.au/news/qbcc-imposes-licence-cancellation-three-year-ban`,
+  action effective 2 December 2025, announced 10 December 2025). Not
+  added as a candidate: repeated independent searches found the QBCC
+  announcement framing this as cancellation/disqualification of the
+  two individuals personally, with no source confirming the company's
+  own contractor licence was itself named as cancelled - pending the
+  same open named-individuals policy question as the entries above.
+  If a human can confirm via the QBCC Licensee Register that the
+  company's own licence was also cancelled, this should be
+  reconsidered as a company-level candidate.
+
 No other candidates recorded yet.
