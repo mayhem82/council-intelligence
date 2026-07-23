@@ -4752,6 +4752,33 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T19:00:00Z",
       "last_updated": "2026-07-23T19:00:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00175",
+      "name": "Mable Technologies Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/disability-and-aged-care-support-platform-amends-unfair-contract-terms",
+          "title": "Disability and aged care support platform amends unfair contract terms",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The ACCC accepted a three-year court-enforceable undertaking from Mable Technologies Pty Ltd - an online platform connecting independent aged care and disability support workers with clients, roughly half of whom are NDIS participants - after Mable admitted its Terms of Use, in place between 9 November 2023 and 22 August 2024, contained unfair contract terms. These included a potential $5,000 minimum penalty fee against clients or support workers in certain circumstances, automatic approval of service logs unless disputed within 24 hours, and terms allowing fee and contract changes without reasonable notice. This was the ACCC's first enforcement action under the expanded unfair contract terms regime that introduced civil penalties for such breaches in late 2023.",
+      "risk_indicators": [
+        "Admitted unfair contract terms in breach of the Australian Consumer Law, resulting in a three-year court-enforceable undertaking",
+        "Platform's client base includes a significant proportion of NDIS participants, a cohort with additional vulnerability indicators",
+        "First enforcement action taken under the ACCC's expanded unfair contract terms civil penalty regime"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T21:00:00Z",
+      "last_updated": "2026-07-23T21:00:00Z"
     }
   ]
 }
