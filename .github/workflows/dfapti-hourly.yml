@@ -1,8 +1,12 @@
 name: DFAPTI Hourly Monitoring
 
+# Scheduled trigger disabled: every run since inception has failed with
+# startup_failure (0 jobs) due to an account-level Actions block, never
+# an issue in this workflow's own definition. DFAPTI evidence/candidate
+# collection is instead handled by manual, agent-driven passes. Kept as
+# workflow_dispatch so it can still be run by hand if the account-level
+# block is ever lifted.
 on:
-  schedule:
-    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
