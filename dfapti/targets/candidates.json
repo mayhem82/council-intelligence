@@ -3764,6 +3764,86 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T03:15:00Z",
       "last_updated": "2026-07-23T03:15:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00138",
+      "name": "Alta Vale Residential Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.nsw.gov.au/departments-and-agencies/building-commission/register-of-building-work-orders/building-work-rectification-order-291-george-street-waterloo-nsw-2017",
+          "title": "Building Work Rectification Order - 291 George Street, Waterloo NSW 2017",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NSW Building Commission made its first disciplinary decision against a builder for non-compliance with a building work rectification order, over a property at 291 George Street, Waterloo. The company Alta Vale Residential Pty Ltd was fined $50,000 for breaching its statutory warranty, and its director, Thomas Cull, was fined $40,000 and had his builder's licences cancelled, effective 1 May 2026. The company is barred from entering new building contracts until it complies with the order, and must file monthly progress reports; Alta Vale is seeking internal and potential NCAT review.",
+      "risk_indicators": [
+        "Subject of the NSW Building Commission's first disciplinary decision against a builder for non-compliance with a rectification order",
+        "Company fined $50,000 for breach of statutory warranty; director fined $40,000 with licences cancelled",
+        "Barred from entering new building contracts until compliance is achieved"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T03:40:00Z",
+      "last_updated": "2026-07-23T03:40:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00139",
+      "name": "Design Developments Sydney Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.nsw.gov.au/departments-and-agencies/building-commission/register-of-building-work-orders/building-work-rectification-order-for-design-developments-sydney-pty-ltd",
+          "title": "Building Work Rectification Order for Design Developments Sydney Pty Ltd",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NSW Building Commission issued a building work rectification order against Design Developments Sydney Pty Ltd requiring remediation of serious defects at 38 Hope Street, Penrith. Non-compliance with the order is a criminal offence under NSW building legislation.",
+      "risk_indicators": [
+        "Subject of a NSW Building Commission rectification order requiring remediation of serious building defects",
+        "Non-compliance with the order carries criminal liability under NSW building legislation"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T03:40:00Z",
+      "last_updated": "2026-07-23T03:40:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00140",
+      "name": "Ross Kenna Developments Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.nsw.gov.au/departments-and-agencies/building-commission/register-of-building-work-orders/work-order-for-177-burraneer-rd-caringbah-south",
+          "title": "Work Order for 177 Burraneer Rd, Caringbah South",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The NSW Building Commission issued a building work rectification order (2023) against Ross Kenna Developments Pty Ltd over five townhouses at 177 Burraneer Bay Road, Caringbah South, citing insufficient waterproofing to entryways, garages and car parks, inadequate firefighting equipment, and inadequate balcony overflow drainage, giving 60 days to rectify. Non-compliance with the order is a criminal offence. Secondary press has reported that a prosecution against the company and its director for failing to comply with the order commenced in 2025/2026, though this specific prosecution action could not be independently confirmed against a government source in this pass.",
+      "risk_indicators": [
+        "Subject of a NSW Building Commission rectification order citing insufficient waterproofing and inadequate fire safety equipment across five townhouses",
+        "Non-compliance with the order carries criminal liability under NSW building legislation",
+        "Reported by secondary press, but not independently confirmed against a government source, to be facing prosecution for non-compliance with the order"
+      ],
+      "evidence_confidence": "MEDIUM",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T03:40:00Z",
+      "last_updated": "2026-07-23T03:40:00Z"
     }
   ]
 }
