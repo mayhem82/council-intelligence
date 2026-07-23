@@ -3322,6 +3322,170 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T00:45:00Z",
       "last_updated": "2026-07-23T00:45:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00122",
+      "name": "Hungry Jack's Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/hungry-jack%E2%80%99s-pays-penalties-for-supplying-toys-with-its-children%E2%80%99s-meals-that-allegedly-breached-the-mandatory-information-standard-for-button-batteries",
+          "title": "Hungry Jack's pays penalties for supplying toys with its children's meals that allegedly breached the mandatory information standard for button batteries",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Hungry Jack's Pty Ltd paid $150,240 after the ACCC issued eight infringement notices over a button-battery-powered Garfield toy, supplied nationwide with children's meals (27,850 units), that lacked the warnings required under the mandatory information standard for button batteries. Hungry Jack's also gave the ACCC a court-enforceable undertaking admitting the likely breach and committing to implement a compliance program.",
+      "risk_indicators": [
+        "Paid $150,240 over eight ACCC infringement notices for a children's product lacking mandatory button-battery warnings",
+        "Gave a court-enforceable undertaking admitting the likely breach"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T01:20:00Z",
+      "last_updated": "2026-07-23T01:20:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00123",
+      "name": "Davie Clothing Pty Ltd (trading as \"Oodie\")",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/oodie-pays-more-than-100000-in-penalties-following-alleged-failure-to-put-fire-danger-warning-labels-on-kids-beach-oodies",
+          "title": "'Oodie' pays more than $100,000 in penalties following alleged failure to put fire danger warning labels on Kids Beach Oodies",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Davie Clothing Pty Ltd, trading as Oodie, paid $101,280 after the ACCC issued six infringement notices for failing to attach mandatory high fire-danger warning labels to six styles of Kids Beach Oodie under the children's nightwear safety standard, covering roughly 2,400 units sold between September 2022 and July 2023. The company gave a court-enforceable undertaking and issued a voluntary recall; it has separately been issued a further ACCC infringement notice over button-battery warning failures.",
+      "risk_indicators": [
+        "Paid $101,280 over six ACCC infringement notices for missing mandatory fire-danger warning labels on children's products",
+        "Subject of a separate ACCC button-battery infringement notice",
+        "Issued a voluntary product recall"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T01:20:00Z",
+      "last_updated": "2026-07-23T01:20:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00124",
+      "name": "Tesla Motors Australia Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/tesla-pays-penalties-for-alleged-breach-of-button-battery-safety-standards",
+          "title": "Tesla pays penalties for alleged breach of button battery safety standards",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "Tesla Motors Australia Pty Ltd paid $155,460 after the ACCC issued ten infringement notices for allegedly failing to conduct required safety testing and provide mandatory button-battery warnings on three key fob models and two illuminated door-sill light models, covering 952 units sold between June 2022 and May 2023.",
+      "risk_indicators": [
+        "Paid $155,460 over ten ACCC infringement notices for failing to safety-test and warn on button-battery-containing accessories"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T01:20:00Z",
+      "last_updated": "2026-07-23T01:20:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00125",
+      "name": "The Wiggles Holdings Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.accc.gov.au/media-release/the-wiggles-admit-emma-bow-headband-likely-breached-consumer-law-and-commit-to-raise-awareness",
+          "title": "The Wiggles admit Emma Bow headband likely breached consumer law and commit to raise awareness",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Wiggles Holdings Pty Ltd admitted its button-battery-powered Emma Bow headband, sold to children between June 2022 and March 2024 (3,164 units), likely breached the mandatory button-battery warning requirements of the Australian Consumer Law. The product was recalled in August 2024, and the company gave the ACCC a court-enforceable undertaking including a commitment to produce a public-awareness podcast episode on button-battery risks.",
+      "risk_indicators": [
+        "Admitted a children's product likely breached mandatory button-battery safety warning requirements",
+        "Gave a court-enforceable undertaking to the ACCC following a product recall"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T01:20:00Z",
+      "last_updated": "2026-07-23T01:20:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00126",
+      "name": "Diversa Trustees Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.apra.gov.au/news-and-publications/apra-imposes-additional-licence-conditions-on-diversa-trustees-limited",
+          "title": "APRA imposes additional licence conditions on Diversa Trustees Limited",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-296mr-asic-sues-diversa-trustees-alleging-failures-relating-to-first-guardian/",
+          "title": "25-296MR ASIC sues Diversa Trustees alleging failures relating to First Guardian",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "APRA imposed additional licence conditions on Diversa Trustees Limited, trustee for 10 registrable superannuation entities covering approximately 291,000 members and $15 billion in funds under management, effective 23 December 2025, after a thematic review found deficiencies in member onboarding, investment monitoring and conflict-of-interest management. Separately, ASIC commenced Federal Court civil penalty proceedings (8 December 2025) alleging Diversa - through which approximately $300 million was invested by members into the collapsed First Guardian Master Fund between 2020 and 2024 - failed to conduct adequate due diligence and ongoing monitoring, and failed to enforce its own 50% investment holding limit.",
+      "risk_indicators": [
+        "Subject of additional APRA licence conditions following a thematic review finding onboarding and monitoring deficiencies",
+        "Subject of ongoing ASIC Federal Court civil penalty proceedings alleging inadequate due diligence over ~$300 million invested into a collapsed fund",
+        "Alleged to have failed to enforce its own investment concentration limit"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T01:20:00Z",
+      "last_updated": "2026-07-23T01:20:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00127",
+      "name": "Falcon Capital Limited",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2025-releases/25-055mr-court-orders-falcon-capital-and-the-first-guardian-master-fund-to-be-wound-up/",
+          "title": "25-055MR Court orders Falcon Capital and the First Guardian Master Fund to be wound up",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Federal Court ordered Falcon Capital Limited and the First Guardian Master Fund it operated, along with related unregistered subsidiary funds, to be wound up on just-and-equitable grounds, appointing Ross Blakeley and Paul Harlond of FTI Consulting as liquidators. A receiver was separately appointed over property belonging to Falcon Capital's director, David Anderson. ASIC described the underlying investigation into the fund's collapse as one of its most complex, involving more than 45 court appearances.",
+      "risk_indicators": [
+        "Ordered wound up by the Federal Court on just-and-equitable grounds",
+        "Liquidators and a separate property receiver appointed",
+        "Subject of one of ASIC's most complex investigations, per ASIC's own description"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 5,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T01:20:00Z",
+      "last_updated": "2026-07-23T01:20:00Z"
     }
   ]
 }
