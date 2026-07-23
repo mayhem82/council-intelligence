@@ -4812,6 +4812,39 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T18:35:55Z",
       "last_updated": "2026-07-23T18:36:32Z"
+    },
+    {
+      "target_id": "T-AU-2026-00177",
+      "name": "D365.Group Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/june-2026/20260603-blumentals-penalty-media-release",
+          "title": "IT company director ordered to personally rectify almost $150,000 in deliberate underpayments",
+          "verified": true,
+          "document_hash": null
+        },
+        {
+          "url": "https://www.fairwork.gov.au/newsroom/media-releases/2025-media-releases/july-2025/20250722-blumentals-litigation-media-release",
+          "title": "IT company owner-operator faces court",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Fair Work Ombudsman secured a $35,308 penalty plus a personal compensation order of almost $150,000 against David Mark Blumentals, sole director/shareholder/company secretary of D365.Group Pty Ltd (an IT services provider dealing in Microsoft Dynamics 365 and Power BI deployment, later placed into liquidation in 2023), for his involvement in the company deliberately underpaying 16 workers a total of $148,812 between October 2021 and December 2022 - including unpaid accrued annual leave, unpaid final wages for 12 workers, and unpaid payment-in-lieu-of-notice for one worker. The Court penalty followed FWO litigation commenced in mid-2025.",
+      "risk_indicators": [
+        "Court found deliberate underpayment of 16 workers totalling $148,812 over an ~15 month period",
+        "Sole director personally penalised $35,308 and ordered to personally repay close to $150,000 after the company was placed into liquidation",
+        "Underpayments spanned unpaid annual leave, unpaid final wages, and unpaid payment-in-lieu-of-notice entitlements"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "PROMOTED",
+      "promoted_case_id": "DFAPTI-AU-2026-00374",
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T19:05:00Z",
+      "last_updated": "2026-07-23T19:36:02Z"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-AU-2026-00374",
+  "title": "D365.Group Pty Ltd — Consumer harm",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Consumer harm",
+  "jurisdiction": "Australia",
+  "investigation_objective": "The Fair Work Ombudsman secured a $35,308 penalty plus a personal compensation order of almost $150,000 against David Mark Blumentals, sole director/shareholder/company secretary of D365.Group Pty Ltd (an IT services provider dealing in Microsoft Dynamics 365 and Power BI deployment, later placed into liquidation in 2023), for his involvement in the company deliberately underpaying 16 workers a total of $148,812 between October 2021 and December 2022 - including unpaid accrued annual leave, unpaid final wages for 12 workers, and unpaid payment-in-lieu-of-notice for one worker. The Court penalty followed FWO litigation commenced in mid-2025.",
+  "scope": "Court found deliberate underpayment of 16 workers totalling $148,812 over an ~15 month period; Sole director personally penalised $35,308 and ordered to personally repay close to $150,000 after the company was placed into liquidation; Underpayments spanned unpaid annual leave, unpaid final wages, and unpaid payment-in-lieu-of-notice entitlements",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Unknown"
+  ]
+}

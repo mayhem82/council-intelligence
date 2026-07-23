@@ -162,3 +162,9 @@ Candidates promoted: 149
 Run time UTC: 2026-07-23T18:36:32Z
 Candidates promoted: 1
 - T-AU-2026-00176 (Sea Swift Pty Ltd) -> DFAPTI-AU-2026-00373, evidence: E-241, E-242
+
+## Target Promotion Run 20260723T193602Z
+
+Run time UTC: 2026-07-23T19:36:02Z
+Candidates promoted: 1
+- T-AU-2026-00177 (D365.Group Pty Ltd) -> DFAPTI-AU-2026-00374, evidence: E-243, E-244

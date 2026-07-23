@@ -4841,6 +4841,46 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-23T18:36:32Z"
+    },
+    {
+      "evidence_id": "E-243",
+      "case_id": "DFAPTI-AU-2026-00374",
+      "source_authority": "Unknown",
+      "document_title": "IT company director ordered to personally rectify almost $150,000 in deliberate underpayments",
+      "publication_date": null,
+      "capture_date": "2026-07-23T19:36:02Z",
+      "source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/june-2026/20260603-blumentals-penalty-media-release",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "D365.Group Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The Fair Work Ombudsman secured a $35,308 penalty plus a personal compensation order of almost $150,000 against David Mark Blumentals, sole director/shareholder/company secretary of D365.Group Pty Ltd (an IT services provider dealing in Microsoft Dynamics 365 and Power BI deployment, later placed into liquidation in 2023), for his involvement in the company deliberately underpaying 16 workers a total of $148,812 between October 2021 and December 2022 - including unpaid accrued annual leave, unpaid final wages for 12 workers, and unpaid payment-in-lieu-of-notice for one worker. The Court penalty followed FWO litigation commenced in mid-2025.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T19:36:02Z"
+    },
+    {
+      "evidence_id": "E-244",
+      "case_id": "DFAPTI-AU-2026-00374",
+      "source_authority": "Unknown",
+      "document_title": "IT company owner-operator faces court",
+      "publication_date": null,
+      "capture_date": "2026-07-23T19:36:02Z",
+      "source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2025-media-releases/july-2025/20250722-blumentals-litigation-media-release",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "D365.Group Pty Ltd is named in this document, fetched and independently verified by the DFAPTI target discovery script (dfapti/scripts/discover_targets.py) alongside a public-interest indicator: The Fair Work Ombudsman secured a $35,308 penalty plus a personal compensation order of almost $150,000 against David Mark Blumentals, sole director/shareholder/company secretary of D365.Group Pty Ltd (an IT services provider dealing in Microsoft Dynamics 365 and Power BI deployment, later placed into liquidation in 2023), for his involvement in the company deliberately underpaying 16 workers a total of $148,812 between October 2021 and December 2022 - including unpaid accrued annual leave, unpaid final wages for 12 workers, and unpaid payment-in-lieu-of-notice for one worker. The Court penalty followed FWO litigation commenced in mid-2025.",
+      "verification_notes": "Verified by automated direct fetch and document_hash computation (discover_targets.py, run on the GitHub Actions runner), not by a human. Meets the ACCEPTED bar (primary source, verified authority, directly supports the specific claim), but proof_of_fact stays 0 until a human independently confirms the summary against the document.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Automated verification (fetch + hash) only; no human has confirmed this yet."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T19:36:02Z"
     }
   ]
 }
