@@ -4242,6 +4242,138 @@
       "rejection_reason": null,
       "discovered_at": "2026-07-23T06:15:00Z",
       "last_updated": "2026-07-23T06:15:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00156",
+      "name": "Transitional Funding Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-001mr-asic-suspends-australian-credit-licence-of-transitional-funding-pty-ltd/",
+          "title": "26-001MR ASIC suspends Australian credit licence of Transitional Funding Pty Ltd",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "ASIC suspended the Australian credit licence of Transitional Funding Pty Ltd, effective 19 December 2025, for failing to comply with its licence's 'Key Person' condition (requiring notification to ASIC within five business days of a key person ceasing duties, and lodging a variation naming a replacement) and for failing to pay industry funding levies owed to ASIC. The suspension was subsequently extended by ASIC on 16 June 2026 to 17 December 2026.",
+      "risk_indicators": [
+        "Australian credit licence suspended by ASIC, and the suspension later extended",
+        "Found to have failed to comply with a key-person notification licence condition",
+        "Found to have failed to pay industry funding levies owed to ASIC"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T06:50:00Z",
+      "last_updated": "2026-07-23T06:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00157",
+      "name": "Centre Capital Securities Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Regulatory action",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-020mr-asic-cancels-afs-and-ac-licences-of-centre-capital-securities-for-failure-to-pay-industry-funding-levies/",
+          "title": "26-020MR ASIC cancels AFS and AC licences of Centre Capital Securities for failure to pay industry funding levies",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "ASIC cancelled both the Australian Financial Services licence and Australian Credit licence of Centre Capital Securities Pty Ltd, effective 29 January 2026, after the company failed to pay industry funding levies owed to ASIC for more than 12 months, covering the 2017-18 to 2022-23 financial years.",
+      "risk_indicators": [
+        "Both its AFS licence and Australian Credit licence cancelled by ASIC",
+        "Found to have failed to pay industry funding levies owed to ASIC across six financial years"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 2,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T06:50:00Z",
+      "last_updated": "2026-07-23T06:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00158",
+      "name": "Ausfinancial Pty Ltd (trading as Swoosh Finance)",
+      "jurisdiction": "Australia",
+      "issue_category": "Consumer harm",
+      "source_evidence": [
+        {
+          "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2024-releases/24-285mr-asic-takes-action-against-swoosh-alleging-responsible-lending-failures-and-ddo-breaches/",
+          "title": "24-285MR ASIC takes action against Swoosh alleging responsible lending failures and DDO breaches",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "ASIC commenced Federal Court civil penalty proceedings alleging Ausfinancial Pty Ltd, trading as Swoosh Finance, breached responsible lending obligations for at least 11 consumers on medium-amount credit contracts of $2,000 to $5,000 secured against vehicles, boats and trailers, by failing to properly inquire into and verify those borrowers' financial situations. ASIC further alleges Swoosh breached design and distribution obligations by failing to review its target market determinations despite mounting consumer complaints. The proceedings remain unresolved, with trial listed for March 2027.",
+      "risk_indicators": [
+        "Subject of ongoing Federal Court civil penalty proceedings brought by ASIC",
+        "Alleged to have failed to properly verify borrowers' financial situations before extending credit",
+        "Alleged to have failed to review target market determinations despite rising consumer complaints"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 4,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T06:50:00Z",
+      "last_updated": "2026-07-23T06:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00159",
+      "name": "Infinite Aged Care (Cornubia) Pty Ltd",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.agedcarequality.gov.au/provider/infinite-aged-care-cornubia-pty-ltd",
+          "title": "Enforceable Undertaking - Infinite Aged Care (Cornubia) Pty Ltd",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Aged Care Quality and Safety Commission entered an Enforceable Undertaking with Infinite Aged Care (Cornubia) Pty Ltd as part of a sector-wide enforcement round (announced 13 January 2025) against 11 providers found to be falling well short of mandatory care minutes targets for residents over successive quarters.",
+      "risk_indicators": [
+        "Entered an Enforceable Undertaking with the Aged Care Quality and Safety Commission",
+        "Named among 11 providers found to be falling well short of mandatory resident care-minutes targets"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T06:50:00Z",
+      "last_updated": "2026-07-23T06:50:00Z"
+    },
+    {
+      "target_id": "T-AU-2026-00160",
+      "name": "Havilah Hostel Inc",
+      "jurisdiction": "Australia",
+      "issue_category": "Public safety",
+      "source_evidence": [
+        {
+          "url": "https://www.agedcarequality.gov.au/sites/default/files/media/eu-havilah-hostel-inc-signed-october-2025.pdf",
+          "title": "Enforceable Undertaking - Havilah Hostel Inc",
+          "verified": true,
+          "document_hash": null
+        }
+      ],
+      "public_interest_reason": "The Aged Care Quality and Safety Commission entered an Enforceable Undertaking with Havilah Hostel Inc, a Maryborough, Victoria facility holding an overall 3-star rating as at 17 July 2025, signed 3 October 2025. The undertaking followed a Commission desktop monitoring assessment (4 April 2025) that identified non-compliance with Quality Standards 2, 3, 7 and 8.",
+      "risk_indicators": [
+        "Entered an Enforceable Undertaking with the Aged Care Quality and Safety Commission",
+        "Commission assessment identified non-compliance across four separate Aged Care Quality Standards"
+      ],
+      "evidence_confidence": "HIGH",
+      "priority_score": 3,
+      "status": "CANDIDATE",
+      "promoted_case_id": null,
+      "rejection_reason": null,
+      "discovered_at": "2026-07-23T06:50:00Z",
+      "last_updated": "2026-07-23T06:50:00Z"
     }
   ]
 }
