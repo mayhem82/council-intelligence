@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/case-schema.json",
+  "case_id": "DFAPTI-BB-2026-00001",
+  "title": "Willawarrin / Bellbrook Recurring Drinking Water Failure",
+  "created_date": "2026-07-23",
+  "status": "ACTIVE",
+  "category": "Public safety",
+  "jurisdiction": "Kempsey Shire, NSW",
+  "investigation_objective": "Establish the full, source-verified chronology of recurring drinking-water supply failures affecting Willawarrin and Bellbrook (trucked water episodes at least in 2020 and 2023, tied to high iron/manganese levels in the Macleay River during low-flow periods), and track the $8 million Willawarrin Water Treatment Plant intended as the permanent fix through to a confirmed completion or delay - resolving whether trucked water is still in use today.",
+  "scope": "In scope: council and NSW Government primary sources on water-supply incidents, dam/river extraction decisions, and the treatment plant's funding, construction, and commissioning status for Willawarrin and Bellbrook specifically. Out of scope for this case: general Kempsey Shire-wide water policy not tied to these two communities, and the separate Bellbrook flying-fox, asbestos, streets/roads, Armidale Road, and communications issues, which are tracked as their own matters.",
+  "responsible_module": "dfapti",
+  "primary_sources": [
+    "Kempsey Shire Council",
+    "NSW Government"
+  ]
+}

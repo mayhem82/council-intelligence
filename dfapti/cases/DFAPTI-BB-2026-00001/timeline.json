@@ -1,0 +1,132 @@
+{
+  "case_id": "DFAPTI-BB-2026-00001",
+  "events": [
+    {
+      "date": "2026-07-23",
+      "event": "Case opened following a resident-flagged correction: the drinking-water trucking arrangement has been running for a lot longer than a single resolved 2020 episode. Initial sweep confirmed two separate documented trucked-water episodes (2020, 2023), the $8 million treatment-plant fix now under construction, and an open gap on whether the plant has actually been completed as of today. Added E-245 through E-250.",
+      "evidence_ids": [
+        "E-245",
+        "E-246",
+        "E-247",
+        "E-248",
+        "E-249",
+        "E-250"
+      ],
+      "status_change": "None -> ACTIVE"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Resident asked directly: what has water carting cost over the recurring years, compared with the one-off cost of the infrastructure fix? Found one concrete carting-cost figure (E-251: $161,000 NSW Government funding for the January 2020 carting operation, alongside an earlier $4 million filtration-system commitment that appears to have grown into the current $8 million project - unresolved which). No cumulative multi-year carting total was found (E-252) - logged as an open gap with a concrete next step (a GIPA request to Council for water-carting expenditure by financial year) rather than estimated or assumed.",
+      "evidence_ids": [
+        "E-251",
+        "E-252"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Pursued additional investigative paths beyond the initial cost/timeline question: political/governance path (confirmed the Member for Oxley held the state Water Minister portfolio during the exact period of the first 2020 trucking crisis - E-253, recorded as a temporal fact only, no finding of action or inaction); health/regulatory path (searched for a specific documented water-quality guideline exceedance for Willawarrin - found only general characterisations, no specific figures, logged as an open gap - E-254); current-status path (repeated the completion-status search - still no confirmation either way, E-249 gap stands). Applied the Structural Harm Mechanism catalogue against all evidence honestly: 'Time as Structural Harm' is a supportable read of the 2020 commitment-to-2025 construction gap (caveated on the unresolved $4M/$8M link in E-251); an initially proposed second mechanism was checked and retracted as not genuinely supported by the evidence.",
+      "evidence_ids": [
+        "E-253",
+        "E-254"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Pursued five more genuinely distinct paths after being pushed to actually take 'all paths', not a couple: (1) root cause - confirmed the iron/manganese issue is natural, drought/low-flow driven, distinct from separate historic Hillgrove mining contamination further upstream (E-255); (2) the specific ADWG guideline-exceedance claim was re-tested and could not be independently reproduced on a second search - held at LOW rather than accepted or discarded (E-256); (3) discovered and distinguished a separate $52.9 million Kempsey/Frederickton/Smithtown/Gladstone water project from the Willawarrin-specific plant, preventing the two being conflated (E-257); (4) resolved the previously-open $4M/$8M discrepancy in E-251 - two independent sources confirm it is the same project, which slipped from a 2024 target to 'early 2026' while roughly doubling in cost (E-258, supersedes E-251); (5) found the NSW Audit Office's own 'Local government 2025' report documenting a statewide ~$1 billion rural/regional council water-infrastructure funding gap, placing Willawarrin's situation within an audited systemic pattern rather than an isolated case (E-259).",
+      "evidence_ids": [
+        "E-255",
+        "E-256",
+        "E-257",
+        "E-258",
+        "E-259"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Pursued the Bellbrook-specific path (this case's title names both towns, but nearly all evidence gathered so far was Willawarrin-specific). Found that Bellbrook and Willawarrin run on separate water schemes (E-260) - meaning the $8 million Willawarrin plant does not, on its own, resolve Bellbrook's water security. No Bellbrook-specific capital project was found anywhere, and no public reporting on Bellbrook's water supply status was found more recent than the June 2020 return-to-supply announcement (E-261). This is a significant, previously-unexamined gap: two towns hit by the same 2020 crisis, but only one has a named, funded, publicly-tracked remedy.",
+      "evidence_ids": [
+        "E-260",
+        "E-261"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Followed the Bellbrook gap flagged in the previous pass. Found and cross-confirmed (two independent sources) that Bellbrook DOES have its own dedicated water treatment plant, installed in 2009 for $700,000, built after 2005 discovery of Hillgrove-mine-sourced arsenic/heavy metal contamination and a 2008 trucking episode (E-262) - correcting the prior pass's gap. However this raises a new, genuinely unresolved question: the 2009 plant addressed arsenic, not the iron/manganese that caused the 2020 and 2023 crises - it's unclear whether the 2009 plant was simply never designed for that problem, or whether it has since degraded (E-263). Both explanations remain open.",
+      "evidence_ids": [
+        "E-262",
+        "E-263"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "First pass of the ongoing DFAPTI workflow for this case. Six new findings: (1) additional detail on the Willawarrin plant (~130 residents served) alongside an internally inconsistent construction-duration estimate in the project's own public material - '18 months from mid-2025' implies late 2026, not the 'early 2026' target stated elsewhere, logged as a discrepancy rather than resolved (E-264); (2) confirmed the Bellbrook plant's own stated design scope is arsenic/antimony removal specifically, with iron/manganese not mentioned - relevant to E-263 - while also surfacing an unresolved 2009-vs-2010 construction-year discrepancy against E-262 (E-265); (3) found seven years (2016-2023) of independent citizen-science water monitoring at Bellbrook Bridge run with Southern Cross University, including an estimate that the river needs 600-1000 years to naturally leach back to pre-mining contamination levels - i.e. the contamination source is effectively permanent (E-266); (4) found a distinct, earlier (2020) NSW Audit Office performance audit finding the responsible state department had not effectively overseen regional town water infrastructure planning since at least 2014 - separate from E-259's 2025 report (E-267); (5) narrowed (without closing) E-263's open question using E-265's finding (E-268); (6) located the actual public council water-quality annual reports that would resolve E-252/E-254/E-256, establishing a concrete non-GIPA next step, though this sandbox cannot fetch kempsey.nsw.gov.au directly to read them (confirmed via a direct curl returning HTTP 403) (E-269).",
+      "evidence_ids": [
+        "E-264",
+        "E-265",
+        "E-266",
+        "E-267",
+        "E-268",
+        "E-269"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Second ongoing-workflow pass. Two prior open/held items were resolved to ACCEPTED on independent re-confirmation: Council's own 'Water supply & quality' page directly confirms Willawarrin, Bellbrook, and the Thunggutti Aboriginal Community are three separate named water supply systems with their own sub-plans, upgrading E-260's inference to a sourced fact (E-270); and the specific ADWG guideline-exceedance claim from E-256 reproduced again on an independent search, clearing the two-confirmation bar for the general claim (though specific guideline figures remain unconfirmed) (E-271). A genuinely new, previously unexamined path was surfaced and logged rather than chased down blind: the Thunggutti Aboriginal Community shares the same upriver supply grouping as Willawarrin/Bellbrook and has not yet been investigated for the same trucked-water history (E-272). The plant-completion gap (E-249) was narrowed with a later data point - still listed as a planned/in-progress project as of the November 2025 Council Meeting, not yet reported complete (E-273). The school-launch detail and cost/GIPA-alternative searches did not turn up anything solid enough to log this pass.",
+      "evidence_ids": [
+        "E-270",
+        "E-271",
+        "E-272",
+        "E-273"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Third ongoing-workflow pass. Followed up the new Thunggutti Aboriginal Community path from the previous pass: Council's own 2020-2021 Drinking Water Management System Annual Report - the exact year of the Willawarrin/Bellbrook crisis - records no customer water-quality enquiries at Thunggutti or Stuarts Point, cross-confirmed across two searches. This is evidence, not proof, that Thunggutti did not share the same crisis that year - it narrows but does not close E-272 (E-274). Also found a dated June 2019 Council media release documenting an earlier shire-wide supply-source switch (Sherwood Borefield to Steuart McIntyre Dam) amid declining river levels - genuine context for the drought conditions behind the eventual crisis, but not itself proof of a separate, distinct 2019 Willawarrin trucking episode beyond the one continuous episode already documented at E-245 (E-275). Plant-completion and ribbon-cutting searches turned up nothing newer than the previous pass's November 2025 data point.",
+      "evidence_ids": [
+        "E-274",
+        "E-275"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-23",
+      "event": "Fourth ongoing-workflow pass. Searched fresh angles: recent (July 2026) news, an NSW Budget/Safe and Secure Water Program allocation angle, and the exact population served. No new completion-status information turned up - still nothing newer than the November 2025 data point (E-273). But a genuine, previously unnoticed contradiction surfaced: Willawarrin's population served is reported as 'approximately 130 residents' in some sources (E-264) and as 'a village of 180 people' in others, both reproduced consistently across independent searches and both apparently tracing to the same NSW Government/council announcement material. Logged honestly as an unresolved discrepancy rather than picking one figure (E-276).",
+      "evidence_ids": [
+        "E-276"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Fifth ongoing-workflow pass. Tried fresh angles on the specific-year trucking claim (E-250) and the Bellbrook plant's original design spec (E-263) - neither turned up anything new beyond what's already recorded. A different angle on the carting-cost question (E-252) surfaced genuine, cross-confirmed financial context rather than the specific figure itself: Council's own 29 July 2020 media release shows the 2020-21 Operational Plan budgeted $17.5 million for water supply that financial year, while the same plan cut Council's forecast general fund deficit from $7.6 million to $3.2 million - the exact year of the Willawarrin/Bellbrook crisis. This does not resolve E-252's still-open cumulative carting-cost question, but it is genuine, sourced financial context for the period (E-277).",
+      "evidence_ids": [
+        "E-277"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Sixth ongoing-workflow pass. Specific ADWG concentration figures still weren't found. But a new independent-source (Mayor's Column / Macleay Argus) angle surfaced two genuine findings: the sitting Mayor of Kempsey Shire Council, Kinne Ring, is herself a Willawarrin resident - recorded as a structural fact only, parallel to E-253's Pavey finding, no allegation made (E-278); and Mayor Ring's own July 2025 mayoral minute on cost shifting onto local government independently echoes the same systemic funding-gap point already established via the NSW Audit Office reports (E-259, E-267) - held rather than accepted since it was found via only a single search pass this time (E-279).",
+      "evidence_ids": [
+        "E-278",
+        "E-279"
+      ],
+      "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Seventh ongoing-workflow pass. Re-checked E-279's cost-shifting claim on an independent search - it reproduced again with richer detail this time (councillors' unanimous support for the mayoral minute, an LGNSW figure of almost $500 per ratepayer annually in shifted costs statewide, and confirmation Kempsey Shire Council itself applied for a special rate variation to keep delivering services), clearing the two-confirmation bar and promoting it to ACCEPTED (E-280). Tried again for the NSW Audit Office's specific list of at-risk councils (Appendix 2 of 'Local government 2025') - still could not find the actual council names in that appendix, so Kempsey-specific attribution remains unverified exactly as already caveated at E-259.",
+      "evidence_ids": [
+        "E-280"
+      ],
+      "status_change": "None"
+    }
+  ]
+}

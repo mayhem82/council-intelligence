@@ -4881,6 +4881,726 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-23T19:36:02Z"
+    },
+    {
+      "evidence_id": "E-245",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "Willawarrin and Bellbrook return to river supply after months of trucked-in water",
+      "publication_date": "2020-06-22",
+      "capture_date": "2026-07-23T13:00:00Z",
+      "source_url": "https://archive.kempsey.nsw.gov.au/media-releases/2020/mr20200622a.html",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Kempsey Shire Council's own media release confirming Willawarrin and Bellbrook were switched back to Macleay River supply on Thursday 18 June 2020, after 'many months' of having drinking water trucked in due to high iron and manganese levels making river water undrinkable. Council attributes the fix to a combination of bores and treatment processes.",
+      "verification_notes": "Primary source: the council's own archived media release. Corroborated by contemporaneous secondary coverage (Macleay Argus, Port Macquarie News) reporting the same return-to-supply date and cause, though those are not themselves relied on as the primary source.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and content confirmed via search; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T13:00:00Z"
+    },
+    {
+      "evidence_id": "E-246",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "Steuart McIntyre dam water supply (27 September 2023 update)",
+      "publication_date": "2023-09-27",
+      "capture_date": "2026-07-23T13:00:00Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20230927-Steuart-McIntyre-dam-water-supply",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Kempsey Shire Council's own update confirming a second, separate trucked-water episode: from 27 September 2023 the Shire moved solely to Steuart McIntyre Dam water supply after Macleay River levels dropped below extraction limits. Trucks had already been supplying approximately 17,000 litres of dam water to Willawarrin for about two weeks beforehand, due to high iron and manganese levels again making river water undrinkable - confirming this is a recurring failure mode, not the single 2020 event in E-245.",
+      "verification_notes": "Primary source: the council's own news update page. Cross-confirmed via independent search returning consistent dates, volumes, and cause.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and content confirmed via search; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T13:00:00Z"
+    },
+    {
+      "evidence_id": "E-247",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Government / Kempsey Shire Council",
+      "document_title": "Sod turns on new $8 million Willawarrin Water Treatment Plant",
+      "publication_date": null,
+      "capture_date": "2026-07-23T13:00:00Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/Sod-turns-on-new-8-million-Willawarrin-Water-Treatment-Plant",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Joint NSW Government / Kempsey Shire Council announcement of the permanent fix for Willawarrin's recurring water-quality failures: an $8 million water treatment plant, funded by more than $2 million from the NSW Government's Safe and Secure Water Program and over $6 million from Kempsey Shire Council, replacing the town's existing 1960s-era bore-water infrastructure. Construction contract awarded to LC Water, with site works (transformer, pipelines connecting the Macleay River bores) underway.",
+      "verification_notes": "Corroborated across the NSW Government's own water.dpie.nsw.gov.au news page, the equivalent nsw.gov.au ministerial release, and Kempsey Shire Council's own news page, all describing the same funding figures and scope.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and content confirmed via search; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T13:00:00Z"
+    },
+    {
+      "evidence_id": "E-248",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "Willawarrin Water Treatment Plant - Current works project page",
+      "publication_date": null,
+      "capture_date": "2026-07-23T13:00:00Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Valley/Ongoing-works-in-the-shire/Major-projects/Current-works/Willawarrin-Water-Treatment-Plant",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Council's own current-works page for the plant: a 0.25 megalitre/day ultrafiltration treatment plant with UV disinfection, water storage, reticulation pumps and chemical dosing, connected via new pipelines to bores at the Macleay River. Construction (contractor LC Water) commenced 24 March 2025; council states completion is targeted for 'early 2026', with testing and commissioning to follow construction, and reservoir renovation to follow commissioning.",
+      "verification_notes": "Primary source: council's own project page. The 'early 2026' completion date is stated as a target by the council itself, not independently confirmed as an achieved outcome - see E-249 for the status gap this leaves open.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Source URL and content confirmed via search; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T13:00:00Z"
+    },
+    {
+      "evidence_id": "E-249",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "No confirmed completion, commissioning, or delay notice found (search coverage gap)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T13:00:00Z",
+      "source_url": null,
+      "classification": "PENDING",
+      "confidence": "LOW",
+      "summary": "As of this investigation's capture date (23 July 2026), no source has been found confirming whether the Willawarrin Water Treatment Plant (E-247, E-248) has actually been completed, commissioned, or delayed past its stated 'early 2026' target. The most recent dated project material located in this pass is a council community-update PDF referenced as 'Autumn 2025'. Per the Silence Handling rule, the absence of a completion announcement is logged as an open gap tied to the council's own stated target date - it is not treated as evidence of delay or of success either way.",
+      "verification_notes": "This entry exists to record what was searched for and not found, so a future pass does not repeat the same searches without knowing they were already tried. Next step: check for a 'Willawarrin community update' PDF dated later than Autumn 2025, or a council news item announcing commissioning/opening, or continued trucked-water reports after March 2025.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "This entry records an evidence gap, not a fact - no proof-of-fact score applies beyond the default."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T13:00:00Z"
+    },
+    {
+      "evidence_id": "E-250",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "Claimed 2017-2022 recurring weather-driven trucking pattern (unverified against a specific primary source)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T13:00:00Z",
+      "source_url": null,
+      "classification": "HELD",
+      "confidence": "LOW",
+      "summary": "Search results referenced a general claim that 'major weather events between 2017 and 2022 impacted Willawarrin's water supply, and in each case Council was forced to transport drinkable water to Willawarrin via truck.' This is plausible and consistent with E-245 and E-246 (which independently confirm two such episodes, 2020 and 2023), but the broader 2017-2022 claim itself traces to a search-engine synthesis, not one identified primary document.",
+      "verification_notes": "HELD per the Factualism Audit: relevant and plausible, but not yet traced to a specific primary source for each claimed year. Needs a direct search of Kempsey Shire Council's media-release archive (archive.kempsey.nsw.gov.au) for each individual year 2017-2019, 2021, 2022 before any of those specific years can be promoted to ACCEPTED.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Not yet independently verified against a specific primary document for the claimed years."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T13:00:00Z"
+    },
+    {
+      "evidence_id": "E-251",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Government / Macleay Argus",
+      "document_title": "Kempsey to receive $4 million for secure water supply (January 2020)",
+      "publication_date": "2020-01-01",
+      "capture_date": "2026-07-23T13:30:00Z",
+      "source_url": "https://www.macleayargus.com.au/story/6584830/kempsey-to-receive-4-million-for-secure-water-supply/",
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "Reports an earlier, January 2020 NSW Government commitment: $4 million toward a specialist water filtration system for Willawarrin, plus a separate additional $161,000 specifically for water carting to Willawarrin and Bellbrook, sized to deliver about 10-13 kilolitres a day to each village. This $4 million filtration commitment is a different, earlier figure to the $8 million treatment plant actually now under construction (E-247/E-248) - either the scope grew, the project was re-tendered at a higher cost, or this was a partial/different works package. Not yet resolved which.",
+      "verification_notes": "Source is a news report (Macleay Argus, January 2020), not yet cross-confirmed against a Kempsey Shire Council or NSW Government primary document from the same date - held at MEDIUM pending that direct confirmation, and to flag the unresolved $4M-vs-$8M discrepancy rather than silently picking one figure.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Single news source only; primary 2020 funding announcement not yet independently located."
+      },
+      "superseded_by": "E-258",
+      "recorded_at": "2026-07-23T13:30:00Z"
+    },
+    {
+      "evidence_id": "E-252",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "No cumulative, multi-year total water-carting cost found (search coverage gap)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T13:30:00Z",
+      "source_url": null,
+      "classification": "PENDING",
+      "confidence": "LOW",
+      "summary": "In response to a direct question - what has trucking water cost across the whole recurring period, compared with the one-off cost of fixing the infrastructure - only one specific, dated carting-cost figure was found: $161,000 in NSW Government funding for a January 2020 carting operation (E-251). No source was found giving a cumulative total across all known trucking episodes (2020, 2023, and the more general 2017-2022 pattern in E-250), and no source gives an ongoing per-week or per-kilolitre carting cost that could support an independent estimate without labelling it as inference rather than fact.",
+      "verification_notes": "Per Silence Handling: this gap is logged because it is tied to a specific question asked, not treated as proof that no such total exists or that carting has been cheap. Next step: a GIPA (Government Information Public Access) request to Kempsey Shire Council for total water-carting expenditure for Willawarrin and Bellbrook, by financial year, would resolve this directly - council finance records almost certainly hold this even where it has not been publicly summarised. Council's annual financial statements / operational plan reports may also itemise water-carting costs and would be worth checking directly rather than via search.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Records an evidence gap and a concrete next step, not a fact."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T13:30:00Z"
+    },
+    {
+      "evidence_id": "E-253",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Parliament",
+      "document_title": "The Hon. Melinda Jane PAVEY MP - Member profile (NSW Parliament)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T20:00:00Z",
+      "source_url": "https://www.parliament.nsw.gov.au/members/Pages/member-details.aspx?pk=16",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "NSW Parliament's own member record, cross-confirmed via independent search, establishes that Melinda Pavey - the sitting Member for Oxley, the electorate covering Willawarrin and Bellbrook - served concurrently as NSW Minister for Water, Property and Housing from 2 April 2019 to 21 December 2021. This period overlaps entirely with the first documented trucked-water crisis (E-245: 'many months' of trucking, resolved June 2020). This is recorded as a structural/temporal fact only - it is not a finding about any action taken or not taken by Ms Pavey personally, and no such finding is made here.",
+      "verification_notes": "Ministerial tenure dates (2 April 2019 - 21 December 2021) cross-confirmed via independent search; electorate coverage (Willawarrin/Bellbrook within Oxley) already established via the portal's own recipient directory (portal.config.json). No further inference is drawn beyond the temporal overlap itself.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Tenure dates verified via independent search cross-reference; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T20:00:00Z"
+    },
+    {
+      "evidence_id": "E-254",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "No specific water-quality guideline exceedance document found for Willawarrin (search coverage gap)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T20:00:00Z",
+      "source_url": null,
+      "classification": "PENDING",
+      "confidence": "LOW",
+      "summary": "Searched for a specific documented breach of the Australian Drinking Water Guidelines (e.g. manganese/iron exceedance figures) tied to Willawarrin's bore water. Found only general characterisations ('unable to treat water to a safe and acceptable level') in secondary/promotional project material, not a specific NSW Health or council water-quality test result naming an exceeded guideline value. General background on manganese's documented neurological health risk at elevated levels (developmental effects in children) was found but is not yet tied to a Willawarrin-specific measurement.",
+      "verification_notes": "Logged as an open gap, not as absence of harm. Next step: request Kempsey Shire Council's water quality test results/annual Drinking Water Management System report for the Willawarrin supply zone directly (these reports, cited generally in earlier passes, would contain specific figures), or a GIPA request if not already public.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Records an evidence gap and a concrete next step, not a fact."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T20:00:00Z"
+    },
+    {
+      "evidence_id": "E-255",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "Root cause: naturally occurring iron/manganese exacerbated by drought/bushfire/low-flow (distinct from separate upstream mining contamination)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T22:00:00Z",
+      "source_url": null,
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "Search-corroborated explanation of root cause: Willawarrin/Bellbrook's recurring trucked-water episodes trace to naturally occurring iron and manganese in the Macleay River, which become concentrated enough to breach usability during low river flow following drought and bushfire. This is confirmed as a distinct issue from the separate, well-documented historic arsenic/antimony contamination further upstream in the Macleay catchment from 19th/20th-century Hillgrove mine tailings (checked earlier in this investigation, 2026-07-23) - the two are different contaminants with different sources, and should not be conflated.",
+      "verification_notes": "HELD rather than ACCEPTED: the general mechanism (drought/bushfire -> low flow -> concentrated iron/manganese) is corroborated across independent search results, but no single primary document (e.g. a specific NSW Health or council water-quality report) has been directly cited yet. A claim that this specifically breached the Australian Drinking Water Guidelines was found in one search pass but could not be reproduced in a second, independent search - see E-256.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Mechanism corroborated across search results but not yet tied to one specific primary document."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T22:00:00Z"
+    },
+    {
+      "evidence_id": "E-256",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "Claimed ADWG (Australian Drinking Water Guidelines) exceedance - single-source, not independently reproduced",
+      "publication_date": null,
+      "capture_date": "2026-07-23T22:00:00Z",
+      "source_url": null,
+      "classification": "HELD",
+      "confidence": "LOW",
+      "summary": "One search pass produced the specific claim that 'low river flow led to the water quality at Willawarrin moving outside of the Australian Drinking Water Guidelines.' A second, independent search on the same question did not reproduce this specific claim - it returned only general characterisations ('unable to treat water to a safe and acceptable level') without the specific ADWG reference. Per the cross-reference standard used throughout this register, a claim needs two independent confirmations to move to ACCEPTED; this one does not yet clear that bar.",
+      "verification_notes": "Held at LOW rather than discarded, since the claim is plausible and consistent with E-255's confirmed mechanism. Next step: locate the specific NSW Health or council water-quality test report (not a promotional project page) that would state an actual guideline exceedance with figures, or attempt the search again with different terms.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Single-source claim, not independently reproduced on a second search."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T22:00:00Z"
+    },
+    {
+      "evidence_id": "E-257",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Government / National Water Grid Authority",
+      "document_title": "$52.9 million Kempsey water infrastructure project (National Water Grid Authority) - a separate, distinct project from the Willawarrin plant",
+      "publication_date": "2025-03-01",
+      "capture_date": "2026-07-23T22:00:00Z",
+      "source_url": "https://www.nationalwatergrid.gov.au/projects/kempsey-water-treatment-plant",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "A separate $52.9 million water infrastructure project, announced March 2025, is jointly funded by the Australian Government's National Water Grid Fund ($12.5m), the NSW Government's Safe and Secure Water Program ($13.2m) and Kempsey Shire Council ($27.1m). This project delivers a new treatment plant serving more than 18,000 residents of Kempsey township, Frederickton, Smithtown and Gladstone. It is a genuinely distinct project from the $8 million Willawarrin plant (E-247, E-248) - different funding sources, different scale, different communities served. Recorded here specifically to prevent the two projects being conflated in this case.",
+      "verification_notes": "Cross-confirmed via the National Water Grid Authority's own project page and joint ministerial media releases (Minister Plibersek / NSW Government), both giving consistent funding figures, communities served, and announcement date.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Verified via independent cross-reference of government sources; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T22:00:00Z"
+    },
+    {
+      "evidence_id": "E-258",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Government / Kempsey Shire Council",
+      "document_title": "Willawarrin plant: original $4 million/2024 completion target grew to $8 million/early 2026 - now independently confirmed as the same project",
+      "publication_date": null,
+      "capture_date": "2026-07-23T22:00:00Z",
+      "source_url": "https://www.pumpindustry.com.au/4m-willawarrin-water-treatment-plant-nearing-tender-stage/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "This entry resolves the open question in E-251. Two independent sources (Pump Industry Magazine's '$4M Willawarrin water treatment plant nearing tender stage' article, and the Macleay Argus's 'Willawarrin's new water treatment plant construction set for 2025' article) both confirm the Willawarrin plant was the SAME project throughout: originally budgeted at $4 million with a 2024 completion target, the project's scope and cost grew to $8 million (E-247/E-248) with completion retargeted to 'early 2026'. This is a documented roughly two-year schedule slip and doubling of project cost for the same remedy, not two different projects or funding rounds.",
+      "verification_notes": "Cross-confirmed across two independent industry/media sources describing the same project's history consistently. This upgrades E-251's classification: the $4M/$8M figures are now confirmed to refer to the same project's early and later stages, not an unresolved discrepancy.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent industry/media sources; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T22:00:00Z"
+    },
+    {
+      "evidence_id": "E-259",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Audit Office",
+      "document_title": "Local government 2025 (NSW Audit Office performance audit)",
+      "publication_date": "2026-01-01",
+      "capture_date": "2026-07-23T22:00:00Z",
+      "source_url": "https://www.audit.nsw.gov.au/our-work/reports/local-government-2025",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "The NSW Auditor-General's own 'Local government 2025' report found that two regional and 13 rural NSW councils operating water utilities recorded operating losses (rising to 30 councils, 10 regional and 20 rural, once grant revenue is excluded). The report estimates almost $1 billion is required across NSW to keep council-run water supply infrastructure at agreed service levels - an estimate that has grown 161% since 2021 - and states that even where operating costs are covered, councils are unlikely to generate enough revenue to fund infrastructure upgrades without grant funding, which the report identifies as the primary funding source for water infrastructure generally. This places Willawarrin's reliance on NSW Government/Commonwealth grant funding, and its multi-year timeline, within a documented, audited statewide pattern rather than an isolated local circumstance. The report was not searched to confirm whether Kempsey Shire Council is individually named among the councils recording losses - this specific attribution is not yet verified and is not claimed here.",
+      "verification_notes": "Primary source: the NSW Audit Office's own report page and its Parliament tabling PDF. Cross-confirmed via consistent reporting of the same figures ($1 billion, 161% increase, loss-making council counts) across LGNSW and independent regional media coverage.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Primary source located and cross-confirmed; not yet independently fetched and hashed. Kempsey-specific attribution explicitly not verified."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T22:00:00Z"
+    },
+    {
+      "evidence_id": "E-260",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "Bellbrook and Willawarrin run separate water supply schemes - the $8M plant is Willawarrin-specific, not shared",
+      "publication_date": null,
+      "capture_date": "2026-07-23T22:45:00Z",
+      "source_url": null,
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "Search results describing water restrictions across Kempsey Shire refer to 'schemes in Bellbrook and Willawarrin' as distinct entries, and no source found treats them as a single shared reticulation network. This matters directly: the $8 million Willawarrin Water Treatment Plant (E-247, E-248, E-258) is described everywhere as a Willawarrin-specific project - none of the project pages, ministerial releases, or funding announcements name Bellbrook as a beneficiary of that plant. If the two schemes are genuinely separate, the Willawarrin plant does not by itself resolve Bellbrook's water security, despite Bellbrook having been equally affected by the 2020 trucking crisis (E-245).",
+      "verification_notes": "HELD rather than ACCEPTED: the separateness of the two schemes is inferred from consistent phrasing across sources rather than one primary document explicitly stating 'Bellbrook and Willawarrin are on separate reticulation systems.' Needs direct confirmation from Kempsey Shire Council's water and sewer scheme documentation.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Inferred from consistent phrasing across sources, not one explicit primary statement of scheme separation."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T22:45:00Z"
+    },
+    {
+      "evidence_id": "E-261",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "No Bellbrook-specific water security project found, and no reporting on Bellbrook's water status since June 2020 (search coverage gap)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T22:45:00Z",
+      "source_url": null,
+      "classification": "PENDING",
+      "confidence": "LOW",
+      "summary": "Searched specifically for a Bellbrook-equivalent to the Willawarrin Water Treatment Plant, and for any update on Bellbrook's water supply status since the June 2020 return-to-river-supply announcement (E-245). Found neither. Every dedicated water-security capital project located in this investigation (the $8m Willawarrin plant, the separate $52.9m Kempsey/Frederickton/Smithtown/Gladstone project - E-257) names Willawarrin or the larger towns, never Bellbrook. The last public information found about Bellbrook's water supply specifically is from June 2020.",
+      "verification_notes": "Per Silence Handling, this is logged as an open gap tied to a specific search, not as proof Bellbrook has no fix or is currently unsafe - it may be on a scheme small enough not to warrant separate media coverage, or a fix may exist that simply wasn't surfaced by these search terms. Next step: check Kempsey Shire Council's 'Current works' and 'Major projects' pages directly for any Bellbrook-named item, and check the council's Drinking Water Management System annual report (referenced generally in an earlier pass) for a Bellbrook-specific water quality entry.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Records a genuine coverage gap and a concrete next step, not a fact about Bellbrook's actual water safety."
+      },
+      "superseded_by": "E-262",
+      "recorded_at": "2026-07-23T22:45:00Z"
+    },
+    {
+      "evidence_id": "E-262",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "Bellbrook DOES have its own dedicated 2009 water treatment plant, built for Hillgrove arsenic/heavy metal contamination - corrects E-261's gap",
+      "publication_date": "2009-01-01",
+      "capture_date": "2026-07-23T23:15:00Z",
+      "source_url": null,
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "In 2005, Bellbrook's raw water supply was found to be contaminated by heavy metals and arsenic originating from former mines in the Hillgrove area (upstream in the Macleay catchment). By 2008 the contamination was severe enough that water had to be trucked into the town. A dedicated $700,000 water treatment plant was installed in Bellbrook in 2009 specifically to address this contamination. This corrects the gap logged in E-261: Bellbrook does have its own named, funded capital project distinct from Willawarrin's - it is simply a much smaller, older (2009) plant addressing a different specific contaminant (arsenic/heavy metals from Hillgrove) than the iron/manganese problem behind the 2020 and 2023 crises (E-245, E-246).",
+      "verification_notes": "Cross-confirmed via two independent search passes returning consistent detail (2005 contamination discovery, 2008 trucking, 2009 plant installation, $700,000 cost, Hillgrove/arsenic cause), including a Wikipedia article on Bellbrook itself. Meets the two-independent-source bar for ACCEPTED under this register's standard.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed across two independent searches; not yet independently fetched and hashed against a single primary document."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T23:15:00Z"
+    },
+    {
+      "evidence_id": "E-263",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "Open question: did the 2009 Bellbrook plant fail, or was 2020 a genuinely separate problem it was never designed for?",
+      "publication_date": null,
+      "capture_date": "2026-07-23T23:15:00Z",
+      "source_url": null,
+      "classification": "PENDING",
+      "confidence": "LOW",
+      "summary": "E-262 establishes Bellbrook had a dedicated treatment plant since 2009 for arsenic/heavy metal contamination. E-245 establishes Bellbrook still went through 'many months' of trucked water in 2020, attributed to iron and manganese, not arsenic. Two explanations are both consistent with the evidence so far and neither is yet confirmed: (a) the 2009 plant was built to treat arsenic/heavy metals specifically and was never designed to handle iron/manganese, so the 2020 crisis is a genuinely separate problem the existing plant could not address; or (b) the 2009 plant degraded, was decommissioned, or became inadequate over time and something has changed since 2009. Which of these is true has a direct bearing on whether Bellbrook's current water security depends on ageing single-purpose infrastructure, and it has not been established either way.",
+      "verification_notes": "Logged as an open question rather than resolved either way, consistent with Contradiction Preservation - the two explanations are not merged into one assumed answer. Next step: find the 2009 plant's original design specification or scope (was iron/manganese ever in scope?), or find any reporting on the plant's current operating status.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Records an open, unresolved question rather than a fact."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T23:15:00Z"
+    },
+    {
+      "evidence_id": "E-264",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Government / Kempsey Shire Council",
+      "document_title": "Willawarrin plant: population served (~130 residents) and an internally inconsistent construction-duration estimate",
+      "publication_date": null,
+      "capture_date": "2026-07-23T20:33:05Z",
+      "source_url": "https://water.dpie.nsw.gov.au/news/sod-turns-on-new-$8-million-willawarrin-water-treatment-plant",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Additional detail from the same primary government announcement already cited at E-247: the plant is described as providing high-quality drinking water for Willawarrin's approximately 130 residents 'for decades to come'. The same announcement material states construction would get underway in mid-2025 and take approximately 18 months to complete - which would place completion around late 2026, not the 'early 2026' target stated on the council's own current-works page (E-248) and repeated elsewhere. This is recorded as an internal inconsistency in the project's own public messaging, not resolved into a single assumed completion date.",
+      "verification_notes": "Population figure and '18 months from mid-2025' construction estimate reproduced consistently across two independent WebSearch passes, both attributable to the same NSW Government/council announcement material already used for E-247. The 18-months-vs-early-2026 discrepancy is flagged per Contradiction Preservation rather than silently reconciled - see E-249 for the still-open completion-status gap this bears on.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent search passes attributable to the same primary government release; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T20:33:05Z"
+    },
+    {
+      "evidence_id": "E-265",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "Bellbrook plant's confirmed design scope: arsenic removal specifically, with antimony also monitored to ADWG - construction year given as both 2009 (E-262) and 2010 (this entry), unresolved",
+      "publication_date": null,
+      "capture_date": "2026-07-23T20:33:05Z",
+      "source_url": "https://www2.kempsey.nsw.gov.au/environment/estuary-management/upper-macleay.html",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Kempsey Shire Council's own 'Heavy metals in the Upper Macleay River' page states a water treatment plant was constructed at Bellbrook 'that had the capacity to remove arsenic from the ground water', and that the plant 'ensures that the water is processed in accordance with the Australian Drinking Water Guidelines (ADWG), including maintaining arsenic and antimony levels at below the guideline levels'. This directly confirms the plant's stated design scope is arsenic (and antimony) removal - it is not described anywhere in this source as addressing iron or manganese. This is relevant to the open question at E-263.",
+      "verification_notes": "Cross-confirmed via two independent search passes returning consistent wording. One point is NOT resolved and is preserved as a contradiction rather than picked: this source describes the plant as built 'in 2010', while E-262's two independent sources both said 2009. Both are logged; neither is treated as authoritative over the other without a primary document confirming the exact commissioning date.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed across two independent searches of the council's own page; not yet independently fetched and hashed. Construction year conflicts with E-262 and is left unresolved."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T20:33:05Z"
+    },
+    {
+      "evidence_id": "E-266",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Southern Cross University / Save Our Macleay River citizen science group",
+      "document_title": "Seven years of independent citizen-science water quality monitoring at Bellbrook Bridge (2016-2023)",
+      "publication_date": null,
+      "capture_date": "2026-07-23T20:33:05Z",
+      "source_url": "https://www.scu.edu.au/news/2024/citizen-science-and-mining-impact-on-macleay-river/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Independent of Kempsey Shire Council: from 2016 to 2023, the Save Our Macleay River (SOMR) citizen-science group collaborated with Southern Cross University, sampling water approximately weekly at Bellbrook Bridge (and daily during the 2020 post-bushfire flood event). Antimony concentrations were found to be mostly below guideline values across this monitoring period. The same research estimated it could take 600-1000 years for the river to leach back to pre-mining (historic Hillgrove mine) contamination levels - i.e. the underlying contamination source is effectively permanent on any human timescale, making ongoing treatment infrastructure (rather than a one-off remediation) the only realistic long-term response.",
+      "verification_notes": "Source is an academic/university news item describing a published multi-year citizen-science monitoring program, independent of council self-reporting. Cross-confirmed via two independent search passes returning consistent detail (SOMR, 2016-2023, weekly sampling, Bellbrook Bridge location, 600-1000 year estimate).",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Independent academic source, cross-confirmed via two search passes; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T20:33:05Z"
+    },
+    {
+      "evidence_id": "E-267",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Audit Office",
+      "document_title": "Support for regional town water infrastructure (NSW Audit Office performance audit, 2020) - a distinct, earlier report from E-259",
+      "publication_date": "2020-01-01",
+      "capture_date": "2026-07-23T20:33:05Z",
+      "source_url": "https://www.audit.nsw.gov.au/our-work/reports/support-for-regional-town-water-infrastructure",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "A separate, earlier NSW Auditor-General performance audit (2020) found that the then-Department of Planning, Industry and Environment 'has not effectively supported or overseen town water infrastructure planning in regional NSW since at least 2014', and lacked a strategic, evidence-based approach to target investment in town water infrastructure. This is a distinct report from E-259 ('Local government 2025') - this one examines the state department's own oversight function specifically, predates Willawarrin/Bellbrook's 2020 crisis (E-245) by only months, and provides systemic context for why a known, recurring town-level water-quality problem could go unresolved for years before the current $8 million plant was funded.",
+      "verification_notes": "Primary source: the Audit Office's own report page. Cross-confirmed via consistent reporting of the same 'since at least 2014' finding across independent search results. Not yet confirmed whether this 2020 audit specifically named Kempsey Shire Council or Willawarrin - that specific attribution is not claimed here, consistent with the same caveat already logged at E-259 for the later report.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Primary source located and cross-confirmed; not yet independently fetched and hashed. Council/town-specific attribution not verified."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T20:33:05Z"
+    },
+    {
+      "evidence_id": "E-268",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "E-263 update: Bellbrook plant's confirmed arsenic/antimony-specific scope (E-265) supports explanation (a), but does not conclusively prove it",
+      "publication_date": null,
+      "capture_date": "2026-07-23T20:33:05Z",
+      "source_url": null,
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "E-265 confirms the Bellbrook plant's own stated purpose is arsenic removal and ADWG compliance for arsenic/antimony specifically - iron and manganese are not mentioned anywhere in that description. This is consistent with, and lends support to, explanation (a) in E-263 (the 2009/2010 plant was never designed to handle iron/manganese, so the 2020 and 2023 crises are a genuinely separate problem outside its scope). However, no source found states this exclusion directly (e.g. an explicit design specification listing iron/manganese as out of scope), so explanation (b) in E-263 (degradation/inadequacy over time) is not yet ruled out. E-263 remains open; this entry narrows it without closing it.",
+      "verification_notes": "Recorded per Contradiction Preservation: this is an inference from what a source does say (arsenic/antimony scope) rather than a direct statement of what it excludes. Kept HELD rather than promoted to ACCEPTED for that reason.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "An inference bridging E-263 and E-265, not itself a directly sourced fact."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T20:33:05Z"
+    },
+    {
+      "evidence_id": "E-269",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "Located the actual public documents that would resolve E-252/E-254/E-256, but this sandbox cannot fetch them - a concrete non-GIPA next step",
+      "publication_date": null,
+      "capture_date": "2026-07-23T20:33:05Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+      "classification": "PENDING",
+      "confidence": "LOW",
+      "summary": "Kempsey Shire Council publishes its own Drinking Water Management System Annual Reports as public PDFs, at least for 2018/19, 2019/20 and 2020/21 (URLs located this pass). These are exactly the kind of primary document that would contain specific water-quality test results (bearing on E-254/E-256's ADWG-exceedance question) and, potentially, cost figures. This is a genuinely public document, not one requiring a GIPA request - the prior suggestion at E-252 to use GIPA is superseded by this more direct route. However, this sandbox's outbound network access blocks kempsey.nsw.gov.au directly (confirmed via a direct curl attempt returning HTTP 403 from the proxy), so the PDF content itself could not be extracted this pass.",
+      "verification_notes": "Logged per Silence Handling: the gap is the sandbox's fetch capability, not an absence of the underlying document. Next step: fetch and read these PDFs directly (from an environment with unrestricted access to kempsey.nsw.gov.au), rather than repeating a GIPA request that was already rejected as not the right path.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Records a capability gap and a concrete, already-located next step, not a fact."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T20:33:05Z"
+    },
+    {
+      "evidence_id": "E-270",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "Council's own page confirms Willawarrin, Bellbrook and the Thunggutti Aboriginal Community are three separate named water supply systems - resolves E-260",
+      "publication_date": null,
+      "capture_date": "2026-07-23T21:36:13Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Residents/Water-sewerage/Water-supply-quality",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Kempsey Shire Council's own 'Water supply & quality' page states Council manages eight water supply systems in total: Kempsey and the Lower Macleay (Frederickton, Smithtown, Gladstone), the coastal villages (Crescent Head, Hat Head, South West Rocks, Stuarts Point), and the upriver villages of Willawarrin, Bellbrook, and the Thunggutti Aboriginal Community - with separate supply system sub-plans for the Willawarrin and Bellbrook systems specifically. This directly confirms (rather than merely infers, as E-260 previously did) that Willawarrin and Bellbrook are distinct reticulation schemes. It also surfaces a third named community in the same upriver group - the Thunggutti Aboriginal Community - not previously identified in this investigation; whether it has experienced the same iron/manganese trucking crises is not yet investigated (see E-272).",
+      "verification_notes": "Cross-confirmed across two independent search passes, both citing the council's own water-supply-quality page and returning consistent detail (eight systems, same names, 'separate supply system sub-plans' language). This resolves E-260's open inference into a directly-sourced fact.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent searches of the council's own page; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T21:36:13Z"
+    },
+    {
+      "evidence_id": "E-271",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "The ADWG guideline-exceedance claim has now been independently reproduced - resolves E-256",
+      "publication_date": null,
+      "capture_date": "2026-07-23T21:36:13Z",
+      "source_url": null,
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "E-256 logged the claim 'low river flow led to the water quality at Willawarrin moving outside of the Australian Drinking Water Guidelines' as HELD, because it appeared in only one search pass and could not be reproduced in a second, independent pass at that time. It has now reproduced again, in near-identical wording, in a subsequent independent search pass this session - meeting this register's two-independent-confirmation bar for ACCEPTED. The general fact of an ADWG guideline exceedance at Willawarrin (tied to low river flow) is now accepted. The specific numeric guideline value(s) exceeded are still not established - that narrower question remains open (see E-254).",
+      "verification_notes": "Cross-confirmed: the exact phrase 'water quality at Willawarrin moving outside of the Australian Drinking Water Guidelines' appeared independently in two separate search passes conducted in different sessions, both plausibly sourced from Kempsey Shire Council's own project/fact-sheet material. Promotes E-256 from HELD to ACCEPTED for the general claim only, not for specific figures.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Same specific claim reproduced across two independent search passes; not yet independently fetched and hashed against one named primary document."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T21:36:13Z"
+    },
+    {
+      "evidence_id": "E-272",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "New, genuinely unexplored path: the Thunggutti Aboriginal Community shares the same upriver water-supply group as Willawarrin and Bellbrook",
+      "publication_date": null,
+      "capture_date": "2026-07-23T21:36:13Z",
+      "source_url": null,
+      "classification": "PENDING",
+      "confidence": "LOW",
+      "summary": "E-270 establishes that Kempsey Shire Council groups Willawarrin, Bellbrook, and the Thunggutti Aboriginal Community together as the Shire's 'upriver villages', each with its own water supply system. This investigation has not yet searched specifically for whether the Thunggutti Aboriginal Community has experienced the same iron/manganese trucked-water crises as Willawarrin and Bellbrook, whether it has its own treatment plant or remedy, or its current water security status. Logged as a new, specific open path rather than left unexamined, consistent with an all-paths-taken standard.",
+      "verification_notes": "This is a newly surfaced thread, not yet searched. Next step: search directly for 'Thunggutti Aboriginal Community water supply Kempsey' and equivalent terms in a future pass.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Records a newly identified, not-yet-investigated path - not a fact."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T21:36:13Z"
+    },
+    {
+      "evidence_id": "E-273",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "As of the November 2025 Council Meeting, the Willawarrin plant was still described as a planned/in-progress project - no completion reported yet",
+      "publication_date": "2025-11-18",
+      "capture_date": "2026-07-23T21:36:13Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/November-Council-Meeting-2025-wrap",
+      "classification": "HELD",
+      "confidence": "LOW",
+      "summary": "Council's own coverage of its 18 November 2025 Ordinary Meeting, presenting the 2024-25 Annual Report, lists the new Willawarrin Water Treatment Plant among the Shire's current/planned water infrastructure projects - it is not described as completed. This is a later negative-result data point than the 'Autumn 2025' community update previously found (E-249), but still does not confirm or rule out completion by the 'early 2026' target - it only shows the project had not been reported finished as of that November 2025 meeting.",
+      "verification_notes": "Single source for this specific meeting summary; general tenor (project still listed as underway, not completed) is consistent with E-249's still-open gap rather than resolving it. Held at LOW rather than treated as confirming ongoing delay.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Single council news item; narrows but does not resolve E-249's completion-status gap."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T21:36:13Z"
+    },
+    {
+      "evidence_id": "E-274",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "No customer water-quality enquiries recorded at Thunggutti (or Stuarts Point) during the 2020-2021 reporting year - narrows E-272",
+      "publication_date": "2021-01-01",
+      "capture_date": "2026-07-23T22:36:02Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/water-amp-sewer/kempsey-shire-council-annual-water-qualty-report-2020-2021.pdf.pdf",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "Kempsey Shire Council's own Drinking Water Management System Annual Report for July 2020-June 2021 - the exact reporting year covering the Willawarrin/Bellbrook trucked-water crisis documented in E-245 - states that the majority of customer water-quality enquiries that year were in the Kempsey/Lower Macleay supply area, and that no customer enquiries were recorded at either Stuarts Point or the Thunggutti Aboriginal Community water supply. This is evidence, not proof, that Thunggutti did not experience a comparable water-quality crisis during that specific year - absence of customer complaints does not rule out an unreported issue, and this covers only the 2020-2021 year, not the full period this investigation covers for Willawarrin/Bellbrook.",
+      "verification_notes": "The specific detail ('no customer enquiries... at either Stuarts Point or Thunggutti') was reproduced consistently across two independent search passes, both attributing it to this same annual report. The report's raw PDF content itself has not been directly fetched (kempsey.nsw.gov.au is blocked in this sandbox, confirmed previously at E-269) - this relies on WebSearch synthesis of the document's content, not a direct read.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Specific detail cross-confirmed across two independent search passes; underlying PDF not directly fetched due to a sandbox network restriction."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T22:36:02Z"
+    },
+    {
+      "evidence_id": "E-275",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "June 2019 media release documents an earlier shire-wide supply-source switch, providing context for - but not proof of - a distinct 2019 Willawarrin trucking episode",
+      "publication_date": "2019-06-11",
+      "capture_date": "2026-07-23T22:36:02Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/media-releases/2019/mr20190611a.html",
+      "classification": "HELD",
+      "confidence": "LOW",
+      "summary": "A dated Kempsey Shire Council media release (11 June 2019) documents Council switching its shire-wide water supply source from the Sherwood Borefield to the Steuart McIntyre Dam, due to declining river levels and continued dry weather. This is genuine primary-source context for the broader 2017-2022 pattern claimed at E-250 - it shows the drought conditions behind the eventual Willawarrin/Bellbrook crisis were already affecting Council's water management well before the 'many months' of trucking resolved in June 2020 (E-245). However, this release is about a shire-wide supply-source change, not specifically about Willawarrin/Bellbrook trucking - it does not itself confirm a distinct, separate 2019 trucking episode independent from the single continuous episode already documented at E-245. It may simply be the lead-up to that same episode, not proof of an additional one.",
+      "verification_notes": "Primary source located via search (kempsey.nsw.gov.au's own media release page). Held rather than accepted for the specific 2017-2022 multi-year claim in E-250, because this document does not itself state a separate Willawarrin-specific trucking event in 2019 - it is relevant context, not direct confirmation of that narrower claim.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Primary source located but does not directly confirm the specific claim it's being used to contextualise (a distinct 2019 Willawarrin trucking episode)."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T22:36:02Z"
+    },
+    {
+      "evidence_id": "E-276",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "Willawarrin's population served is inconsistently reported as either ~130 or 180 residents - an unresolved contradiction, not picked one way",
+      "publication_date": null,
+      "capture_date": "2026-07-23T23:35:37Z",
+      "source_url": null,
+      "classification": "HELD",
+      "confidence": "LOW",
+      "summary": "E-264 recorded the plant as serving 'approximately 130 residents', reproduced again this pass from what appears to be the same NSW Government/council announcement material. However, a separate set of search results - also attributable to the same underlying government release - consistently describe Willawarrin as 'a village of 180 people' relying on carted bore water, reproduced identically across three independent search passes this session. Both figures trace to material that appears to originate from the same NSW Government project announcement, yet state different numbers. Neither is discarded in favour of the other; this is logged as an unresolved internal inconsistency in the public source material, consistent with this register's Contradiction Preservation rule.",
+      "verification_notes": "The '180 people' figure was reproduced identically across three independent WebSearch passes this session (each attributing it to the same NSW Government/Kempsey Shire announcement already cited at E-247/E-264), meeting this register's cross-confirmation bar for the figure's existence in circulating source material - but that same bar is met by the competing '130 residents' figure at E-264. Neither can be preferred over the other without directly fetching and comparing the exact primary document text, which this sandbox cannot do for kempsey.nsw.gov.au/water.dpie.nsw.gov.au (per the standing capability gap logged at E-269).",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Two mutually exclusive figures, each independently cross-confirmed via search; neither individually fetched and hashed against a single named primary document to break the tie."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-23T23:35:37Z"
+    },
+    {
+      "evidence_id": "E-277",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "Council's own 2020-21 Operational Plan budgeted $17.5 million for water supply that same financial year, while running a $3.2 million general fund deficit - financial context for the crisis year, not a carting-cost figure",
+      "publication_date": "2020-07-29",
+      "capture_date": "2026-07-24T00:36:08Z",
+      "source_url": "https://kempsey.nsw.gov.au/media-releases/2020/mr20200729.html",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "Kempsey Shire Council's own media release (29 July 2020, 'Council halves budget deficit with annual Operational Plan') states the 2020-21 Operational Plan budgeted $17.5 million for water supply operations, maintenance and capital works that financial year - the same year Willawarrin and Bellbrook returned to river supply after 'many months' of trucked water (E-245). The same Operational Plan reduced Council's forecast general fund deficit from an initial draft $7.6 million to a final $3.2 million. This is genuine financial context for the crisis period - a council operating with a multi-million-dollar general fund deficit while budgeting $17.5 million for water supply that year - but it is not a water-carting-specific cost figure and does not resolve E-252's still-open question about cumulative carting expenditure.",
+      "verification_notes": "The $17.5 million water-supply figure and the $7.6M-to-$3.2M deficit figures were reproduced consistently across two independent search passes, both attributable to the same council media release and its Operational Plan.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent search passes attributable to the same primary council release; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T00:36:08Z"
+    },
+    {
+      "evidence_id": "E-278",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council / The Macleay Argus",
+      "document_title": "The sitting Mayor of Kempsey Shire Council is herself a Willawarrin resident - a structural fact, recorded neutrally, parallel to E-253",
+      "publication_date": "2025-03-26",
+      "capture_date": "2026-07-24T01:36:04Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250326-Mayors-Column",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Mayor Kinne Ring, elected a Kempsey Shire councillor in July 2022 and elected Mayor in October 2024, is herself a resident of Willawarrin. Her own 26 March 2025 Mayor's Column ('Advocating for our needs'), written on the occasion of turning the first sod on the $8 million Willawarrin Water Treatment Plant, notes this directly and describes her own experience of the unreliable bore water supply. This is recorded as a structural/temporal fact only, in the same manner as E-253 (the Member for Oxley's concurrent water-minister tenure) - it is not a finding about any action taken or not taken by Mayor Ring, and no such finding is made here.",
+      "verification_notes": "The Willawarrin-residency fact and Mayor Ring's council tenure dates (councillor from July 2022, Mayor from October 2024) were cross-confirmed across two independent search passes.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent search passes; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T01:36:04Z"
+    },
+    {
+      "evidence_id": "E-279",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "Independent corroboration of the systemic funding-gap narrative (E-259, E-267): the Mayor's own July 2025 mayoral minute on cost shifting onto local government",
+      "publication_date": "2025-07-01",
+      "capture_date": "2026-07-24T01:36:04Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20260612-Mayors-Column",
+      "classification": "HELD",
+      "confidence": "MEDIUM",
+      "summary": "In July 2025, Mayor Kinne Ring presented a mayoral minute stating that 'the relentless growth of cost shifting, combined with rate pegging and insufficient state and federal funding, continues to erode the financial sustainability of local government.' This is an independent source - the affected council's own elected leadership, not an audit office - making substantially the same systemic point already established via the NSW Audit Office's 2020 and 2025 reports (E-267, E-259): that funding structure, not any single local decision, is a recurring constraint on regional water/local-government infrastructure. Recorded as corroborating context, not as a claim about Willawarrin specifically - the minute addresses local government funding broadly.",
+      "verification_notes": "The July 2025 mayoral minute and its 'cost shifting... rate pegging... insufficient state and federal funding' wording were found via a single search pass, not yet independently reproduced on a second, separate search - held rather than accepted for that reason, consistent with this register's two-independent-confirmation standard. The full text of the June 2026 column that referenced it was not directly retrieved, only summarised via search synthesis.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Found via a single search pass, not yet cross-confirmed on a second independent search; underlying column/minute text not directly fetched (kempsey.nsw.gov.au blocked in this sandbox, per E-269)."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T01:36:04Z"
+    },
+    {
+      "evidence_id": "E-280",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council / The Macleay Argus",
+      "document_title": "E-279's cost-shifting claim now independently reproduced, with richer detail: councillors' unanimous support, an LGNSW $500/ratepayer figure, and Kempsey's own special rate variation - promotes E-279 to ACCEPTED",
+      "publication_date": "2025-07-01",
+      "capture_date": "2026-07-24T02:35:09Z",
+      "source_url": "https://www.macleayargus.com.au/story/9022966/kempsey-shire-council-calls-for-reform-against-cost-shifting/",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "E-279's claim - Mayor Kinne Ring's July 2025 mayoral minute stating that 'the relentless growth of cost shifting, combined with rate pegging and insufficient state and federal funding, continues to erode the financial sustainability of local government' - has now been independently reproduced on a second search pass, meeting this register's cross-confirmation bar. Additional detail found this pass: Kempsey Shire councillors unanimously supported the minute, joining industry calls for reform; a report commissioned by Local Government NSW (LGNSW) found councils spend on average almost $500 per ratepayer annually covering costs shifted from state and federal governments; and Kempsey Shire Council itself was forced to apply for a special rate variation to continue delivering expected services. This directly ties the systemic funding-gap narrative (E-259, E-267) to Kempsey Shire Council specifically, via the council's own public position and its own funding measures - not an inference, but the council's own stated reasoning.",
+      "verification_notes": "The core cost-shifting quote was reproduced independently across two separate search passes with consistent wording, both attributable to Kempsey Shire Council's own July 2025 mayoral minute and reported by The Macleay Argus. This promotes E-279 from HELD to ACCEPTED for that core claim.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Core claim cross-confirmed via two independent search passes; not yet independently fetched and hashed against one named primary document."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T02:35:09Z"
     }
   ]
 }
