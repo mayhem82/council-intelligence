@@ -5781,6 +5781,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T11:35:42Z"
+    },
+    {
+      "evidence_id": "E-290",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "Naming clarification: 'Steuart McIntyre Dam Water Treatment Plant' is the official name of the already-logged $52.9M project (E-262), not a third distinct project - and the Willawarrin plant was already identified in Council's 2021-22 draft Operational Plan",
+      "publication_date": "2021-10-05",
+      "capture_date": "2026-07-24T12:36:03Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Valley/Ongoing-works-in-the-shire/Major-projects/Current-works/Steuart-McIntyre-Dam-Water-Treatment-Plant",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Two findings this pass, logged together as they're both about avoiding project conflation: (1) 'Steuart McIntyre Dam Water Treatment Plant' (SMD WTP) is confirmed as the official project name for the already-logged $52.9 million Kempsey/Frederickton/Smithtown/Gladstone project (E-262) - identical funding figures ($12.5M National Water Grid Fund, $13.2M Safe and Secure Water Program, $27.1M Council), population served (~18,000), and construction timeline (mid-2025 start, 18 months). This is recorded to prevent a future pass mistaking this name for a third, distinct project. (2) A 5 October 2021 Council article ('Council's major projects making strides') shows the Willawarrin plant was already identified in Council's draft 2021-22 Operational Plan, alongside Crescent Head and the Steuart McIntyre Dam projects - an earlier documented planning reference than previously found in this register (the earliest prior reference was the January 2020 news report at E-251/E-258).",
+      "verification_notes": "The SMD WTP funding/scope match to E-262 is a direct, exact figure match across multiple sources, not an inference. The 2021-22 Operational Plan reference is from a single Council news article; not yet independently cross-confirmed on a second search, but the claim (an operational plan listing a project) is a low-risk, easily-verifiable type of claim.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Direct figure match confirms the same-project identification; the 2021-22 planning reference is single-sourced."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T12:36:03Z"
     }
   ]
 }

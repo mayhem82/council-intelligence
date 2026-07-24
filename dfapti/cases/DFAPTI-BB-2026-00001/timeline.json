@@ -185,6 +185,14 @@
         "E-289"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Eighth workflow pass since migrating here. The ACWSP/Bellbrook connection found last pass reproduced again but added no new detail (not logged again). Instead confirmed two clarifying points to prevent future conflation: 'Steuart McIntyre Dam Water Treatment Plant' is the official name of the already-logged $52.9 million Kempsey-town project (E-262), not a separate third project; and a 5 October 2021 Council article shows the Willawarrin plant was already identified in the Shire's draft 2021-22 Operational Plan, an earlier documented planning reference than previously found (E-290).",
+      "evidence_ids": [
+        "E-290"
+      ],
+      "status_change": "None"
     }
   ]
 }
