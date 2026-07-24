@@ -135,6 +135,15 @@
         "E-281"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Second workflow pass since migrating here. Found a dated primary record - a 16 March 2023 Willawarrin community meeting - that corroborates the project's earlier $4 million/2024-completion stage and confirms the plant's location as the southern end of the Willawarrin Sporting Fields, tying together inconsistent location language used elsewhere (E-282). Also checked LC Water's (the contractor's) own project portfolio site: it does not yet list a completed Willawarrin case study, a soft, non-conclusive data point consistent with continued non-completion but not proof of it (E-283). Completion-status and ADWG-figure searches otherwise turned up nothing newer.",
+      "evidence_ids": [
+        "E-282",
+        "E-283"
+      ],
+      "status_change": "None"
     }
   ]
 }

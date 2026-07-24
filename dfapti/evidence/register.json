@@ -5621,6 +5621,46 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T03:35:43Z"
+    },
+    {
+      "evidence_id": "E-282",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "16 March 2023 Willawarrin community meeting: a dated primary record from the project's earlier, $4 million/2024-completion stage",
+      "publication_date": "2023-03-16",
+      "capture_date": "2026-07-24T04:36:14Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Valley/Festivals-events/20230316-Willawarrin-Water-Treatment-Plant-Meeting",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Council held a community meeting at Willawarrin Hall on 16 March 2023 to inform residents about the plant and answer questions. At that point the project was described as a $4 million total budget (Council contributing the majority, with Safe and Secure Water Program grant support), tender for detailed design and construction expected to be awarded in 2023, and completion expected in 2024. This is a dated, primary corroborating record for the project's earlier-stage figures already established at E-258 (the $4M-to-$8M, 2024-to-early-2026 growth, originally the plant contract referenced at E-247) - not a new discrepancy, but a specific dated event pinning down when those earlier figures were still current. It also confirms the plant's location as 'the southern end of the Willawarrin Sporting Fields', tying together the 'showground precinct' and 'sports field' location language used loosely elsewhere in this register - the same site, described inconsistently across sources.",
+      "verification_notes": "Directly sourced from Council's own event page for this meeting. Consistent with, and corroborates rather than contradicts, the already-established E-258 growth narrative.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Direct primary source (council's own event page) located via search; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T04:36:14Z"
+    },
+    {
+      "evidence_id": "E-283",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "LC Water's own project portfolio does not yet list a completed Willawarrin case study - a soft, non-conclusive data point on completion status",
+      "publication_date": null,
+      "capture_date": "2026-07-24T04:36:14Z",
+      "source_url": "https://www.lcwater.com.au/projects/",
+      "classification": "HELD",
+      "confidence": "LOW",
+      "summary": "LC Water, the contractor awarded the Willawarrin plant's design-and-construction contract (E-247/E-3, previously E-003), maintains its own project portfolio page listing completed works (e.g. Melton RWTP, Drouin WWTP, Eildon WMF). A site-restricted search for 'willawarrin' on lcwater.com.au returned no dedicated project page for it. This is a soft, circumstantial data point consistent with the plant still being under construction (companies commonly publish case studies only after completion or a project milestone), but it is not proof of non-completion - a company may simply not have published a page yet even after finishing. Does not resolve E-249's still-open completion-status gap on its own.",
+      "verification_notes": "Absence-based finding, logged per Silence Handling as circumstantial context rather than a confirmed fact about completion status either way.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "An absence-of-evidence data point, not a directly sourced fact - held at LOW confidence accordingly."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T04:36:14Z"
     }
   ]
 }
