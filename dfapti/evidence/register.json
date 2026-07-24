@@ -5721,6 +5721,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T08:35:50Z"
+    },
+    {
+      "evidence_id": "E-287",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "As of this pass (24 July 2026), Council's own site still categorises the Willawarrin plant under 'Current-works', not 'Completed-works' - a third, freshest data point on E-249",
+      "publication_date": null,
+      "capture_date": "2026-07-24T09:36:03Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Valley/Ongoing-works-in-the-shire/Major-projects/Current-works/Willawarrin-Water-Treatment-Plant",
+      "classification": "HELD",
+      "confidence": "LOW",
+      "summary": "Council maintains separate 'Current works' and 'Completed works' sections under its Major Projects page. As of this pass's search, the Willawarrin Water Treatment Plant project page still resolves under the 'Current-works' URL path, not 'Completed-works'. This is a soft but genuinely current (24 July 2026) data point consistent with the plant still being under construction, joining E-283 (contractor's portfolio, no completed case study) and E-273 (November 2025 Council Meeting still listing it as planned/in-progress) as a third independent line pointing the same direction. It is not conclusive on its own - a page's URL category can lag behind actual physical completion - and does not resolve E-249.",
+      "verification_notes": "Based on the URL path returned by search still being under 'Current-works' as of this pass's date; the page's own 'last updated' timestamp was not independently confirmed, so this is treated as suggestive rather than conclusive.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Inference from URL/site-categorisation, not a direct statement of ongoing construction - held at LOW accordingly."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T09:36:03Z"
     }
   ]
 }

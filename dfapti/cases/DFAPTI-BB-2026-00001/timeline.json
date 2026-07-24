@@ -161,6 +161,14 @@
         "E-286"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Fifth workflow pass since migrating here. Checked whether the Willawarrin plant has moved from Council's 'Current works' section to its 'Completed works' section - as of this pass (24 July 2026) it still resolves under the 'Current-works' URL path, a third independent soft data point (alongside E-273 and E-283) consistent with continued non-completion, though not conclusive (E-287). Checked the federal MP's own public statements and a Bellbrook-specific 2025/26 update - neither turned up anything new or specific enough to log.",
+      "evidence_ids": [
+        "E-287"
+      ],
+      "status_change": "None"
     }
   ]
 }
