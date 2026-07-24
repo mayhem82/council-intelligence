@@ -5741,6 +5741,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T09:36:03Z"
+    },
+    {
+      "evidence_id": "E-288",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": null,
+      "document_title": "The Thunggutti Aboriginal Community (E-272, E-284) is located at or immediately adjacent to Bellbrook itself, not a separate distant locality - reframes, without resolving, E-272's open question",
+      "publication_date": null,
+      "capture_date": "2026-07-24T10:35:53Z",
+      "source_url": "https://en.wikipedia.org/wiki/Bellbrook,_New_South_Wales",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "The Thungutti Local Aboriginal Land Council's registered address is 8 Nulla Nulla Creek Road, Bellbrook NSW 2440. A 36.4-hectare Aboriginal reserve was established at Bellbrook itself in 1885, and Bellbrook sits on Dunghutti (Thunggutti) traditional lands, with 'Thungutti Village' understood as the community located at or within Bellbrook. This clarifies - without fully resolving - the relationship between two entries in this case: E-270/E-284 list 'Bellbrook' and 'the Thunggutti Aboriginal Community' as two separate named water supply systems in Council's own eight-system list, yet they appear to be geographically co-located or immediately adjacent, not distant separate localities as the framing at E-272 could otherwise suggest. Whether this means they draw on the same source water (and thus share the same iron/manganese/arsenic exposure history already tracked for Bellbrook at E-262/E-263) or are genuinely administratively and physically distinct supplies is not yet established.",
+      "verification_notes": "The Bellbrook address, 1885 reserve establishment, and Dunghutti/Thunggutti community context were cross-confirmed across two independent search passes (Wikipedia's Bellbrook article and Yellow Pages/Whereis business listings for the Land Council).",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent search passes; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T10:35:53Z"
     }
   ]
 }

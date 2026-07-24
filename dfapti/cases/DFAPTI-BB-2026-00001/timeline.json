@@ -169,6 +169,14 @@
         "E-287"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Sixth workflow pass since migrating here. Followed up the Thunggutti Aboriginal Community path further: the Thungutti Local Aboriginal Land Council's own registered address, and the 1885-established Aboriginal reserve, are both located at Bellbrook itself - not a separate, distant locality. This reframes (without resolving) E-272's open question: Council's own list treats 'Bellbrook' and 'the Thunggutti Aboriginal Community' as two separate water supply systems, yet they appear geographically co-located, raising a genuine open question about whether they share source water and exposure history or are truly separate supplies (E-288). A follow-up search for Thungutti Village's specific bore/infrastructure details did not turn up anything further this pass.",
+      "evidence_ids": [
+        "E-288"
+      ],
+      "status_change": "None"
     }
   ]
 }
