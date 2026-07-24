@@ -5801,6 +5801,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T12:36:03Z"
+    },
+    {
+      "evidence_id": "E-291",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Government",
+      "document_title": "The Safe and Secure Water Program itself is described as supporting 'over $1 billion' across 260+ projects statewide - a supply-side figure, not confirmed as the same $1 billion the NSW Audit Office identified as needed",
+      "publication_date": null,
+      "capture_date": "2026-07-24T13:36:40Z",
+      "source_url": "https://www.water.dcceew.nsw.gov.au/news/529m-locked-landmark-water-infrastructure-project",
+      "classification": "HELD",
+      "confidence": "LOW",
+      "summary": "NSW Government material describing the Safe and Secure Water Program (the funding source for both the Willawarrin plant, E-247, and the separate Steuart McIntyre Dam project, E-262/E-290) states the program is 'supporting over $1 billion worth of projects across the state, with more than 260 in various stages of delivery'. This is coincidentally close in magnitude to the NSW Audit Office's separate estimate (E-259, previously E-015) that almost $1 billion is required to keep council-run water infrastructure at service levels statewide. These are not confirmed to be the same figure or fully overlapping - one describes program funding currently committed/in delivery, the other an assessed shortfall - and no source directly reconciles them. Logged as related context, not as evidence the gap is closed.",
+      "verification_notes": "Single search pass; the 'over $1 billion, 260+ projects' figure was not independently cross-confirmed on a second pass this session. Held at LOW confidence and flagged explicitly as not-the-same-thing as the Audit Office figure, to avoid the two being conflated by a future reader.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Single-source figure; relationship (if any) to the Audit Office's separate estimate is explicitly unconfirmed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T13:36:40Z"
     }
   ]
 }

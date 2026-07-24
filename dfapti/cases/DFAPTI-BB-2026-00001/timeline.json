@@ -193,6 +193,14 @@
         "E-290"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Ninth workflow pass since migrating here. Checked the NSW Ombudsman (no relevant investigation found), a fees-and-charges portal (could not extract specific carting-cost figures - E-008/E-252 remains open), and an August 2024 project update article (largely duplicative of already-logged facts, not re-logged). One genuinely new, cautiously-flagged data point: NSW Government material describes the Safe and Secure Water Program as supporting 'over $1 billion' across 260+ projects statewide - coincidentally close to the Audit Office's separate ~$1 billion funding-gap estimate (E-259), but explicitly not confirmed to be the same figure, logged as related context only, not as evidence the gap is closed (E-291).",
+      "evidence_ids": [
+        "E-291"
+      ],
+      "status_change": "None"
     }
   ]
 }
