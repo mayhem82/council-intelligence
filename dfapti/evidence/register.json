@@ -5761,6 +5761,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T10:35:53Z"
+    },
+    {
+      "evidence_id": "E-289",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Government / NSW Aboriginal Land Council",
+      "document_title": "Bellbrook received work under the $200 million Aboriginal Communities Water and Sewerage Program - link to the known 2009/2010 plant (E-262, E-263) not confirmed either way",
+      "publication_date": "2008-12-01",
+      "capture_date": "2026-07-24T11:35:42Z",
+      "source_url": "https://www.water.dcceew.nsw.gov.au/our-work/projects-and-programs/aboriginal-water-programs/aboriginal-communities-water-and-sewerage",
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "The Aboriginal Communities Water and Sewerage Program (ACWSP), a $200 million joint initiative of the NSW Government and the NSW Aboriginal Land Council running since December 2008 across 63 eligible Aboriginal communities statewide, has carried out upgrade work and repairs to drinking water and sewerage services at Bellbrook specifically. Given the program's December 2008 start date closely precedes the already-established 2009/2010 Bellbrook arsenic treatment plant (E-262, E-263), it is plausible this program funded or delivered that plant, but no source found directly states this connection - it may equally be a separate/additional piece of work. Not asserted as the same project; recorded as a related, unconfirmed possibility per Contradiction Preservation.",
+      "verification_notes": "Bellbrook's inclusion in the ACWSP was reproduced consistently across three independent search passes, all naming Bellbrook specifically (distinct from the program's other listed completed-project communities, e.g. Namatjira, Jubullum, Summervale, which were not found to include Bellbrook). The program's official 'Completed projects' page did not surface specific Bellbrook project dates/scope in these searches.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via three independent search passes; not yet independently fetched and hashed. Connection to E-262/E-263 explicitly not confirmed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T11:35:42Z"
     }
   ]
 }

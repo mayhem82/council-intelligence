@@ -177,6 +177,14 @@
         "E-288"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Seventh workflow pass since migrating here. Followed up the Bellbrook/Thunggutti geographic link from the previous pass by checking NSW's Aboriginal-community-specific water infrastructure programs. Found and cross-confirmed (three independent searches) that Bellbrook received work under the $200 million Aboriginal Communities Water and Sewerage Program (running since December 2008, a joint NSW Government/NSW Aboriginal Land Council initiative). Its December 2008 start closely precedes the already-known 2009/2010 Bellbrook arsenic plant, making a funding link plausible, but no source directly confirms it - recorded as a related, unconfirmed possibility rather than an assumed connection (E-289).",
+      "evidence_ids": [
+        "E-289"
+      ],
+      "status_change": "None"
     }
   ]
 }
