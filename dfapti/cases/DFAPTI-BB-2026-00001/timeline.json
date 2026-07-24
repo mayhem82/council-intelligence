@@ -144,6 +144,15 @@
         "E-283"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Third workflow pass since migrating here. Two genuine findings: 2024 PFAS testing across all eight Kempsey Shire water supply systems (including Willawarrin, Bellbrook, and Thunggutti) found all four tested PFAS compounds below detectable limits, well within ADWG - a distinct contaminant category from the iron/manganese and arsenic issues already tracked, and a genuine negative (clean) result, not an omission (E-284). Also specifically dated E-256's general ADWG iron/manganese exceedance claim to the September 2023 crisis rather than the 2020 one, though this doesn't rule out a 2020-specific exceedance too - only that this particular claim traces to 2023 (E-285). A ScienceDirect academic review on remote/Indigenous community water quality in Australia surfaced but did not specifically name Willawarrin, Bellbrook, or Kempsey - not logged as evidence to avoid manufacturing relevance.",
+      "evidence_ids": [
+        "E-284",
+        "E-285"
+      ],
+      "status_change": "None"
     }
   ]
 }

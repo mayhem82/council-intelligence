@@ -5661,6 +5661,46 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T04:36:14Z"
+    },
+    {
+      "evidence_id": "E-284",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "2024 PFAS testing across all eight supply systems (including Willawarrin, Bellbrook, and Thunggutti) - all below detectable limits, well within ADWG",
+      "publication_date": "2025-02-05",
+      "capture_date": "2026-07-24T05:36:34Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/20250205-Kempseys-tap-water-clears-safety-tests-well-below-PFAS-limits",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Following a 2024 NSW Health recommendation that all water authorities test for PFAS ('forever chemicals'), Kempsey Shire Council tested tap water from all eight of its water supply systems - Kempsey/Lower Macleay, Crescent Head, Hat Head, South West Rocks, Stuarts Point, Willawarrin, Bellbrook, and the Thunggutti Aboriginal Community - via Sydney Water Laboratory Services. Results showed PFOA, PFOS, PFHxS and PFBS all below detectable limits across all eight supplies, well within both current and proposed ADWG limits. This is a distinct contaminant category from the iron/manganese and arsenic/antimony issues already tracked in this case, and the result here is that no PFAS problem was found - recorded as a genuine negative finding, not an omission.",
+      "verification_notes": "Cross-confirmed across two independent search passes with consistent detail (testing lab, specific PFAS compounds, all eight system names including Thunggutti), both attributable to Kempsey Shire Council's own 5 February 2025 media release.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent search passes; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T05:36:34Z"
+    },
+    {
+      "evidence_id": "E-285",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "The ADWG iron/manganese exceedance (E-256) is specifically dated to the September 2023 crisis, not the 2020 one",
+      "publication_date": null,
+      "capture_date": "2026-07-24T05:36:34Z",
+      "source_url": null,
+      "classification": "ACCEPTED",
+      "confidence": "MEDIUM",
+      "summary": "E-256 established (via two independent searches) that Willawarrin's water quality moved outside the Australian Drinking Water Guidelines due to low river flow and high iron/manganese levels, but did not specify which of the two documented crises (2020 or September 2023) this applied to. Two further independent search passes this session both dated the specific ADWG-exceedance statement to September 2023 (E-246, previously E-002) rather than the earlier 2020 episode (E-245, previously E-001) - though the underlying mechanism (drought/bushfire-driven low flow raising iron/manganese) is consistent with both episodes, so a 2020-specific exceedance is not thereby ruled out, only not the one directly evidenced by this particular wording.",
+      "verification_notes": "The 'September 2023... moved outside... Australian Drinking Water Guidelines' framing was reproduced consistently across two independent search passes this session.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent search passes; not yet independently fetched and hashed against one named primary document."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T05:36:34Z"
     }
   ]
 }
