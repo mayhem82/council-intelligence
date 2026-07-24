@@ -127,6 +127,14 @@
         "E-280"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "First workflow pass since migrating to council-intelligence. Found and cross-confirmed a new structural/temporal fact: Michael Kemp succeeded Melinda Pavey as Member for Oxley on 25 March 2023, meaning a different local MP was the sitting representative during the second (September 2023) trucking episode than during the first (2020) one. Recorded neutrally, parallel to the existing Pavey finding - no finding of action or inaction made about either MP (E-281). Completion-status, delay, and specific ADWG-figure searches turned up nothing newer than prior passes.",
+      "evidence_ids": [
+        "E-281"
+      ],
+      "status_change": "None"
     }
   ]
 }

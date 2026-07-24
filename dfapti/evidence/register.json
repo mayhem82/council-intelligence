@@ -5601,6 +5601,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T02:35:09Z"
+    },
+    {
+      "evidence_id": "E-281",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "NSW Parliament",
+      "document_title": "A different Member for Oxley represented the electorate during the second (2023) trucking episode than during the first (2020) one",
+      "publication_date": "2023-03-25",
+      "capture_date": "2026-07-24T03:35:43Z",
+      "source_url": "https://en.wikipedia.org/wiki/Michael_Kemp",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Michael Kemp (National Party) succeeded Melinda Pavey as the Member for Oxley - the electorate covering Willawarrin and Bellbrook - assuming office 25 March 2023. This means the September 2023 trucking episode (E-246, previously E-002) occurred while Michael Kemp was the sitting local MP, not Melinda Pavey (who was the sitting MP and concurrently NSW Minister for Water during the first, 2020 episode - E-253, previously E-009). Recorded as a structural/temporal fact only, in the same manner as E-253 - no finding of action or inaction is made about either MP.",
+      "verification_notes": "Kemp's succession of Pavey and the 25 March 2023 office-assumption date were cross-confirmed across two independent search passes (Wikipedia and Camden Haven Courier/Port Macquarie News preselection coverage).",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent search passes; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T03:35:43Z"
     }
   ]
 }
