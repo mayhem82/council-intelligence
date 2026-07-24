@@ -201,6 +201,14 @@
         "E-291"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Tenth workflow pass since migrating here. Checked tender registers (australiantenders.com.au) for a Willawarrin-specific listing - found none, unlike Crescent Head and Steuart McIntyre Dam which are listed there, but this didn't resolve anything new. Found a more recent data point than E-273: Council's 16 June 2026 meeting (adopting the 2026-27 budget) still describes the Willawarrin plant as an active progress item, continuing the pattern of it appearing as ongoing rather than completed, though this doesn't resolve E-249 either way (E-292).",
+      "evidence_ids": [
+        "E-292"
+      ],
+      "status_change": "None"
     }
   ]
 }

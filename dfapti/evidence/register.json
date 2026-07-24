@@ -5821,6 +5821,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T13:36:40Z"
+    },
+    {
+      "evidence_id": "E-292",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Kempsey Shire Council",
+      "document_title": "As of the 16 June 2026 Council Meeting (adopting the 2026-27 budget), the Willawarrin plant was still listed as an active water infrastructure item - a later data point than E-273's November 2025 reference",
+      "publication_date": "2026-06-16",
+      "capture_date": "2026-07-24T14:36:10Z",
+      "source_url": "https://www.kempsey.nsw.gov.au/Your-Council/Council-news-public-notices/Council-news-updates/June-2026-Council-Meeting-Wrap",
+      "classification": "HELD",
+      "confidence": "LOW",
+      "summary": "Council's own coverage of its 16 June 2026 Ordinary Meeting, adopting the 2026-27 budget, describes 'progress on water treatment plants at Crescent Head, Willawarrin and Steuart McIntyre Dam' as among the highlights of Council's budget. This is a later data point than E-273 (November 2025), continuing the pattern of the plant appearing as an active/ongoing item in Council's own material rather than being reported complete, but it does not itself resolve E-249 - 'progress' language is consistent with either near-completion or continued construction.",
+      "verification_notes": "The specific 'progress... among the highlights' phrasing was found on one search pass and only partially reproduced (general meeting occurrence confirmed, but not the identical wording) on a second - held at LOW confidence for that reason, consistent with how E-273 and E-292's predecessor entries were treated.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Partially reproduced across two search passes; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T14:36:10Z"
     }
   ]
 }
