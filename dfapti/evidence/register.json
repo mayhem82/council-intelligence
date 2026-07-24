@@ -5701,6 +5701,26 @@
       },
       "superseded_by": null,
       "recorded_at": "2026-07-24T05:36:34Z"
+    },
+    {
+      "evidence_id": "E-286",
+      "case_id": "DFAPTI-BB-2026-00001",
+      "source_authority": "Australian Electoral Commission / Parliament of Australia",
+      "document_title": "A third tier of political representation identified: the federal Member for Cowper has held the seat continuously through both documented trucking crises",
+      "publication_date": "2019-05-18",
+      "capture_date": "2026-07-24T08:35:50Z",
+      "source_url": "https://en.wikipedia.org/wiki/Pat_Conaghan",
+      "classification": "ACCEPTED",
+      "confidence": "HIGH",
+      "summary": "Pat Conaghan (Nationals), born and raised in Kempsey, has been the federal Member for Cowper - the federal electorate covering Kempsey Shire including Willawarrin and Bellbrook - since assuming office on 18 May 2019, re-elected in 2022. This means, unlike the state seat of Oxley (which changed hands from Pavey to Kemp in March 2023, E-281) and the Kempsey Shire mayoralty (which changed hands to Kinne Ring in October 2024, E-278), the federal-level representative has remained the same person continuously through both documented trucking crises (2020 - E-245, and September 2023 - E-246) and the plant's full funding/construction history. Recorded as a structural/temporal fact only, in the same neutral manner as the other political-tenure entries in this case - no finding of action or inaction is made about Mr Conaghan.",
+      "verification_notes": "The 18 May 2019 office-assumption date, Kempsey birthplace, and continuous tenure through 2022 re-election were cross-confirmed across two independent search passes.",
+      "document_hash": null,
+      "proof_of_fact": {
+        "score": 0,
+        "rationale": "Cross-confirmed via two independent search passes; not yet independently fetched and hashed."
+      },
+      "superseded_by": null,
+      "recorded_at": "2026-07-24T08:35:50Z"
     }
   ]
 }

@@ -153,6 +153,14 @@
         "E-285"
       ],
       "status_change": "None"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Fourth workflow pass since migrating here. A genuinely new angle - the federal tier of representation, not yet checked - surfaced a structural fact: Pat Conaghan has been the federal Member for Cowper (covering Kempsey Shire) continuously since 18 May 2019, through both documented trucking crises and the entire funding/construction history, unlike the state seat (which changed hands in 2023) and the mayoralty (which changed hands in 2024). Recorded neutrally, no allegation, parallel to the existing MP/mayor tenure entries (E-286). Several other angles this pass (EPA licensing, boil-water-alert history in earlier passes, federal grant programs) turned up nothing new.",
+      "evidence_ids": [
+        "E-286"
+      ],
+      "status_change": "None"
     }
   ]
 }
